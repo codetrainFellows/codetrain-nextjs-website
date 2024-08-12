@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
   images: {
     // Example remote patterns (you can adjust or remove these as needed)
     remotePatterns: [

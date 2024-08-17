@@ -235,40 +235,27 @@ export default function Home() {
             </p>
           </div>
 
-          <Card className="max-w-[540px] overflow-hidden rounded-none">
-            <CardHeader
-              floated={false}
-              shadow={false}
-              color="transparent"
-              className="m-0 rounded-none"
-            >
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/-YUY-MFGdQw?si=WHj55QBrwtf4kJMl"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-              ></iframe>
-            </CardHeader>
-            <CardBody>
-              <Typography
-                variant="lead"
-                className="mt-3 font-bold text-textColor"
-              >
+          <div className="max-w-[540px] bg-white relative z-10">
+            <iframe
+              className="w-full h-52 sm:h-72 md:max-w-[540px] md:h-[376px]"
+              // width="540"
+              // height="376"
+              src="https://www.youtube.com/embed/-YUY-MFGdQw?si=WHj55QBrwtf4kJMl"
+              title="YouTube video player"
+              // frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              // referrerpolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+            <div className="text-textColor p-4">
+              <p className="font-semibold text-base md:text-xl">
                 Inspiring story of how Awal started her journey in tech and is
                 now a software engineer
-              </Typography>
-            </CardBody>
-            <hr className="border-violet h-1" />
-            <CardFooter className="">
-              <Typography className="font-medium text-textColor">
-                Software Engineer
-              </Typography>
-            </CardFooter>
-          </Card>
+              </p>
+              <hr className="border-violet h-1 my-6" />
+              <p>Software Engineer</p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -470,7 +457,7 @@ export default function Home() {
                 <p>Software Engineer</p>
               </div>
             </div>
-            <Button className="rounded-none sm:hidden text-white bg-violet mt-6">
+            <Button className="rounded-none sm:hidden z-10 relative text-white bg-violet mt-6">
               Discover More Case Studies
             </Button>
             <BgLogoRight className="fill-pink absolute size-40 sm:size-48 -top-20 sm:-top-24 left-0 z-30 sm:inline" />

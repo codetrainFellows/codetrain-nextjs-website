@@ -39,32 +39,28 @@ export default function Home() {
   return (
     <main className="overflow-hidden">
       <div className="py-2 bg-violet text-center text-white sm:hidden">
-        <p className="text-xs sm:text-base">
-          Get to know more about Codetrain. Join our info session.✌️{" "}
+        <p className="text-xs">
+          Curious about the Codetrain Experience? Join our upcoming Info
+          Session! Register now!
         </p>
       </div>
       {/* Hero Section */}
-      <section className="bg-ash lg:bg-inherit flex justify-start items-center md:justify-center relative px-4 pt-20 pb-6 lg:pb-2 lg:pt-0  md:px-10">
+      <section className="bg-ash lg:bg-inherit flex justify-start items-center md:justify-around relative px-4 pt-20 pb-6 lg:pb-2 lg:pt-0  md:px-10">
         <div className="text-violet z-10">
-          <h1 className="font-bold text-xl md:text-3xl xl:text-5xl max-w-80 md:max-w-xl xl:max-w-3xl">
-            Empowering Career Through Comprehensive Coding{" "}
-            <br className="hidden md:inline" /> Education
+          <h1 className="font-bold text-3xl md:text-3xl xl:text-5xl max-w-80 md:max-w-xl xl:max-w-3xl">
+            Start your career in <br /> Software Engineering <br />
+            <span className="font-light"> or UX/UI design.</span>
           </h1>
           <div className="md:ml-10 text-textColor">
             <ul className="list-disc pl-4 md:pl-0 mt-10 leading-normal text-sm md:text-lg md:max-w-xl">
-              <li>
-                Lorem ipsum dolor sit amet consectetur. Volutpat quis morbi
-                parturient justo.
-              </li>
+              <li>Learn in-demand tech skills that companies are hiring for</li>
               <li className="mt-4">
-                Lorem ipsum dolor sit amet consectetur. Volutpat quis morbi
-                parturient justo.
+                Get practical experience by working on projects and building a
+                portfolio
               </li>
-              <li className="mt-4">
-                Lorem ipsum dolor sit amet consectetur. Volutpat quis morbi
-                parturient justo.
-              </li>
+              <li className="mt-4">Get connected to jobs and start earning</li>
             </ul>
+
             <div className="flex gap-x-4 mt-14 z-10">
               <Button
                 className="bg-yellow text-violet shadow-none font-bold px-5 sm:px-8 md:px-10 rounded-md"
@@ -80,7 +76,7 @@ export default function Home() {
               </Button>
             </div>
             <p className="mt-8 text-xs md:text-base text-textColor">
-              *Next class for software engineering starts in December
+              * Admission is in progress, join the October Cohort!
             </p>
           </div>
         </div>
@@ -95,7 +91,7 @@ export default function Home() {
         </div>
         <Image
           src="/images/ladys.png"
-          alt=""
+          alt="ladies"
           height={400}
           width={300}
           className="h-[467px] sm:h-[567px] w-fit object-contain absolute opacity-10 right-0 sm:bottom-1 md:h-[700px] lg:hidden"
@@ -106,21 +102,21 @@ export default function Home() {
       </section>
 
       <div className="py-2 bg-violet text-center text-white hidden sm:block">
-        <p className="text-xs sm:text-base">
-          Get to know more about Codetrain. Join our info session.✌️{" "}
+        <p className="text-xs sm:text-sm">
+          Curious about the Codetrain Experience? Join our upcoming Info
+          Session! Register now!
         </p>
       </div>
 
       {/* Stats Section */}
       <section className="px-4 py-10 sm:px-14 sm:py-20 text-center">
         <h1 className="font-bold text-violet text-xl text-nowrap sm:text-3xl lg:text-5xl">
-          Codetrain Development Statistics
+          Our Impact
         </h1>
-        <p className="my-5 text-md sm:my-10 max-w-5xl mx-auto text-textColor">
-          Lorem ipsum dolor sit amet consectetur. Mauris pellentesque porta
-          donec enim tellus nibh adipiscing arcu. Et mi pellentesque lorem
-          tellus eget nulla. Vulputate iaculis magnis aenean integer. Ultrices
-          id aliquet elementum id elit quis lectus rutrum nec...
+        <p className="my-5 text-lg sm:my-10 max-w-5xl mx-auto text-textColor">
+          Over the last 7 years, Codetrain Africa has trained hundreds of
+          software developers from diverse diverse backgrounds with little or no
+          tech skills
         </p>
 
         <div className="flex flex-col items-center justify-center md:items-start md:flex-row gap-x-10 ">
@@ -153,18 +149,13 @@ export default function Home() {
           <h1 className="font-bold text-violet text-3xl lg:text-5xl">
             Our Courses
           </h1>
-          <p className="my-10 max-w-6xl mx-auto">
-            Lorem ipsum{" "}
-            <span className="font-bold text-textColor">
-              dolor sit amet consectetur
-            </span>
-            . Mauris pellentesque porta donec enim tellus nibh adipiscing arcu.
-            Et mi
+          <p className="my-10 max-w-6xl mx-auto text-lg text-violet">
+            We offer two courses, Software Engineering and UI/UX Design
           </p>
         </div>
 
         <div className="flex flex-col gap-10 md:flex-row justify-center items-center z-10">
-          <div className="text-start bg-white max-w-sm relative grid place-content-center px-6 py-14">
+          <div className="text-start bg-white max-w-lg relative grid place-content-center px-6 py-14 h-[450px]">
             <div className="w-12 absolute -top-6 left-8 text-violet ">
               {" "}
               {React.createElement(ComputerDesktopIcon, {
@@ -175,11 +166,14 @@ export default function Home() {
             <h3 className="text-violet font-bold text-2xl">
               Software Engineer
             </h3>
-            <p className="mt-4 text-textColor text-lg">
-              2-Year Program: Transforming Novices into Mid-Level Developers.
-              Year 1: Intensive Software Development Training. Year 2: Career
-              Services Including Interview Prep, Workshops, Challenges, and
-              Internships.
+            <p className="mt-4 text-textColor text-base md:text-lg">
+              This is a 2 year program. By the end, you will go from novice to a
+              mid-level software developer. The first year has a focus on
+              training in software development. While the second year narrows
+              down on career services that are aimed at help- ing you launch
+              your career in the best way. It consists of interview prep,
+              technical interview workshops, an innovation challenge, and
+              internships.
             </p>
             <div className="">
               <Button className="rounded-md font-bold bg-yellow text-violet shadow-none mt-6 px-8">
@@ -187,7 +181,7 @@ export default function Home() {
               </Button>
             </div>
           </div>
-          <div className="text-start bg-white max-w-sm relative grid place-content-center px-6 py-14">
+          <div className="text-start bg-white max-w-lg relative grid place-content-center px-6 py-14 h-[450px]">
             <div className="w-12 absolute -top-6 left-8 text-violet ">
               {" "}
               {React.createElement(PencilIcon, {
@@ -196,11 +190,13 @@ export default function Home() {
               })}
             </div>
             <h3 className="text-violet font-bold text-2xl">UI/UX Designer</h3>
-            <p className="mt-4 text-textColor text-lg">
-              2-Year Program: Transforming Novices into Mid-Level Developers.
-              Year 1: Intensive Software Development Training. Year 2: Career
-              Services Including Interview Prep, Workshops, Challenges, and
-              Internships.
+            <p className="mt-4 text-textColor text-base md:text-lg">
+              This is a 1 year program. By the end, you will be transformed into
+              a a professional capable of evaluating product requirements,
+              illustrate design ideas, and and then use your newly acquired
+              skills to bring it to life in the form of websites and mobile
+              apps. The course includes collaboration with software teams and
+              internship opportunities
             </p>
             <div className="">
               <Button className="rounded-md font-bold bg-yellow text-violet shadow-none mt-6 px-8">
@@ -217,7 +213,7 @@ export default function Home() {
 
       {/* Earn Back Your Tuition Section */}
       <section className="mt-20 bg-ash">
-        <div className="flex flex-col lg:flex-row justify-center items-center gap-8 px-4 py-8 sm:px-10 sm:py-36 bg-contain bg-center bg-no-repeat relative overflow-hidden">
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-8 px-4 py-8 sm:px-10 sm:py-24 bg-contain bg-center bg-no-repeat relative overflow-hidden">
           <CTLogo
             className="absolute size-[1080px] md:size-[800px] -left-3 md:left-20 lg:left-1/4  object-cover text-[#e0e0e0] opacity-[0.5]"
             color="#c2c0c0"
@@ -227,15 +223,15 @@ export default function Home() {
               EARN BACK YOUR TUITION
             </h1>
             <p className="max-w-lg mt-4 text-textColor leading-6 text-base sm:text-lg">
-              Lorem ipsum dolor sit amet consectetur. Felis eu euismod placerat
-              libero lacus eu morbi. Quam ullamcorper adipiscing eget porttitor
-              vitae eget aliquam imperdiet. Sagittis nunc vulputate magna eu sed
-              et. Aenean commodo amet amet lacinia amet porttitor diam. Sagittis
-              nunc ultricies felis at amet nibh euismod. Natoque donec elementum
-              diam nascetur nibh volutpat volutpat pretium dui. Tincidunt magna
-              auctor eget ut egestas lectus fermentum sodales. Congue feugiat
-              tortor velit amet risus at eget at. Cras enim dolor pellentesque
-              pulvinar.
+              The high demand for professionals in technology makes it one of
+              the best-paying industries globally.
+            </p>
+            <p className="max-w-lg mt-4 text-textColor leading-6 text-base sm:text-lg">
+              After just 5 years as a fellow at codetrain, Awal transitioned
+              into working remotely for a Canadian gaming company. Less than 1
+              year after he joined Big Viking games, Awal is now a senior
+              developer. He works right here from his home in Ghana or anywhere
+              else he finds himself.
             </p>
           </div>
 
@@ -247,15 +243,14 @@ export default function Home() {
               className="m-0 rounded-none"
             >
               <iframe
-                className="w-full h-52 sm:h-72 md:max-w-[540px] md:h-[376px]"
-                // width="540"
-                // height="376"
-                src="https://www.youtube.com/embed/SmAZJcErw7w?si=Rnyh2RAAkl1W1Ech"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/-YUY-MFGdQw?si=WHj55QBrwtf4kJMl"
                 title="YouTube video player"
-                // frameborder="0"
+                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                // referrerpolicy="strict-origin-when-cross-origin"
-                allowFullScreen
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
               ></iframe>
             </CardHeader>
             <CardBody>
@@ -263,13 +258,13 @@ export default function Home() {
                 variant="lead"
                 className="mt-3 font-bold text-textColor"
               >
-                Inspiring story of how Ama started her journey in tech and is
+                Inspiring story of how Awal started her journey in tech and is
                 now a software engineer
               </Typography>
             </CardBody>
             <hr className="border-violet h-1" />
             <CardFooter className="">
-              <Typography className="font-normal text-textColor">
+              <Typography className="font-medium text-textColor">
                 Software Engineer
               </Typography>
             </CardFooter>

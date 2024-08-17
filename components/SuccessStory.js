@@ -20,7 +20,6 @@ const SuccessStory = () => {
       <div className="md:max-h-[587px] hidden xl:inline">
         <Carousel
           className="rounded-none w-fit md:max-w-[540px] shadow-lg"
-          autoplay={true}
           autoplayDelay={5000}
           navigation={({ setActiveIndex, activeIndex, length }) => (
             <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">

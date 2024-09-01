@@ -156,7 +156,7 @@ function NavList({ handleLinkClick }) {
         </ListItem>
       </Link>
       <Link
-        href="#"
+        href="/partnerships"
         variant="small"
         className="font-medium"
         onClick={handleLinkClick}

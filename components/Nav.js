@@ -146,7 +146,7 @@ function NavList({ handleLinkClick }) {
         </ListItem>
       </Link>
       <Link
-        href="#"
+        href="/hire-a-graduate"
         variant="small"
         className="font-medium"
         onClick={handleLinkClick}

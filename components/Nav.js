@@ -119,10 +119,15 @@ function NavList({ handleLinkClick }) {
       <Link
         href="/"
         variant="small"
-        className="font-medium"
+        className="font-medium "
         onClick={handleLinkClick}
       >
-        <ListItem className="flex items-center gap-2 py-2 pr-4">Home</ListItem>
+        <ListItem
+          className="flex items-center gap-2 py-2 pr-4 hover:bg-transparent focus:font-extrabold  focus:bg-transparent active:bg-transparent"
+          ripple={false}
+        >
+          Home
+        </ListItem>
       </Link>
       <Link
         href="/about-us"
@@ -130,7 +135,10 @@ function NavList({ handleLinkClick }) {
         className="font-medium"
         onClick={handleLinkClick}
       >
-        <ListItem className="flex items-center gap-2 py-2 pr- text-nowrap">
+        <ListItem
+          className="flex items-center gap-2 py-2 pr- text-nowrap hover:bg-transparent focus:font-extrabold  focus:bg-transparent active:bg-transparent"
+          ripple={false}
+        >
           About Us
         </ListItem>
       </Link>
@@ -141,7 +149,10 @@ function NavList({ handleLinkClick }) {
         className="font-medium"
         onClick={handleLinkClick}
       >
-        <ListItem className="flex items-center gap-2 py-2 pr- text-nowrap">
+        <ListItem
+          className="flex items-center gap-2 py-2 pr- text-nowrap hover:bg-transparent focus:font-extrabold  focus:bg-transparent active:bg-transparent"
+          ripple={false}
+        >
           Success Stories
         </ListItem>
       </Link>
@@ -151,7 +162,10 @@ function NavList({ handleLinkClick }) {
         className="font-medium"
         onClick={handleLinkClick}
       >
-        <ListItem className="flex items-center gap-2 py-2 pr- text-nowrap">
+        <ListItem
+          className="flex items-center gap-2 py-2 pr- text-nowrap hover:bg-transparent focus:font-extrabold  focus:bg-transparent active:bg-transparent"
+          ripple={false}
+        >
           Hire a grad
         </ListItem>
       </Link>
@@ -161,12 +175,18 @@ function NavList({ handleLinkClick }) {
         className="font-medium"
         onClick={handleLinkClick}
       >
-        <ListItem className="flex items-center gap-2 py-2 pr-4">
+        <ListItem
+          className="flex items-center gap-2 py-2 pr-4 hover:bg-transparent focus:font-extrabold  focus:bg-transparent active:bg-transparent"
+          ripple={false}
+        >
           Partnerships
         </ListItem>
       </Link>
       <Link href="#" className="font-medium" onClick={handleLinkClick}>
-        <ListItem className="flex items-center gap-2 py-2 pr-4">
+        <ListItem
+          className="flex items-center gap-2 py-2 pr-4 hover:bg-transparent focus:font-extrabold  focus:bg-transparent active:bg-transparent"
+          ripple={false}
+        >
           Donate
         </ListItem>
       </Link>

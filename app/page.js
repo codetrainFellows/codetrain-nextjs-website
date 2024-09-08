@@ -4,17 +4,11 @@ import React, { useState } from "react";
 
 // Components
 import {
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
   Typography,
   Button,
   Accordion,
   AccordionHeader,
   AccordionBody,
-  List,
-  ListItem,
 } from "@material-tailwind/react";
 
 // Icons
@@ -195,10 +189,10 @@ export default function Home() {
             </h3>
             <p className="mt-4 text-textColor text-base md:text-lg">
               This is a 2-year program designed to take you from beginner to
-              mid-level software developer. In the first year, you'll receive
-              comprehensive training in software development. The second year
-              focuses on launching your career with tailored career services,
-              including interview preparation, technical workshops, an
+              mid-level software developer. In the first year, you&lsquo;ll
+              receive comprehensive training in software development. The second
+              year focuses on launching your career with tailored career
+              services, including interview preparation, technical workshops, an
               innovation challenge, and internships. Get ready to build your
               skills and kick-start your career with us!
             </p>
@@ -226,9 +220,9 @@ export default function Home() {
               This is a 1-year program designed to transform you into a skilled
               professional ready to tackle product requirements, craft
               innovative design concepts, and bring them to life through
-              stunning websites and mobile apps. Throughout the course, you'll
-              collaborate with software teams and gain hands-on experience
-              through internship opportunities.
+              stunning websites and mobile apps. Throughout the course,
+              you&lsquo;ll collaborate with software teams and gain hands-on
+              experience through internship opportunities.
             </p>
             <div className="">
               <Link
@@ -356,10 +350,10 @@ export default function Home() {
           <Typography variant="lead" className="text-textColor max-w-md le">
             Your journey culminates in an exciting Demo Day and Career Fair.
             This event is your chance to present your projects to industry
-            leaders, potential employers, and the Codetrain community. It's an
-            opportunity to showcase your skills, gain valuable feedback, and
-            explore job opportunities. Our Career Fair connects you with top
-            companies looking for tech talent like you.
+            leaders, potential employers, and the Codetrain community.
+            It&lsquo;s an opportunity to showcase your skills, gain valuable
+            feedback, and explore job opportunities. Our Career Fair connects
+            you with top companies looking for tech talent like you.
           </Typography>
         </div>
         <div>
@@ -867,8 +861,8 @@ export default function Home() {
               variant="paragraph"
               className="text-white max-w-xl mt-5"
             >
-              Your journey to a fulfilling tech career starts here. Let's get
-              you started.
+              Your journey to a fulfilling tech career starts here. Let&lsquo;s
+              get you started.
             </Typography>
           </div>
           <div>

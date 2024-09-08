@@ -233,13 +233,18 @@ const Nav = () => {
         </div>
 
         <div className="hidden lg:block">
-          <Button
-            variant="outlined"
-            size="sm"
-            className="rounded-none bg-violet text-white capitalize text-nowrap"
+          <Link
+            href="https://codetrainafrica.heiapply.com/application"
+            target="_blank"
           >
-            Apply Now
-          </Button>
+            <Button
+              variant="outlined"
+              size="sm"
+              className="rounded-none bg-violet text-white capitalize text-nowrap"
+            >
+              Apply Now
+            </Button>
+          </Link>
         </div>
 
         <IconButton
@@ -257,13 +262,18 @@ const Nav = () => {
       <Collapse open={openNav}>
         <NavList handleLinkClick={handleLinkClick} />
         <div className="flex w-full flex-nowrap items-center gap-2 lg:hidden">
-          <Button
-            variant="outlined"
-            size="sm"
-            className="rounded-none bg-violet text-white capitalize"
+          <Link
+            href="https://codetrainafrica.heiapply.com/application"
+            target="_blank"
           >
-            Apply Now
-          </Button>
+            <Button
+              variant="outlined"
+              size="sm"
+              className="rounded-none bg-violet text-white capitalize"
+            >
+              Apply Now
+            </Button>
+          </Link>
         </div>
       </Collapse>
     </Navbar>

@@ -14,7 +14,7 @@ const Footer = () => {
       items: [
         {
           name: "blog",
-          href: "",
+          href: "https://codetrain.medium.com/",
         },
         {
           name: "contact",
@@ -27,19 +27,19 @@ const Footer = () => {
       items: [
         {
           name: "facebook",
-          href: "",
+          href: "https://www.facebook.com/codetraingh/?_rdc=2&_rdr",
         },
         {
           name: "linkedIn",
-          href: "",
+          href: "https://www.linkedin.com/school/codetrain/",
         },
         {
           name: "twitter",
-          href: "",
+          href: "https://x.com/codetraingh?lang=en",
         },
         {
           name: "instagram",
-          href: "",
+          href: "https://www.instagram.com/codetraingh",
         },
       ],
     },
@@ -66,6 +66,7 @@ const Footer = () => {
                     <Link
                       href={item.href}
                       className="py-1.5 font-semibold text-sm md:text-lg underline transition-colors text-textColor"
+                      target="_blank"
                     >
                       {item.name}
                     </Link>

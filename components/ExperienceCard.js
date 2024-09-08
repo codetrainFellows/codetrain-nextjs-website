@@ -11,7 +11,7 @@ const ExperienceCard = ({ className, img, title, text }) => {
           alt={title}
           width={400}
           height={300}
-          className="rounded-none"
+          className="rounded-none shadow"
         />
       </div>
       <div className="mt-10 lg:mt-0 max-w-md">

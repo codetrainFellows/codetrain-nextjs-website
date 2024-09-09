@@ -18,160 +18,64 @@ import SuccessStory from "@/components/SuccessStory";
 import BgLogoLeft from "@/public/icons/BgLogoLeft";
 import BgLogoRight from "@/public/icons/BgLogoRight";
 import CTLogo from "@/public/icons/CTLogo";
+import Link from "next/link";
+import {
+  faq,
+  whyCodetrain,
+  applicationProcess,
+  accept,
+} from "@/constants/constants";
 
 const Software = () => {
   const Context = createContext();
   const [open, setOpen] = useState(1);
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
 
-  const accept = [
-    {
-      title: "What you’ll need:",
-      items: [
-        {
-          text: "Be computer literate,",
-        },
-        {
-          text: "Be teachable,",
-        },
-        {
-          text: "Be willing to put in the work",
-        },
-        {
-          text: "Pass our intake assessment",
-        },
-      ],
-    },
-    {
-      title: "What you don’t need:",
-      items: [
-        {
-          text: "Computer science degree",
-        },
-        {
-          text: "Experience in tech",
-        },
-        {
-          text: "A degree",
-        },
-      ],
-    },
-  ];
-
-  const applicationProcess = [
-    {
-      id: 1,
-      title: "Fill The Form to Enroll",
-      desc: "2-Year Program: Transforming Novices into Mid-Level Developers. Year 1: Intensive Software Development Training.",
-    },
-    {
-      id: 2,
-      title: "Complete Application Process",
-      desc: "2-Year Program: Transforming Novices into Mid-Level Developers. Year 1: Intensive Software Development Training.",
-    },
-    {
-      id: 3,
-      title: "Pass Assessment Test",
-      desc: "2-Year Program: Transforming Novices into Mid-Level Developers. Year 1: Intensive Software Development Training.",
-    },
-    {
-      id: 4,
-      title: "Start Your Codetrain Journey",
-      desc: "2-Year Program: Transforming Novices into Mid-Level Developers. Year 1: Intensive Software Development Training.",
-    },
-  ];
-
-  const whyCodetrain = [
-    {
-      title: "Career services",
-      desc: "As part of your training, you are prepared for job opportunities. You get to experience mock interviews and practice technical tests that prepare you to ace the toughest recruitment processes. We do everything we can to ensure that you secure your first full-time role as soon as you’re ready.",
-    },
-    {
-      title: "Community",
-      desc: "Your teaching fellows are actively rooting for you. Whether you need answers, clarification or encouragement, you’ll find it with them. Our close-knit trainee communities ensure that throughout your years of training, you never feel helpless and alone. The peer-to-peer mentoring and support is unmatched.",
-    },
-    {
-      title: "Hands-on learning",
-      desc: "Project-based learning is our way. At code train, you learn by doing. From your first day to your last, you’re graded on actual work that is similar to what you’ll be doing on the job. If it has no application in the industry, we don’t bother with it.",
-    },
-    {
-      title: "Flexible learning",
-      desc: "Our program is designed for learners from anywhere in the world. In-person or virtual? It’s up to you to choose.",
-    },
-  ];
-
-  const faq = [
-    {
-      question: "What is the purpose of the program?",
-      answer:
-        "The purpose of the program is to provide students with a comprehensive coding education, enabling them to gain the skills and knowledge necessary to succeed in the tech industry. The program aims to equip students with the necessary tools and knowledge to succeed in their chosen field, whether it's software development, data science, or cybersecurity.",
-    },
-    {
-      question: "What is the duration of the program?",
-      answer:
-        "The duration of the program is 12 months, with a 6-month intensive coding bootcamp and 6 months of career guidance. The program is designed to provide students with a solid foundation in coding and career development skills, allowing them to take their coding skills to the next level.",
-    },
-    {
-      question: "What is the cost of the program?",
-      answer:
-        "The cost of the program is $10,000 per student, including tuition, materials, and other expenses. The program is free for students who are eligible for financial assistance.",
-    },
-    {
-      question: "What is the eligibility criteria for the program?",
-      answer:
-        "The eligibility criteria for the program is that the student must be a high school graduate or have completed a high school course. The program is open to students from all backgrounds and is designed to provide a comprehensive coding education.",
-    },
-  ];
-
   return (
     <section className="text-textColor overflow-hidden">
-      <div className="py-2 bg-violet text-xs md:text-base text-center text-white flex items-center justify-center">
-        <p>Get to know more about Codetrain. Join our info session.🗣️ </p>
-      </div>
-
       {/* Hero Section */}
-      <section className="min-h-[calc(100vh-64px-40px)] bg-ash grid grid-cols-2 place-items-center">
+      <section className="min-h-[calc(100vh-64px)] bg-ash grid grid-cols-2 place-items-center">
         <div className="p-8 text-textColor leading-8 col-span-2 lg:col-span-1">
           <h2 className="text-4xl text-violet font-bold max-w-lg ">
-            Excel in Software Engineering with Our Premier Course
+            Grow your Software Engineering Skills with Us
           </h2>
           <p className="my-8">
-            Lorem ipsum{" "}
-            <span className="font-bold">dolor sit amet consectetur.</span>{" "}
-            Mauris pellentesque porta donec enim tellus nibh adipiscing arcu. Et
-            mi pellentesque lorem tellus eget nulla. Vulputate iaculis magnis
-            aenean integer. Ultrices id aliquet elementum id{" "}
-            <span className="font-bold">elit quis lectus rutrum nec.</span>
+            Our Software Engineering course is your gateway to excelling in the
+            fast-paced tech world. Whether you&#39;re a beginner or looking to
+            advance your skills, our program is tailored to make you a top-notch
+            software engineer.
           </p>
           <div className="flex gap-x-4 mt-14 z-10">
-            <Button
-              className="bg-yellow text-violet shadow-none font-bold px-5 sm:px-8 md:px-10 rounded-md"
-              variant="filled"
+            <Link
+              href="https://codetrainafrica.heiapply.com/application"
+              target="_blank"
             >
-              Enroll now
-            </Button>
+              <Button className="bg-yellow text-violet shadow-none font-bold px-5 sm:px-8 md:px-10 rounded-md">
+                Enroll now
+              </Button>
+            </Link>
             <Button
               className="text-violet bg-transparent shadow-none font-bold px-5 rounded-md border-violet sm:px-8 md:px-10"
               variant="outlined"
             >
-              Talk to admission
+              Let&#39;s Talk
             </Button>
           </div>
           <p className="mt-12">
-            *Next class for software engineering starts in December
+            * Admission is in progress, join the October Cohort!
           </p>
         </div>
         <div className="hidden lg:inline">
           <Image
-            src="https://images.pexels.com/photos/2102416/pexels-photo-2102416.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            src="/people/group4.svg"
             width={720}
             height={384}
             alt=""
-            className="object-cover !h-[calc(100vh-64px-40px)]"
+            className="object-cover !h-[calc(100vh-64px)]"
           />
         </div>
         <Image
-          src="https://images.pexels.com/photos/2102416/pexels-photo-2102416.jpeg?auto=compress&cs=tinysrgb&w=1200"
+          src="/people/group5.svg"
           alt=""
           width={720}
           height={384}
@@ -180,48 +84,128 @@ const Software = () => {
       </section>
 
       {/* Comprehensive Software Development Curriculum */}
-      <section className="py-20 px-4">
+      <section className="py-20 px-8">
         <div className="text-center relative z-10">
           <h3 className="text-3xl md:text-5xl text-violet font-bold">
-            Comprehensive Software Development Curriculum
+            What You Will Learn
           </h3>
           <p className="text-textColor max-w-5xl mx-auto mt-10">
-            Lorem ipsum dolor sit amet consectetur. Mauris pellentesque porta
-            donec enim tellus nibh adipiscing arcu.
+            Master the full scope of software development with our hands-on
+            curriculum in just 2 years.
           </p>
         </div>
         <div className="flex flex-col lg:flex-row justify-center items-center gap-8 py-10 bg-contain bg-center bg-no-repeat relative">
-          {/* <CTLogo
-            className="absolute max-w-xl lg:max-w-4xl object-cover text-[#e0e0e0]  lg:right-0"
-            color="#c2c0c0"
-          /> */}
-
-          <div className="max-w-[540px] bg-white relative z-10 shadow-md">
+          <div className="max-w-[540px] bg-white relative z-10 sh">
             <Image
-              src="https://images.pexels.com/photos/11558845/pexels-photo-11558845.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+              src="/people/group5.svg"
               alt="picture"
-              className="h-[350px] md:h-[540px] w-[540px] rounded-none"
+              className="rounded-none h-[]"
               width={540}
-              height={540}
+              height={440}
             />
           </div>
           <div className="relative z-10 text-textColor">
-            <p className="max-w-lg mt-4 leading-9 text-lg">
-              Our software development curriculum is structured into six
-              comprehensive modules designed to build your expertise
-              step-by-step.
-              <br className="mb-3" /> Begin with an introduction to programming
-              using Python, JavaScript, or Java, then master web development
-              fundamentals with HTML, CSS, and JavaScript. Advance to front-end
-              development with frameworks like React, Vue, or Angular, and dive
-              into back-end development using Node.js, Express, and databases.{" "}
-              <br className="mb-3" /> Integrate your skills in full-stack
-              development by building cohesive applications, and finish with
-              DevOps and deployment, learning CI/CD principles and cloud
-              services like AWS, GCP, or Azure. <br className="mb-3" /> Each
-              module includes hands-on projects to ensure practical,
-              industry-relevant experience.
-            </p>
+            <ul className="list-decimal space-y-2 max-w-lg">
+              <li>
+                <p className="font-extrabold text-lg">Front-End Development</p>
+                <ul className="list-disc ml-3 space-y-1">
+                  <li>
+                    <span className="font-extrabold">HTML & CSS:</span> Master
+                    web development basics.
+                  </li>
+                  <li>
+                    <span className="font-extrabold">JavaScript:</span> Create
+                    interactive web applications.
+                  </li>
+                  <li>
+                    <span className="font-extrabold">React:</span> Build modern,
+                    responsive user interfaces.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <p className="font-extrabold text-lg">Back-End Development</p>
+                <ul className="list-disc ml-3 space-y-1">
+                  <li>
+                    <span className="font-extrabold">Node.js & Express: </span>{" "}
+                    Develop robust and scalable server-side applications.
+                  </li>
+                  <li>
+                    <span className="font-extrabold">SQL & Databases: </span>
+                    Master data management using relational databases.
+                  </li>
+                  <li>
+                    <span className="font-extrabold">APIs:</span> Design and
+                    implement RESTful APIs to connect front-end and back-end
+                    systems.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <p className="font-extrabold text-lg">Full-Stack Development</p>
+                <ul className="list-disc ml-3 space-y-1">
+                  <li>
+                    <span className="font-extrabold">Integration:</span> Combine
+                    front-end and back-end skills to create full web
+                    applications.
+                  </li>
+                  <li>
+                    <span className="font-extrabold"> Deployment: </span>
+                    Deploy applications to the cloud and optimize performance.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <p className="font-extrabold text-lg">
+                  Software Engineering Fundamentals
+                </p>
+                <ul className="list-disc ml-3 space-y-1">
+                  <li>
+                    <span className="font-extrabold">
+                      Data Structures & Algorithms:
+                    </span>{" "}
+                    Grasp core concepts that will help you solve complex coding
+                    challenges.
+                  </li>
+                  <li>
+                    <span className="font-extrabold">
+                      Version Control with Git:
+                    </span>
+                    Collaborate with others and manage your code effectively.
+                  </li>
+                  <li>
+                    <span className="font-extrabold">Testing:</span>
+                    Write and run tests to ensure your code is reliable and
+                    bug-free.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <p className="font-extrabold text-lg">Career Readiness</p>
+                <ul className="list-disc ml-3 space-y-1">
+                  <li>
+                    <span className="font-extrabold">
+                      Technical Interview Preparation:
+                    </span>{" "}
+                    Sharpen your problem-solving skills to ace coding
+                    interviews.
+                  </li>
+                  <li>
+                    <span className="font-extrabold">
+                      Portfolio Development:
+                    </span>
+                    Build a strong portfolio of projects that demonstrate your
+                    abilities to potential employers.
+                  </li>
+                  <li>
+                    <span className="font-extrabold">Soft Skills:</span>
+                    Gain essential workplace skills like communication,
+                    teamwork, and time management.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <Button className="mt-8 bg-yellow text-violet">Get Started</Button>
           </div>
         </div>
       </section>
@@ -232,8 +216,8 @@ const Software = () => {
           Meet The Codetrain Teaching Fellows
         </Typography>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center place-content-center gap-10 mt-20 text-left">
-          <Card className="max-h-[667px] rounded-none">
+        <div className="grid grid-cols-1 md:grid-cols-2 place-items-center gap-10 mt-20 text-left">
+          <Card className="max--[667px] max-w-md rounded-none">
             <CardHeader
               floated={false}
               shadow={false}
@@ -241,29 +225,37 @@ const Software = () => {
               className="m-0 rounded-none"
             >
               <Image
-                src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                src="/people/joshua.png"
                 alt="img"
                 width={540}
                 height={276}
-                className="overflow-hidden object-cover w-full"
+                className="overflow-hidden h-[351px] object-cover object-top w-full"
               />
             </CardHeader>
             <CardBody>
-              <Typography className="font-bold text-textColor">
-                lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam, quod. lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Quisquam, quod.
+              <Typography className="text-textColor">
+                With 2 years of experience under my belt and a certificate in
+                software development, I’m all about creating a classroom vibe
+                that’s interactive and student-centered. My mission? To spark
+                curiosity and bring real-world scenarios into the mix, making
+                learning not just meaningful but a whole lot of fun.
+                Additionally, I’m the brain behind the Ezy Money app, so I bring
+                plenty of practical experience to the table. When I’m not
+                teaching, you’ll probably find me behind a camera lens or deep
+                into code—my two other great loves!
               </Typography>
             </CardBody>
             <hr className="border-violet h-1" />
             <CardFooter>
-              <Typography className="font-bold text-textColor">Lee</Typography>
+              <Typography className="font-bold text-textColor">
+                Joshua Doe
+              </Typography>
               <Typography className="font-normal text-textColor">
-                Software Engineer
+                Teaching Fellow
               </Typography>
             </CardFooter>
           </Card>
-          <Card className="max-h-[667px] rounded-none">
+          <Card className="max-h-[667px] max-w-md rounded-none">
             <CardHeader
               floated={false}
               shadow={false}
@@ -275,25 +267,33 @@ const Software = () => {
                 alt="img"
                 width={540}
                 height={276}
-                className="overflow-hidden object-cover w-full"
+                className="overflow-hidden h-[351px] object-cover object-top w-full"
               />
             </CardHeader>
             <CardBody>
               <Typography className="font-bold text-textColor">
-                lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam, quod. lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Quisquam, quod.
+                I’ve spent the last two years diving deep into software
+                development and instruction, gaining practical expertise that I
+                love to share. I’m certified by Codetrain Africa, and my journey
+                from a non-tech background to thriving in the tech world has
+                been nothing short of exhilarating. My teaching philosophy? It’s
+                all about hands-on learning and creative problem-solving—I love
+                helping students to tackle real-world challenges head-on. When
+                I’m not coding or teaching, you can find me buried in a good
+                book or hitting the field for some sports action!
               </Typography>
             </CardBody>
             <hr className="border-violet h-1" />
             <CardFooter>
-              <Typography className="font-bold text-textColor">Lee</Typography>
+              <Typography className="font-bold text-textColor">
+                William Brandt
+              </Typography>
               <Typography className="font-normal text-textColor">
-                Software Engineer
+                Teaching Fellow
               </Typography>
             </CardFooter>
           </Card>
-          <Card className="max-h-[667px] rounded-none">
+          <Card className="max-h-[667px] max-w-md rounded-none">
             <CardHeader
               floated={false}
               shadow={false}
@@ -305,21 +305,68 @@ const Software = () => {
                 alt="img"
                 width={540}
                 height={276}
-                className="overflow-hidden object-cover w-full"
+                className="overflow-hidden h-[351px] object-cover object-top w-full"
               />
             </CardHeader>
             <CardBody>
               <Typography className="font-bold text-textColor">
-                lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam, quod. lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Quisquam, quod.
+                Hi, I&apos;m Harrison, a Teaching Fellow at Codetrain with a
+                focus on Software Development. With 2 years of experience to my
+                name and a Codetrain certificate to back it up, I&apos;ve
+                created some pretty cool websites and am currently executing an
+                exciting new project that’ll blow your minds. My teaching
+                philosophy? Simple: Don&apos;t stop till they get it. I’m all
+                about making sure every student has that lightbulb moment. When
+                I&apos;m not coding or teaching, you’ll probably find me
+                seriously playing video games.
               </Typography>
             </CardBody>
             <hr className="border-violet h-1" />
             <CardFooter>
-              <Typography className="font-bold text-textColor">Lee</Typography>
+              <Typography className="font-bold text-textColor">
+                Harrison Boateng
+              </Typography>
               <Typography className="font-normal text-textColor">
-                Software Engineer
+                Teaching Fellow
+              </Typography>
+            </CardFooter>
+          </Card>
+          <Card className="max-h-[667px] max-w-md rounded-none">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <Image
+                src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                alt="img"
+                width={540}
+                height={276}
+                className="overflow-hidden h-[351px] object-cover object-top w-full"
+              />
+            </CardHeader>
+            <CardBody>
+              <Typography className="font-bold text-textColor">
+                Hey there! I’m Ali, a Full Stack Developer and Teaching Fellow
+                with a flair for turning code into magic. With 2 years of
+                hands-on experience in React, ExpressJs, and MongoDB, I enjoy
+                crafting dynamic applications and solving complex problems. My
+                mission is to make learning fun and interactive, encouraging
+                students to immerse themselves deep into projects and think
+                critically. When I’m not coding, you’ll find me gaming, which
+                not only keeps me entertained but also sharpens my tech skills
+                and fuels my love for innovation. Let’s build something amazing
+                together!
+              </Typography>
+            </CardBody>
+            <hr className="border-violet h-1" />
+            <CardFooter>
+              <Typography className="font-bold text-textColor">
+                Abdul Basit Ali
+              </Typography>
+              <Typography className="font-normal text-textColor">
+                Teaching Fellow
               </Typography>
             </CardFooter>
           </Card>
@@ -333,9 +380,8 @@ const Software = () => {
             What You Need To Get Accepted
           </Typography>
           <Typography variant="paragraph" className="text-textColor max-w-xs">
-            Lorem ipsum{" "}
-            <span className="font-bold">dolor sit amet consectetur.</span>{" "}
-            Mauris pellentesque porta donec enim tellus nibh adipiscing arcu
+            Here&apos;s all you need to succeed and enjoy the full Codetrain
+            experience 
           </Typography>
         </div>
         <div className="flex flex-col md:flex-row justify-between gap-4 lg:w-2/5 text-textColor">
@@ -366,16 +412,13 @@ const Software = () => {
       {/* How it works section */}
       <section className="py-20 px-4 bg-ash text-center relative">
         <div className="relative z-10">
-          <h3 className="text-3xl md:text-5xl text-violet font-bold">
+          <h3 className="text-3xl md:text-4xl text-violet font-bold">
             How It Works
           </h3>
-          <p className="text-textColor max-w-4xl mx-auto mt-10">
-            Lorem ipsum dolor{" "}
-            <span className="font-bold">sit amet consectetur.</span> Mauris
-            pellentesque porta donec enim tellus nibh adipiscing arcu. Et mi
-            pellentesque lorem tellus eget nulla. Vulputate iaculis magnis
-            aenean integer. Ultrices id aliquet elementum id{" "}
-            <span className="font-bold">elit quis lectus rutrum nec.</span>
+          <p className="text-textColor max-w-4xl mx-auto mt-5">
+            Our flexible class schedules adapt to your lifestyle, ensuring you
+            can balance learning with your personal commitments. Here are the
+            available options:
           </p>
         </div>
         <div className="mt-10 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 z-10 relative">
@@ -388,12 +431,12 @@ const Software = () => {
               className="object-cover mx-auto mb-5"
             />
             <Typography variant="h4" className="text-violet">
-              Driving Innovation
+              Weekday In-Person Class
             </Typography>
             <Typography variant="paragraph" className="mt-6">
-              Inspiring creativity and innovation by encouraging students to
-              think critically, solve complex problems, and push the boundaries
-              of what`s possible in the digital world.
+              Attend live, in-person sessions during the week for hands-on
+              learning and immediate feedback. Choose a schedule that fits your
+              weekday availability.
             </Typography>
           </div>
           <div className="max-w-xs mx-auto">
@@ -405,12 +448,12 @@ const Software = () => {
               className="object-cover mx-auto mb-5"
             />
             <Typography variant="h4" className="text-violet">
-              Driving Innovation
+              Weekend Class
             </Typography>
             <Typography variant="paragraph" className="mt-6">
-              Inspiring creativity and innovation by encouraging students to
-              think critically, solve complex problems, and push the boundaries
-              of what`s possible in the digital world.
+              Join live, in-person sessions on weekends for flexible learning
+              that fits around your weekly commitments. Ideal for balancing
+              study with your personal schedule.
             </Typography>
           </div>
           <div className="max-w-xs mx-auto">
@@ -422,12 +465,12 @@ const Software = () => {
               className="object-cover mx-auto mb-5"
             />
             <Typography variant="h4" className="text-violet">
-              Driving Innovation
+              Virtual Class
             </Typography>
             <Typography variant="paragraph" className="mt-6">
-              Inspiring creativity and innovation by encouraging students to
-              think critically, solve complex problems, and push the boundaries
-              of what`s possible in the digital world.
+              Participate in live sessions online, allowing you to learn from
+              anywhere. Enjoy the flexibility to join classes and access
+              materials at your convenience.
             </Typography>
           </div>
         </div>
@@ -443,12 +486,8 @@ const Software = () => {
             Steps In The Application Process
           </h3>
           <p className="text-textColor max-w-4xl mx-auto mt-10">
-            Lorem ipsum dolor{" "}
-            <span className="font-bold">sit amet consectetur.</span> Mauris
-            pellentesque porta donec enim tellus nibh adipiscing arcu. Et mi
-            pellentesque lorem tellus eget nulla. Vulputate iaculis magnis
-            aenean integer. Ultrices id aliquet elementum id{" "}
-            <span className="font-bold">elit quis lectus rutrum nec.</span>
+            Our application process is streamlined to ensure a smooth experience
+            with clear instructions at every stage.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 lg:gap-x-24 gap-y-10 md:gap-y-28 place-items-center mt-10 justify-items-center relative z-10">
@@ -487,12 +526,9 @@ const Software = () => {
           variant="paragraph"
           className="max-w-5xl mx-auto mt-10 text-base"
         >
-          Lorem ipsum{" "}
-          <span className="font-bold">dolor sit amet consectetur.</span> Mauris
-          pellentesque porta donec enim tellus nibh adipiscing arcu. Et mi
-          pellentesque lorem tellus eget nulla. Vulputate iaculis magnis aenean
-          integer. Ultrices id aliquet elementum id elit quis lectus rutrum
-          nec..
+          Every aspect of the Codetrain experience is designed to ensure your
+          success. The training you receive is built on pillars that guarantee
+          your professional growth.
         </Typography>
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-20 justify-items-center">
           {whyCodetrain.map((el) => (
@@ -500,7 +536,7 @@ const Software = () => {
               className="max-w-80 md:odd:place-self-end md:even:place-self-start"
               key={el.title}
             >
-              <Typography variant="h3" className="text-violet text-nowrap">
+              <Typography variant="h4" className="text-violet text-nowrap">
                 {el.title}
               </Typography>
               <Typography variant="paragraph" className="mt-4 text-base">
@@ -520,21 +556,17 @@ const Software = () => {
       <section className="py-20 px-4 relative overflow-hidden">
         <div className="text-center relative z-10 max-w-4xl mx-auto">
           <h3 className="text-3xl mx-auto md:text-5xl text-violet font-bold">
-            Explore Some Job Opportunities As A Software Engineer
+            Careers as a Software Engineer
           </h3>
           <p className="text-textColor mx-auto mt-10">
-            Lorem ipsum dolor{" "}
-            <span className="font-bold">sit amet consectetur.</span> Felis eu
-            euismod placerat libero lacus eu morbi. Quam ullamcorper adipiscing
-            eget porttitor vitae eget aliquam imperdiet. Sagittis nunc vulputate
-            magna eu sed et. Aenean commodo amet amet lacinia amet porttitor
-            diam.
+            From startups to tech giants, a wide range of career paths awaits
+            you as a software engineer
           </p>
         </div>
         <div className="flex flex-col lg:flex-row justify-center items-center gap-8 py-10 bg-contain bg-center bg-no-repeat relative">
           <div className="max-w-[540px] bg-white relative z-10 shadow-md">
             <Image
-              src="https://images.pexels.com/photos/11558845/pexels-photo-11558845.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+              src="/people/Gerald.jpg"
               alt="picture"
               className="!h-full md:h-[540px] w-[540px] rounded-none"
               width={540}
@@ -545,7 +577,7 @@ const Software = () => {
             <div className="text-base">
               <div>
                 <Typography variant="h5" className="font-bold mt-6 text-violet">
-                  In the completion of this course you’ll be able to become:
+                  Coding Opportunities in Software Engineering
                 </Typography>
                 <ul className="list-disc leading-10 ml-8">
                   <li>Mobile App Developer</li>
@@ -559,7 +591,7 @@ const Software = () => {
               </div>
               <div className="mt-10">
                 <Typography variant="h5" className="font-bold mt-6 text-violet">
-                  You could also venture into:
+                  Non-Coding Opportunities in Software Engineering
                 </Typography>
                 <ul className="list-disc leading-10 text-lg ml-8">
                   <li>Product Manager</li>
@@ -573,17 +605,22 @@ const Software = () => {
               </div>
             </div>
             <div className="flex gap-x-4 mt-7">
-              <Button
-                className="bg-violet shadow-none font-bold px-5 sm:px-8 md:px-10 rounded-md"
-                variant="filled"
+              <Link
+                href="https://codetrainafrica.heiapply.com/application"
+                target="_blank"
               >
-                Enroll now
-              </Button>
+                <Button
+                  className="bg-violet shadow-none font-bold px-5 sm:px-8 md:px-10 rounded-md"
+                  variant="filled"
+                >
+                  Enroll now
+                </Button>
+              </Link>
               <Button
                 className="text-violet bg-transparent shadow-none font-bold px-5 rounded-md border-violet sm:px-8 md:px-10"
                 variant="outlined"
               >
-                Talk to admission
+                Let’s Talk
               </Button>
             </div>
           </div>
@@ -603,10 +640,9 @@ const Software = () => {
             What You’ll Learn At Codetrain Africa
           </h1>
           <p className="my-10 max-w-3xl mx-auto">
-            Lorem ipsum dolor{" "}
-            <span className="font-bold">sit amet consectetur.</span> Mauris
-            pellentesque porta donec enim tellus nibh adipiscing arcu. Et mi
-            pellentesque lorem tellus eget nulla.
+            Prepare to gain hands-on experience in software development, from
+            coding fundamentals to advanced techniques, preparing you for
+            real-world tech challenges.
           </p>
         </div>
 
@@ -616,11 +652,9 @@ const Software = () => {
               <h3 className="text-white font-bold text-2xl bg-indigo p-4">
                 Year 1
               </h3>
-              <p className="mt-4 text-textColor text-lg p-4">
-                2-Year Program: Transforming Novices into Mid-Level Developers.
-                Year 1: Intensive Software Development Training. Year 2: Career
-                Services Including Interview Prep, Workshops, Challenges, and
-                Internships.
+              <p className="mt-4 text-textColor text-lg p-4 pb-10">
+                Learn to code from scratch and start building your portfolio,
+                laying a strong foundation for your software engineering career.
               </p>
             </div>
             <div className="text-start bg-white shadow-xl max-w-sm relative grid place-content-center pb-8">
@@ -628,10 +662,10 @@ const Software = () => {
                 Year 2
               </h3>
               <p className="mt-4 text-textColor text-lg p-4">
-                2-Year Program: Transforming Novices into Mid-Level Developers.
-                Year 1: Intensive Software Development Training. Year 2: Career
-                Services Including Interview Prep, Workshops, Challenges, and
-                Internships.
+                The second year focuses on career services. Gain more hands-on
+                experience with internships, mock interviews, and a major Demo
+                Day to prepare for graduation and secure your first full-time
+                role.
               </p>
             </div>
           </div>
@@ -652,12 +686,12 @@ const Software = () => {
             Program Summary
           </h3>
         </div>
-        <div className="flex flex-col lg:flex-row justify-center items-center gap-8 py-10 bg-contain bg-center bg-no-repeat relative">
-          <div className="max-w-[540px] bg-white relative z-10 shadow-md">
+        <div className="flex flex-col lg:flex-row justify-center gap-8 py-10 bg-contain bg-center bg-no-repeat relative">
+          <div className="max-w-[540px] relative z-10">
             <Image
-              src="https://images.pexels.com/photos/11558845/pexels-photo-11558845.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+              src="/people/group6.svg"
               alt="picture"
-              className="!h-full md:h-[540px] w-[540px] rounded-none"
+              className="w-[540px] rounded-none"
               width={540}
               height={540}
             />
@@ -665,48 +699,32 @@ const Software = () => {
           <div className="relative z-10 text-textColor">
             <div className="text-base">
               <div className="max-w-md">
-                <Typography className="font-bold  text-violet">
-                  Course Lenght
+                <Typography variant="paragraph" className="font-bold">
+                  Course Length
                 </Typography>
-                <Typography>48 weeks + job search</Typography>
-                <Typography className="font-bold text-violet">
-                  Schedule:
-                </Typography>
-                <Typography variant="paragraph">
-                  - Mon-Thurs, 6-9 p.m. EST (East Coast cohort) or Mon-Thurs,
-                  7-10 p.m. PST(West Coast cohort) - Saturdays, 9 a.m. - 3:30
-                  p.m. PST (all cohorts)
-                </Typography>
+                <Typography variant="paragraph">2 years</Typography>
+                <Typography className="font-bold mt-4">Schedule:</Typography>
+                <Typography variant="paragraph">Twice a week</Typography>
               </div>
               <div className="max-w-md mt-3">
-                <Typography className="font-bold mt-6 text-violet">
-                  Tuition:
-                </Typography>
+                <Typography className="font-bold mt-6">Tuition:</Typography>
                 <Typography>
                   <span className="font-bold">UpFront Tuition:</span> Pay the
                   full tuition amount prior to starting the program. Total cost
-                  under the Upfront Plan is $22,000.
+                  under the Upfront Plan is GHS 38,500.
                 </Typography>
               </div>
               <div className="max-w-md mt-3">
                 <Typography>
-                  <span className="font-bold">Climb Credit:</span> Finance your
-                  tuition as monthly installments. Total cost is our Upfront
-                  Tuition price of $22,000, plus interest charged by Climb
-                  Credit. As of March 2023, interest rates range from 8.6% to
-                  20.09%. Get a personal quote, without impacting your credit
-                  score. This plan is not available to residents of Maine or
-                  Mississippi.
+                  <span className="font-bold">Payment Plan:</span> Start with an
+                  initial payment of GHS10,000, and pay the rest in monthly
+                  installments.
                 </Typography>
               </div>
-              <div className="max-w-md mt-3">
+              <div className="max-w-md mt-20">
                 <Typography>
-                  <span className="font-bold">Deferred Tuition:</span> $0
-                  deposit to start. Pay tuition only after you’ve gotten a job
-                  and are earning $50,000 or more. Then, pay a flat monthly
-                  tuition amount (determined by your annualized compensation)
-                  until you reach a total of $36,000. Includes Placement
-                  Protection.
+                  <span className="font-bold">ISA:</span> Start with zero
+                  deposit and pay your tuition only after landing a job.
                 </Typography>
               </div>
             </div>
@@ -716,7 +734,7 @@ const Software = () => {
                 className="bg-violet shadow-none font-bold px-5 sm:px-8 md:px-10 rounded-md"
                 variant="filled"
               >
-                Get in touch with us
+                Get in touch
               </Button>
             </div>
           </div>
@@ -729,12 +747,8 @@ const Software = () => {
           Feqeuently Asked Question About Codetrain
         </h1>
         <p className="my-10 max-w-3xl mx-auto text-textColor">
-          Lorem ipsum{" "}
-          <span className="font-bold">dolor sit amet consectetur.</span> Mauris
-          pellentesque porta donec enim tellus nibh adipiscing arcu. Et mi
-          pellentesque lorem tellus eget nulla. Vulputate iaculis magnis aenean
-          integer. Ultrices id aliquet elementum id elit quis lectus rutrum
-          nec..
+          Have questions about our programs, fees, or anything else? Find
+          answers here to help you make an informed decision.
         </p>
 
         <div>
@@ -767,6 +781,14 @@ const Software = () => {
               </AccordionHeader>
               <AccordionBody className="pt-0 text-base font-normal text-textColor">
                 {item.answer}
+                <ul className="list-disc p-3 pl-10">
+                  {item.options &&
+                    item.options.map((el) => (
+                      <li key={el.option} className="p-1">
+                        {el.option}
+                      </li>
+                    ))}
+                </ul>
               </AccordionBody>
             </Accordion>
           ))}
@@ -784,14 +806,19 @@ const Software = () => {
               variant="paragraph"
               className="text-white max-w-xl mt-5"
             >
-              Lorem ipsum dolor sit amet consectetur. Eu lorem non amet id
-              dictum condimentum sagittis.
+              Your journey to a fulfilling tech career starts here. Let`s get
+              you started.
             </Typography>
           </div>
           <div>
-            <Button variant="filled" className="bg-lightBlue">
-              Enroll Now
-            </Button>
+            <Link
+              href="https://codetrainafrica.heiapply.com/application"
+              target="_blank"
+            >
+              <Button variant="filled" className="bg-lightBlue">
+                Enroll Now
+              </Button>
+            </Link>
           </div>
         </div>
         <BgLogoLeft className="absolute fill-yellow opacity-[0.5] size-80 md:size-[443px] -top-14 md:-top-7 p-0 left-0" />

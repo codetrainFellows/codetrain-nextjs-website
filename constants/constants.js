@@ -177,4 +177,87 @@ const faq = [
   },
 ];
 
-module.exports = { sponsorImages, inMedia, successStories, faq };
+const accept = [
+  {
+    title: "What you’ll need:",
+    items: [
+      {
+        text: "Be computer literacy",
+      },
+      {
+        text: "Pass our intake assessment",
+      },
+      {
+        text: "Openness to learning and growth",
+      },
+      {
+        text: "Willingness to put in the work",
+      },
+    ],
+  },
+  {
+    title: "What you don’t need:",
+    items: [
+      {
+        text: "Computer science certificate",
+      },
+      {
+        text: "Previous tech experience",
+      },
+      {
+        text: "Any degree",
+      },
+    ],
+  },
+];
+
+const applicationProcess = [
+  {
+    id: 1,
+    title: "Create account",
+    desc: "Set up your account to start the admission process.",
+  },
+  {
+    id: 2,
+    title: "Complete application form",
+    desc: "Fill out your application and ace the assessment test.",
+  },
+  {
+    id: 3,
+    title: "Start your Codetrain journey",
+    desc: "You’re set to start your journey toward an exciting career in tech.",
+  },
+];
+
+const whyCodetrain = [
+  {
+    title: " Industry-Aligned Curriculum",
+    desc: "Our course content is constantly updated to reflect the latest trends and demands in the tech industry. We collaborate with leading tech companies to ensure that our training is relevant and practical",
+  },
+  {
+    title: "Hands-On Learning",
+    desc: "Start working on real-world projects from day one, building a portfolio that highlights your skills and distinguishes you in the job market.",
+  },
+  {
+    title: "Mentorship and Support",
+    desc: "You won’t be on this journey alone. Our experienced instructors and mentors are here to guide you every step of the way. Whether you’re struggling with a concept or need career advice, we’re here to help.",
+  },
+  {
+    title: "Career Services",
+    desc: "We offer career support to help you land internships and full-time positions. Our network of industry partners is always looking for talented Codetrain graduates.",
+  },
+  {
+    title: "Flexibility",
+    desc: "With both in-person and online options, you can access our top-tier education from anywhere, no matter your location.",
+  },
+];
+
+module.exports = {
+  sponsorImages,
+  inMedia,
+  successStories,
+  faq,
+  accept,
+  applicationProcess,
+  whyCodetrain,
+};

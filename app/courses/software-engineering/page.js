@@ -67,7 +67,7 @@ const Software = () => {
         </div>
         <div className="hidden lg:inline">
           <Image
-            src="/people/group4.svg"
+            src="/people/group4.jpg"
             width={720}
             height={384}
             alt=""
@@ -217,7 +217,7 @@ const Software = () => {
         </Typography>
 
         <div className="grid grid-cols-1 md:grid-cols-2 place-items-center gap-10 mt-20 text-left">
-          <Card className="max--[667px] max-w-md rounded-none">
+          <Card className="max-w-md rounded-none md:justify-self-end">
             <CardHeader
               floated={false}
               shadow={false}
@@ -225,7 +225,7 @@ const Software = () => {
               className="m-0 rounded-none"
             >
               <Image
-                src="/people/joshua.png"
+                src="/people/joshua.jpg"
                 alt="img"
                 width={540}
                 height={276}
@@ -255,7 +255,7 @@ const Software = () => {
               </Typography>
             </CardFooter>
           </Card>
-          <Card className="max-h-[667px] max-w-md rounded-none">
+          <Card className="max-w-md rounded-none md:justify-self-start">
             <CardHeader
               floated={false}
               shadow={false}
@@ -263,7 +263,7 @@ const Software = () => {
               className="m-0 rounded-none"
             >
               <Image
-                src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                src="/people/william.jpg"
                 alt="img"
                 width={540}
                 height={276}
@@ -271,16 +271,16 @@ const Software = () => {
               />
             </CardHeader>
             <CardBody>
-              <Typography className="font-bold text-textColor">
+              <Typography className="text-textColor">
                 I’ve spent the last two years diving deep into software
                 development and instruction, gaining practical expertise that I
-                love to share. I’m certified by Codetrain Africa, and my journey
-                from a non-tech background to thriving in the tech world has
-                been nothing short of exhilarating. My teaching philosophy? It’s
-                all about hands-on learning and creative problem-solving—I love
-                helping students to tackle real-world challenges head-on. When
-                I’m not coding or teaching, you can find me buried in a good
-                book or hitting the field for some sports action!
+                love to share.  I’m certified by Codetrain Africa, and my
+                journey from a non-tech background to thriving in the tech world
+                has been nothing short of exhilarating. My teaching philosophy?
+                It’s all about hands-on learning and creative problem-solving—I
+                love helping students to tackle real-world challenges head-on.
+                When I’m not coding or teaching, you can find me buried in a
+                good book or hitting the field for some sports action!
               </Typography>
             </CardBody>
             <hr className="border-violet h-1" />
@@ -293,7 +293,7 @@ const Software = () => {
               </Typography>
             </CardFooter>
           </Card>
-          <Card className="max-h-[667px] max-w-md rounded-none">
+          <Card className="max-w-md rounded-none md:justify-self-end">
             <CardHeader
               floated={false}
               shadow={false}
@@ -301,7 +301,7 @@ const Software = () => {
               className="m-0 rounded-none"
             >
               <Image
-                src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                src="/people/harrison.jpg"
                 alt="img"
                 width={540}
                 height={276}
@@ -309,16 +309,16 @@ const Software = () => {
               />
             </CardHeader>
             <CardBody>
-              <Typography className="font-bold text-textColor">
-                Hi, I&apos;m Harrison, a Teaching Fellow at Codetrain with a
-                focus on Software Development. With 2 years of experience to my
-                name and a Codetrain certificate to back it up, I&apos;ve
-                created some pretty cool websites and am currently executing an
-                exciting new project that’ll blow your minds. My teaching
-                philosophy? Simple: Don&apos;t stop till they get it. I’m all
-                about making sure every student has that lightbulb moment. When
-                I&apos;m not coding or teaching, you’ll probably find me
-                seriously playing video games.
+              <Typography className="text-textColor">
+                “Hi, I`m Harrison, a Teaching Fellow at Codetrain with a focus
+                on Software Development. With 2 years of experience to my name
+                and a Codetrain certificate to back it up, I`ve created some
+                pretty cool websites and am currently executing an exciting new
+                project that’ll blow your minds. My teaching philosophy? Simple:
+                Don`t stop till they get it. I’m all about making sure every
+                student has that lightbulb moment. When I`m not coding or
+                teaching, you’ll probably find me seriously playing video
+                games.”
               </Typography>
             </CardBody>
             <hr className="border-violet h-1" />
@@ -331,7 +331,7 @@ const Software = () => {
               </Typography>
             </CardFooter>
           </Card>
-          <Card className="max-h-[667px] max-w-md rounded-none">
+          <Card className=" max-w-md rounded-none md:justify-self-start">
             <CardHeader
               floated={false}
               shadow={false}
@@ -339,7 +339,7 @@ const Software = () => {
               className="m-0 rounded-none"
             >
               <Image
-                src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                src="/people/ali.jpg"
                 alt="img"
                 width={540}
                 height={276}
@@ -347,8 +347,8 @@ const Software = () => {
               />
             </CardHeader>
             <CardBody>
-              <Typography className="font-bold text-textColor">
-                Hey there! I’m Ali, a Full Stack Developer and Teaching Fellow
+              <Typography className="text-textColor">
+                “Hey there! I’m Ali, a Full Stack Developer and Teaching Fellow
                 with a flair for turning code into magic. With 2 years of
                 hands-on experience in React, ExpressJs, and MongoDB, I enjoy
                 crafting dynamic applications and solving complex problems. My
@@ -357,7 +357,7 @@ const Software = () => {
                 critically. When I’m not coding, you’ll find me gaming, which
                 not only keeps me entertained but also sharpens my tech skills
                 and fuels my love for innovation. Let’s build something amazing
-                together!
+                together!”
               </Typography>
             </CardBody>
             <hr className="border-violet h-1" />
@@ -424,7 +424,7 @@ const Software = () => {
         <div className="mt-10 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 z-10 relative">
           <div className="max-w-xs mx-auto">
             <Image
-              src="https://images.pexels.com/photos/601170/pexels-photo-601170.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="/people/class.jpg"
               width={180}
               height={180}
               alt=""
@@ -441,7 +441,7 @@ const Software = () => {
           </div>
           <div className="max-w-xs mx-auto">
             <Image
-              src="https://images.pexels.com/photos/601170/pexels-photo-601170.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="/people/class3.jpg"
               width={180}
               height={180}
               alt=""
@@ -458,7 +458,7 @@ const Software = () => {
           </div>
           <div className="max-w-xs mx-auto">
             <Image
-              src="https://images.pexels.com/photos/601170/pexels-photo-601170.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200"
               width={180}
               height={180}
               alt=""
@@ -810,7 +810,7 @@ const Software = () => {
               you started.
             </Typography>
           </div>
-          <div>
+          <div className="mt-10 md:mt-0">
             <Link
               href="https://codetrainafrica.heiapply.com/application"
               target="_blank"

@@ -35,7 +35,7 @@ const navListMenuItems = [
   {
     title: "UI/UX Design",
     icon: PencilIcon,
-    href: "/",
+    href: "/courses/ui-ux-design",
   },
   {
     title: "Codetrain Experience",

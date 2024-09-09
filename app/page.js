@@ -572,7 +572,7 @@ export default function Home() {
                 scholarships to support diversity and inclusion.
               </p>
               <div className="px-4">
-                <Link href="/courses/ui-ux-experience">
+                <Link href="/courses/ui-ux-design">
                   <Button className="rounded-sm font-bold bg-violet text-white mt-6 px-8">
                     View our course Details
                   </Button>

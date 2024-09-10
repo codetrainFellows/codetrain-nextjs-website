@@ -42,7 +42,7 @@ const CodeTrainExperience = () => {
             with like-minded individuals passionate about shaping the future of
             tech. Our students not only gain the technical skills needed to
             excel but also become a part of a vibrant community that supports
-            innovation, collaboration, and continuous learning. Here, you'll
+            innovation, collaboration, and continuous learning. Here, you`ll
             find the perfect environment to challenge yourself, build meaningful
             relationships, and take your first steps toward a successful tech
             career.

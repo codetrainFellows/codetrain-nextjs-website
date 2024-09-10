@@ -15,7 +15,7 @@ const ExperienceCard = ({ className, img, title, text }) => {
         />
       </div>
       <div className="mt-10 lg:mt-0 max-w-md">
-        <h3 className="text-violet text-2xl md:text-4xl max-w-sm">{title}</h3>
+        <h3 className="text-violet text-2xl md:text-3xl max-w-sm">{title}</h3>
         <p className="max-w-md text-base text-textColor tracking-wide mt-6">
           {text}
         </p>

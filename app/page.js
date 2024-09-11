@@ -91,7 +91,7 @@ export default function Home() {
         </div>
         <div className="relative hidden lg:inline">
           <Image
-            src="/people/gerald.jpg"
+            src="/people/Gerald.jpg"
             alt="hero"
             height={400}
             width={300}

@@ -91,7 +91,7 @@ export default function Home() {
         </div>
         <div className="relative hidden lg:inline">
           <Image
-            src="/people/home-hero.png"
+            src="/people/hero.png"
             alt=""
             height={400}
             width={300}
@@ -99,7 +99,7 @@ export default function Home() {
           />
         </div>
         <Image
-          src="/images/home-hero.png"
+          src="/images/hero.png"
           alt="ladies"
           height={400}
           width={300}

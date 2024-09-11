@@ -1,6 +1,6 @@
 const { default: Image } = require("next/image");
 
-const ExperienceCard = ({ className, img, title, text }) => {
+const ExperienceCard = ({ className, img, title, text, imgClass }) => {
   return (
     <div
       className={`flex flex-col items-center gap-x-9 relative z-10 ${className}`}
@@ -11,7 +11,7 @@ const ExperienceCard = ({ className, img, title, text }) => {
           alt={title}
           width={400}
           height={300}
-          className="rounded-none shadow"
+          className={`rounded-none shadow ${imgClass}`}
         />
       </div>
       <div className="mt-10 lg:mt-0 max-w-md">

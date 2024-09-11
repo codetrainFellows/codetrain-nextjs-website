@@ -1,7 +1,7 @@
 "use client";
 
 import ExperienceCard from "@/components/ExperienceCard";
-import { inMedia } from "@/constants/constants";
+import { sponsorImages } from "@/constants/constants";
 import BgLogoLeft from "@/public/icons/BgLogoLeft";
 import BgLogoRight from "@/public/icons/BgLogoRight";
 import CTLogo from "@/public/icons/CTLogo";
@@ -53,19 +53,21 @@ const HireAGraduate = () => {
             variant="paragraph"
             className="my-8 text-lg text-textColor"
           >
-            At Codetrain, we believe in the transformative power of technology
-            education. Our mission is to equip the next generation of software
-            developers with the skills they need to excel in the rapidly
-            evolving tech landscape. To achieve this, we are looking to build
-            strategic partnerships with organizations that share our vision for
-            a more inclusive and innovative tech industry.
+            By hiring a Codetrain graduate, you`re investing in a highly
+            skilled, tech-savvy professional who has been rigorously trained in
+            the latest technologies and development practices. Our graduates are
+            equipped with hands-on experience and a strong problem-solving
+            mindset, ready to tackle real-world challenges and drive innovation
+            in your organization. Embrace the opportunity to bring fresh
+            perspectives and top-tier talent to your team—unlock the potential
+            of tomorrow`s tech leaders today.
           </Typography>
 
           <Button className="bg-yellow text-violet">Get In Touch</Button>
         </div>
         <div className="hidden lg:inline">
           <Image
-            src="https://images.pexels.com/photos/2102416/pexels-photo-2102416.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            src="/people/hero-grad.jpg"
             width={720}
             height={384}
             alt=""
@@ -73,27 +75,33 @@ const HireAGraduate = () => {
           />
         </div>
         <Image
-          src="https://images.pexels.com/photos/2102416/pexels-photo-2102416.jpeg?auto=compress&cs=tinysrgb&w=1200"
+          src="/people/hero-grad.jpg"
           alt=""
           width={720}
           height={384}
-          className="h-[70vh] w-full object-cover max-h-80vh absolute opacity-20 right-0 lg:hidden"
+          className="h-[84vh] w-full object-cover absolute opacity-20 right-0 lg:hidden"
         />
       </section>
 
       {/* What Our Students Offer */}
       <section className="py-20 px-4">
-        <Typography variant="h3" className="text-center text-violet">
+        <Typography
+          variant="h3"
+          className="text-center text-violet text-2xl md:text-4xl"
+        >
           What Our Students Offer
         </Typography>
         <Typography
           variant="paragraph"
           className="text-center text-textColor max-w-6xl mx-auto mt-4"
         >
-          Lorem ipsum dolor sit amet consectetur. Mauris pellentesque porta
-          donec enim tellus nibh adipiscing arcu. Et mi pellentesque lorem
-          tellus eget nulla. Vulputate iaculis magnis aenean integer. Ultrices
-          id aliquet elementum id elit quis lectus rutrum nec..
+          Codetrain students bring a unique blend of technical skills,
+          creativity, and determination to the tech industry. Equipped with
+          hands-on coding experience and real-world problem-solving abilities,
+          they are ready to drive innovation and contribute meaningfully to any
+          tech team. Their passion for technology and continuous learning
+          ensures they deliver impactful solutions and excel in diverse tech
+          roles.
         </Typography>
 
         <div className="relative z-10 flex flex-col lg:flex-row items-center justify-center mt-20">
@@ -106,9 +114,13 @@ const HireAGraduate = () => {
                 variant="paragraph"
                 className="text-lg text-textColor mt-3"
               >
-                Strong analytical and problem-solving skills, honed through
-                hands-on coding challenges, projects, and real-world
-                problem-solving scenarios encountered during the bootcamp.
+                Mastering multiple programming languages is crucial for a
+                successful tech career, and our curriculum is designed to build
+                that expertise. Students gain hands-on experience with a variety
+                of languages, from popular choices like Python and JavaScript to
+                more specialized ones. This diverse skill set equips them to
+                tackle real-world challenges and adapt to the ever-evolving tech
+                landscape.
               </Typography>
             </div>
             <div className="max-w-xs">
@@ -119,10 +131,12 @@ const HireAGraduate = () => {
                 variant="paragraph"
                 className="text-lg text-textColor mt-3"
               >
-                Effective communication, teamwork, time management, and
-                adaptability skills, essential for thriving in dynamic tech
-                environments and collaborating with diverse teams and
-                stakeholders.
+                Our Web Development Expertise equips students with the skills to
+                build dynamic, responsive websites from scratch. Through
+                hands-on training in modern technologies and best practices,
+                learners gain practical experience in front-end and back-end
+                development, preparing them for real-world challenges and
+                opportunities in the tech industry.
               </Typography>
             </div>
             <div className="max-w-xs">
@@ -133,9 +147,13 @@ const HireAGraduate = () => {
                 variant="paragraph"
                 className="text-lg text-textColor mt-3"
               >
-                Experience working in Agile environments, with knowledge of
-                Agile frameworks such as Scrum or Kanban, enabling graduates to
-                collaborate effectively in fast-paced development teams.
+                Full-stack development at Codetrain offers a comprehensive
+                learning experience, covering both front-end and back-end
+                technologies. Students gain expertise in creating dynamic web
+                applications from scratch, mastering skills in programming
+                languages, databases, and server management. This holistic
+                approach equips learners with the versatility needed to tackle
+                complex projects and excel in diverse tech roles.
               </Typography>
             </div>
             <div className="max-w-xs">
@@ -146,9 +164,13 @@ const HireAGraduate = () => {
                 variant="paragraph"
                 className="text-lg text-textColor mt-3"
               >
-                Experience in developing mobile applications for iOS and Android
-                platforms using frameworks such as React Native, Flutter, or
-                native development tools like Swift and Kotlin.
+                Our mobile app development program equips students with the
+                skills needed to design and build innovative applications.
+                Through hands-on projects and expert guidance, learners gain
+                practical experience in creating user-friendly mobile solutions.
+                This comprehensive training prepares graduates to excel in the
+                dynamic field of mobile technology, ready to tackle real-world
+                challenges and drive digital transformation.
               </Typography>
             </div>
           </div>
@@ -167,7 +189,7 @@ const HireAGraduate = () => {
       </section>
 
       {/* Highlights Of The Students */}
-      <section className="py-20 px-4 bg-lightBlue lg:h-[487px] mb-96 relative">
+      <section className="py-20 px-4 bg-lightBlue lg:h-[487px] mb-[600px] relative">
         <div className="relative z-10">
           <Typography className="text-center text-white text-lg font-extrabold">
             Highlights Of The Students
@@ -247,7 +269,7 @@ const HireAGraduate = () => {
               className="m-0 rounded-none"
             >
               <Image
-                src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                src="/people/tony.jpg"
                 alt="img"
                 width={540}
                 height={276}
@@ -256,16 +278,19 @@ const HireAGraduate = () => {
             </CardHeader>
             <CardBody>
               <Typography className="font-bold text-textColor">
-                lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam, quod. lorem ipsum dolor sit amet consectetur
+                After dropping out of university, Anthony decided to join
+                Codetrain, seeking practical experience and leadership skills.
+                After working as a teaching fellow, he secured a role with
+                Infinitas Media in Berlin. He continues to mentor Codetrain
+                students and gives talks whenever he’s in Ghana.
               </Typography>
             </CardBody>
             <hr className="border-violet h-1" />
             <CardFooter>
-              <Typography className="font-bold text-textColor">Lee</Typography>
-              <Typography className="font-normal text-textColor">
+              <Typography className="font-bold text-textColor">Tony</Typography>
+              {/* <Typography className="font-normal text-textColor">
                 Software Engineer
-              </Typography>
+              </Typography> */}
             </CardFooter>
           </Card>
         </div>
@@ -277,20 +302,24 @@ const HireAGraduate = () => {
         </div>
       </section>
 
-      {/* Our Partners And Suporters */}
-      <section className="border border-textColor py-16 shadow-lg">
-        <Typography variant="h3" className="text-violet text-center">
-          Our Partners And Suporter&apos;s
-        </Typography>
-
-        <div className="grid place-items-center place-content-center grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-1 mt-12">
-          {inMedia.map((sponsor) => (
+      {/* Our Partners and Sponsors */}
+      <section className="text-center py-12 px-10 shadow-md border-t border-t-black">
+        <h1 className="text-xl text-violet font-semibold">
+          Our Partners and Supporters
+        </h1>
+        <div className="grid place-items-center grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mt-12">
+          {sponsorImages.map((sponsor) => (
             <div key={sponsor.name}>
               <Image
                 src={sponsor.src}
                 alt={sponsor.name}
-                width={100}
-                height={60}
+                width={174}
+                height={100}
+                className={`${
+                  sponsor.name === "Kaatch" || sponsor.name === "BlackInTech"
+                    ? "h-28 object-cover"
+                    : ""
+                }`}
               />
             </div>
           ))}
@@ -302,7 +331,7 @@ const HireAGraduate = () => {
         <div className="flex flex-col md:flex-row justify-center items-center gap-10">
           <div className="relative z-10">
             <Image
-              src="https://images.pexels.com/photos/27553257/pexels-photo-27553257/free-photo-of-processed-with-vsco-with-m5-preset.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+              src="/people/grad-pic.jpg"
               alt="picture"
               className="h-[534px] w-[413px] object-cover rounded-none"
               width={540}
@@ -329,32 +358,32 @@ const HireAGraduate = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 place-items-center mt-16 z-10 relative">
           <Image
-            src="https://images.pexels.com/photos/27363340/pexels-photo-27363340/free-photo-of-burano.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+            src="/people/Lovelace.jpg"
             alt=""
             width={230}
             height={167}
-            className="object-cover"
+            className="object-cover h-[230px] w-auto"
           />
           <Image
-            src="https://images.pexels.com/photos/27363340/pexels-photo-27363340/free-photo-of-burano.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+            src="/people/group1.jpg"
             alt=""
             width={230}
             height={167}
-            className="object-cover"
+            className="object-cover h-[230px] w-auto"
           />
           <Image
-            src="https://images.pexels.com/photos/27363340/pexels-photo-27363340/free-photo-of-burano.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+            src="/people/group2.jpg"
             alt=""
             width={230}
             height={167}
-            className=" object-cover"
+            className=" object-cover h-[230px] w-auto"
           />
           <Image
-            src="https://images.pexels.com/photos/27363340/pexels-photo-27363340/free-photo-of-burano.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+            src="/people/group4.jpg"
             alt=""
             width={230}
             height={167}
-            className=" object-cover"
+            className=" object-cover h-[230px] w-auto"
           />
         </div>
         {/* Bg Logos */}
@@ -378,25 +407,26 @@ const HireAGraduate = () => {
         </div>
         <div className="flex flex-col gap-14 items-center mt-10 z-10">
           <ExperienceCard
-            img="https://images.pexels.com/photos/27057568/pexels-photo-27057568/free-photo-of-a-group-of-seagulls-sitting-on-top-of-an-iceberg.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+            img="/people/grad-pic1.jpg"
             title="Problem-solving Abilities"
             text="Our coding bootcamp offers personalized learning paths designed to cater to the diverse needs and aspirations of each student, ensuring that they receive the support and guidance needed to succeed in their journey towards becoming proficient developers or designers"
             className="lg:flex-row"
           />
           <ExperienceCard
-            img="https://images.pexels.com/photos/27057568/pexels-photo-27057568/free-photo-of-a-group-of-seagulls-sitting-on-top-of-an-iceberg.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+            img="/people/succes5.jpg"
             title="Soft Skills"
-            text="Soft skills are crucial for navigating the tech industry and succeeding in a professional environment. We focus on developing these essential abilities, such as communication, problem-solving, and teamwork, to complement technical skills. By honing these soft skills, our students are better prepared to thrive in diverse work settings, collaborate effectively with peers, and adapt to evolving challenges in their careers."
+            text="Developing problem-solving abilities is central to our training approach, equipping students with the skills to tackle complex challenges in tech. Our hands-on curriculum and real-world projects encourage creative thinking and adaptive solutions, ensuring that graduates are not only proficient in coding but also adept at addressing diverse technical issues. This focus on problem-solving prepares our students to excel in dynamic tech environments and make meaningful contributions to their future employers."
             className="lg:flex-row-reverse"
+            imgClass="h-[267px] object-cover object-top"
           />
           <ExperienceCard
-            img="https://images.pexels.com/photos/27057568/pexels-photo-27057568/free-photo-of-a-group-of-seagulls-sitting-on-top-of-an-iceberg.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+            img="/people/grad-pic2.jpg"
             title="Agile Methodologies"
             text="Agile methodologies are central to our approach, emphasizing flexibility, collaboration, and continuous improvement. By adopting Agile principles, our students learn to adapt quickly to changing requirements and deliver high-quality results efficiently. This hands-on approach equips them with the skills to excel in dynamic tech environments, ensuring they are well-prepared for the demands of modern software development."
             className="lg:flex-row"
           />
           <ExperienceCard
-            img="https://images.pexels.com/photos/27057568/pexels-photo-27057568/free-photo-of-a-group-of-seagulls-sitting-on-top-of-an-iceberg.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+            img="/people/grad-pic3.jpg"
             title="Exceptional Teamwork Skills"
             text="Our emphasis on exceptional teamwork skills equips students to thrive in collaborative environments. By working on diverse projects and engaging in group activities, students learn to communicate effectively, share responsibilities, and leverage each other's strengths. This hands-on approach fosters a culture of cooperation and mutual support, preparing them to excel in dynamic tech teams and contribute meaningfully to their future workplaces."
             className="lg:flex-row-reverse"
@@ -408,7 +438,7 @@ const HireAGraduate = () => {
       </section>
 
       {/* Reviews */}
-      <Carousel
+      {/* <Carousel
         className="py-10 md:py-20 bg-[#7A3CE373] text-white"
         navigation={false}
         loop={true}
@@ -472,7 +502,7 @@ const HireAGraduate = () => {
           <Typography variant="h6">Ama Boadi</Typography>
           <Typography variant="paragraph">Human Resources Manager,</Typography>
         </div>
-      </Carousel>
+      </Carousel> */}
 
       <section className="py-20 px-4 relative">
         <div className="relative z-10 text-center">
@@ -480,12 +510,9 @@ const HireAGraduate = () => {
             Steps In The Application Process
           </h3>
           <p className="text-textColor max-w-4xl mx-auto mt-10">
-            Lorem ipsum dolor{" "}
-            <span className="font-bold">sit amet consectetur.</span> Mauris
-            pellentesque porta donec enim tellus nibh adipiscing arcu. Et mi
-            pellentesque lorem tellus eget nulla. Vulputate iaculis magnis
-            aenean integer. Ultrices id aliquet elementum id{" "}
-            <span className="font-bold">elit quis lectus rutrum nec.</span>
+            Don`t miss out on top-tier talent. All you have to do to hire a
+            Codetrain grad is to fill the form below, and we’ll reach out to you
+            with the ideal candidates.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 lg:gap-x-24 gap-y-10 md:gap-y-28 place-items-center mt-10 justify-items-center relative z-10">

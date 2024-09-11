@@ -91,11 +91,12 @@ export default function Home() {
         </div>
         <div className="relative hidden lg:inline">
           <Image
-            src="/people/final.png"
-            alt=""
+            src="/people/gerald.jpg"
+            alt="hero"
             height={400}
             width={300}
             className="h-[700px] w-auto"
+            quality={100}
           />
         </div>
         <Image

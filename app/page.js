@@ -91,15 +91,15 @@ export default function Home() {
         </div>
         <div className="relative hidden lg:inline">
           <Image
-            src="/people/hero.png"
+            src="/people/final.png"
             alt=""
             height={400}
             width={300}
-            className="h-[700px] w-fit object-contain"
+            className="h-[700px] w-auto"
           />
         </div>
         <Image
-          src="/images/hero.png"
+          src="/images/final.png"
           alt="ladies"
           height={400}
           width={300}

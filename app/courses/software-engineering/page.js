@@ -521,7 +521,7 @@ const Software = () => {
 
       {/* Why codetrain africa */}
       <section className="bg-gradient-to-l from-[#1B1049] to-[#4126AF] text-white text-center min-h-[80vh] py-20 relative">
-        <h2 className="text-3xl font-bold">Why Codfetrain Africa</h2>
+        <h2 className="text-3xl font-bold">Why Codetrain Africa</h2>
         <Typography
           variant="paragraph"
           className="max-w-5xl mx-auto mt-10 text-base"

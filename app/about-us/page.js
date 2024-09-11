@@ -1,5 +1,5 @@
 "use client";
-import { successStories } from "@/constants/constants";
+import { successStories, team, team1 } from "@/constants/constants";
 import BgLogoLeft from "@/public/icons/BgLogoLeft";
 import BgLogoRight from "@/public/icons/BgLogoRight";
 import CTLogo from "@/public/icons/CTLogo";
@@ -30,7 +30,7 @@ const AboutUs = () => {
       <section className="min-h-[calc(100vh-64px-40px)] grid grid-cols-2 place-items-center relative">
         <div className="hidden lg:inline">
           <Image
-            src="https://images.pexels.com/photos/2102416/pexels-photo-2102416.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            src="/people/hero-aboutus.jpg"
             width={720}
             height={384}
             alt=""
@@ -42,23 +42,24 @@ const AboutUs = () => {
             Our Story: The Journey Behind Codetrain Africa
           </h2>
           <p className="my-8">
-            Lorem ipsum{" "}
-            <span className="font-bold">dolor sit amet consectetur.</span>{" "}
-            Mauris pellentesque porta donec enim tellus nibh adipiscing arcu. Et
-            mi pellentesque lorem tellus eget nulla. Vulputate iaculis magnis
-            aenean integer. Ultrices id aliquet elementum id{" "}
-            <span className="font-bold">elit quis lectus rutrum nec.</span>
+            Codetrain was founded on the belief that achieving personal dreams
+            can lead to transformative community impact. Our journey began with
+            a vision to become a leading global software training brand,
+            dedicated to empowering individuals and fostering positive change.
+            We recognized that by nurturing tech talent, we could enable people
+            to contribute meaningfully to their communities and beyond.
           </p>
-          <p>
-            Commodo feugiat commodo ut senectus tempus nulla. Ornare volutpat
-            scelerisque nulla mollis ornare. Curabitur platea ornare gravida
-            cras in. Viverra neque at sed eget ut a sed.{" "}
-            <span className="font-bold">Viverra adipiscing</span>
-            blandit elit aliquet sed leo rhoncus.
+          <p className="my-5">
+            Our mission is to elevate individuals through digital education,
+            equipping them with the skills needed to become proficient software
+            developers and influential global leaders. At Codetrain, we are
+            committed to setting our students on a path to success, helping them
+            create significant impacts in their communities and drive innovation
+            in the tech world.
           </p>
         </div>
         <Image
-          src="https://images.pexels.com/photos/2102416/pexels-photo-2102416.jpeg?auto=compress&cs=tinysrgb&w=1200"
+          src="/people/hero-aboutus.jpg"
           alt=""
           width={720}
           height={384}
@@ -74,33 +75,27 @@ const AboutUs = () => {
               Our Mission: Driving Purpose and Passion
             </h2>
             <p className="my-5">
-              Lorem ipsum{" "}
-              <span className="font-bold">dolor sit amet consectetur.</span>{" "}
-              Mauris pellentesque porta donec enim tellus nibh adipiscing arcu.
-              Et mi pellentesque lorem tellus eget nulla. Vulputate iaculis
-              magnis aenean integer. Ultrices id aliquet elementum id{" "}
-              <span className="font-bold">elit quis lectus rutrum nec.</span>
-            </p>
-            <p>
-              Commodo feugiat commodo ut senectus tempus nulla. Ornare volutpat
-              scelerisque nulla mollis ornare. Curabitur platea ornare gravida
-              cras in. Viverra neque at sed eget ut a sed.{" "}
-              <span className="font-bold">Viverra adipiscing</span>
-              blandit elit aliquet sed leo rhoncus.
+              At Codetrain, our mission is to empower ambitious youth to make
+              their mark on the global tech stage. We are dedicated to nurturing
+              their skills and passion for technology, providing the tools and
+              knowledge needed to excel. By fostering a dynamic learning
+              environment, we aim to help our students harness their potential,
+              drive innovation, and contribute significantly to the tech
+              industry on a global scale.
             </p>
           </div>
           <BgLogoRight className="absolute -top-32 -left-40 size-96 xl:size-[412px] xl:-left-20 xl:-top-44 fill-yellow opacity-[0.3]" />
         </div>
         <div className="flex gap-4 col-span-2 lg:col-span-1 relative">
           <Image
-            src="https://images.pexels.com/photos/2102416/pexels-photo-2102416.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            src="/people/succes5.jpg"
             width={1000}
             height={200}
             alt=""
             className="object-cover !h-[400px] !w-40 mt-7"
           />
           <Image
-            src="https://images.pexels.com/photos/2102416/pexels-photo-2102416.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            src="/people/gerald.jpg"
             width={1000}
             height={200}
             alt=""
@@ -125,7 +120,7 @@ const AboutUs = () => {
                 className="m-0 rounded-none"
               >
                 <Image
-                  src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                  src="/people/richard.jpg"
                   alt=""
                   width={540}
                   height={276}
@@ -134,21 +129,27 @@ const AboutUs = () => {
               </CardHeader>
               <CardBody>
                 <p className="font-bold text-textColor">
-                  lorem mnwd msknjs n efmmef,rf fjnkefbnj nf ne nfne jefnefjhbj
-                  nebfn nefb jkef dfknkjf dwbjhejhd, nwbdkjwd ndbewkdm
+                  Welcome to Codetrain! We believe in the power of technology to
+                  change lives and build bright futures. Our mission is to
+                  transform ambitious individuals into tech leaders who not only
+                  excel in their careers but also make a positive impact on
+                  their communities. We’re all about learning, growing, and
+                  having a bit of fun along the way. Whether you`re just
+                  starting out or looking to level up your skills, we’re here to
+                  support you every step of the way.
                 </p>
               </CardBody>
               <hr className="border-violet h-1" />
               <CardFooter>
-                <p className="font-bold text-textColor">name</p>
-                <p className="font-normal text-textColor">role</p>
+                <p className="font-extrabold text-textColor">Richard Brandt</p>
+                <p className="font-normal text-textColor">CEO</p>
               </CardFooter>
             </Card>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 place-content-center place-items-center mt-10">
-            {successStories.map((story) => (
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 place-content-center place-items-center mt-10">
+            {team.map((story) => (
               <Card
-                className="md:max-w-72 max-h-[667px] rounded-none col-span-1"
+                className="md:max-w-96 rounded-none col-span-1"
                 key={story.name}
               >
                 <CardHeader
@@ -158,32 +159,67 @@ const AboutUs = () => {
                   className="m-0 rounded-none"
                 >
                   <Image
-                    src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                    src={story.src}
                     alt="img"
                     width={540}
                     height={276}
-                    className="overflow-hidden object-cover"
+                    className="overflow-hidden object-top object-cover h-80"
                   />
                 </CardHeader>
                 <CardBody>
-                  <Typography className="font-bold text-textColor">
-                    lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quisquam, quod. lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Quisquam, quod.
+                  <Typography variant="paragraph" className="text-textColor">
+                    {story.story}
                   </Typography>
                 </CardBody>
                 <hr className="border-violet h-1" />
                 <CardFooter>
                   <Typography className="font-bold text-textColor">
-                    Lee
+                    {story.name}
                   </Typography>
                   <Typography className="font-normal text-textColor">
-                    Software Engineer
+                    {story.role}
                   </Typography>
                 </CardFooter>
               </Card>
             ))}
           </div>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 place-content-center place-items-center mt-10">
+          {team1.map((story) => (
+            <Card
+              className="md:max-w-96 rounded-none col-span-1"
+              key={story.name}
+            >
+              <CardHeader
+                floated={false}
+                shadow={false}
+                color="transparent"
+                className="m-0 rounded-none"
+              >
+                <Image
+                  src={story.src}
+                  alt="img"
+                  width={540}
+                  height={276}
+                  className="overflow-hidden object-top object-cover h-80"
+                />
+              </CardHeader>
+              <CardBody>
+                <Typography variant="paragraph" className="text-textColor">
+                  {story.story}
+                </Typography>
+              </CardBody>
+              <hr className="border-violet h-1" />
+              <CardFooter>
+                <Typography className="font-bold text-textColor">
+                  {story.name}
+                </Typography>
+                <Typography className="font-normal text-textColor">
+                  {story.role}
+                </Typography>
+              </CardFooter>
+            </Card>
+          ))}
         </div>
         {/* Bg logos */}
         <BgLogoLeft className="absolute top-32 right-0 fill-yellow md:size-2/4" />

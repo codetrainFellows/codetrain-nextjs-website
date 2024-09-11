@@ -1,3 +1,5 @@
+const { root } = require("postcss");
+
 const sponsorImages = [
   {
     name: "Terratalent",
@@ -252,6 +254,61 @@ const whyCodetrain = [
   },
 ];
 
+const team = [
+  {
+    name: "Foster Frimpong",
+    src: "/people/foster.jpg",
+    story:
+      "Hello! I’m Foster, your Admissions Manager at Codetrain. With 3 years in administration, I'm here to ensure your start with us is as smooth as possible. Outside of work, I'm all about video games and cheering for my favorite football team.",
+    role: "Admissions Manager",
+  },
+  {
+    name: "Ajekwe Sarah Kadoon",
+    src: "/people/kadoon.jpg",
+    story:
+      "Hi! I’m Kadoon, Codetrain’s Digital Marketing Manager with 4+ years of experience launching startups and creating impactful digital solutions. I’m passionate about supporting students in tech and enjoy hiking, speaking at events, watching movies, and exploring the world.",
+    role: "Digital Marketing Manager",
+  },
+  {
+    name: " Ngozi Umekwe",
+    src: "/people/ngozi.jpg",
+    story:
+      "I’m Ngozi, with 3+ years of experience in administration and leadership. I'm passionate about empowering students with essential non-technical skills and organizing career-boosting events. Outside of work, I enjoy watching movies or exploring new trails on adventures.",
+    role: "Assistant Career Services Fellow",
+  },
+  {
+    name: "Abdul Basit Ali",
+    src: "/people/ali.jpg",
+    story:
+      "Hey! I’m Ali, a Full Stack Developer and Teaching Fellow with 2 years of experience in React, ExpressJs, and MongoDB. I’m passionate about making learning fun and interactive. When not coding, I’m gaming to sharpen my tech skills!",
+    role: "Teaching Fellow",
+  },
+];
+
+const team1 = [
+  {
+    name: "Joshua Doe",
+    src: "/people/joshua.jpg",
+    story:
+      "With 2 years of experience and a certificate in software development, I create interactive, student-centered learning. I'm the creator of the Ezy Money app and bring real-world scenarios to the classroom. Outside teaching, I love photography and coding.",
+    role: "Teaching Fellow",
+  },
+  {
+    name: "William Brandt",
+    src: "/people/william.jpg",
+    story:
+      "I've spent the last two years in software development and instruction, certified by Codetrain Africa. Transitioning from a non-tech background has been exhilarating! I focus on hands-on learning and creative problem-solving. Outside of coding, I enjoy reading and playing sports.",
+    role: "Teaching Fellow",
+  },
+  {
+    name: "Harrison Boateng",
+    src: "/people/harrison.jpg",
+    story:
+      "Hi, I'm Harrison, a Teaching Fellow at Codetrain specializing in Software Development with 2 years of experience. I’ve built cool websites and am working on an exciting project. I’m dedicated to helping every student have their lightbulb moment. Outside work, I enjoy gaming.",
+    role: "Teaching Fellow",
+  },
+];
+
 module.exports = {
   sponsorImages,
   inMedia,
@@ -260,4 +317,6 @@ module.exports = {
   accept,
   applicationProcess,
   whyCodetrain,
+  team,
+  team1,
 };

@@ -282,7 +282,7 @@ const SuccessStories = () => {
             className="md:justify-self-end"
           />
           <SuccessCard
-            src="https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            src="/people/razak.jpg"
             // role="Software Engineer at Microsoft"
             name="Razak"
             story="After struggling to break into tech, Razak joined Codetrain and quickly transitioned from a role at TXT Ghana to a fulfilling position at AgroCenta. He now improves farmers' lives through technology and aims to start his own company in the future."
@@ -296,14 +296,14 @@ const SuccessStories = () => {
             className="md:justify-self-end"
           />
           <SuccessCard
-            src="https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            src="/people/emerald.jpg"
             // role="Software Engineer at Microsoft"
             name="Emerald"
             story="Emerald, one of Codetrain's first female graduates, is now a leading UX designer for tech startups across Africa. After completing the program, she built several websites for NGOs and continues to drive innovation in the tech industry."
             className="md:justify-self-start"
           />
           <SuccessCard
-            src="https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            src="/people/elikem.jpeg"
             // role="Software Engineer at Microsoft"
             name="Elikem"
             story="Now a Senior iOS Engineer at OZE, Elikem joined Codetrain while studying Computer Engineering at university and secured a position at Ampersand Technologies immediately after."
@@ -317,7 +317,7 @@ const SuccessStories = () => {
             className="md:justify-self-start"
           />
           <SuccessCard
-            src="https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            src="/people/boureima.jpeg"
             // role="Software Engineer at Microsoft"
             name="Bureima Tapily"
             story="Originally from Mali, he founded a software company aimed at advancing the local tech scene. His initiative is driving innovation and growth in Mali's technology sector."

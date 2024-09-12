@@ -127,7 +127,7 @@ const SuccessStories = () => {
       </section>
 
       {/* Overcoming Challenges */}
-      <section className="py-2 px-4 min-h-[70vh] bg-[url('https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1200')] bg-cover bg-no-repeat bg-center flex justify-start items-end">
+      <section className="py-2 px-4 min-h-[70vh] bg-[url('/people/challenges.jpg')] bg-cover bg-no-repeat bg-center flex justify-start items-end">
         <div className="max-w-md bg-white px-4 py-5">
           <Typography variant="h4" className="text-violet">
             Overcoming Challenges: A Sickle Cell Warrior&apos;s Journey into
@@ -151,7 +151,7 @@ const SuccessStories = () => {
         <div className="flex flex-col lg:flex-row justify-center items-center gap-8 py-10 bg-contain bg-center bg-no-repeat relative">
           <div className="max-w-[540px] relative z-10">
             <Image
-              src="https://images.pexels.com/photos/3810792/pexels-photo-3810792.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="/people/group6.svg"
               alt="picture"
               className="!h-full rounded-none shadow-md"
               width={540}
@@ -211,25 +211,25 @@ const SuccessStories = () => {
         </div>
         <div className="flex flex-col gap-14 items-center mt-10 relative z-10">
           <ExperienceCard
-            img="https://images.pexels.com/photos/5711027/pexels-photo-5711027.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            img="/people/succ.jpg"
             title="Fueling Innovation: Success Stories with Our Investors"
             text="Our investors play a vital role in driving innovation at Codetrain. Through their support, we’ve been able to create a dynamic learning environment that empowers students to build cutting-edge tech solutions. Thanks to their investment, many of our graduates have successfully launched tech careers, while contributing to impactful projects that shape the future of technology in Africa."
             className="lg:flex-row-reverse"
           />
           <ExperienceCard
-            img="https://images.pexels.com/photos/955395/pexels-photo-955395.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            img="/people/exp6.jpg"
             title="Powering Progress: Success Stories with Partners"
             text="Our partnerships with industry leaders have empowered students to turn their training into real-world impact. Through collaborations with companies across sectors, many of our graduates have secured internships and full-time roles, gaining hands-on experience while contributing to innovative tech solutions. These success stories showcase how our strong industry connections help students launch fulfilling careers and drive progress in the tech world."
             className="lg:flex-row"
           />
           <ExperienceCard
-            img="https://images.pexels.com/photos/2422290/pexels-photo-2422290.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            img="/people/grad-pic.jpg"
             title="Bridging Talent and Opportunity: Success Stories with Hiring Companies"
             text="Codetrain’s strong partnerships with hiring companies have successfully bridged the gap between talent and opportunity. Our students, equipped with cutting-edge skills and real-world experience, have secured positions at top tech firms and innovative startups. These success stories not only showcase the effectiveness of our training but also highlight the seamless integration of our graduates into roles where they drive meaningful impact and growth."
             className="lg:flex-row-reverse"
           />
           <ExperienceCard
-            img="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            img="/people/expe2.jpg"
             title="Empowering Dreams: Success Stories with Our Financing Partners"
             text="Through our partnerships with financing organizations, we’ve seen countless students achieve their tech dreams. These collaborations have enabled students to access crucial funding and resources, allowing them to focus on their studies and excel in their careers. Thanks to the support of our financing partners, many have transformed their ambitions into successful tech careers, proving that with the right support, dreams are within reach."
             className="lg:flex-row"
@@ -264,17 +264,18 @@ const SuccessStories = () => {
               </p>
             </div>
             <SuccessCard
-              src="/people/korkor.png"
+              src="/people/korkor.jpg"
               // role="Software Engineer at Microsoft"
               name="Korkor"
               story="Facing a challenge in helping her kids with coding, Korkor enrolled in Codetrain. Despite balancing family and work, her dedication led to a promotion and boosted her professional network. She now passionately advocates for coding, inspiring her children to pursue it."
+              imgClass="object-"
             />
           </div>
         </div>
         {/* Stories */}
         <div className="mt-5 grid gap-10 place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
           <SuccessCard
-            src="https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            src="/people/Ofoe.jpg"
             // role="Software Engineer at Microsoft"
             name="Ofoe"
             story="Two years after Codetrain, Ofoe’s career is thriving. Starting with an internship at thinkSopht Labs, he now excels at Turntabl. Codetrain’s focus on continuous learning has been crucial, enhancing his work-life balance and decision-making skills."
@@ -288,21 +289,7 @@ const SuccessStories = () => {
             className="md:justify-self-start"
           />
           <SuccessCard
-            src="https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1200"
-            // role="Software Engineer at Microsoft"
-            name="Oliver"
-            story="Oliver kickstarted his career in EmPharma and he's currently based in Germany, contributing to Berlin's tech ecosystem."
-            className="md:justify-self-end"
-          />
-          <SuccessCard
-            src="https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1200"
-            // role="Software Engineer at Microsoft"
-            name="Gabriel"
-            story="Gabriel joined Codetrain with no prior skills in software. He is now a professional Android developer and has a lot of experience in building mobile apps."
-            className="md:justify-self-start"
-          />
-          <SuccessCard
-            src="https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            src="/people/tony.jpg"
             // role="Software Engineer at Microsoft"
             name="Anthony"
             story="After dropping out of university, Anthony decided to join Codetrain, seeking practical experience and leadership skills. After working as a teaching fellow, he secured a role with Infinitas Media in Berlin. He continues to mentor Codetrain students and gives talks whenever he’s in Ghana."
@@ -337,7 +324,7 @@ const SuccessStories = () => {
             className="md:justify-self-end"
           />
           <SuccessCard
-            src="https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            src="/people/oscarlyn.jpg"
             // role="Software Engineer at Microsoft"
             name="Oscarlyn Naa Dedei"
             story="She was last year’s top student. A medical doctor with a passion for tech, she impressed several companies at our demo day. She showcased her app, a comprehensive rabbit farming management system, which captured significant interest from potential employers. She currently mentors other young ladies at Codetrain."
@@ -358,7 +345,7 @@ const SuccessStories = () => {
             className="md:justify-self-start"
           />
           <SuccessCard
-            src="https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            src="/people/jeremy.jpg"
             // role="Software Engineer at Microsoft"
             name="Jermain Antwi"
             story="After completing Codetrain at just 12, he embarked on his second tech startup, focused on revolutionizing loyalty programs for small shops. He interned at Cedi Rates and now advises two companies. Additionally, he serves as a mentor at Moonshot Pirates in Austria, guiding young innovators and sharing his expertise."
@@ -372,7 +359,7 @@ const SuccessStories = () => {
         <div className="flex flex-col md:flex-row justify-center items-center gap-10">
           <div className="relative z-10">
             <Image
-              src="https://images.pexels.com/photos/2102416/pexels-photo-2102416.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="/people/5.jpg"
               alt="picture"
               className="h-[534px] w-[413px] object-cover rounded-none"
               width={540}
@@ -402,32 +389,32 @@ const SuccessStories = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 place-items-center mt-16 z-10 relative">
           <Image
-            src="https://images.pexels.com/photos/27363340/pexels-photo-27363340/free-photo-of-burano.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+            src="/people/1.jpg"
             alt=""
             width={230}
             height={167}
-            className="object-cover"
+            className="object-cover object-top h-[153px]"
           />
           <Image
-            src="https://images.pexels.com/photos/27363340/pexels-photo-27363340/free-photo-of-burano.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+            src="/people/2.jpg"
             alt=""
             width={230}
             height={167}
-            className="object-cover"
+            className="object-cover object-top h-[153px]"
           />
           <Image
-            src="https://images.pexels.com/photos/27363340/pexels-photo-27363340/free-photo-of-burano.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+            src="/people/3.jpg"
             alt=""
             width={230}
             height={167}
-            className=" object-cover"
+            className="object-cover object-top h-[153px]"
           />
           <Image
-            src="https://images.pexels.com/photos/27363340/pexels-photo-27363340/free-photo-of-burano.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+            src="/people/4.jpg"
             alt=""
             width={230}
             height={167}
-            className=" object-cover"
+            className=" object-cover object-top h-[153px]"
           />
         </div>
         {/* Bg Logos */}
@@ -530,7 +517,7 @@ const SuccessStories = () => {
               className="m-0 rounded-none"
             >
               <Image
-                src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                src="/people/richard award 2.jpg"
                 alt="img"
                 width={540}
                 height={276}
@@ -568,11 +555,11 @@ const SuccessStories = () => {
               className="m-0 rounded-none"
             >
               <Image
-                src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                src="/people/female mentee.webp"
                 alt="img"
                 width={540}
                 height={276}
-                className="overflow-hidden object-cover"
+                className="overflow-hidden object-cover h-[354px]"
               />
             </CardHeader>
             <CardBody>
@@ -601,7 +588,7 @@ const SuccessStories = () => {
         </div>
       </section>
 
-      {/* New Beginnings: Men's Success Stories in Tech */}
+      {/* New Beginnings: Women's Success Stories in Tech */}
       <section className="py-20 px-4 relative">
         <div className="flex flex-col md:flex-row justify-center items-center gap-10">
           <div className="sm:max-w-md relative z-10">
@@ -639,32 +626,32 @@ const SuccessStories = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 place-items-center place-content-center mt-16 z-10 relative">
           <Image
-            src="https://images.pexels.com/photos/27363340/pexels-photo-27363340/free-photo-of-burano.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+            src="/people/abigail.jpg"
             alt=""
             width={230}
             height={167}
-            className="object-cover"
+            className="h-52 object-cover object-top"
           />
           <Image
-            src="https://images.pexels.com/photos/27363340/pexels-photo-27363340/free-photo-of-burano.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+            src="/people/lina.jpg"
             alt=""
             width={230}
             height={167}
-            className="object-cover"
+            className="h-52 object-cover object-top"
           />
           <Image
-            src="https://images.pexels.com/photos/27363340/pexels-photo-27363340/free-photo-of-burano.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+            src="/people/jessica.jpg"
             alt=""
             width={230}
             height={167}
-            className=" object-cover"
+            className="h-52 object-cover object-top"
           />
           <Image
-            src="https://images.pexels.com/photos/27363340/pexels-photo-27363340/free-photo-of-burano.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+            src="/people/margret.jpg"
             alt=""
             width={230}
             height={167}
-            className=" object-cover"
+            className="h-52 object-cover object-top"
           />
         </div>
         {/* Bg Logos */}
@@ -701,7 +688,7 @@ const SuccessStories = () => {
 };
 export default SuccessStories;
 
-const SuccessCard = ({ src, name, story, role, className }) => {
+const SuccessCard = ({ src, name, story, role, className, imgClass }) => {
   return (
     <Card className={`max-w-[572px] max-h-[767px] rounded-none ${className}`}>
       <CardHeader
@@ -715,7 +702,9 @@ const SuccessCard = ({ src, name, story, role, className }) => {
           alt={name}
           width={540}
           height={276}
-          className="overflow-hidden object-cover w-full"
+          className={`overflow-hidden object-cover w-full h-[400px] ${
+            imgClass ? imgClass : "object-top"
+          }`}
         />
       </CardHeader>
       <CardBody>

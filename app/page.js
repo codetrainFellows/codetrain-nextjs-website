@@ -34,7 +34,7 @@ export default function Home() {
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
 
   return (
-    <main className="overflow-hidden">
+    <main className="overflow-hidden scroll-smooth">
       <div className="py-2 bg-violet text-center text-white sm:hidden">
         <p className="text-xs">
           Curious about the Codetrain Experience? Join our upcoming Info
@@ -70,19 +70,19 @@ export default function Home() {
                 className="bg-yellow text-violet shadow-none font-bold px-5 sm:px-8 md:px-10 rounded-md hover:shadow-none"
                 variant="filled"
               >
-                <Link
-                  href="https://codetrainafrica.heiapply.com/application"
-                  target="_blank"
-                >
-                  Enroll now
-                </Link>
+                <Link href="#courses">Enroll now</Link>
               </Button>
-              <Button
-                className="text-violet bg-transparent shadow-none font-bold px-5 rounded-md border-violet sm:px-8 md:px-10"
-                variant="outlined"
+              <Link
+                href="https://calendly.com/fosterfrimpong63/one-one-with-codetrain-admissions"
+                target="_blank"
               >
-                Let’s talk
-              </Button>
+                <Button
+                  className="text-violet bg-transparent shadow-none font-bold px-5 rounded-md border-violet sm:px-8 md:px-10"
+                  variant="outlined"
+                >
+                  Let’s talk
+                </Button>
+              </Link>
             </div>
             <p className="mt-8 text-xs md:text-base text-textColor">
               * Admission is in progress, join the October Cohort!
@@ -166,7 +166,10 @@ export default function Home() {
       </section>
 
       {/* Courses Section */}
-      <section className="bg-lightBlue min-h-[calc(100vh-60px)] text-center flex flex-col justify-center py-24 px-4 relative">
+      <section
+        id="courses"
+        className="bg-lightBlue min-h-[calc(100vh-60px)] text-center flex flex-col justify-center py-24 px-4 relative"
+      >
         <div className="relative z-10">
           <h1 className="font-bold text-violet text-3xl lg:text-5xl">
             Our Courses
@@ -548,10 +551,11 @@ export default function Home() {
                 Software Engineer
               </h3>
               <p className="mt-4 text-textColor text-lg p-4">
-                Our two-year education-to-employment package is priced at GHC
-                38,500 for Africans living in Africa and $3,000 for other
-                applicants. <br /> We offer flexible payment options and partial
-                scholarships to promote diversity and inclusion.
+                Our two-year education-to-employment package is priced at{" "}
+                <span className="font-[900]"> GHC 38,500</span> for Africans
+                living in Africa and <span className="font-[900]">$3,000</span>{" "}
+                for other applicants. <br /> We offer flexible payment options
+                and partial scholarships to promote diversity and inclusion.
               </p>
               <div className="px-4">
                 <Link href="/courses/software-engineering">
@@ -567,10 +571,11 @@ export default function Home() {
                 UX/UI Design
               </h3>
               <p className="mt-4 text-textColor text-lg p-4">
-                The cost for our one-year education-to-employment package is GHC
-                19,000 for Africans living in Africa and $1,900 for other
-                applicants. <br /> We offer flexible payment options and partial
-                scholarships to support diversity and inclusion.
+                The cost for our one-year education-to-employment package is{" "}
+                <span className="font-[900]">GHC 19,000</span> for Africans
+                living in Africa and <span className="font-[900]">$1,900</span>{" "}
+                for other applicants. <br /> We offer flexible payment options
+                and partial scholarships to support diversity and inclusion.
               </p>
               <div className="px-4">
                 <Link href="/courses/ui-ux-design">
@@ -583,13 +588,13 @@ export default function Home() {
           </div>
           <div className="flex gap-x-4 z-10">
             <Button
-              className="bg-yellow shadow-lg text-violet font-bold px-2 sm:px-8 md:px-10 rounded-md"
+              className="bg-violet shadow-lg text-white font-bold px-2 sm:px-8 md:px-10 rounded-md"
               variant="filled"
             >
               Ask for Payment Plan
             </Button>
             <Button
-              className="text-violet bg-transparent shadow-none font-bold px-2 rounded-md border-violet sm:px-8 md:px-10"
+              className="text-white bg-transparent shadow-none font-bold px-2 rounded-md bg-violet sm:px-8 md:px-10"
               variant="outlined"
             >
               Get A Part-Scholarship
@@ -760,7 +765,7 @@ export default function Home() {
           </div>
           <div className="h-[422px]">
             <Image
-              src="https://images.pexels.com/photos/159775/library-la-trobe-study-students-159775.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="/people/class.jpg"
               alt=""
               width={720}
               height={384}
@@ -787,7 +792,7 @@ export default function Home() {
           </div>
           <div className="h-[422px]">
             <Image
-              src="https://images.pexels.com/photos/5905441/pexels-photo-5905441.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="/people/gate.jpg"
               width={720}
               height={384}
               alt=""
@@ -798,7 +803,7 @@ export default function Home() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-24 px-4 text-center bg-ash">
+      <section className="py-24 px-4 mt-20 text-center bg-ash">
         <h1 className="font-bold text-violet mx-auto text-2xl md:text-3xl lg:text-5xl">
           Feqeuently Asked Question About Codetrain
         </h1>

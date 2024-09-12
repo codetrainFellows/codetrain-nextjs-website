@@ -309,6 +309,37 @@ const team1 = [
   },
 ];
 
+const advisoryTeam = [
+  {
+    name: "Adwoa Boakye",
+    src: "/people/adwoa boakye.jpeg",
+  },
+  {
+    name: "Dona Marie",
+    src: "/people/donna-marie.jpeg",
+  },
+  {
+    name: "Gary White Hill",
+    src: "/people/garywhitehill.png",
+  },
+  {
+    name: "Harald Katzenschlager",
+    src: "/people/harald katzenschlager.jpeg",
+  },
+  {
+    name: "Tom McDonnell",
+    src: "/people/tomMcDonnell.jpeg",
+  },
+  {
+    name: "Hermann Gams",
+    src: "/people/hermanngams 1.jpeg",
+  },
+  {
+    name: "Jim Kaubisch",
+    src: "/people/jimkaubisch.jpeg",
+  },
+];
+
 module.exports = {
   sponsorImages,
   inMedia,
@@ -319,4 +350,5 @@ module.exports = {
   whyCodetrain,
   team,
   team1,
+  advisoryTeam,
 };

@@ -17,7 +17,7 @@ import Link from "next/link";
 
 const SuccessStory = () => {
   return (
-    <section className="py-10 px-4 sm:py-20 sm:px-7 flex flex-col-reverse lg:gap-10 lg:flex-row items-center justify-center gap-4 relative">
+    <section className="py-10 px-4 sm:py-20 sm:px-7 flex flex-col-reverse lg:gap-10 lg:flex-row items- justify-center gap-4 relative">
       <div className="md:max-h-[587px] hidden xl:inline">
         <Card className="max-w-lg rounded-none">
           <CardHeader
@@ -27,11 +27,11 @@ const SuccessStory = () => {
             className="m-0 rounded-none"
           >
             <Image
-              src="/people/korkor.png"
+              src="/people/korkor.jpg"
               alt="korkor"
               width={540}
               height={276}
-              className="overflow-hidden object-cover"
+              className="overflow-hidden object-cover h-96"
             />
           </CardHeader>
           <CardBody>

@@ -25,6 +25,7 @@ import {
   applicationProcess,
   accept,
 } from "@/constants/constants";
+import ExcitedCareer from "@/components/ExcitedCareer";
 
 const Software = () => {
   const Context = createContext();
@@ -54,12 +55,17 @@ const Software = () => {
                 Enroll now
               </Button>
             </Link>
-            <Button
-              className="text-violet bg-transparent shadow-none font-bold px-5 rounded-md border-violet sm:px-8 md:px-10"
-              variant="outlined"
+            <Link
+              href="https://calendly.com/fosterfrimpong63/one-one-with-codetrain-admissions"
+              target="_blank"
             >
-              Let&#39;s Talk
-            </Button>
+              <Button
+                className="text-violet bg-transparent shadow-none font-bold px-5 rounded-md border-violet sm:px-8 md:px-10"
+                variant="outlined"
+              >
+                Let&#39;s Talk
+              </Button>
+            </Link>
           </div>
           <p className="mt-12">
             * Admission is in progress, join the October Cohort!
@@ -67,7 +73,7 @@ const Software = () => {
         </div>
         <div className="hidden lg:inline">
           <Image
-            src="/people/group4.jpg"
+            src="/people/software.jpg"
             width={720}
             height={384}
             alt=""
@@ -75,7 +81,7 @@ const Software = () => {
           />
         </div>
         <Image
-          src="/people/group5.svg"
+          src="/people/software.jpg"
           alt=""
           width={720}
           height={384}
@@ -217,7 +223,46 @@ const Software = () => {
         </Typography>
 
         <div className="grid grid-cols-1 md:grid-cols-2 place-items-center gap-10 mt-20 text-left">
-          <Card className="max-w-md rounded-none md:justify-self-end">
+          <Card className=" max-w-md rounded-none md:justify-self-end">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <Image
+                src="/people/ali.jpg"
+                alt="img"
+                width={540}
+                height={276}
+                className="overflow-hidden h-[351px] object-cover object-top w-full"
+              />
+            </CardHeader>
+            <CardBody>
+              <Typography className="text-textColor">
+                “Hey there! I’m Ali, a Full Stack Developer and Teaching Fellow
+                with a flair for turning code into magic. With 2 years of
+                hands-on experience in React, ExpressJs, and MongoDB, I enjoy
+                crafting dynamic applications and solving complex problems. My
+                mission is to make learning fun and interactive, encouraging
+                students to immerse themselves deep into projects and think
+                critically. When I’m not coding, you’ll find me gaming, which
+                not only keeps me entertained but also sharpens my tech skills
+                and fuels my love for innovation. Let’s build something amazing
+                together!”
+              </Typography>
+            </CardBody>
+            <hr className="border-violet h-1" />
+            <CardFooter>
+              <Typography className="font-bold text-textColor">
+                Abdul Basit Ali
+              </Typography>
+              <Typography className="font-normal text-textColor">
+                Teaching Fellow
+              </Typography>
+            </CardFooter>
+          </Card>
+          <Card className="max-w-md rounded-none md:justify-self-start">
             <CardHeader
               floated={false}
               shadow={false}
@@ -255,7 +300,7 @@ const Software = () => {
               </Typography>
             </CardFooter>
           </Card>
-          <Card className="max-w-md rounded-none md:justify-self-start">
+          <Card className="max-w-md rounded-none md:justify-self-end">
             <CardHeader
               floated={false}
               shadow={false}
@@ -293,7 +338,7 @@ const Software = () => {
               </Typography>
             </CardFooter>
           </Card>
-          <Card className="max-w-md rounded-none md:justify-self-end">
+          <Card className="max-w-md rounded-none md:justify-self-start">
             <CardHeader
               floated={false}
               shadow={false}
@@ -325,45 +370,6 @@ const Software = () => {
             <CardFooter>
               <Typography className="font-bold text-textColor">
                 Harrison Boateng
-              </Typography>
-              <Typography className="font-normal text-textColor">
-                Teaching Fellow
-              </Typography>
-            </CardFooter>
-          </Card>
-          <Card className=" max-w-md rounded-none md:justify-self-start">
-            <CardHeader
-              floated={false}
-              shadow={false}
-              color="transparent"
-              className="m-0 rounded-none"
-            >
-              <Image
-                src="/people/ali.jpg"
-                alt="img"
-                width={540}
-                height={276}
-                className="overflow-hidden h-[351px] object-cover object-top w-full"
-              />
-            </CardHeader>
-            <CardBody>
-              <Typography className="text-textColor">
-                “Hey there! I’m Ali, a Full Stack Developer and Teaching Fellow
-                with a flair for turning code into magic. With 2 years of
-                hands-on experience in React, ExpressJs, and MongoDB, I enjoy
-                crafting dynamic applications and solving complex problems. My
-                mission is to make learning fun and interactive, encouraging
-                students to immerse themselves deep into projects and think
-                critically. When I’m not coding, you’ll find me gaming, which
-                not only keeps me entertained but also sharpens my tech skills
-                and fuels my love for innovation. Let’s build something amazing
-                together!”
-              </Typography>
-            </CardBody>
-            <hr className="border-violet h-1" />
-            <CardFooter>
-              <Typography className="font-bold text-textColor">
-                Abdul Basit Ali
               </Typography>
               <Typography className="font-normal text-textColor">
                 Teaching Fellow
@@ -616,12 +622,17 @@ const Software = () => {
                   Enroll now
                 </Button>
               </Link>
-              <Button
-                className="text-violet bg-transparent shadow-none font-bold px-5 rounded-md border-violet sm:px-8 md:px-10"
-                variant="outlined"
+              <Link
+                href="https://calendly.com/fosterfrimpong63/one-one-with-codetrain-admissions"
+                target="_blank"
               >
-                Let’s Talk
-              </Button>
+                <Button
+                  className="text-violet bg-transparent shadow-none font-bold px-5 rounded-md border-violet sm:px-8 md:px-10"
+                  variant="outlined"
+                >
+                  Let’s Talk
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
@@ -796,34 +807,7 @@ const Software = () => {
       </section>
 
       {/* Excited to start your career Section */}
-      <section className="bg-violet py-24 px-4 relative overflow-hidden">
-        <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center relative z-30">
-          <div>
-            <Typography variant="h2" className="text-lightBlue max-w-md">
-              Are you excited to start your career?
-            </Typography>
-            <Typography
-              variant="paragraph"
-              className="text-white max-w-xl mt-5"
-            >
-              Your journey to a fulfilling tech career starts here. Let`s get
-              you started.
-            </Typography>
-          </div>
-          <div className="mt-10 md:mt-0">
-            <Link
-              href="https://codetrainafrica.heiapply.com/application"
-              target="_blank"
-            >
-              <Button variant="filled" className="bg-lightBlue">
-                Enroll Now
-              </Button>
-            </Link>
-          </div>
-        </div>
-        <BgLogoLeft className="absolute fill-yellow opacity-[0.5] size-80 md:size-[443px] -top-14 md:-top-7 p-0 left-0" />
-        <BgLogoRight className="absolute fill-yellow size-52 md:size-80 -bottom-10 md:bottom-0 right-0" />
-      </section>
+      <ExcitedCareer />
     </section>
   );
 };

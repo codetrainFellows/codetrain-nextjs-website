@@ -35,11 +35,12 @@ const AboutUs = () => {
       <section className="min-h-[calc(100vh-64px-40px)] grid grid-cols-2 place-items-center relative">
         <div className="hidden lg:inline">
           <Image
-            src="/people/hero-aboutus.jpg"
+            src="/people/group.jpg"
             width={720}
             height={384}
             alt=""
             className="object-cover !h-[calc(100vh-64px-40px)]"
+            quality={100}
           />
         </div>
         <div className="p-8 text-textColor md:leading-8 col-span-2 lg:col-span-1">
@@ -64,7 +65,7 @@ const AboutUs = () => {
           </p>
         </div>
         <Image
-          src="/people/hero-aboutus.jpg"
+          src="/people/group.jpg"
           alt=""
           width={720}
           height={384}
@@ -125,7 +126,7 @@ const AboutUs = () => {
                 className="m-0 rounded-none"
               >
                 <Image
-                  src="/people/richard.jpg"
+                  src="/people/richar2.jpg"
                   alt=""
                   width={540}
                   height={276}
@@ -238,9 +239,9 @@ const AboutUs = () => {
         <h2 className="text-3xl font-bold text-textColor text-center">
           The Advisory Board
         </h2>
-        <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div className="mt-10 grid grid-cols-1 place-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {advisoryTeam.map((story) => (
-            <Card className="max-h-[667px] rounded-none" key={story.name}>
+            <Card className="rounded-none max-w-56" key={story.name}>
               <CardHeader
                 floated={false}
                 shadow={false}
@@ -252,7 +253,7 @@ const AboutUs = () => {
                   alt="img"
                   width={540}
                   height={276}
-                  className="overflow-hidden object-cover object-top h-72"
+                  className="overflow-hidden object-cover object-top h-48"
                 />
               </CardHeader>
               <CardFooter>

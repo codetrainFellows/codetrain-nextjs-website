@@ -1,5 +1,3 @@
-const { root } = require("postcss");
-
 const sponsorImages = [
   {
     name: "Terratalent",
@@ -49,36 +47,95 @@ const sponsorImages = [
     name: "GIZ",
     src: "/images/giz-logo.gif",
   },
+  {
+    name: "Andela",
+    src: "/images/andela.svg",
+  },
+  {
+    name: "Ashesi University",
+    src: "/images/ashesi-university.webp",
+  },
+  {
+    name: "Big Viking",
+    src: "/images/bigviking.png",
+  },
+  {
+    name: "Complete Farmer",
+    src: "/images/completefarmer.webp",
+  },
+  {
+    name: "Ecobank",
+    src: "/images/ecobank.png",
+  },
+  {
+    name: "Infinitas",
+    src: "/images/infinitas.png",
+  },
+  {
+    name: "OZE",
+    src: "/images/oze.svg",
+  },
+  {
+    name: "MIcrosoft",
+    src: "/images/microsoft.png",
+  },
+  {
+    name: "Meqasa",
+    src: "/images/meqasa.png",
+  },
+  {
+    name: "Hubtel",
+    src: "/images/hubtel.png",
+  },
+  {
+    name: "Morgan Stanley",
+    src: "/images/morganstanly.png",
+  },
+  {
+    name: "Mest",
+    src: "/images/mest.png",
+  },
+  {
+    name: "mPharma",
+    src: "/images/mpharma.png",
+  },
 ];
 
 const inMedia = [
   {
     name: "empact",
     src: "/images/empact.png",
+    link: "https://enpact.org/",
   },
   {
     name: "Disrupt Ghana",
     src: "/images/disruptafricas.png",
+    link: "https://disrupt-africa.com/",
   },
   {
     name: "Ghana Web",
     src: "/images/ghanaweb.png",
+    link: "https://www.ghanaweb.com/",
   },
   {
     name: "Gh Headlines",
     src: "/images/ghheadlines.png",
+    link: "http://www.ghheadlines.com/",
   },
   {
     name: "Joy Fm",
     src: "/images/joyfm.png",
+    link: "",
   },
   {
     name: "Tech Point Africa",
     src: "/images/techpointafrica.webp",
+    link: "https://techpoint.africa/2019/01/15/codetrain-feature/?fbclid=IwAR2_WZHXUYxOi53OcHhuUseLvK1Tv_u4Oc9_3_Gt-SC-l2pftBcoJ2lrY3Q",
   },
   {
     name: "Tv3",
     src: "/images/tv3-logo.png",
+    link: "https://3news.com",
   },
 ];
 

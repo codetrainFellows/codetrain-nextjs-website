@@ -445,7 +445,7 @@ const UIUXDesign = () => {
         />
       </section>
 
-      {/* Job Opportunitys Section*/}
+      {/* Job Opportunity Section*/}
       <section className="py-20 px-4 relative overflow-hidden">
         <div className="text-center relative z-10 max-w-4xl mx-auto">
           <h3 className="text-3xl mx-auto md:text-5xl text-violet font-bold">
@@ -491,12 +491,17 @@ const UIUXDesign = () => {
                   Enroll now
                 </Button>
               </Link>
-              <Button
-                className="text-violet bg-transparent shadow-none font-bold px-5 rounded-md border-violet sm:px-8 md:px-10"
-                variant="outlined"
+              <Link
+                href="https://calendly.com/fosterfrimpong63/one-one-with-codetrain-admissions"
+                target="_blank"
               >
-                Let’s Talk
-              </Button>
+                <Button
+                  className="text-violet bg-transparent shadow-none font-bold px-5 rounded-md border-violet sm:px-8 md:px-10"
+                  variant="outlined"
+                >
+                  Let’s Talk
+                </Button>
+              </Link>
             </div>
           </div>
         </div>

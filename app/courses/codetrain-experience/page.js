@@ -14,6 +14,7 @@ import ExperienceCard from "@/components/ExperienceCard";
 import BgLogoLeft from "@/public/icons/BgLogoLeft";
 import BgLogoRight from "@/public/icons/BgLogoRight";
 import CTLogo from "@/public/icons/CTLogo";
+import ExcitedCareer from "@/components/ExcitedCareer";
 
 const CodeTrainExperience = () => {
   const Context = createContext();
@@ -22,6 +23,7 @@ const CodeTrainExperience = () => {
       <div className="py-2 bg-violet text-xs md:text-base text-center text-white flex items-center justify-center">
         <p>Get to know more about Codetrain. Join our info session.🗣️ </p>
       </div>
+
       {/* Hero Section */}
       <section className="min-h-[calc(80vh-64px-40px)] lg:min-h-[calc(100vh-64px-40px)] px-4 lg:pl-0 bg-ash grid grid-cols-2 place-items-center gap-4">
         <div className="hidden lg:inline">
@@ -53,9 +55,10 @@ const CodeTrainExperience = () => {
           alt=""
           width={720}
           height={384}
-          className="h-[70vh] w-full object-cover max-h-80vh absolute opacity-20 right-0 lg:hidden"
+          className="h-[70vh] w-full object-cover absolute opacity-20 right-0 lg:hidden"
         />
       </section>
+
       {/* Kick off Events */}
       <section className="py-20 px-4 lg:px-20 text-textColor relative">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center relative z-10">
@@ -145,6 +148,7 @@ const CodeTrainExperience = () => {
         />
         <BgLogoLeft className="absolute hidden md:inline size-44 top-96 right-0" />
       </section>
+
       {/* One on One Section */}
       <section className="py-20 px-4 bg-ash text-textColor flex flex-col md:flex-row justify-center gap-10 relative">
         <div className="relative z-10">
@@ -199,6 +203,7 @@ const CodeTrainExperience = () => {
         </div>
         <BgLogoRight className="absolute fill-yellow opacity-[0.3] size-96 top-0 left-0" />
       </section>
+
       {/* Our Campus is Open and Ready for You! */}
       <section className="py-20 px-4">
         <div className="text-center relative z-10">
@@ -263,6 +268,7 @@ const CodeTrainExperience = () => {
           </div>
         </div>
       </section>
+
       {/* Demo-Day Section*/}
       <section className="py-20 px-4 bg-ash relative">
         <div className="flex flex-col lg:flex-row justify-center items-center gap-8 bg-contain bg-center bg-no-repeat relative z-10">
@@ -347,6 +353,7 @@ const CodeTrainExperience = () => {
           color="#c2c0c0"
         />
       </section>
+
       {/* Conference Section */}
       <section className="py-2 px-4 min-h-[70vh] bg-[url('/people/demo1.jpg')] bg-cover bg-no-repeat bg-center flex justify-end items-end">
         <div className="max-w-sm bg-white px-8 py-5">
@@ -361,6 +368,7 @@ const CodeTrainExperience = () => {
           </Typography>
         </div>
       </section>
+
       {/* Interview Section */}
       <section className="py-20 px-4 flex flex-col gap-10 md:flex-row justify-center">
         <div>
@@ -384,8 +392,9 @@ const CodeTrainExperience = () => {
           </Typography>
         </div>
       </section>
+
       {/* Mentors From The Industry Section */}
-      <section className="py-10 sm:py-20 px-4 bg-ash relative">
+      {/* <section className="py-10 sm:py-20 px-4 bg-ash relative">
         <div className="text-center relative z-10">
           <h3 className="text-2xl md:text-5xl text-violet font-bold">
             Mentors From The Industry
@@ -468,10 +477,10 @@ const CodeTrainExperience = () => {
             </CardFooter>
           </Card>
         </div>
-        {/* Bg Logos */}
+
         <BgLogoLeft className="absolute size-96 fill-lightBlue -bottom-16 right-0" />
         <BgLogoRight className="absolute size-[540px] fill-lightBlue opacity-[0.3] top-0" />
-      </section>
+      </section> */}
 
       {/* Case Studies Section*/}
       {/* <section className="py-10 sm:py-20 px-4 relative">
@@ -544,14 +553,14 @@ const CodeTrainExperience = () => {
           </div>
         </div>
         {/* Bg Logo */}
-      <CTLogo
+      {/* <CTLogo
         className="absolute top-40 opacity-35 right-0 max-w-xl lg:max-w-4xl"
         color="#c2c0c0"
-      />
+      /> */}
       {/* </section> */}
 
       {/* Alumni Network Is Available To Help You */}
-      <section className="py-20 px-4 mt-20 flex flex-col md:flex-row justify-center items-center gap-10 bg-ash  relative">
+      <section className="py-20 px-4 mt-20 flex flex-col md:flex-row justify-center items-center gap-10 bg-ash relative">
         <div className="sm:max-w-sm relative z-10">
           <Typography variant="h4" className="text-violet md:text-4xl">
             Alumni Network Is Available To Help You
@@ -597,13 +606,13 @@ const CodeTrainExperience = () => {
             className="lg:flex-row"
           />
           <ExperienceCard
-            img="/people/expe2.jpg"
+            img="/people/exp7.jpg"
             title="Diversity And Neurodivergent"
             text="Unlike traditional education models, our curriculum is constantly updated to reflect the latest trends and demands of the tech industry. By staying ahead of the curve, we equip our students with the relevant skills and knowledge needed to thrive in today's competitive job market"
             className="lg:flex-row-reverse"
           />
           <ExperienceCard
-            img="/people/exp3.png"
+            img="/people/succ.jpg"
             title="Global Experience"
             text="We prioritize not only technical proficiency but also soft skills development, career readiness, and personal growth. Our comprehensive approach ensures that graduates are not only adept coders but also effective communicators, problem-solvers, and leaders in their field."
             className="lg:flex-row"
@@ -616,29 +625,7 @@ const CodeTrainExperience = () => {
       </section>
 
       {/* Excited to start your career Section */}
-      <section className="bg-violet py-24 px-4 relative overflow-hidden">
-        <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center relative z-30">
-          <div>
-            <Typography variant="h2" className="text-lightBlue max-w-md">
-              Are you excited to start your career?
-            </Typography>
-            <Typography
-              variant="paragraph"
-              className="text-white max-w-xl mt-5"
-            >
-              Lorem ipsum dolor sit amet consectetur. Eu lorem non amet id
-              dictum condimentum sagittis.
-            </Typography>
-          </div>
-          <div>
-            <Button variant="filled" className="bg-lightBlue">
-              Enroll Now
-            </Button>
-          </div>
-        </div>
-        <BgLogoLeft className="absolute fill-yellow opacity-[0.5] size-80 md:size-[443px] -top-14 md:-top-7 p-0 left-0" />
-        <BgLogoRight className="absolute fill-yellow size-52 md:size-80 -bottom-10 md:bottom-0 right-0" />
-      </section>
+      <ExcitedCareer />
     </section>
   );
 };

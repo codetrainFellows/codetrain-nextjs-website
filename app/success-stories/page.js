@@ -14,6 +14,7 @@ import CTLogo from "@/public/icons/CTLogo";
 import BgLogoLeft from "@/public/icons/BgLogoLeft";
 import BgLogoRight from "@/public/icons/BgLogoRight";
 import ExperienceCard from "@/components/ExperienceCard";
+import ExcitedCareer from "@/components/ExcitedCareer";
 
 const SuccessStories = () => {
   return (
@@ -245,10 +246,11 @@ const SuccessStories = () => {
         <div className="flex flex-col-reverse lg:flex-row items-center lg:items-start lg:justify-center gap-14">
           <div>
             <SuccessCard
-              src="https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="/people/Ofoe.jpg"
               // role="Software Engineer at Microsoft"
-              name="Kofi Boadi"
-              story="Inspired by his father, Kofi switched to software engineering, found success with Codetrain, and secured an internship at Nacasky Ltd., overcoming challenges and improving his communication skills."
+              name="Ofoe"
+              story="Two years after Codetrain, Ofoe’s career is thriving. Starting with an internship at thinkSopht Labs, he now excels at Turntabl. Codetrain’s focus on continuous learning has been crucial, enhancing his work-life balance and decision-making skills."
+              className="md:justify-self-end"
             />
           </div>
           <div>
@@ -275,73 +277,18 @@ const SuccessStories = () => {
         {/* Stories */}
         <div className="mt-5 grid gap-10 place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
           <SuccessCard
-            src="/people/Ofoe.jpg"
-            // role="Software Engineer at Microsoft"
-            name="Ofoe"
-            story="Two years after Codetrain, Ofoe’s career is thriving. Starting with an internship at thinkSopht Labs, he now excels at Turntabl. Codetrain’s focus on continuous learning has been crucial, enhancing his work-life balance and decision-making skills."
-            className="md:justify-self-end"
-          />
-          <SuccessCard
-            src="/people/razak.jpg"
-            // role="Software Engineer at Microsoft"
-            name="Razak"
-            story="After struggling to break into tech, Razak joined Codetrain and quickly transitioned from a role at TXT Ghana to a fulfilling position at AgroCenta. He now improves farmers' lives through technology and aims to start his own company in the future."
-            className="md:justify-self-start"
-          />
-          <SuccessCard
             src="/people/tony.jpg"
             // role="Software Engineer at Microsoft"
             name="Anthony"
             story="After dropping out of university, Anthony decided to join Codetrain, seeking practical experience and leadership skills. After working as a teaching fellow, he secured a role with Infinitas Media in Berlin. He continues to mentor Codetrain students and gives talks whenever he’s in Ghana."
             className="md:justify-self-end"
           />
-          <SuccessCard
-            src="/people/emerald.jpg"
-            // role="Software Engineer at Microsoft"
-            name="Emerald"
-            story="Emerald, one of Codetrain's first female graduates, is now a leading UX designer for tech startups across Africa. After completing the program, she built several websites for NGOs and continues to drive innovation in the tech industry."
-            className="md:justify-self-start"
-          />
-          <SuccessCard
-            src="/people/elikem.jpeg"
-            // role="Software Engineer at Microsoft"
-            name="Elikem"
-            story="Now a Senior iOS Engineer at OZE, Elikem joined Codetrain while studying Computer Engineering at university and secured a position at Ampersand Technologies immediately after."
-            className="md:justify-self-end"
-          />
-          <SuccessCard
-            src="https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1200"
-            // role="Software Engineer at Microsoft"
-            name="Joshua Aduku"
-            story="After earning his BSc in Mathematics from KNUST and completing national service, he joined Codetrain. His commitment and skills led him to a role at Hubtel, where he continues to thrive in the tech industry."
-            className="md:justify-self-start"
-          />
-          <SuccessCard
-            src="/people/boureima.jpeg"
-            // role="Software Engineer at Microsoft"
-            name="Bureima Tapily"
-            story="Originally from Mali, he founded a software company aimed at advancing the local tech scene. His initiative is driving innovation and growth in Mali's technology sector."
-            className="md:justify-self-end"
-          />
+
           <SuccessCard
             src="/people/oscarlyn.jpg"
             // role="Software Engineer at Microsoft"
             name="Oscarlyn Naa Dedei"
             story="She was last year’s top student. A medical doctor with a passion for tech, she impressed several companies at our demo day. She showcased her app, a comprehensive rabbit farming management system, which captured significant interest from potential employers. She currently mentors other young ladies at Codetrain."
-            className="md:justify-self-start"
-          />
-          <SuccessCard
-            src="https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1200"
-            // role="Software Engineer at Microsoft"
-            name="Andy Selase"
-            story="Before Codetrain, he was passionate about tech but needed structured learning and guidance, which he found at Codetrain. Currently, he’s part of the founding team at Venda, a company streamlining FMCG retail. After contributing to mPedigree and Bluetis, he’s embracing new challenges and learning about business operations."
-            className="md:justify-self-end"
-          />
-          <SuccessCard
-            src="https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1200"
-            // role="Software Engineer at Microsoft"
-            name="Calvin Tettey"
-            story="After completing Codetrain with a specialization in UX Design, he now works with a leading global company, applying his skills on an international scale. Committed to giving back, he actively trains the next generation of UX designers at Codetrain, sharing his expertise and experience. We also have a great photo of him showcasing his professional journey."
             className="md:justify-self-start"
           />
           <SuccessCard
@@ -351,6 +298,20 @@ const SuccessStories = () => {
             story="After completing Codetrain at just 12, he embarked on his second tech startup, focused on revolutionizing loyalty programs for small shops. He interned at Cedi Rates and now advises two companies. Additionally, he serves as a mentor at Moonshot Pirates in Austria, guiding young innovators and sharing his expertise."
             className="md:justify-self-end"
           />
+          <SuccessCard
+            src="/people/awal.jpg"
+            // role="Software Engineer at Microsoft"
+            name="Calvin Tettey"
+            story="Mubarak is Codetrain's fastest learning student. He's now a mobile & web developer who works at Codetrain to train upcoming developers. "
+            className="md:justify-self-start"
+          />
+          {/* <SuccessCard
+            src="https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            // role="Software Engineer at Microsoft"
+            name="Calvin Tettey"
+            story="After completing Codetrain with a specialization in UX Design, he now works with a leading global company, applying his skills on an international scale. Committed to giving back, he actively trains the next generation of UX designers at Codetrain, sharing his expertise and experience. We also have a great photo of him showcasing his professional journey."
+            className="md:justify-self-end"
+          /> */}
         </div>
       </section>
 
@@ -660,29 +621,7 @@ const SuccessStories = () => {
       </section>
 
       {/* Excited to start your career Section */}
-      <section className="bg-violet py-24 px-4 relative overflow-hidden">
-        <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center relative z-30">
-          <div>
-            <Typography variant="h2" className="text-lightBlue max-w-md">
-              Are you excited to start your career?
-            </Typography>
-            <Typography
-              variant="paragraph"
-              className="text-white max-w-xl mt-5"
-            >
-              Lorem ipsum dolor sit amet consectetur. Eu lorem non amet id
-              dictum condimentum sagittis.
-            </Typography>
-          </div>
-          <div>
-            <Button variant="filled" className="bg-lightBlue">
-              Enroll Now
-            </Button>
-          </div>
-        </div>
-        <BgLogoLeft className="absolute fill-yellow opacity-[0.5] size-80 md:size-[443px] -top-14 md:-top-7 p-0 left-0" />
-        <BgLogoRight className="absolute fill-yellow size-52 md:size-80 -bottom-10 md:bottom-0 right-0" />
-      </section>
+      <ExcitedCareer />
     </section>
   );
 };

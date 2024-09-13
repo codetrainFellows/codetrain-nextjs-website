@@ -1,4 +1,4 @@
-const { default: Image } = require("next/image");
+import Image from "next/image";
 
 const ExperienceCard = ({ className, img, title, text, imgClass }) => {
   return (
@@ -11,6 +11,7 @@ const ExperienceCard = ({ className, img, title, text, imgClass }) => {
           alt={title}
           width={400}
           height={300}
+          quality={100}
           className={`rounded-none shadow ${imgClass}`}
         />
       </div>

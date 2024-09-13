@@ -1,5 +1,6 @@
 "use client";
 
+import ExcitedCareer from "@/components/ExcitedCareer";
 import ExperienceCard from "@/components/ExperienceCard";
 import { sponsorImages } from "@/constants/constants";
 import BgLogoLeft from "@/public/icons/BgLogoLeft";
@@ -202,65 +203,7 @@ const HireAGraduate = () => {
           </Typography>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-10 mt-20 lg:translate-y-6 relative z-10">
-          <Card className="sm:max-w-sm rounded-none shadow-lg">
-            <CardHeader
-              floated={false}
-              shadow={false}
-              color="transparent"
-              className="m-0 rounded-none"
-            >
-              <Image
-                src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1200"
-                alt="img"
-                width={540}
-                height={276}
-                className="overflow-hidden object-cover"
-              />
-            </CardHeader>
-            <CardBody>
-              <Typography className="font-bold text-textColor">
-                lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam, quod. lorem ipsum dolor sit amet consectetur
-              </Typography>
-            </CardBody>
-            <hr className="border-violet h-1" />
-            <CardFooter>
-              <Typography className="font-bold text-textColor">Lee</Typography>
-              <Typography className="font-normal text-textColor">
-                Software Engineer
-              </Typography>
-            </CardFooter>
-          </Card>
-          <Card className="sm:max-w-sm rounded-none shadow-lg">
-            <CardHeader
-              floated={false}
-              shadow={false}
-              color="transparent"
-              className="m-0 rounded-none"
-            >
-              <Image
-                src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1200"
-                alt="img"
-                width={540}
-                height={276}
-                className="overflow-hidden object-cover"
-              />
-            </CardHeader>
-            <CardBody>
-              <Typography className="font-bold text-textColor">
-                lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam, quod. lorem ipsum dolor sit amet consectetur
-              </Typography>
-            </CardBody>
-            <hr className="border-violet h-1" />
-            <CardFooter>
-              <Typography className="font-bold text-textColor">Lee</Typography>
-              <Typography className="font-normal text-textColor">
-                Software Engineer
-              </Typography>
-            </CardFooter>
-          </Card>
+        <div className="grid grid-cols-1  place-items-center gap-10 mt-20 lg:translate-y-6 relative z-10">
           <Card className="sm:max-w-sm rounded-none shadow-lg">
             <CardHeader
               floated={false}
@@ -302,10 +245,10 @@ const HireAGraduate = () => {
         </div>
       </section>
 
-      {/* Our Partners and Sponsors */}
+      {/* Companies That Hired our Grads */}
       <section className="text-center py-12 px-10 shadow-md border-t border-t-black">
-        <h1 className="text-xl text-violet font-semibold">
-          Our Partners and Supporters
+        <h1 className="text-xl md:text-2xl text-violet font-semibold">
+          Companies That Hired our Graduates
         </h1>
         <div className="grid place-items-center grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mt-12">
           {sponsorImages.map((sponsor) => (
@@ -315,8 +258,11 @@ const HireAGraduate = () => {
                 alt={sponsor.name}
                 width={174}
                 height={100}
+                quality={100}
                 className={`${
-                  sponsor.name === "Kaatch" || sponsor.name === "BlackInTech"
+                  sponsor.name === "Kaatch" ||
+                  sponsor.name === "BlackInTech" ||
+                  sponsor.name === "Infinitas"
                     ? "h-28 object-cover"
                     : ""
                 }`}
@@ -545,29 +491,7 @@ const HireAGraduate = () => {
       </section>
 
       {/* Excited to start your career Section */}
-      <section className="bg-violet py-24 px-4 relative overflow-hidden">
-        <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center relative z-30">
-          <div>
-            <Typography variant="h2" className="text-lightBlue max-w-md">
-              Are you excited to start your career?
-            </Typography>
-            <Typography
-              variant="paragraph"
-              className="text-white max-w-xl mt-5"
-            >
-              Lorem ipsum dolor sit amet consectetur. Eu lorem non amet id
-              dictum condimentum sagittis.
-            </Typography>
-          </div>
-          <div>
-            <Button variant="filled" className="bg-lightBlue">
-              Enroll Now
-            </Button>
-          </div>
-        </div>
-        <BgLogoLeft className="absolute fill-yellow opacity-[0.5] size-80 md:size-[443px] -top-14 md:-top-7 p-0 left-0" />
-        <BgLogoRight className="absolute fill-yellow size-52 md:size-80 -bottom-10 md:bottom-0 right-0" />
-      </section>
+      <ExcitedCareer />
     </section>
   );
 };

@@ -26,6 +26,7 @@ import { faq, inMedia, sponsorImages } from "@/constants/constants";
 import BgLogoLeft from "@/public/icons/BgLogoLeft";
 import BgLogoRight from "@/public/icons/BgLogoRight";
 import Link from "next/link";
+import ExcitedCareer from "@/components/ExcitedCareer";
 
 export default function Home() {
   // Accordion
@@ -200,13 +201,18 @@ export default function Home() {
               innovation challenge, and internships. Get ready to build your
               skills and kick-start your career with us!
             </p>
-            <div className="">
+            <div className="space-x-4">
               <Link
                 href="https://codetrainafrica.heiapply.com/application"
                 target="_blank"
               >
                 <Button className="rounded-md font-bold bg-yellow text-violet shadow-none mt-6 px-8">
                   Enroll now
+                </Button>
+              </Link>
+              <Link href="/courses/software-engineering">
+                <Button className="rounded-md font-bold bg-yellow text-violet shadow-none mt-6 px-8">
+                  View Course Details
                 </Button>
               </Link>
             </div>
@@ -228,13 +234,15 @@ export default function Home() {
               you&lsquo;ll collaborate with software teams and gain hands-on
               experience through internship opportunities.
             </p>
-            <div className="">
-              <Link
-                href="https://codetrainafrica.heiapply.com/application"
-                target="_blank"
-              >
+            <div className="space-x-4">
+              <Link href="https://codetrainafrica.heiapply.com/application">
                 <Button className="rounded-md font-bold bg-yellow text-violet shadow-none mt-6 px-8">
                   Enroll now
+                </Button>
+              </Link>
+              <Link href="/courses/ui-ux-design">
+                <Button className="rounded-md font-bold bg-yellow text-violet shadow-none mt-6 px-8">
+                  View Course Details
                 </Button>
               </Link>
             </div>
@@ -379,10 +387,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Our Partners and Sponsors */}
+      {/* Companies That Hired our Grads */}
       <section className="text-center py-12 px-10 shadow-md border-t border-t-black">
-        <h1 className="text-xl text-violet font-semibold">
-          Our Partners and Supporters
+        <h1 className="text-xl md:text-2xl text-violet font-semibold">
+          Companies That Hired our Graduates
         </h1>
         <div className="grid place-items-center grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mt-12">
           {sponsorImages.map((sponsor) => (
@@ -392,8 +400,11 @@ export default function Home() {
                 alt={sponsor.name}
                 width={174}
                 height={100}
+                quality={100}
                 className={`${
-                  sponsor.name === "Kaatch" || sponsor.name === "BlackInTech"
+                  sponsor.name === "Kaatch" ||
+                  sponsor.name === "BlackInTech" ||
+                  sponsor.name === "Infinitas"
                     ? "h-28 object-cover"
                     : ""
                 }`}
@@ -557,14 +568,6 @@ export default function Home() {
                 for other applicants. <br /> We offer flexible payment options
                 and partial scholarships to promote diversity and inclusion.
               </p>
-              <div className="px-4">
-                <Link href="/courses/software-engineering">
-                  <Button className="rounded-sm font-bold bg-violet text-white mt-6 px-8">
-                    {" "}
-                    View our course Details
-                  </Button>
-                </Link>
-              </div>
             </div>
             <div className="text-start bg-white shadow-xl max-w-sm relative grid place-content-center pb-8">
               <h3 className="text-violet font-bold text-2xl bg-yellow p-4">
@@ -577,13 +580,6 @@ export default function Home() {
                 for other applicants. <br /> We offer flexible payment options
                 and partial scholarships to support diversity and inclusion.
               </p>
-              <div className="px-4">
-                <Link href="/courses/ui-ux-design">
-                  <Button className="rounded-sm font-bold bg-violet text-white mt-6 px-8">
-                    View our course Details
-                  </Button>
-                </Link>
-              </div>
             </div>
           </div>
           <div className="flex gap-x-4 z-10">
@@ -765,7 +761,7 @@ export default function Home() {
           </div>
           <div className="h-[422px]">
             <Image
-              src="/people/class.jpg"
+              src="/people/campus2.jpg"
               alt=""
               width={720}
               height={384}
@@ -857,29 +853,7 @@ export default function Home() {
       </section>
 
       {/* Excited to start your career Section */}
-      <section className="bg-violet py-24 px-4 relative overflow-hidden">
-        <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center relative z-30">
-          <div>
-            <Typography variant="h2" className="text-lightBlue max-w-md">
-              Are you excited to start your career?
-            </Typography>
-            <Typography
-              variant="paragraph"
-              className="text-white max-w-xl mt-5"
-            >
-              Your journey to a fulfilling tech career starts here. Let&lsquo;s
-              get you started.
-            </Typography>
-          </div>
-          <div>
-            <Button variant="filled" className="bg-lightBlue">
-              Enroll Now
-            </Button>
-          </div>
-        </div>
-        <BgLogoLeft className="absolute fill-yellow opacity-[0.5] size-80 md:size-[443px] -top-14 md:-top-7 p-0 left-0" />
-        <BgLogoRight className="absolute fill-yellow size-52 md:size-80 -bottom-10 md:bottom-0 right-0" />
-      </section>
+      <ExcitedCareer />
 
       {/* Codetrain in media section */}
       <section className="text-center py-12 px-10">
@@ -887,15 +861,10 @@ export default function Home() {
           Codetrain Africa in Media
         </h1>
         <div className="grid place-items-center place-content-center grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-1 mt-12">
-          {inMedia.map((sponsor) => (
-            <div key={sponsor.name}>
-              <Image
-                src={sponsor.src}
-                alt={sponsor.name}
-                width={100}
-                height={60}
-              />
-            </div>
+          {inMedia.map((media) => (
+            <Link href={media.link} key={media.name} target="_blank">
+              <Image src={media.src} alt={media.name} width={100} height={60} />
+            </Link>
           ))}
         </div>
       </section>

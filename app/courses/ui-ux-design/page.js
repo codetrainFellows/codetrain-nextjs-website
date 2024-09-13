@@ -54,12 +54,17 @@ const UIUXDesign = () => {
                 Enroll now
               </Button>
             </Link>
-            <Button
-              className="text-violet bg-transparent shadow-none font-bold px-5 rounded-md border-violet sm:px-8 md:px-10"
-              variant="outlined"
+            <Link
+              href="https://calendly.com/fosterfrimpong63/one-one-with-codetrain-admissions"
+              target="_blank"
             >
-              Let&#39;s Talk
-            </Button>
+              <Button
+                className="text-violet bg-transparent shadow-none font-bold px-5 rounded-md border-violet sm:px-8 md:px-10"
+                variant="outlined"
+              >
+                Let&#39;s Talk
+              </Button>
+            </Link>
           </div>
           <p className="mt-12">
             * Admission is in progress, join the October Cohort!
@@ -67,7 +72,7 @@ const UIUXDesign = () => {
         </div>
         <div className="hidden lg:inline">
           <Image
-            src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            src="/people/Ofoe.jpg"
             width={720}
             height={384}
             alt=""
@@ -97,11 +102,12 @@ const UIUXDesign = () => {
         <div className="flex flex-col lg:flex-row justify-center gap-8 py-10 bg-contain bg-center bg-no-repeat relative">
           <div className="max-w-[540px] bg-white relative z-10 sh">
             <Image
-              src="https://images.pexels.com/photos/3184612/pexels-photo-3184612.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="/people/Lovelace.jpg"
               alt="picture"
               className="rounded-non h-full object-cover"
               width={540}
               height={440}
+              quality={100}
             />
           </div>
           <div className="relative z-10 text-textColor">
@@ -455,11 +461,12 @@ const UIUXDesign = () => {
         <div className="flex flex-col lg:flex-row justify-center gap-8 py-10 bg-contain bg-center bg-no-repeat relative">
           <div className="max-w-[540px] bg-white relative z-10 shadow-md">
             <Image
-              src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="/people/uximage.jpg"
               alt="picture"
-              className="!h-full md:h-[540px] w-[540px] rounded-none"
+              className="!h-full md:h-[540px] w-[540px] object-cover rounded-none"
               width={540}
               height={540}
+              quality={100}
             />
           </div>
           <div className="relative z-10 text-textColor">
@@ -528,22 +535,24 @@ const UIUXDesign = () => {
 
         <div className="max-w-6xl mx-auto flex flex-col gap-10 justify-center relative z-10">
           <div className="flex flex-col gap-20 md:flex-row justify-center items-center">
-            <div className="text-start bg-white shadow-xl max-w-2xl relative grid place-content-center pb-8">
+            <div className="text-start bg-white shadow-xl max-w-sm relative grid place-content-center pb-8">
               <h3 className="text-white font-bold text-2xl bg-indigo p-4">
-                Course Length : 1 year
+                year 1
               </h3>
-              <p className="mt-4 text-textColor text-lg px-4">
-                Schedule <br /> Twice a week
+              <p className="mt-4 text-textColor text-lg p-4 pb-10">
+                Learn to code from scratch and start building your portfolio,
+                laying a strong foundation for your software engineering career.
               </p>
-              <p className="text-textColor text-lg p-4">
-                <span className="font-bold">Tuition Upfront Tuition: </span>Pay
-                the full tuition amount prior to starting the program. Total
-                cost under the Upfront Plan is GHS 19,000.
-              </p>
-              <p className="text-textColor text-lg p-4 pb-10">
-                <span className="font-bold">Payment Plan:</span> Start with an
-                initial payment of GHS10,000, and pay the rest in monthly
-                installments.
+            </div>
+            <div className="text-start bg-white shadow-xl max-w-sm relative grid place-content-center pb-8">
+              <h3 className="text-white font-bold text-2xl bg-indigo p-4">
+                year 2
+              </h3>
+              <p className="mt-4 text-textColor text-lg p-4 pb-10">
+                The second year focuses on career services. Gain more hands-on
+                experience with internships, mock interviews, and a major Demo
+                Day to prepare for graduation and secure your first full-time
+                role.
               </p>
             </div>
           </div>
@@ -552,6 +561,121 @@ const UIUXDesign = () => {
         {/* Bg icons */}
         <BgLogoLeft className="absolute size-[570px] fill-indigo opacity-[0.2] -top-24 sm:top-0 right-0 md:right-32" />
         <BgLogoLeft className="absolute size-80 fill-indigo -bottom-24 sm:bottom-0 left-0 md:left-32" />
+      </section>
+
+      {/* Success Stories */}
+      <section className="py-10 px-4 sm:py-20 sm:px-7 flex flex-col-reverse lg:gap-10 lg:flex-row justify-center gap-4 relative">
+        <div className="md:max-h-[587px] hidden xl:inline">
+          <Card className="max-w-lg rounded-none">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <Image
+                src="/people/Lovelace.jpg"
+                alt="korkor"
+                width={540}
+                height={276}
+                className="overflow-hidden object-cover h-96"
+              />
+            </CardHeader>
+            <CardBody>
+              <Typography variant="paragraph" className=" text-textColor">
+                Korkor Mensah’s journey into tech began with an unexpected
+                challenge. When she couldn’t assist her kids with their coding
+                bootcamp assignments despite her IT experience, the
+                embarrassment motivated her to enroll in Codetrain herself.
+              </Typography>
+              <Typography variant="paragraph" className=" text-textColor mt-2">
+                Balancing family obligations and a full-time job in a fast-paced
+                environment was challenging, but Korkor’s dedication never
+                wavered—she never missed a class or assignment. Her hard work
+                paid off with a promotion and significant growth in her
+                professional network and online visibility. Inspired by her
+                progress, Korkor is now a passionate advocate for coding,
+                encouraging her children to pursue it with the same enthusiasm.
+              </Typography>
+            </CardBody>
+            <hr className="border-violet h-1" />
+            <CardFooter>
+              <Typography className="font-bold text-textColor">
+                Lovelace
+              </Typography>
+              <Typography className="font-normal text-textColor">
+                UI/UX Designer
+              </Typography>
+            </CardFooter>
+          </Card>
+        </div>
+        <div className="">
+          <div className="">
+            <h3 className="text-violet font-bold text-3xl md:text-5xl max-w-xl">
+              Success Stories from Codetrain Africa
+            </h3>
+            <p className="text-textColor max-w-sm mt-4">
+              Empowering African talent to take the lead in tech is at the heart
+              of Codetrain’s mission. We believe that every African has the
+              potential to lead, innovate, and drive change in the digital
+              world, and our graduates are living proof of this vision.
+            </p>
+          </div>
+          <div className="flex flex-col items-center mt-2 gap-4 sm:flex-row">
+            <Card className="w-96 max-h-[567px] rounded-none">
+              <CardHeader
+                floated={false}
+                shadow={false}
+                color="transparent"
+                className="m-0 rounded-none"
+              >
+                <Image
+                  src="/people/Lovelace.jpg"
+                  alt="img"
+                  width={540}
+                  height={276}
+                  className="overflow-hidden object-cover"
+                />
+              </CardHeader>
+              <CardBody>
+                <p className="font-normal text-textColor line-clamp-6">
+                  Before joining Codetrain, Razak was determined to break into
+                  tech. Despite studying networking and experiencing initial
+                  success, he faced an unexpected setback and spent two years
+                  searching for a new opportunity. Discovering Codetrain marked
+                  a turning point—within 6 months, his life transformed, leading
+                  him to a role at TXT Ghana as a software developer. Since
+                  graduating in 2018, Razak has expanded his career to
+                  AgroCenta, where he helps improve the lives of low-income
+                  farmers through modern agriculture practices and market
+                  access. Seeing farmers benefit from his work is incredibly
+                  fulfilling, and Razak is driven by the desire to solve
+                  societal problems through technology. His future goal is to
+                  start his own company, but for now, he focuses on contributing
+                  to impactful projects and leveraging his skills to make a
+                  meaningful difference in people’s lives.
+                </p>
+              </CardBody>
+              <hr className="border-violet h-1" />
+              <CardFooter>
+                <Typography className="font-bold text-textColor">
+                  Calvin Tettey
+                </Typography>
+                <Typography className="font-normal text-textColor">
+                  UI/UX Designer
+                </Typography>
+              </CardFooter>
+            </Card>
+          </div>
+          <Link href="/success-stories">
+            <Button className="rounded-none text-white bg-violet mt-10">
+              Discover More Success Stories
+            </Button>
+          </Link>
+        </div>
+        {/* svg bg logos */}
+        <BgLogoRight className="fill-cyan-100 absolute top-10 lg:top-0 lg:right-0 -z-50 h-80 md:h-1/2 sm:inline" />
+        <BgLogoLeft className="fill-cyan-400 absolute bottom-10 lg:bottom-0 lg:left-0 -z-50 h-80 lg:h-1/2 sm:inline" />
       </section>
 
       {/* Program Summary Section*/}
@@ -564,7 +688,7 @@ const UIUXDesign = () => {
         <div className="flex flex-col lg:flex-row justify-center gap-8 py-10 bg-contain bg-center bg-no-repeat relative">
           <div className="max-w-[540px] relative z-10">
             <Image
-              src="https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="/people/group6.svg"
               alt="picture"
               className="h-[440px] rounded-none object-cover"
               width={540}

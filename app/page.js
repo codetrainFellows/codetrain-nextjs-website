@@ -37,17 +37,16 @@ export default function Home() {
   return (
     <main className="overflow-hidden scroll-smooth">
       <div className="py-2 bg-violet text-center text-white sm:hidden">
-        <p className="text-xs">
-          Curious about the Codetrain Experience? Join our upcoming Info
-          Session!{" "}
-          <Link
-            href="https://codetrainafrica.heiapply.com/application"
-            target="_blank"
-            className="hover:underline"
-          >
-            Register Now
-          </Link>
-        </p>
+        <Link
+          href="https://codetrainafrica.heiapply.com/application"
+          target="_blank"
+          className="hover:underline"
+        >
+          <p className="text-xs">
+            Curious about the Codetrain Experience? Join our upcoming Info
+            Session! Register Now
+          </p>
+        </Link>
       </div>
       {/* Hero Section */}
       <section className="bg-ash lg:bg-inherit flex justify-start items-center md:justify-around relative px-4 pt-20 pb-6 lg:pb-2 lg:pt-0 md:px-10">
@@ -113,17 +112,16 @@ export default function Home() {
       </section>
 
       <div className="py-2 bg-violet text-center text-white hidden sm:block">
-        <p className="text-xs sm:text-sm">
-          Curious about the Codetrain Experience? Join our upcoming Info
-          Session!{" "}
-          <Link
-            href="https://codetrainafrica.heiapply.com/application"
-            target="_blank"
-            className="hover:underline"
-          >
-            Register Now
-          </Link>
-        </p>
+        <Link
+          href="https://codetrainafrica.heiapply.com/application"
+          target="_blank"
+          className="hover:underline"
+        >
+          <p className="text-xs sm:text-sm">
+            Curious about the Codetrain Experience? Join our upcoming Info
+            Session! Register Now
+          </p>
+        </Link>
       </div>
 
       {/* Stats Section */}
@@ -387,13 +385,13 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Companies That Hired our Grads */}
+      {/* Our Partners and Sponsors */}
       <section className="text-center py-12 px-10 shadow-md border-t border-t-black">
         <h1 className="text-xl md:text-2xl text-violet font-semibold">
-          Companies That Hired our Graduates
+          Our Partners and Sponsors
         </h1>
         <div className="grid place-items-center grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mt-12">
-          {sponsorImages.map((sponsor) => (
+          {sponsorImages.slice(0, 12).map((sponsor) => (
             <div key={sponsor.name}>
               <Image
                 src={sponsor.src}
@@ -583,18 +581,22 @@ export default function Home() {
             </div>
           </div>
           <div className="flex gap-x-4 z-10">
-            <Button
-              className="bg-violet shadow-lg text-white font-bold px-2 sm:px-8 md:px-10 rounded-md"
-              variant="filled"
-            >
-              Ask for Payment Plan
-            </Button>
-            <Button
-              className="text-white bg-transparent shadow-none font-bold px-2 rounded-md bg-violet sm:px-8 md:px-10"
-              variant="outlined"
-            >
-              Get A Part-Scholarship
-            </Button>
+            <Link href="/payment-plan">
+              <Button
+                className="bg-violet shadow-lg text-white font-bold px-2 sm:px-8 md:px-10 rounded-md"
+                variant="filled"
+              >
+                Ask for Payment Plan
+              </Button>
+            </Link>
+            <Link href="/scholarship">
+              <Button
+                className="text-white bg-transparent shadow-none font-bold px-2 rounded-md bg-violet sm:px-8 md:px-10"
+                variant="outlined"
+              >
+                Get A Part-Scholarship
+              </Button>
+            </Link>
           </div>
         </div>
 

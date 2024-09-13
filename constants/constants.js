@@ -51,10 +51,10 @@ const sponsorImages = [
     name: "Andela",
     src: "/images/andela.svg",
   },
-  {
-    name: "Ashesi University",
-    src: "/images/ashesi-university.webp",
-  },
+  // {
+  //   name: "Ashesi University",
+  //   src: "/images/ashesi-university.webp",
+  // },
   {
     name: "Big Viking",
     src: "/images/bigviking.png",

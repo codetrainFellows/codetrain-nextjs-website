@@ -1,6 +1,7 @@
 import BgLogoLeft from "@/public/icons/BgLogoLeft";
 import BgLogoRight from "@/public/icons/BgLogoRight";
 import { Button, Typography } from "@material-tailwind/react";
+import Link from "next/link";
 import React from "react";
 
 const ExcitedCareer = () => {
@@ -17,9 +18,14 @@ const ExcitedCareer = () => {
           </Typography>
         </div>
         <div>
-          <Button variant="filled" className="bg-lightBlue">
-            Enroll Now
-          </Button>
+          <Link
+            href="https://codetrainafrica.heiapply.com/application"
+            target="_blank"
+          >
+            <Button variant="filled" className="bg-lightBlue">
+              Enroll Now
+            </Button>
+          </Link>
         </div>
       </div>
       <BgLogoLeft className="absolute fill-yellow opacity-[0.5] size-80 md:size-[443px] -top-14 md:-top-7 p-0 left-0" />

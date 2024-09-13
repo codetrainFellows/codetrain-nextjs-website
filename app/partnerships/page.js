@@ -133,10 +133,13 @@ const Partnerships = () => {
               variant="paragraph"
               className="text-lg mt-4 text-textColor md:max-w-lg"
             >
-              Lorem ipsum dolor sit amet consectetur. Mauris pellentesque porta
-              donec enim tellus nibh adipiscing arcu. Et mi pellentesque lorem
-              tellus eget nulla. Vulputate iaculis magnis aenean integer.
-              Ultrices id aliquet elementum id elit quis lectus rutrum nec..
+              Codetrain is always seeking to expand our network and collaborate
+              with like-minded organizations. Whether you`re a tech company
+              looking to hire our graduates, a non-profit sharing our mission of
+              empowering individuals through tech education, or exploring other
+              opportunities, we`d love to hear from you. Let`s work together to
+              create a brighter future for the tech industry and the communities
+              we serve.
             </Typography>
           </div>
           <div className="col-span-12 md:col-span-7 grid grid-cols-1 lg:grid-cols-2 gap-10">

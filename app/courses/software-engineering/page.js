@@ -108,6 +108,7 @@ const Software = () => {
               className="rounded-none h-[]"
               width={540}
               height={440}
+              quality={100}
             />
           </div>
           <div className="relative z-10 text-textColor">

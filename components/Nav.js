@@ -182,7 +182,7 @@ function NavList({ handleLinkClick }) {
           Partnerships
         </ListItem>
       </Link>
-      <Link href="#" className="font-medium" onClick={handleLinkClick}>
+      <Link href="/donate" className="font-medium" onClick={handleLinkClick}>
         <ListItem
           className="flex items-center gap-2 py-2 pr-4 hover:bg-transparent focus:font-extrabold  focus:bg-transparent active:bg-transparent"
           ripple={false}

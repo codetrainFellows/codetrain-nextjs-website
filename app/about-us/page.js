@@ -126,11 +126,12 @@ const AboutUs = () => {
                 className="m-0 rounded-none"
               >
                 <Image
-                  src="/people/richar2.jpg"
+                  src="/people/richard.jpg"
                   alt=""
                   width={540}
                   height={276}
-                  className="overflow-hidden object-cover"
+                  quality={100}
+                  className="object-cover w-[540px] h-[276px] "
                 />
               </CardHeader>
               <CardBody>

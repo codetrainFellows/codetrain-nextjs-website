@@ -50,7 +50,7 @@ export default function Home() {
         </p>
       </div>
       {/* Hero Section */}
-      <section className="bg-ash lg:bg-inherit flex justify-start items-center md:justify-around relative px-4 pt-20 pb-6 lg:pb-2 lg:pt-0  md:px-10">
+      <section className="bg-ash lg:bg-inherit flex justify-start items-center md:justify-around relative px-4 pt-20 pb-6 lg:pb-2 lg:pt-0 md:px-10">
         <div className="text-violet z-10">
           <h1 className="font-bold text-3xl md:text-3xl xl:text-5xl max-w-80 md:max-w-xl xl:max-w-3xl">
             Start your career in <br /> Software Engineering <br />
@@ -92,7 +92,7 @@ export default function Home() {
         </div>
         <div className="relative hidden lg:inline">
           <Image
-            src="/people/home-hero-img.png"
+            src="/people/home.png"
             alt="hero"
             height={400}
             width={300}
@@ -101,7 +101,7 @@ export default function Home() {
           />
         </div>
         <Image
-          src="/images/home-hero-img.png"
+          src="/images/home.png"
           alt="ladies"
           height={400}
           width={300}

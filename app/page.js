@@ -330,13 +330,13 @@ export default function Home() {
             className="lg:flex-row"
           />
           <ExperienceCard
-            img="/people/expe2.jpg"
+            img="/people/exp7.jpg"
             title="Diversity And Neurodivergent"
             text="Unlike traditional education models, our curriculum is constantly updated to reflect the latest trends and demands of the tech industry. By staying ahead of the curve, we equip our students with the relevant skills and knowledge needed to thrive in today's competitive job market"
             className="lg:flex-row-reverse"
           />
           <ExperienceCard
-            img="/people/exp3.png"
+            img="/people/expe2.jpg"
             title="Global Experience"
             text="We prioritize not only technical proficiency but also soft skills development, career readiness, and personal growth. Our comprehensive approach ensures that graduates are not only adept coders but also effective communicators, problem-solvers, and leaders in their field."
             className="lg:flex-row"

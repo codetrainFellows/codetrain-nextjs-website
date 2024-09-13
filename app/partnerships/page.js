@@ -47,7 +47,7 @@ const Partnerships = () => {
         </div>
         <div className="hidden lg:inline">
           <Image
-            src="https://images.pexels.com/photos/2102416/pexels-photo-2102416.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            src="/people/part.jpg"
             width={720}
             height={384}
             alt=""
@@ -206,7 +206,7 @@ const Partnerships = () => {
       </section>
 
       {/* Reviews */}
-      <Carousel
+      {/* <Carousel
         className="py-10 md:py-20 bg-lightBlue"
         navigation={false}
         loop={true}
@@ -270,7 +270,7 @@ const Partnerships = () => {
           <Typography variant="h6">Ama Boadi</Typography>
           <Typography variant="paragraph">Human Resources Manager,</Typography>
         </div>
-      </Carousel>
+      </Carousel> */}
 
       {/* Kind Of Partnerships */}
       <section className="py-20 px-4 relative">
@@ -341,44 +341,11 @@ const Partnerships = () => {
         <BgLogoLeft className="absolute size-56 fill-ash -bottom-6 right-0 opacity-80" />
       </section>
 
-      {/* Our Partners and Sponsors */}
-      <section className="text-center py-12 px-10 shadow-md bg-ash">
-        <h1 className="text-xl text-violet font-semibold">
-          Our Partners and Supporters
-        </h1>
-        <div className="grid place-items-center grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mt-12">
-          {sponsorImages.map((sponsor) => (
-            <div key={sponsor.name}>
-              <Image
-                src={sponsor.src}
-                alt={sponsor.name}
-                width={174}
-                height={100}
-                className="mix-blend-multiply"
-              />
-            </div>
-          ))}
-        </div>
-        <div className="grid place-items-center grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mt-12">
-          {sponsorImages.map((sponsor) => (
-            <div key={sponsor.name}>
-              <Image
-                src={sponsor.src}
-                alt={sponsor.name}
-                width={174}
-                height={100}
-                className="mix-blend-multiply"
-              />
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* Get Involved */}
       <section className="mt-20 flex flex-col gap-6 md:flex-row">
         <div>
           <Image
-            src="https://images.pexels.com/photos/2102416/pexels-photo-2102416.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            src="/people/part2.jpg"
             width={720}
             height={384}
             alt=""

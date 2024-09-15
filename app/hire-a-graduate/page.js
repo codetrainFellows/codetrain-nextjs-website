@@ -18,6 +18,7 @@ import {
   Typography,
 } from "@material-tailwind/react";
 import Image from "next/image";
+import Link from "next/link";
 
 const HireAGraduate = () => {
   const applicationProcess = [
@@ -220,7 +221,7 @@ const HireAGraduate = () => {
               />
             </CardHeader>
             <CardBody>
-              <Typography className="font-bold text-textColor">
+              <Typography className="text-textColor">
                 After dropping out of university, Anthony decided to join
                 Codetrain, seeking practical experience and leadership skills.
                 After working as a teaching fellow, he secured a role with
@@ -251,24 +252,46 @@ const HireAGraduate = () => {
           Companies That Hired our Graduates
         </h1>
         <div className="grid place-items-center grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mt-12">
-          {sponsorImages.map((sponsor) => (
-            <div key={sponsor.name}>
+          {sponsorImages.map((sponsor) =>
+            sponsor.link ? (
+              <Link
+                href={sponsor.link && sponsor.link}
+                key={sponsor.name}
+                target="_blank"
+              >
+                <Image
+                  src={sponsor.src}
+                  alt={sponsor.name}
+                  width={174}
+                  height={100}
+                  quality={100}
+                  className={`${
+                    sponsor.name === "Kaatch" ||
+                    sponsor.name === "BlackInTech" ||
+                    sponsor.name === "Infinitas"
+                      ? "h-28 object-cover"
+                      : ""
+                  }`}
+                />
+              </Link>
+            ) : (
               <Image
+                key={sponsor.name}
                 src={sponsor.src}
                 alt={sponsor.name}
                 width={174}
                 height={100}
                 quality={100}
-                className={`${
-                  sponsor.name === "Kaatch" ||
-                  sponsor.name === "BlackInTech" ||
-                  sponsor.name === "Infinitas"
-                    ? "h-28 object-cover"
-                    : ""
-                }`}
+                // className={`${
+                //   sponsor.name === "Kaatch" ||
+                //   sponsor.name === "BlackInTech" ||
+                //   sponsor.name === "Infinitas"
+                //     ? "h-28 object-cover"
+                //     : ""
+                // }`}
               />
-            </div>
-          ))}
+            )
+          )}
         </div>
       </section>
 
@@ -337,19 +360,22 @@ const HireAGraduate = () => {
         <BgLogoLeft className="absolute size-96 fill-indigo bottom-0 right-0" />
       </section>
 
-      {/* Experience Section */}
+      {/*  Why Hire From Codetrain */}
       <section className="py-20 px-4 relative">
         <div className="text-center z-10">
           <h3 className="text-2xl md:text-4xl text-violet font-semibold">
             Why Hire From Codetrain
           </h3>
-          <p className="max-w-5xl mt-7 mx-auto text-xl text-textColor">
+          <Typography
+            variant="paragraph"
+            className="max-w-5xl mt-7 mx-auto text-lg text-textColor"
+          >
             Hiring from Codetrain means bringing on board top-tier tech talent
             equipped with practical skills and industry-ready experience. Our
             rigorous training programs ensure that graduates are proficient in
             coding and problem-solving, ready to make immediate contributions
             and drive innovation in your organization.
-          </p>
+          </Typography>
         </div>
         <div className="flex flex-col gap-14 items-center mt-10 z-10">
           <ExperienceCard
@@ -450,16 +476,20 @@ const HireAGraduate = () => {
         </div>
       </Carousel> */}
 
+      {/* Steps In The Application Process */}
       <section className="py-20 px-4 relative">
         <div className="relative z-10 text-center">
           <h3 className="text-3xl md:text-5xl text-violet font-bold">
             Steps In The Application Process
           </h3>
-          <p className="text-textColor max-w-4xl mx-auto mt-10">
+          <Typography
+            variant="paragraph"
+            className="text-textColor max-w-4xl mx-auto mt-10"
+          >
             Don`t miss out on top-tier talent. All you have to do to hire a
             Codetrain grad is to fill the form below, and we’ll reach out to you
             with the ideal candidates.
-          </p>
+          </Typography>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 lg:gap-x-24 gap-y-10 md:gap-y-28 place-items-center mt-10 justify-items-center relative z-10">
           {applicationProcess.map((process) => (

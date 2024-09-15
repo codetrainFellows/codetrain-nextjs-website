@@ -2,102 +2,117 @@ const sponsorImages = [
   {
     name: "Terratalent",
     src: "/images/terratallent.png",
+    link: "",
   },
   {
     name: "Jobberman",
     src: "/images/jobberman.png",
+    link: "",
   },
   {
     name: "I&P Investments",
-    src: "/images/techpoint.png",
+    src: "/images/ipinvestment.png",
+    link: "https://www.ietp.com/en/company/codetrain",
   },
   {
     name: "Bloomberg",
     src: "/images/bloomberg.png",
+    link: "",
   },
   {
     name: "Kaatch",
     src: "/images/kaatch.png",
+    link: "",
   },
   {
     name: "BlackInTech",
     src: "/images/blackintech.png",
+    link: "",
   },
   {
     name: "Girraffe",
     src: "/images/girraffe.png",
+    link: "",
   },
   {
     name: "AfricaBerlin",
     src: "/images/africanberlin.png",
+    link: "",
   },
   {
     name: " Berlin Partner",
     src: "/images/berlinpartner.png",
+    link: "",
   },
   {
     name: "SkilledUp Life",
     src: "/images/skilledup-life-logo.png",
+    link: "",
   },
   {
     name: "Chancen",
     src: "/images/chancen.png",
+    link: "",
   },
   {
     name: "GIZ",
     src: "/images/giz-logo.gif",
+    link: "",
   },
   {
     name: "Andela",
     src: "/images/andela.svg",
+    link: "",
   },
-  // {
-  //   name: "Ashesi University",
-  //   src: "/images/ashesi-university.webp",
-  // },
   {
     name: "Big Viking",
     src: "/images/bigviking.png",
+    link: "",
   },
   {
     name: "Complete Farmer",
     src: "/images/completefarmer.webp",
+    link: "",
   },
   {
     name: "Ecobank",
     src: "/images/ecobank.png",
+    link: "",
   },
   {
     name: "Infinitas",
     src: "/images/infinitas.png",
+    link: "",
   },
   {
     name: "OZE",
     src: "/images/oze.svg",
+    link: "",
   },
   {
     name: "MIcrosoft",
     src: "/images/microsoft.png",
+    link: "",
   },
   {
     name: "Meqasa",
     src: "/images/meqasa.png",
+    link: "",
   },
   {
     name: "Hubtel",
     src: "/images/hubtel.png",
+    link: "",
   },
   {
     name: "Morgan Stanley",
     src: "/images/morganstanly.png",
-  },
-  {
-    name: "Mest",
-    src: "/images/mest.png",
+    link: "",
   },
   {
     name: "mPharma",
     src: "/images/mpharma.png",
+    link: "",
   },
 ];
 
@@ -105,22 +120,22 @@ const inMedia = [
   {
     name: "empact",
     src: "/images/empact.png",
-    link: "https://enpact.org/",
+    link: "",
   },
   {
     name: "Disrupt Ghana",
     src: "/images/disruptafricas.png",
-    link: "https://disrupt-africa.com/",
+    link: "https://disruptafrica.com/2019/08/29/meet-ghanas-codetrain-the-latest-addition-to-africas-cohort-of-coding-schools/",
   },
   {
     name: "Ghana Web",
     src: "/images/ghanaweb.png",
-    link: "https://www.ghanaweb.com/",
+    link: "https://www.ghanaweb.com/GhanaHomePage/features/Starting-from-Ghana-Codetrain-is-taking-on-Africa-s-developer-shortage-problem-square-on-716556",
   },
   {
     name: "Gh Headlines",
     src: "/images/ghheadlines.png",
-    link: "http://www.ghheadlines.com/",
+    link: "",
   },
   {
     name: "Joy Fm",
@@ -135,7 +150,17 @@ const inMedia = [
   {
     name: "Tv3",
     src: "/images/tv3-logo.png",
-    link: "https://3news.com",
+    link: "",
+  },
+  {
+    name: "TAP Magazine",
+    src: "/images/tapmag.png",
+    link: "https://www.tapmagonline.com/tap/codetrain-bridging-africas-skill-gap",
+  },
+  {
+    name: "AfricaX",
+    src: "/images/africax.png",
+    link: "https://africax.org/changemaker-interviews/how-richard-brandt-started-codetrain-ghanas-biggest-code-school-from-his-kitchen-table/",
   },
 ];
 

@@ -35,13 +35,13 @@ const SuccessStory = () => {
             />
           </CardHeader>
           <CardBody>
-            <Typography variant="paragraph" className=" text-textColor">
+            <p className="font-normal text-textColor">
               Korkor Mensah’s journey into tech began with an unexpected
               challenge. When she couldn’t assist her kids with their coding
               bootcamp assignments despite her IT experience, the embarrassment
               motivated her to enroll in Codetrain herself.
-            </Typography>
-            <Typography variant="paragraph" className=" text-textColor mt-2">
+            </p>
+            <p className="font-normal text-textColor mt-2">
               Balancing family obligations and a full-time job in a fast-paced
               environment was challenging, but Korkor’s dedication never
               wavered—she never missed a class or assignment. Her hard work paid
@@ -49,7 +49,7 @@ const SuccessStory = () => {
               network and online visibility. Inspired by her progress, Korkor is
               now a passionate advocate for coding, encouraging her children to
               pursue it with the same enthusiasm.
-            </Typography>
+            </p>
           </CardBody>
           <hr className="border-violet h-1" />
           <CardFooter>
@@ -67,7 +67,7 @@ const SuccessStory = () => {
           <h3 className="text-violet font-bold text-3xl md:text-5xl max-w-xl">
             Success Stories from Codetrain Africa
           </h3>
-          <p className="text-textColor max-w-sm mt-4">
+          <p className="font-normal text-textColor max-w-sm mt-4">
             Empowering African talent to take the lead in tech is at the heart
             of Codetrain’s mission. We believe that every African has the
             potential to lead, innovate, and drive change in the digital world,

@@ -209,7 +209,7 @@ export default function Home() {
                 </Button>
               </Link>
               <Link href="/courses/software-engineering">
-                <Button className="rounded-md font-bold bg-yellow text-violet shadow-none mt-6 px-8">
+                <Button className="rounded-md font-bold bg-violet text-white shadow-none mt-6 px-8">
                   View Course Details
                 </Button>
               </Link>
@@ -239,7 +239,7 @@ export default function Home() {
                 </Button>
               </Link>
               <Link href="/courses/ui-ux-design">
-                <Button className="rounded-md font-bold bg-yellow text-violet shadow-none mt-6 px-8">
+                <Button className="rounded-md font-bold bg-violet text-white shadow-none mt-6 px-8">
                   View Course Details
                 </Button>
               </Link>
@@ -863,11 +863,26 @@ export default function Home() {
           Codetrain Africa in Media
         </h1>
         <div className="grid place-items-center place-content-center grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-1 mt-12">
-          {inMedia.map((media) => (
-            <Link href={media.link} key={media.name} target="_blank">
-              <Image src={media.src} alt={media.name} width={100} height={60} />
-            </Link>
-          ))}
+          {inMedia.map((media) =>
+            media.link ? (
+              <Link href={media.link} key={media.name} target="_blank">
+                <Image
+                  src={media.src}
+                  alt={media.name}
+                  width={100}
+                  height={60}
+                />
+              </Link>
+            ) : (
+              <Image
+                key={media.name}
+                src={media.src}
+                alt={media.name}
+                width={100}
+                height={60}
+              />
+            )
+          )}
         </div>
       </section>
       <hr className="my-8 border-textColor max-w-7xl mx-auto" />

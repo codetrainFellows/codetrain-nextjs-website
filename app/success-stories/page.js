@@ -15,6 +15,7 @@ import BgLogoLeft from "@/public/icons/BgLogoLeft";
 import BgLogoRight from "@/public/icons/BgLogoRight";
 import ExperienceCard from "@/components/ExperienceCard";
 import ExcitedCareer from "@/components/ExcitedCareer";
+import Link from "next/link";
 
 const SuccessStories = () => {
   return (
@@ -70,7 +71,10 @@ const SuccessStories = () => {
               Catherine`s Journey to Success: How Codetrain Transformed Her
               Career
             </h1>
-            <p className="max-w-lg mt-4 text-textColor leading-6 text-base sm:text-lg">
+            <Typography
+              variant="paragraph"
+              className="max-w-lg mt-4 text-textColor leading-6 text-base sm:text-lg"
+            >
               After spending four years as a finance executive, Catherine
               realized that her passion extended beyond numbers and
               spreadsheets. In 2021, she decided to challenge herself by
@@ -86,7 +90,7 @@ const SuccessStories = () => {
               transformed her mindset, fostering collaboration, continuous
               learning, and a deep appreciation for the power of community at
               Codetrain.
-            </p>
+            </Typography>
           </div>
 
           <Card className="max-w-[540px] overflow-hidden rounded-none">
@@ -98,10 +102,10 @@ const SuccessStories = () => {
             >
               <iframe
                 className="w-full h-52 sm:h-72 md:max-w-[540px] md:h-[376px]"
-                // width="540"
-                // height="376"
-                src="https://www.youtube.com/embed/SmAZJcErw7w?si=Rnyh2RAAkl1W1Ech"
-                title="YouTube video player"
+                // width="560"
+                // height="315"
+                src="https://www.youtube.com/embed/7s1iDmA5Vs8?si=1Jx1VN3SKPj2kxm_"
+                title="Catherine`s Journey to Success"
                 // frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 // referrerpolicy="strict-origin-when-cross-origin"
@@ -161,34 +165,37 @@ const SuccessStories = () => {
           </div>
           <div className="relative z-10 text-textColor">
             <div className="max-w-lg">
-              <Typography variant="lead" className="text-textColor text-lg">
+              <Typography
+                variant="paragraph"
+                className="text-textColor text-lg"
+              >
                 Project-based learning is our way. At code train, you learn by
                 doing. From your first day to your last, you’re graded on actual
                 work that is similar to what you’ll be doing on the job. If it
                 has no application in the industry, we don’t bother with it.
               </Typography>
               <Typography
-                variant="lead"
+                variant="paragraph"
                 className="text-textColor text-lg mt-5"
               >
                 Project-based learning is our way. At code train, you learn by
                 doing. From your first day to your last,
               </Typography>
-              <Typography variant="lead" className="text- text-lg mt-5">
+              <Typography variant="paragraph" className="text- text-lg mt-5">
                 you’re graded on actual work that is similar to what you’ll be
                 doing on the job. If it has no application in the industry, we
                 don’t bother with it.
               </Typography>
-              <Typography variant="lead" className="text- text-lg mt-5">
+              <Typography variant="paragraph" className="text- text-lg mt-5">
                 Project-based learning is our way. At code train, you learn by
                 doing. From your first day to your last,
               </Typography>
-              <Typography variant="lead" className="text- text-lg mt-5">
+              <Typography variant="paragraph" className="text- text-lg mt-5">
                 you’re graded on actual work that is similar to what you’ll be
                 doing on the job. If it has no application in the industry, we
                 don’t bother with it.
               </Typography>
-              <Typography variant="lead" className="text- text-lg mt-5">
+              <Typography variant="paragraph" className="text- text-lg mt-5">
                 Project-based learning is our way. At code train, you learn by
                 doing. From your first day to your last, you’re
               </Typography>
@@ -203,12 +210,15 @@ const SuccessStories = () => {
           <h3 className="text-2xl md:text-4xl text-violet font-semibold">
             Catalysts of Success: Our Journey with Companies
           </h3>
-          <p className="max-w-4xl mt-7 mx-auto text-base text-textColor">
+          <Typography
+            variant="paragraph"
+            className="max-w-4xl mt-7 mx-auto text-base text-textColor"
+          >
             Partnering with top companies, we connect students to real-world
             projects and internships, giving them practical experience and
             companies access to skilled, job-ready talent. This collaboration
             fuels student success and drives industry innovation.
-          </p>
+          </Typography>
         </div>
         <div className="flex flex-col gap-14 items-center mt-10 relative z-10">
           <ExperienceCard
@@ -258,12 +268,15 @@ const SuccessStories = () => {
               <h3 className="text-violet font-bold text-3xl md:text-5xl max-w-xl">
                 Success Stories From Codetrain Africa
               </h3>
-              <p className="text-textColor max-w-lg mt-4">
+              <Typography
+                variant="paragraph"
+                className="text-textColor max-w-lg mt-4"
+              >
                 Codetrain Africa students are achieving their tech dreams,
                 overcoming challenges, and securing impactful roles. Their
                 success underscores the power of determination and community
                 support.
-              </p>
+              </Typography>
             </div>
             <SuccessCard
               src="/people/korkor.jpg"
@@ -462,90 +475,104 @@ const SuccessStories = () => {
           <h3 className="text-2xl md:text-4xl max-w-4xl mx-auto text-violet font-semibold">
             Excellence Recognized: Discover Our Award-Winning Achievements
           </h3>
-          <p className="max-w-4xl mt-7 mx-auto text-base text-textColor">
+          <Typography
+            variant="paragraph"
+            className="max-w-4xl mt-7 mx-auto text-base text-textColor"
+          >
             Our commitment to excellence in tech education has been recognized
             through numerous awards, celebrating our innovative approach and
             impactful results. These accolades reflect our dedication to
             empowering students and shaping the future of technology.
-          </p>
+          </Typography>
         </div>
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 place-items-center place-content-center gap-10 mt-10 sm:mt-20 text-left">
-          <Card className="sm:w-[440px] min-h-[667px] rounded-none">
-            <CardHeader
-              floated={false}
-              shadow={false}
-              color="transparent"
-              className="m-0 rounded-none"
-            >
-              <Image
-                src="/people/richard award 2.jpg"
-                alt="img"
-                width={540}
-                height={276}
-                className="overflow-hidden object-cover"
-              />
-            </CardHeader>
-            <CardBody>
-              <Typography className="font-bold text-textColor">
-                Codetrain CEO wins ICT Entrepreneur of the Year Award at the
-                YEIS2019 Awards
-              </Typography>
-              <Typography className="text-textColor mt-5">
-                The Young Entrepreneurs International Award celebrates global
-                entrepreneurs who excel in their fields and support emerging
-                young talent. This year’s summit in Accra honored over 150 young
-                entrepreneurs, with 25 outstanding individuals receiving
-                accolades for their achievements.
-              </Typography>
-              <Typography className="text-textColor mt-2">
-                Richard Brandt, CEO of Codetrain, was recognized as ICT
-                Entrepreneur of the Year. In his acceptance speech, Richard
-                urged African entrepreneurs to focus on creating substantial
-                wealth and job opportunities through technology. As a recent
-                addition to the top 50 Young CEOs in Ghana, Richard’s leadership
-                at Codetrain is shaping the future of tech by developing skilled
-                professionals and fostering growth in the industry.
-              </Typography>
-            </CardBody>
-          </Card>
-          <Card className="sm:w-[440px] min-h-[667px] rounded-none">
-            <CardHeader
-              floated={false}
-              shadow={false}
-              color="transparent"
-              className="m-0 rounded-none"
-            >
-              <Image
-                src="/people/female mentee.webp"
-                alt="img"
-                width={540}
-                height={276}
-                className="overflow-hidden object-cover h-[354px]"
-              />
-            </CardHeader>
-            <CardBody>
-              <Typography className="font-bold text-textColor">
-                Codetrain Mentees Win Ghana’s Best Female Group in Tech Award
-              </Typography>
-              <Typography className="text-textColor mt-5">
-                Codetrain mentees from Ghana Lebanon Islamic School (GLIS) won
-                the Best Female Group in Tech award at the Techbooth Challenge.
-                After learning web development at Codetrain, the group, Girl
-                Power, created a website to provide adolescent girls with access
-                to advice on female hygiene and sex education. They also
-                developed a menstrual care package to fund their tech
-                initiatives.
-              </Typography>
-              <Typography className="text-textColor mt-2">
-                The prize presentation, held at the Stanbic Bank Incubator,
-                included a citation and 1000 cedis in cash. Codetrain CEO,
-                Richard Brandt, presented the award. This achievement highlights
-                Codetrain`s mission to empower young Africans by turning them
-                into skilled software developers and connecting them to career
-                opportunities.
-              </Typography>
-            </CardBody>
-          </Card>
+          <Link
+            href="https://codetrain.medium.com/codetrain-ceo-wins-ict-entrepreneur-of-the-year-award-at-the-yeis2019-awards-77e4dae8b980"
+            target="_blank"
+          >
+            <Card className="sm:w-[440px] min-h-[667px] rounded-none">
+              <CardHeader
+                floated={false}
+                shadow={false}
+                color="transparent"
+                className="m-0 rounded-none"
+              >
+                <Image
+                  src="/people/richard award 2.jpg"
+                  alt="img"
+                  width={540}
+                  height={276}
+                  className="overflow-hidden object-cover"
+                />
+              </CardHeader>
+              <CardBody>
+                <Typography className="font-bold text-textColor">
+                  Codetrain CEO wins ICT Entrepreneur of the Year Award at the
+                  YEIS2019 Awards
+                </Typography>
+                <Typography className="text-textColor mt-5">
+                  The Young Entrepreneurs International Award celebrates global
+                  entrepreneurs who excel in their fields and support emerging
+                  young talent. This year’s summit in Accra honored over 150
+                  young entrepreneurs, with 25 outstanding individuals receiving
+                  accolades for their achievements.
+                </Typography>
+                <Typography className="text-textColor mt-2">
+                  Richard Brandt, CEO of Codetrain, was recognized as ICT
+                  Entrepreneur of the Year. In his acceptance speech, Richard
+                  urged African entrepreneurs to focus on creating substantial
+                  wealth and job opportunities through technology. As a recent
+                  addition to the top 50 Young CEOs in Ghana, Richard’s
+                  leadership at Codetrain is shaping the future of tech by
+                  developing skilled professionals and fostering growth in the
+                  industry.
+                </Typography>
+              </CardBody>
+            </Card>
+          </Link>
+          <Link
+            href="https://codetrain.medium.com/codetrain-mentees-win-best-female-group-in-tech-award-b06683256548"
+            target="_blank"
+          >
+            <Card className="sm:w-[440px] min-h-[667px] rounded-none">
+              <CardHeader
+                floated={false}
+                shadow={false}
+                color="transparent"
+                className="m-0 rounded-none"
+              >
+                <Image
+                  src="/people/female mentee.webp"
+                  alt="img"
+                  width={540}
+                  height={276}
+                  className="overflow-hidden object-cover h-[354px]"
+                />
+              </CardHeader>
+              <CardBody>
+                <Typography className="font-bold text-textColor">
+                  Codetrain Mentees Win Ghana’s Best Female Group in Tech Award
+                </Typography>
+                <Typography className="text-textColor mt-5">
+                  Codetrain mentees from Ghana Lebanon Islamic School (GLIS) won
+                  the Best Female Group in Tech award at the Techbooth
+                  Challenge. After learning web development at Codetrain, the
+                  group, Girl Power, created a website to provide adolescent
+                  girls with access to advice on female hygiene and sex
+                  education. They also developed a menstrual care package to
+                  fund their tech initiatives.
+                </Typography>
+                <Typography className="text-textColor mt-2">
+                  The prize presentation, held at the Stanbic Bank Incubator,
+                  included a citation and 1000 cedis in cash. Codetrain CEO,
+                  Richard Brandt, presented the award. This achievement
+                  highlights Codetrain`s mission to empower young Africans by
+                  turning them into skilled software developers and connecting
+                  them to career opportunities.
+                </Typography>
+              </CardBody>
+            </Card>
+          </Link>
         </div>
       </section>
 

@@ -66,7 +66,7 @@ const CodeTrainExperience = () => {
             <Typography variant="h4" className="text-violet font-bold">
               The Kick-Off Event For New Students
             </Typography>
-            <Typography variant="lead" className="my-8 text-base">
+            <Typography variant="paragraph" className="my-8 text-base">
               Our Kick-Off event is the perfect blend of fun, information, and
               warm welcomes. Designed to make you feel right at home, this event
               introduces you to the Codetrain culture and community, sets the
@@ -134,10 +134,13 @@ const CodeTrainExperience = () => {
               <h1 className="font-bold text-violet text-2xl md:text-4xl max-w-sm">
                 Replay the Codetrain Kick-Off Moments
               </h1>
-              <p className="max-w-lg mt-4 text-textColor leading-8 text-lg">
+              <Typography
+                variant="paragraph"
+                className="max-w-lg mt-4 text-textColor text-lg"
+              >
                 Check out the highlights from our previous Kick-Off Event in
                 this recap video!
-              </p>
+              </Typography>
             </div>
           </div>
         </div>
@@ -586,17 +589,17 @@ const CodeTrainExperience = () => {
         <BgLogoRight className="absolute size-72 fill-indigo opacity-15 top-0 left-0" />
       </section>
 
-      {/* Codetrain Journey Section */}
+      {/* Codetrain Experience */}
       <section className="py-20 px-4 bg-ash relative">
         <div className="text-center z-10">
           <h3 className="text-2xl md:text-4xl text-violet font-semibold">
             Codetrain Experience
           </h3>
-          <p className="max-w-4xl mt-7 mx-auto text-xl text-textColor">
+          <Typography className="max-w-4xl mt-7 mx-auto text-xl text-textColor">
             Unlike traditional education models, our curriculum is constantly
             updated to reflect the latest trends and demands of the tech
             industry.
-          </p>
+          </Typography>
         </div>
         <div className="flex flex-col gap-14 items-center mt-10 z-10">
           <ExperienceCard

@@ -1,3 +1,4 @@
+import { Typography } from "@material-tailwind/react";
 import Image from "next/image";
 
 const ExperienceCard = ({ className, img, title, text, imgClass }) => {
@@ -17,9 +18,12 @@ const ExperienceCard = ({ className, img, title, text, imgClass }) => {
       </div>
       <div className="mt-10 lg:mt-0 max-w-md">
         <h3 className="text-violet text-2xl md:text-3xl max-w-sm">{title}</h3>
-        <p className="max-w-md text-base text-textColor tracking-wide mt-6">
+        <Typography
+          variant="paragraph"
+          className="max-w-md text-textColor tracking-wide mt-6"
+        >
           {text}
-        </p>
+        </Typography>
       </div>
     </div>
   );

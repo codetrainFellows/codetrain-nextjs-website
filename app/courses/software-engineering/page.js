@@ -212,7 +212,11 @@ const Software = () => {
                 </ul>
               </li>
             </ul>
-            <Button className="mt-8 bg-yellow text-violet">Get Started</Button>
+            <Link href="https://codetrainafrica.heiapply.com/application">
+              <Button className="mt-8 bg-yellow text-violet">
+                Get Started
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
@@ -742,12 +746,17 @@ const Software = () => {
             </div>
 
             <div className="flex gap-x-4 mt-7">
-              <Button
-                className="bg-violet shadow-none font-bold px-5 sm:px-8 md:px-10 rounded-md"
-                variant="filled"
+              <Link
+                href="https://codetrainafrica.heiapply.com/application"
+                target="_blank"
               >
-                Get in touch
-              </Button>
+                <Button
+                  className="bg-violet shadow-none font-bold px-5 sm:px-8 md:px-10 rounded-md"
+                  variant="filled"
+                >
+                  Get Started
+                </Button>
+              </Link>
             </div>
           </div>
         </div>

@@ -1,15 +1,12 @@
-import { successStories } from "@/constants/constants";
 import BgLogoLeft from "@/public/icons/BgLogoLeft";
 import BgLogoRight from "@/public/icons/BgLogoRight";
-import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/24/solid";
+
 import {
   Button,
   Card,
   CardBody,
   CardFooter,
   CardHeader,
-  Carousel,
-  IconButton,
   Typography,
 } from "@material-tailwind/react";
 import Image from "next/image";
@@ -64,17 +61,50 @@ const SuccessStory = () => {
       </div>
       <div className="">
         <div className="">
-          <h3 className="text-violet font-bold text-3xl md:text-5xl max-w-xl">
+          <h3 className="text-violet font-bold text-3xl md:text-5xl lg:max-w-xl">
             Success Stories from Codetrain Africa
           </h3>
-          <p className="font-normal text-textColor max-w-sm mt-4">
+          <p className="font-normal text-textColor xl:max-w-sm mt-4">
             Empowering African talent to take the lead in tech is at the heart
             of Codetrain’s mission. We believe that every African has the
             potential to lead, innovate, and drive change in the digital world,
             and our graduates are living proof of this vision.
           </p>
         </div>
-        <div className="flex flex-col items-center mt-2 gap-4 sm:flex-row">
+        <div className="flex flex-col flex-wrap justify-center lg:justify-normal items-center mt-2 gap-4 sm:flex-row">
+          <Card className="w-80 max-h-[567px] xl:hidden rounded-none">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <Image
+                src="/people/korkor.jpg"
+                alt="img"
+                width={540}
+                height={276}
+                className="overflow-hidden relative -top-12  object-center"
+              />
+            </CardHeader>
+            <CardBody>
+              <p className="font-light text-textColor line-clamp-6">
+                Korkor Mensah’s journey into tech began with an unexpected
+                challenge. When she couldn’t assist her kids with their coding
+                bootcamp assignments despite her IT experience, the
+                embarrassment motivated her to enroll in Codetrain herself.
+              </p>
+            </CardBody>
+            <hr className="border-violet h-1" />
+            <CardFooter>
+              <Typography className="font-bold text-textColor">
+                Korkor Mensah
+              </Typography>
+              <Typography className="font-normal text-textColor">
+                Software Engineer
+              </Typography>
+            </CardFooter>
+          </Card>
           <Card className="w-80 max-w-80 max-h-[567px] rounded-none ">
             <CardHeader
               floated={false}

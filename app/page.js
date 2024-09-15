@@ -130,11 +130,14 @@ export default function Home() {
         <h1 className="font-bold text-violet text-xl text-nowrap sm:text-3xl lg:text-5xl">
           Our Impact
         </h1>
-        <p className="my-5 text-lg sm:my-10 max-w-5xl mx-auto text-textColor">
+        <Typography
+          variant="paragraph"
+          className="my-5 text-lg sm:my-10 max-w-5xl mx-auto text-textColor"
+        >
           Over the last 7 years, Codetrain Africa has trained hundreds of
           software developers from diverse diverse backgrounds with little or no
           tech skills
-        </p>
+        </Typography>
 
         <div className="flex flex-col items-center justify-center md:items-start md:flex-row gap-x-10 ">
           <div className="max-w-72">
@@ -174,9 +177,12 @@ export default function Home() {
           <h1 className="font-bold text-violet text-3xl lg:text-5xl">
             Our Courses
           </h1>
-          <p className="my-10 max-w-6xl mx-auto text-lg text-violet">
+          <Typography
+            variant="paragraph"
+            className="my-10 max-w-6xl mx-auto text-lg text-violet"
+          >
             Explore our courses: Software Engineering and UI/UX Design
-          </p>
+          </Typography>
         </div>
 
         <div className="flex flex-col gap-10 lg:flex-row justify-center items-center z-10">
@@ -191,7 +197,10 @@ export default function Home() {
             <h3 className="text-violet font-bold text-2xl">
               Software Engineer
             </h3>
-            <p className="mt-4 text-textColor text-base md:text-lg">
+            <Typography
+              variant="paragraph"
+              className="mt-4 text-textColor text-base md:text-lg"
+            >
               This is a 2-year program designed to take you from beginner to
               mid-level software developer. In the first year, you&lsquo;ll
               receive comprehensive training in software development. The second
@@ -199,8 +208,8 @@ export default function Home() {
               services, including interview preparation, technical workshops, an
               innovation challenge, and internships. Get ready to build your
               skills and kick-start your career with us!
-            </p>
-            <div className="space-x-4">
+            </Typography>
+            <div className="space-x-4 flex">
               <Link
                 href="https://codetrainafrica.heiapply.com/application"
                 target="_blank"
@@ -210,8 +219,8 @@ export default function Home() {
                 </Button>
               </Link>
               <Link href="/courses/software-engineering">
-                <Button className="rounded-md font-bold bg-violet text-white shadow-none mt-6 px-8">
-                  View Course Details
+                <Button className="rounded-md font-bold bg-violet text-nowrap text-white shadow-none mt-6 px-8">
+                  Course Details
                 </Button>
               </Link>
             </div>
@@ -225,15 +234,18 @@ export default function Home() {
               })}
             </div>
             <h3 className="text-violet font-bold text-2xl">UI/UX Designer</h3>
-            <p className="mt-4 text-textColor text-base md:text-lg">
+            <Typography
+              variant="paragraph"
+              className="mt-4 text-textColor text-base md:text-lg"
+            >
               This is a 1-year program designed to transform you into a skilled
               professional ready to tackle product requirements, craft
               innovative design concepts, and bring them to life through
               stunning websites and mobile apps. Throughout the course,
               you&lsquo;ll collaborate with software teams and gain hands-on
               experience through internship opportunities.
-            </p>
-            <div className="space-x-4">
+            </Typography>
+            <div className="space-x-4 flex">
               <Link href="https://codetrainafrica.heiapply.com/application">
                 <Button className="rounded-md font-bold bg-yellow text-violet shadow-none mt-6 px-8">
                   Enroll now
@@ -241,7 +253,7 @@ export default function Home() {
               </Link>
               <Link href="/courses/ui-ux-design">
                 <Button className="rounded-md font-bold bg-violet text-white shadow-none mt-6 px-8">
-                  View Course Details
+                  Course Details
                 </Button>
               </Link>
             </div>
@@ -313,13 +325,13 @@ export default function Home() {
       <section className="py-20 px-4 bg-ash relative">
         <div className="text-center z-10">
           <h3 className="text-2xl md:text-4xl text-violet font-semibold">
-            Codetrain Experience
+            The Codetrain Experience
           </h3>
           <Typography
             variant="paragraph"
-            className="max-w-4xl mt-7 mx-auto text-xl text-textColor"
+            className="max-w-4xl mt-7 mx-auto font-medium text-textColor"
           >
-            CodeTrain offers an amazing internationally recognized education
+            Codetrain offers an amazing internationally recognized education
             experience, blending global standards with strong support for
             underrepresented groups, ensuring an inclusive and empowering
             learning environments for all students.
@@ -335,7 +347,7 @@ export default function Home() {
           />
           <ExperienceCard
             img="/people/exp7.jpg"
-            title="Diversity And Neurodivergent"
+            title="Supporting women & Disabled"
             text="We champion women neurodivergent individuals, and those with sickle cell, offering both part and full scholarships. Our commitment to diversity and inclusion ensures these underrepresented groups have access to top-notch software engineering education and opportunities to thrive in tech."
             className="lg:flex-row-reverse"
           />
@@ -347,9 +359,9 @@ export default function Home() {
           />
         </div>
         {/* svg bg logos */}
-        <BgLogoLeft className="fill-[#ff006e] opacity-[0.2] absolute size-96 sm:size-[446px] top-0 right-0 lg:-top-0 lg:right-56 sm:inline" />
-        <BgLogoLeft className="fill-[#ff006e] opacity-[0.2] absolute size-96 sm:size-[446px] bottom-[669px] left-5 lg:bottom-56 lg:left-56 sm:inline" />
-        <BgLogoRight className="fill-[#ff006e] opacity-[0.2] absolute size-96 sm:size-[446px] bottom-20 right-0 lg:bottom-[369px] lg:right-40 sm:inline" />
+        <BgLogoLeft className="fill-[#ff006e] opacity-10 absolute size-96 sm:size-[446px] top-0 right-0 lg:-top-0 lg:right-56 sm:inline" />
+        <BgLogoLeft className="fill-[#ff006e] opacity-10 absolute size-96 sm:size-[446px] bottom-[669px] left-5 lg:bottom-56 lg:left-56 sm:inline" />
+        <BgLogoRight className="fill-[#ff006e] opacity-10 absolute size-96 sm:size-[446px] bottom-20 right-0 lg:bottom-[369px] lg:right-40 sm:inline" />
       </section>
 
       {/* Conference Section */}
@@ -363,7 +375,10 @@ export default function Home() {
 
       <section className="px-4 py-20 flex flex-col gap-10 lg:flex-row items-center justify-center">
         <div>
-          <Typography variant="lead" className="text-textColor max-w-md mb-5">
+          <Typography
+            variant="paragraph"
+            className="text-textColor max-w-md mb-5"
+          >
             Your journey culminates in an exciting Demo Day and Career Fair.
             This event is your chance to present your projects to industry
             leaders, potential employers, and the Codetrain community.
@@ -946,7 +961,7 @@ const ExperienceCard = ({ className, img, title, text, video }) => {
         <h3 className="text-violet font-bold text-2xl max-w-sm">{title}</h3>
         <Typography
           variant="paragraph"
-          className="max-w-md text-textColor mt-6"
+          className="max-w-md text-textColor mt-6 font-medium"
         >
           {text}
         </Typography>

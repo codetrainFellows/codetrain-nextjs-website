@@ -1,18 +1,27 @@
 const sponsorImages = [
   {
-    name: "Terratalent",
-    src: "/images/terratallent.png",
+    name: "SAP",
+    src: "/images/sap.jpg",
     link: "",
   },
   {
-    name: "Jobberman",
-    src: "/images/jobberman.png",
+    name: "Chancen",
+    src: "/images/chancen.png",
     link: "",
   },
-
   {
     name: "Bloomberg",
     src: "/images/bloomberg.png",
+    link: "",
+  },
+  {
+    name: "I&P Investments",
+    src: "/images/ipinvestment.png",
+    link: "https://www.ietp.com/en/company/codetrain",
+  },
+  {
+    name: "BlackInTech",
+    src: "/images/blackintech.png",
     link: "",
   },
   {
@@ -21,8 +30,13 @@ const sponsorImages = [
     link: "",
   },
   {
-    name: "BlackInTech",
-    src: "/images/blackintech.png",
+    name: "Mentor Color",
+    src: "/images/mentor color.svg",
+    link: "",
+  },
+  {
+    name: "Terratalent",
+    src: "/images/terratallent.png",
     link: "",
   },
   {
@@ -41,18 +55,18 @@ const sponsorImages = [
     link: "",
   },
   {
+    name: "Jobberman",
+    src: "/images/jobberman.png",
+    link: "",
+  },
+  {
+    name: "Jobberman",
+    src: "/images/jobberman.png",
+    link: "",
+  },
+  {
     name: "SkilledUp Life",
     src: "/images/skilledup-life-logo.png",
-    link: "",
-  },
-  {
-    name: "Chancen",
-    src: "/images/chancen.png",
-    link: "",
-  },
-  {
-    name: "GIZ",
-    src: "/images/giz-logo.gif",
     link: "",
   },
   {
@@ -118,10 +132,11 @@ const inMedia = [
     src: "/images/disruptafricas.png",
     link: "https://disruptafrica.com/2019/08/29/meet-ghanas-codetrain-the-latest-addition-to-africas-cohort-of-coding-schools/",
   },
+
   {
     name: "Joy Fm",
     src: "/images/joyfm.png",
-    link: "",
+    link: "https://www.youtube.com/watch?app=desktop&v=ZlCAxDRSAJY",
   },
   {
     name: "Tech Point Africa",
@@ -138,11 +153,6 @@ const inMedia = [
     name: "AfricaX",
     src: "/images/africax.png",
     link: "https://africax.org/changemaker-interviews/how-richard-brandt-started-codetrain-ghanas-biggest-code-school-from-his-kitchen-table/",
-  },
-  {
-    name: "I&P Investments",
-    src: "/images/ipinvestment.png",
-    link: "https://www.ietp.com/en/company/codetrain",
   },
 ];
 

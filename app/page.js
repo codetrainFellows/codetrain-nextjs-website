@@ -100,7 +100,7 @@ export default function Home() {
           />
         </div>
         <Image
-          src="/images/home.png"
+          src="/people/home.png"
           alt="ladies"
           height={400}
           width={300}
@@ -385,10 +385,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Our Partners and Sponsors */}
+      {/* Our Partners and Supporters */}
       <section className="text-center py-12 px-10 shadow-md border-t border-t-black">
         <h1 className="text-xl md:text-2xl text-violet font-semibold">
-          Our Partners and Sponsors
+          Our Partners and Supporters
         </h1>
         <div className="grid place-items-center grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mt-12">
           {sponsorImages.slice(0, 12).map((sponsor) => (
@@ -759,7 +759,7 @@ export default function Home() {
             <Typography variant="h4">Talk To Us</Typography>
             <Typography variant="h4">+233 545 792 397</Typography>
             <Typography variant="h4">Email Us</Typography>
-            <Typography variant="h4">admissions@codetraingh.com</Typography>
+            <Typography variant="h4">admissions@codetrainafrica.com</Typography>
           </div>
           <div className="h-[422px]">
             <Image

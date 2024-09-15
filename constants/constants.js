@@ -9,11 +9,7 @@ const sponsorImages = [
     src: "/images/jobberman.png",
     link: "",
   },
-  {
-    name: "I&P Investments",
-    src: "/images/ipinvestment.png",
-    link: "https://www.ietp.com/en/company/codetrain",
-  },
+
   {
     name: "Bloomberg",
     src: "/images/bloomberg.png",
@@ -118,24 +114,9 @@ const sponsorImages = [
 
 const inMedia = [
   {
-    name: "empact",
-    src: "/images/empact.png",
-    link: "",
-  },
-  {
     name: "Disrupt Ghana",
     src: "/images/disruptafricas.png",
     link: "https://disruptafrica.com/2019/08/29/meet-ghanas-codetrain-the-latest-addition-to-africas-cohort-of-coding-schools/",
-  },
-  {
-    name: "Ghana Web",
-    src: "/images/ghanaweb.png",
-    link: "https://www.ghanaweb.com/GhanaHomePage/features/Starting-from-Ghana-Codetrain-is-taking-on-Africa-s-developer-shortage-problem-square-on-716556",
-  },
-  {
-    name: "Gh Headlines",
-    src: "/images/ghheadlines.png",
-    link: "",
   },
   {
     name: "Joy Fm",
@@ -147,11 +128,7 @@ const inMedia = [
     src: "/images/techpointafrica.webp",
     link: "https://techpoint.africa/2019/01/15/codetrain-feature/?fbclid=IwAR2_WZHXUYxOi53OcHhuUseLvK1Tv_u4Oc9_3_Gt-SC-l2pftBcoJ2lrY3Q",
   },
-  {
-    name: "Tv3",
-    src: "/images/tv3-logo.png",
-    link: "",
-  },
+
   {
     name: "TAP Magazine",
     src: "/images/tapmag.png",
@@ -161,6 +138,11 @@ const inMedia = [
     name: "AfricaX",
     src: "/images/africax.png",
     link: "https://africax.org/changemaker-interviews/how-richard-brandt-started-codetrain-ghanas-biggest-code-school-from-his-kitchen-table/",
+  },
+  {
+    name: "I&P Investments",
+    src: "/images/ipinvestment.png",
+    link: "https://www.ietp.com/en/company/codetrain",
   },
 ];
 

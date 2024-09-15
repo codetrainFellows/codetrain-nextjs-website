@@ -56,7 +56,7 @@ export default function Home() {
             <span className="font-light"> or UX/UI Design.</span>
           </h1>
           <div className="md:ml-10 text-textColor">
-            <ul className="list-disc pl-4 md:pl-0 mt-10 leading-normal text-sm md:text-xl md:max-w-xl">
+            <ul className="list-disc pl-4 md:pl-0 mt-10 leading-normal font-extrabold text-sm md:text-xl md:max-w-xl">
               <li>Learn in-demand tech skills that companies are hiring for</li>
               <li className="mt-2">
                 Get practical experience by working on projects and building a

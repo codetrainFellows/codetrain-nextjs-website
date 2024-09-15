@@ -134,26 +134,16 @@ const SuccessStory = () => {
             </CardHeader>
             <CardBody>
               <p className="font-normal text-textColor line-clamp-6">
-                Before joining Codetrain, Razak was determined to break into
-                tech. Despite studying networking and experiencing initial
-                success, he faced an unexpected setback and spent two years
-                searching for a new opportunity. Discovering Codetrain marked a
-                turning point—within 6 months, his life transformed, leading him
-                to a role at TXT Ghana as a software developer. Since graduating
-                in 2018, Razak has expanded his career to AgroCenta, where he
-                helps improve the lives of low-income farmers through modern
-                agriculture practices and market access. Seeing farmers benefit
-                from his work is incredibly fulfilling, and Razak is driven by
-                the desire to solve societal problems through technology. His
-                future goal is to start his own company, but for now, he focuses
-                on contributing to impactful projects and leveraging his skills
-                to make a meaningful difference in people’s lives.
+                After graduating, Gerald was hired on the spot by Meqasa`s CEO
+                during demo day. He now works at Hubtel, focusing on gaining
+                expertise,solving problems, and building his career in software
+                development.
               </p>
             </CardBody>
             <hr className="border-violet h-1" />
             <CardFooter>
               <Typography className="font-bold text-textColor">
-                Razak Ibrahim
+                Gerald
               </Typography>
               <Typography className="font-normal text-textColor">
                 Software Engineer

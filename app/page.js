@@ -84,7 +84,7 @@ export default function Home() {
                 </Button>
               </Link>
             </div>
-            <p className="mt-8 text-xs md:text-base text-textColor">
+            <p className="mt-8 text-xs font-extrabold  md:text-base text-textColor">
               * Admission is in progress, join the October Cohort!
             </p>
           </div>
@@ -104,7 +104,8 @@ export default function Home() {
           alt="ladies"
           height={400}
           width={300}
-          className="h-[1067px] -bottom-60 sm:bottom-0 sm:h-[567px] w-fit object-contain absolute opacity-20 right-0 md:h-[700px] lg:hidden"
+          quality={100}
+          className="h-[1067px] w-auto -top-64 sm:-top-20 md:-top-40 sm:h-[567px] object-contain absolute opacity-20 right-0 md:h-[700px] lg:hidden"
         />
         {/* bg logos */}
         <BgLogoRight className="fill-[#8c87a1] opacity-[0.2] size-60 sm:size-80 lg:size-6/12 absolute left-0 -top-11 lg:left-2/4 lg:-top-1 lg:-z-10" />
@@ -314,29 +315,34 @@ export default function Home() {
           <h3 className="text-2xl md:text-4xl text-violet font-semibold">
             Codetrain Experience
           </h3>
-          <p className="max-w-4xl mt-7 mx-auto text-xl text-textColor">
-            Unlike traditional education models, our curriculum is constantly
-            updated to reflect the latest trends and demands of the tech
-            industry.
-          </p>
+          <Typography
+            variant="paragraph"
+            className="max-w-4xl mt-7 mx-auto text-xl text-textColor"
+          >
+            CodeTrain offers an amazing internationally recognized education
+            experience, blending global standards with strong support for
+            underrepresented groups, ensuring an inclusive and empowering
+            learning environments for all students.
+          </Typography>
         </div>
         <div className="flex flex-col gap-14 items-center mt-10 z-10">
           <ExperienceCard
-            img="/people/expe1.jpg"
+            // img="/people/expe1.jpg"
+            video="https://www.youtube.com/embed/uK37JIvdr2A?si=IPqMeg5lXCuIBeR8"
             title="Safeguarding"
-            text="Our coding bootcamp offers personalized learning paths designed to cater to the diverse needs and aspirations of each student, ensuring that they receive the support and guidance needed to succeed in their journey towards becoming proficient developers or designers"
+            text="We prioritize safeguarding by maintaining a safe, harassment-free environment. Our strict policies protect students from cyberbullying and misconduct, ensuring inclusivity and equal opportunity for all, with focus on supporting underrepresented groups."
             className="lg:flex-row"
           />
           <ExperienceCard
             img="/people/exp7.jpg"
             title="Diversity And Neurodivergent"
-            text="Unlike traditional education models, our curriculum is constantly updated to reflect the latest trends and demands of the tech industry. By staying ahead of the curve, we equip our students with the relevant skills and knowledge needed to thrive in today's competitive job market"
+            text="We champion women neurodivergent individuals, and those with sickle cell, offering both part and full scholarships. Our commitment to diversity and inclusion ensures these underrepresented groups have access to top-notch software engineering education and opportunities to thrive in tech."
             className="lg:flex-row-reverse"
           />
           <ExperienceCard
             img="/people/expe2.jpg"
             title="Global Experience"
-            text="We prioritize not only technical proficiency but also soft skills development, career readiness, and personal growth. Our comprehensive approach ensures that graduates are not only adept coders but also effective communicators, problem-solvers, and leaders in their field."
+            text="We offer students a global experience by integrating international industry standards into our curriculum, connecting them with global opportunities to work on international projects, ensuring they are well-prepared for a competitive, global job market."
             className="lg:flex-row"
           />
         </div>
@@ -357,6 +363,15 @@ export default function Home() {
 
       <section className="px-4 py-20 flex flex-col gap-10 lg:flex-row items-center justify-center">
         <div>
+          <Typography variant="lead" className="text-textColor max-w-md mb-5">
+            Your journey culminates in an exciting Demo Day and Career Fair.
+            This event is your chance to present your projects to industry
+            leaders, potential employers, and the Codetrain community.
+            It&lsquo;s an opportunity to showcase your skills, gain valuable
+            feedback, and explore job opportunities. Our Career Fair connects
+            you with top companies looking for tech talent like you.
+          </Typography>
+
           <div>
             <iframe
               // width="560"
@@ -370,14 +385,6 @@ export default function Home() {
               allowFullScreen
             ></iframe>
           </div>
-          <Typography variant="lead" className="text-textColor max-w-md mt-5">
-            Your journey culminates in an exciting Demo Day and Career Fair.
-            This event is your chance to present your projects to industry
-            leaders, potential employers, and the Codetrain community.
-            It&lsquo;s an opportunity to showcase your skills, gain valuable
-            feedback, and explore job opportunities. Our Career Fair connects
-            you with top companies looking for tech talent like you.
-          </Typography>
         </div>
         <div>
           <Image src="/people/group1.jpg" alt="" height={285} width={320} />
@@ -908,25 +915,41 @@ export default function Home() {
   );
 }
 
-const ExperienceCard = ({ className, img, title, text }) => {
+const ExperienceCard = ({ className, img, title, text, video }) => {
   return (
     <div
       className={`flex flex-col items-center gap-x-9 relative z-10 ${className}`}
     >
       <div className="max-w-md">
-        <Image
-          src={img}
-          alt={title}
-          width={400}
-          height={300}
-          className="rounded-none shadow"
-        />
+        {img ? (
+          <Image
+            src={img}
+            alt={title}
+            width={400}
+            height={300}
+            className="rounded-none shadow"
+          />
+        ) : (
+          <iframe
+            width="400"
+            height="300"
+            src={video && video}
+            title="YouTube video player"
+            // frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            // referrerpolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        )}
       </div>
       <div className="mt-10 lg:mt-0 max-w-md">
         <h3 className="text-violet font-bold text-2xl max-w-sm">{title}</h3>
-        <p className="max-w-md text-xl text-textColor tracking-wide mt-6">
+        <Typography
+          variant="paragraph"
+          className="max-w-md text-textColor mt-6"
+        >
           {text}
-        </p>
+        </Typography>
       </div>
     </div>
   );

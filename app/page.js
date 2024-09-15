@@ -56,7 +56,7 @@ export default function Home() {
             <span className="font-light"> or UX/UI Design.</span>
           </h1>
           <div className="md:ml-10 text-textColor">
-            <ul className="list-disc pl-4 md:pl-0 mt-10 leading-normal text-sm md:text-lg md:max-w-xl">
+            <ul className="list-disc pl-4 md:pl-0 mt-10 leading-normal text-sm md:text-xl md:max-w-xl">
               <li>Learn in-demand tech skills that companies are hiring for</li>
               <li className="mt-2">
                 Get practical experience by working on projects and building a
@@ -357,7 +357,20 @@ export default function Home() {
 
       <section className="px-4 py-20 flex flex-col gap-10 lg:flex-row items-center justify-center">
         <div>
-          <Typography variant="lead" className="text-textColor max-w-md le">
+          <div>
+            <iframe
+              // width="560"
+              // height="315"
+              className="w-full h-52 sm:h-72 md:max-w-[540px] md:h-[376px]"
+              src="https://www.youtube.com/embed/uqozP61jgKQ?si=G4gwbtAlaS9H-Tsj"
+              title="CODETRAIN TECH CAREER SEMINAR, 2023"
+              // frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              // referrerpolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <Typography variant="lead" className="text-textColor max-w-md mt-5">
             Your journey culminates in an exciting Demo Day and Career Fair.
             This event is your chance to present your projects to industry
             leaders, potential employers, and the Codetrain community.

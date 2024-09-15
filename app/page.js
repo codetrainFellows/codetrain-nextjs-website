@@ -104,7 +104,7 @@ export default function Home() {
           alt="ladies"
           height={400}
           width={300}
-          className="h-[1067px] -bottom-60 sm:bottom-0 sm:h-[567px] w-fit object-contain absolute opacity-40 right-0 md:h-[700px] lg:hidden"
+          className="h-[1067px] -bottom-60 sm:bottom-0 sm:h-[567px] w-fit object-contain absolute opacity-20 right-0 md:h-[700px] lg:hidden"
         />
         {/* bg logos */}
         <BgLogoRight className="fill-[#8c87a1] opacity-[0.2] size-60 sm:size-80 lg:size-6/12 absolute left-0 -top-11 lg:left-2/4 lg:-top-1 lg:-z-10" />

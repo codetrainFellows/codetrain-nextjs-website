@@ -89,13 +89,13 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="relative hidden lg:inline">
+        <div className="relative hidden lg:inline h-[700px]">
           <Image
             src="/people/home.png"
             alt="hero"
             height={400}
             width={300}
-            className="h-[700px] w-fit object-contain"
+            className="h-[900px] w-fit relative object-contain -top-52"
             quality={100}
           />
         </div>
@@ -104,7 +104,7 @@ export default function Home() {
           alt="ladies"
           height={400}
           width={300}
-          className="h-[467px] sm:h-[567px] w-fit object-contain absolute opacity-10 right-0 sm:bottom-1 md:h-[700px] lg:hidden"
+          className="h-[1067px] -bottom-60 sm:bottom-0 sm:h-[567px] w-fit object-contain absolute opacity-10 right-0 md:h-[700px] lg:hidden"
         />
         {/* bg logos */}
         <BgLogoRight className="fill-[#8c87a1] opacity-[0.2] size-60 sm:size-80 lg:size-6/12 absolute left-0 -top-11 lg:left-2/4 lg:-top-1 lg:-z-10" />
@@ -531,9 +531,14 @@ export default function Home() {
               skills you need to succeed. In this video, Robert, Confidence, and
               other alumni share their transformative Codetrain experiences.
             </p>
-            <Button className="rounded-none hidden md:flex text-white bg-violet mt-6">
-              Join Our Community
-            </Button>
+            <Link
+              href="https://codetrainafrica.heiapply.com/application"
+              target="_blank"
+            >
+              <Button className="bg-yellow text-violet  mt-8 shadow-none font-bold px-5 sm:px-8 md:px-10 rounded-md">
+                Enroll now
+              </Button>
+            </Link>
           </div>
         </div>
         {/* Bg logos */}

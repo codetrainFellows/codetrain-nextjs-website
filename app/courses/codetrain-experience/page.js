@@ -39,7 +39,7 @@ const CodeTrainExperience = () => {
           <h2 className="text-5xl text-violet font-bold">
             Live the Codetrain Experience
           </h2>
-          <Typography variant="paragraph" className="my-8">
+          <Typography variant="paragraph" className="my-8 font-medium">
             Every day at Codetrain is an opportunity to learn, grow, and connect
             with like-minded individuals passionate about shaping the future of
             tech. Our students not only gain the technical skills needed to
@@ -163,7 +163,7 @@ const CodeTrainExperience = () => {
           </Typography>
           <Typography
             variant="paragraph"
-            className="max-w-lg mt-4 text-textColor "
+            className="max-w-lg mt-4 font-medium text-textColor "
           >
             Whether you have questions about your Codetrain experience, need
             help navigating your coursework, or seek advice on your career path,
@@ -174,14 +174,17 @@ const CodeTrainExperience = () => {
           <Typography variant="h5" className="text-violet mt-4">
             Personal Coaching
           </Typography>
-          <Typography variant="paragraph" className="max-w-lg text-textColor">
+          <Typography
+            variant="paragraph"
+            className="max-w-lg font-medium text-textColor"
+          >
             Our expert coaches provide tailored guidance to help you navigate
             your studies, overcome challenges, and achieve your career goals.
           </Typography>
           <Typography variant="h5" className="text-violet mt-4">
             Get Online Assistance
           </Typography>
-          <Typography className="max-w-lg text-textColor">
+          <Typography className="max-w-lg font-medium text-textColor">
             Get prompt, reliable support and stay on track with your Codetrain
             experience, all from the convenience of your own device.
           </Typography>
@@ -284,7 +287,7 @@ const CodeTrainExperience = () => {
             </Typography>
             <Typography
               variant="paragraph"
-              className="max-w-lg mt-4 text-textColor leading-8 text-lg"
+              className="max-w-lg mt-4 text-textColor font-medium leading-8 text-lg"
             >
               Your journey at Codetrain leads to the exciting annual Demo Day
               and Career Fair, where you present your projects to industry
@@ -292,7 +295,7 @@ const CodeTrainExperience = () => {
             </Typography>
             <Typography
               variant="paragraph"
-              className="max-w-lg mt-4 text-textColor leading-8 text-lg"
+              className="max-w-lg mt-4 text-textColor font-medium leading-8 text-lg"
             >
               Throughout your training, you’ll work on real-world projects from
               countries like Germany, Rwanda, Canada, and more, giving you
@@ -300,7 +303,7 @@ const CodeTrainExperience = () => {
             </Typography>
             <Typography
               variant="paragraph"
-              className="max-w-lg mt-4 text-textColor leading-8 text-lg"
+              className="max-w-lg mt-4 text-textColor font-medium leading-8 text-lg"
             >
               This event is not just a showcase of your skills; it’s an
               opportunity to gain valuable feedback, explore job opportunities,
@@ -308,14 +311,14 @@ const CodeTrainExperience = () => {
             </Typography>
             <Typography
               variant="paragraph"
-              className="max-w-lg mt-4 text-textColor leading-8 text-lg"
+              className="max-w-lg mt-4 text-textColor font-medium leading-8 text-lg"
             >
               Many students have even been hired on the spot, thanks to the
               impressive work they`ve done on these global projects.
             </Typography>
             <Typography
               variant="paragraph"
-              className="max-w-lg mt-4 text-textColor leading-8 text-lg"
+              className="max-w-lg mt-4 text-textColor font-medium leading-8 text-lg"
             >
               The Career Fair connects you with top companies actively seeking
               tech talent like you, making it a launching pad for your career in
@@ -568,7 +571,10 @@ const CodeTrainExperience = () => {
           <Typography variant="h4" className="text-violet md:text-4xl">
             Alumni Network Is Available To Help You
           </Typography>
-          <Typography variant="paragraph" className="text-textColor mt-2">
+          <Typography
+            variant="paragraph"
+            className="text-textColor font-medium mt-2"
+          >
             Our robust alumni network is here to support you every step of the
             way. Connect with experienced Codetrain graduates for guidance,
             mentorship, and career advice as you navigate your journey and

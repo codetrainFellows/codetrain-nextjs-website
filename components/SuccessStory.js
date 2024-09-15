@@ -35,13 +35,13 @@ const SuccessStory = () => {
             />
           </CardHeader>
           <CardBody>
-            <p className="font-normal text-textColor">
+            <p className="font-light text-textColor">
               Korkor Mensah’s journey into tech began with an unexpected
               challenge. When she couldn’t assist her kids with their coding
               bootcamp assignments despite her IT experience, the embarrassment
               motivated her to enroll in Codetrain herself.
             </p>
-            <p className="font-normal text-textColor mt-2">
+            <p className="font-light text-textColor mt-2">
               Balancing family obligations and a full-time job in a fast-paced
               environment was challenging, but Korkor’s dedication never
               wavered—she never missed a class or assignment. Her hard work paid
@@ -91,7 +91,7 @@ const SuccessStory = () => {
               />
             </CardHeader>
             <CardBody>
-              <p className="font-normal text-textColor line-clamp-6">
+              <p className="font-light text-textColor line-clamp-6">
                 Two years after graduating from Codetrain, Ofoe’s career is
                 thriving. He began with an internship at thinkSopht Labs and
                 soon transitioned to a role at Turntabl, where he’s been
@@ -133,7 +133,7 @@ const SuccessStory = () => {
               />
             </CardHeader>
             <CardBody>
-              <p className="font-normal text-textColor line-clamp-6">
+              <p className="font-light text-textColor line-clamp-6">
                 After graduating, Gerald was hired on the spot by Meqasa`s CEO
                 during demo day. He now works at Hubtel, focusing on gaining
                 expertise,solving problems, and building his career in software

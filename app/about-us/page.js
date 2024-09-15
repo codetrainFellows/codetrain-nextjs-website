@@ -75,8 +75,8 @@ const AboutUs = () => {
 
       {/* Our Mission: ( Driving purpose and passion ) section */}
       <section className="grid grid-cols-2 place-items-center px-2 py-10 md:p-20 bg-ash overflow-hidden">
-        <div className="text-textColor leading-8 col-span-2 lg:col-span-1 relative">
-          <div className="z-10">
+        <div className="text-textColor leading-8 col-span-2 lg:col-span-1 relative ">
+          <div className="z-10 relative">
             <h2 className="text-2xl md:text-4xl text-violet font-bold max-w-lg ">
               Our Mission: Driving Purpose and Passion
             </h2>
@@ -101,7 +101,7 @@ const AboutUs = () => {
             className="object-cover !h-[400px] !w-40 mt-7"
           />
           <Image
-            src="/people/gerald.jpg"
+            src="/people/Gerald.jpg"
             width={1000}
             height={200}
             alt=""
@@ -135,7 +135,7 @@ const AboutUs = () => {
                 />
               </CardHeader>
               <CardBody>
-                <p className="font-bold text-textColor">
+                <Typography className="f text-textColor">
                   Welcome to Codetrain! We believe in the power of technology to
                   change lives and build bright futures. Our mission is to
                   transform ambitious individuals into tech leaders who not only
@@ -144,7 +144,7 @@ const AboutUs = () => {
                   having a bit of fun along the way. Whether you`re just
                   starting out or looking to level up your skills, we’re here to
                   support you every step of the way.
-                </p>
+                </Typography>
               </CardBody>
               <hr className="border-violet h-1" />
               <CardFooter>

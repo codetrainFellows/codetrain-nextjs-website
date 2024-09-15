@@ -73,7 +73,7 @@ const SuccessStories = () => {
             </h1>
             <Typography
               variant="paragraph"
-              className="max-w-lg mt-4 text-textColor leading-6 text-base sm:text-lg"
+              className="max-w-lg mt-4 text-textColor leading-6 font-medium text-base sm:text-lg"
             >
               After spending four years as a finance executive, Catherine
               realized that her passion extended beyond numbers and
@@ -167,7 +167,7 @@ const SuccessStories = () => {
             <div className="max-w-lg">
               <Typography
                 variant="paragraph"
-                className="text-textColor text-lg"
+                className="text-textColor font-medium"
               >
                 Project-based learning is our way. At code train, you learn by
                 doing. From your first day to your last, you’re graded on actual
@@ -176,26 +176,26 @@ const SuccessStories = () => {
               </Typography>
               <Typography
                 variant="paragraph"
-                className="text-textColor text-lg mt-5"
+                className="text-textColor font-medium mt-5"
               >
                 Project-based learning is our way. At code train, you learn by
                 doing. From your first day to your last,
               </Typography>
-              <Typography variant="paragraph" className="text- text-lg mt-5">
+              <Typography variant="paragraph" className="font-medium mt-5">
                 you’re graded on actual work that is similar to what you’ll be
                 doing on the job. If it has no application in the industry, we
                 don’t bother with it.
               </Typography>
-              <Typography variant="paragraph" className="text- text-lg mt-5">
+              <Typography variant="paragraph" className="font-medium mt-5">
                 Project-based learning is our way. At code train, you learn by
                 doing. From your first day to your last,
               </Typography>
-              <Typography variant="paragraph" className="text- text-lg mt-5">
+              <Typography variant="paragraph" className="font-medium mt-5">
                 you’re graded on actual work that is similar to what you’ll be
                 doing on the job. If it has no application in the industry, we
                 don’t bother with it.
               </Typography>
-              <Typography variant="paragraph" className="text- text-lg mt-5">
+              <Typography variant="paragraph" className="font-medium mt-5">
                 Project-based learning is our way. At code train, you learn by
                 doing. From your first day to your last, you’re
               </Typography>
@@ -212,7 +212,7 @@ const SuccessStories = () => {
           </h3>
           <Typography
             variant="paragraph"
-            className="max-w-4xl mt-7 mx-auto text-base text-textColor"
+            className="max-w-4xl mt-7 mx-auto font-medium text-textColor"
           >
             Partnering with top companies, we connect students to real-world
             projects and internships, giving them practical experience and
@@ -344,14 +344,20 @@ const SuccessStories = () => {
             <Typography variant="h4" className="text-violet md:text-4xl">
               Trailblazers: Pioneering Achievements in Tech
             </Typography>
-            <Typography variant="paragraph" className="text-textColor mt-2">
+            <Typography
+              variant="paragraph"
+              className="text-textColor mt-2 font-medium"
+            >
               Our trailblazers have not only mastered the latest technologies
               but have also made groundbreaking contributions that are shaping
               the future. From developing innovative solutions to leading
               impactful tech startups, these pioneers are setting new standards
               and inspiring others with their vision and creativity.
             </Typography>
-            <Typography variant="paragraph" className="text-textColor mt-2">
+            <Typography
+              variant="paragraph"
+              className="text-textColor mt-2 font-medium"
+            >
               Their achievements go beyond personal success, driving change and
               advancing technology in meaningful ways. By pushing the boundaries
               of what’s possible, these tech leaders are transforming industries
@@ -477,7 +483,7 @@ const SuccessStories = () => {
           </h3>
           <Typography
             variant="paragraph"
-            className="max-w-4xl mt-7 mx-auto text-base text-textColor"
+            className="max-w-4xl mt-7 mx-auto text-base text-textColor font-medium"
           >
             Our commitment to excellence in tech education has been recognized
             through numerous awards, celebrating our innovative approach and

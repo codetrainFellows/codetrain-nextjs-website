@@ -312,13 +312,19 @@ const HireAGraduate = () => {
               Join Our Career Fairs, And Mixers To Meet And Interact With Our
               Talented Graduates.
             </Typography>
-            <Typography variant="paragraph" className="text-textColor mt-2">
+            <Typography
+              variant="paragraph"
+              className="text-textColor mt-2 font-medium"
+            >
               Our career fairs and mixers provide an excellent platform to meet
               and interact with our talented graduates. These events allow you
               to connect with emerging tech professionals and see their skills
               in action.
             </Typography>
-            <Typography variant="paragraph" className="text-textColor mt-2">
+            <Typography
+              variant="paragraph"
+              className="text-textColor mt-2 font-medium"
+            >
               Discover how our graduates are shaping the future of technology.
               Engage with them to explore potential opportunities and see
               firsthand the impact of their expertise on the industry.

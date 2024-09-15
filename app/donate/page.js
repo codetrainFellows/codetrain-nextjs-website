@@ -364,7 +364,7 @@ const Donate = () => {
                 >
                   How Your Donation Helps
                 </Typography>
-                <Typography variant="paragraph" className="mt-5">
+                <Typography variant="paragraph" className="mt-5 font-medium">
                   Every dollar you donate makes a direct impact on the lives of
                   our students. Your contributions help us:
                 </Typography>
@@ -373,22 +373,22 @@ const Donate = () => {
 
             <ul className="list-disc mt-10 space-y-4">
               <li>
-                <Typography variant="paragraph">
+                <Typography variant="paragraph" className="font-medium">
                   Provide scholarships to those who need them most.
                 </Typography>
               </li>
               <li>
-                <Typography variant="paragraph">
+                <Typography variant="paragraph" className="font-medium">
                   Expand our Diversity and Inclusion initiatives.
                 </Typography>
               </li>
               <li>
-                <Typography variant="paragraph">
+                <Typography variant="paragraph" className="font-medium">
                   Develop and deliver cutting-edge curricula.
                 </Typography>
               </li>
               <li>
-                <Typography variant="paragraph">
+                <Typography variant="paragraph" className="font-medium">
                   Support students through mentorship and career services.
                 </Typography>
               </li>

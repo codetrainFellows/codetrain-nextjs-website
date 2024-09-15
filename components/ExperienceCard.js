@@ -20,7 +20,7 @@ const ExperienceCard = ({ className, img, title, text, imgClass }) => {
         <h3 className="text-violet text-2xl md:text-3xl max-w-sm">{title}</h3>
         <Typography
           variant="paragraph"
-          className="max-w-md text-textColor tracking-wide mt-6"
+          className="max-w-md text-textColor font-medium tracking-wide mt-6"
         >
           {text}
         </Typography>

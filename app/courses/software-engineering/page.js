@@ -643,7 +643,7 @@ const Software = () => {
         </div>
         {/* Bg logo */}
         <CTLogo
-          className="absolute opacity-[0.5] h-full md:max-w-7xl top-0 md:-right-[650px]"
+          className="absolute opacity-20 h-full md:max-w-7xl top-0 md:-right-[650px]"
           color="#c2c0c0"
         />
         <BgLogoLeft className="absolute hidden md:inline size-80 top-96 right-0" />

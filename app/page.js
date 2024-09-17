@@ -124,7 +124,7 @@ export default function Home() {
           tech skills
         </Typography>
 
-        <div className="flex flex-col items-center justify-center md:items-start md:flex-row gap-x-10 ">
+        <div className="flex flex-col items-center justify-center md:items-start md:flex-row gap-x-40 gap-y-10">
           <div className="max-w-72">
             <h4 className="text-lg md:text-xl text-violet font-extrabold mb-3">
               Job Placement
@@ -565,129 +565,6 @@ export default function Home() {
         <BgLogoLeft className="fill-pink opacity-[0.3] absolute size-96 sm:size-[546px] -bottom-10 sm:-bottom-24 lg:bottom-1/3 right-0 sm:inline" />
       </section>
 
-      {/* Exciting Stories Section */}
-      <section className="min-h-[calc(100vh-60px)] bg-ash text-center flex flex-col justify-center py-14 sm:py-24 px-4 relative">
-        <h1 className="font-bold text-pink text-2xl max-w-3xl mx-auto lg:text-5xl">
-          Some Exciting Stories About Codetrain
-        </h1>
-
-        <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 place-items-center place-content-center gap-10 mt-10 sm:mt-20 text-left">
-          <div className="flex gap-4">
-            <div>
-              <Image
-                src="/people/stories.jpg"
-                alt="people"
-                height={350}
-                width={350}
-                className="h-36 object-cover"
-              />
-            </div>
-            <div>
-              <Typography variant="h6" className="text-violet">
-                Codetrain becomes the first company to join I&P’s education to
-                employment program.
-              </Typography>
-              <Typography variant="paragraph" className="text-textColor">
-                The partner companies receive funding and technical assistance
-                to support them in their digital transformation...
-                <Link
-                  href="https://www.ietp.com/en/content/ghana-two-edtech-companies-join-ip-education-employment-program"
-                  target="_blank"
-                  className="underline"
-                >
-                  read more
-                </Link>
-              </Typography>
-            </div>
-          </div>
-          <div className="flex gap-4">
-            <div>
-              <Image
-                src="/people/uncleebo.jpg"
-                alt="people"
-                height={350}
-                width={350}
-                className="h-36 object-cover"
-              />
-            </div>
-            <div>
-              <Typography variant="h6" className="text-violet">
-                “Be courageous, enthusiastic” — Ebo Whyte inspires young
-                software developers
-              </Typography>
-              <Typography variant="paragraph" className="text-textColor">
-                Renowned Ghanaian playwright and author, Mr James Ebo Whyte, has
-                advised newly trained software developers to exhibit...
-                <Link
-                  href="https://citinewsroom.com/2023/10/be-courageous-enthusiastic-ebo-whyte-inspires-young-software-developers/"
-                  target="_blank"
-                  className="underline"
-                >
-                  read more
-                </Link>
-              </Typography>
-            </div>
-          </div>
-          <div className="flex gap-4">
-            <div>
-              <Image
-                src="/people/stories1.webp"
-                alt="people"
-                height={350}
-                width={350}
-                className="h-36 object-cover"
-              />
-            </div>
-            <div>
-              <Typography variant="h6" className="text-violet">
-                Stonebwoy, Richard Brandt, DBlack, and others make 2019 Top 50
-                Young CEOs in Ghana
-              </Typography>
-              <Typography variant="paragraph" className="text-textColor">
-                TheYCEO & Avance Media have officially released the 2019 list of
-                the Top 50 Young CEOs in Ghana, an annual ranking which
-                celebrates...
-                <Link
-                  href="https://codetrain.medium.com/stonebwoy-richard-brandt-dblack-and-others-make-2019-top-50-young-ceos-in-ghana-457b24e36b16"
-                  target="_blank"
-                  className="underline"
-                >
-                  read more
-                </Link>
-              </Typography>
-            </div>
-          </div>
-          <div className="flex gap-4">
-            <div>
-              <Image
-                src="/people/stories3.webp"
-                alt="people"
-                height={350}
-                width={350}
-                className="h-36 object-cover"
-              />
-            </div>
-            <div>
-              <Typography variant="h6" className="text-violet">
-                Codetrain Tech Seminar: Technology companies urged to provide
-                attractive packages to retain employees
-              </Typography>
-              <Typography variant="paragraph" className="text-textColor">
-                Accra, Oct. 16, GNA – Founders and owners of technology
-                companies should provide attractive packages...
-                <Link
-                  href="https://gna.org.gh/2023/10/codetrain-tech-seminar-technology-companies-urged-to-provide-attractive-packages-to-retain-employees/"
-                  target="_blank"
-                  className="underline"
-                >
-                  read more
-                </Link>
-              </Typography>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Our Fees Section */}
       <section className="min-h-[calc(100vh-60px)] text-center flex flex-col justify-center py-10 md:py-20 px-4 relative">
         <div className="z-10">
@@ -815,6 +692,129 @@ export default function Home() {
 
       {/* Excited to start your career Section */}
       <ExcitedCareer />
+
+      {/* Exciting Stories Section */}
+      <section className="min-h-[calc(100vh-60px)] bg-ash text-center flex flex-col justify-center py-14 sm:py-24 px-4 relative">
+        <h1 className="font-bold text-pink text-2xl max-w-3xl mx-auto lg:text-5xl">
+          Some Exciting Stories About Codetrain
+        </h1>
+
+        <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 place-items-center place-content-center gap-10 mt-10 sm:mt-20 text-left">
+          <div className="flex gap-4">
+            <div>
+              <Image
+                src="/people/stories.jpg"
+                alt="people"
+                height={350}
+                width={350}
+                className="h-36 object-cover"
+              />
+            </div>
+            <div>
+              <Typography variant="h6" className="text-violet">
+                Codetrain becomes the first company to join I&P’s education to
+                employment program.
+              </Typography>
+              <Typography variant="paragraph" className="text-textColor">
+                The partner companies receive funding and technical assistance
+                to support them in their digital transformation...
+                <Link
+                  href="https://www.ietp.com/en/content/ghana-two-edtech-companies-join-ip-education-employment-program"
+                  target="_blank"
+                  className="underline"
+                >
+                  read more
+                </Link>
+              </Typography>
+            </div>
+          </div>
+          <div className="flex gap-4">
+            <div>
+              <Image
+                src="/people/uncleebo.jpg"
+                alt="people"
+                height={350}
+                width={350}
+                className="h-36 object-cover"
+              />
+            </div>
+            <div>
+              <Typography variant="h6" className="text-violet">
+                “Be courageous, enthusiastic” — Ebo Whyte inspires young
+                software developers
+              </Typography>
+              <Typography variant="paragraph" className="text-textColor">
+                Renowned Ghanaian playwright and author, Mr James Ebo Whyte, has
+                advised newly trained software developers to exhibit...
+                <Link
+                  href="https://citinewsroom.com/2023/10/be-courageous-enthusiastic-ebo-whyte-inspires-young-software-developers/"
+                  target="_blank"
+                  className="underline"
+                >
+                  read more
+                </Link>
+              </Typography>
+            </div>
+          </div>
+          <div className="flex gap-4">
+            <div>
+              <Image
+                src="/people/stories1.webp"
+                alt="people"
+                height={350}
+                width={350}
+                className="h-36 object-cover"
+              />
+            </div>
+            <div>
+              <Typography variant="h6" className="text-violet">
+                Stonebwoy, Richard Brandt, DBlack, and others make 2019 Top 50
+                Young CEOs in Ghana
+              </Typography>
+              <Typography variant="paragraph" className="text-textColor">
+                TheYCEO & Avance Media have officially released the 2019 list of
+                the Top 50 Young CEOs in Ghana, an annual ranking which
+                celebrates...
+                <Link
+                  href="https://codetrain.medium.com/stonebwoy-richard-brandt-dblack-and-others-make-2019-top-50-young-ceos-in-ghana-457b24e36b16"
+                  target="_blank"
+                  className="underline"
+                >
+                  read more
+                </Link>
+              </Typography>
+            </div>
+          </div>
+          <div className="flex gap-4">
+            <div>
+              <Image
+                src="/people/stories3.webp"
+                alt="people"
+                height={350}
+                width={350}
+                className="h-36 object-cover"
+              />
+            </div>
+            <div>
+              <Typography variant="h6" className="text-violet">
+                Codetrain Tech Seminar: Technology companies urged to provide
+                attractive packages to retain employees
+              </Typography>
+              <Typography variant="paragraph" className="text-textColor">
+                Accra, Oct. 16, GNA – Founders and owners of technology
+                companies should provide attractive packages...
+                <Link
+                  href="https://gna.org.gh/2023/10/codetrain-tech-seminar-technology-companies-urged-to-provide-attractive-packages-to-retain-employees/"
+                  target="_blank"
+                  className="underline"
+                >
+                  read more
+                </Link>
+              </Typography>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Codetrain in media section */}
       <section className="text-center py-12 px-10">

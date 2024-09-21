@@ -528,7 +528,7 @@ const Software = () => {
       </section>
 
       {/* Why codetrain africa */}
-      <section className="bg-gradient-to-l from-[#1B1049] to-[#4126AF] text-white text-center min-h-[80vh] py-20 relative">
+      {/* <section className="bg-gradient-to-l from-[#1B1049] to-[#4126AF] text-white text-center min-h-[80vh] py-20 relative">
         <h2 className="text-3xl font-bold">Why Codetrain Africa</h2>
         <Typography
           variant="paragraph"
@@ -553,12 +553,12 @@ const Software = () => {
             </div>
           ))}
         </div>
-        {/* Bg Logo */}
+
         <CTLogo
           className="absolute top-0 sm:top-20 size-[1080px] -left-[48rem] sm:-left-[20rem] md:size-[80%] object-cover opacity-[0.1]"
           color="#fcfffd"
         />
-      </section>
+      </section> */}
 
       {/* Job Opportunitys Section*/}
       <section className="py-20 px-4 relative overflow-hidden">

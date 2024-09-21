@@ -216,9 +216,9 @@ const faq = [
     question: "What are the requirements to begin the course?",
     answer: "What you don't need",
     options: [
-      { option: "Computer science degree" },
-      { option: "Experience in tech" },
-      { option: "A degree" },
+      { option: "Computer science certificate" },
+      { option: "Previous tech experience" },
+      { option: "Any degree" },
     ],
   },
   {

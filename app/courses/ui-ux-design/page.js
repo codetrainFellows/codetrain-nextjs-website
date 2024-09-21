@@ -242,11 +242,11 @@ const UIUXDesign = () => {
               className="m-0 rounded-none"
             >
               <Image
-                src="/people/joshua.jpg"
+                src="/people/calvin.jpg"
                 alt="img"
                 width={540}
                 height={276}
-                className="overflow-hidden h-[351px] object-cover object-top w-full"
+                className="overflow-hidden h-[430px] object-cover object-top w-full"
               />
             </CardHeader>
             <CardBody>
@@ -420,7 +420,7 @@ const UIUXDesign = () => {
       </section>
 
       {/* Why codetrain africa */}
-      <section className="bg-gradient-to-l from-[#1B1049] to-[#4126AF] text-white text-center min-h-[80vh] py-20 relative">
+      {/* <section className="bg-gradient-to-l from-[#1B1049] to-[#4126AF] text-white text-center min-h-[80vh] py-20 relative">
         <h2 className="text-3xl font-bold">Why Codetrain Africa</h2>
         <Typography
           variant="paragraph"
@@ -445,12 +445,12 @@ const UIUXDesign = () => {
             </div>
           ))}
         </div>
-        {/* Bg Logo */}
+
         <CTLogo
           className="absolute top-0 sm:top-20 size-[1080px] -left-[48rem] sm:-left-[20rem] md:size-[80%] object-cover opacity-[0.1]"
           color="#fcfffd"
         />
-      </section>
+      </section> */}
 
       {/* Job Opportunity Section*/}
       <section className="py-20 px-4 relative overflow-hidden">
@@ -476,14 +476,51 @@ const UIUXDesign = () => {
                 <Typography variant="h5" className="font-bold mt-6 text-violet">
                   Coding Opportunities in UI/UX Designer
                 </Typography>
-                <ul className="list-disc leading-10 ml-8">
-                  <li>Mobile App Developer</li>
-                  <li>Frontend Developer</li>
-                  <li>Backend Developer</li>
-                  <li>Fullstack Developer</li>
-                  <li>DevOps Engineer</li>
-                  <li>Data Scientist</li>
-                  <li>Automated Testing Engineer</li>
+                <ul className="list-disc leading-10 ml-8  max-w-4xl">
+                  <li>
+                    <span className="font-bold">UX Designer</span> – Focuses on
+                    user research, wireframing, and improving product usability.
+                  </li>
+                  <li>
+                    <span className="font-bold">UI Designer</span> – Designs the
+                    visual elements of interfaces, focusing on aesthetics.
+                  </li>
+                  <li>
+                    <span className="font-bold">Interaction Designer</span> –
+                    Creates interactive elements like animations and buttons.
+                  </li>
+                  <li>
+                    <span className="font-bold">UX Researcher</span> – Conducts
+                    research to understand user behavior and inform design.
+                  </li>
+                  <li>
+                    <span className="font-bold">Visual Designer</span> –
+                    Combines UX/UI principles to create engaging, cohesive
+                    designs.
+                  </li>
+                  <li>
+                    <span className="font-bold">Product Designer</span> –
+                    Oversees the entire design process, solving user problems.
+                  </li>
+                  <li>
+                    <span className="font-bold">Information Architect</span> –
+                    Organizes content and navigation for better usability.
+                  </li>
+                  <li>
+                    <span className="font-bold">
+                      Front-End Developer with UI/UX Focus
+                    </span>{" "}
+                    – – Codes user-friendly interfaces with a design focus.
+                  </li>
+                  <li>
+                    <span className="font-bold">Mobile App Designer</span> –
+                    Specializes in UI/UX for mobile platforms.
+                  </li>
+                  <li>
+                    <span className="font-bold">Accessibility Specialist</span>{" "}
+                    – – Ensures digital products are accessible to all users,
+                    including those with disabilities.
+                  </li>
                 </ul>
               </div>
             </div>
@@ -518,7 +555,7 @@ const UIUXDesign = () => {
           className="absolute opacity-[0.5] h-full md:max-w-7xl top-0 md:-right-[450px]"
           color="#c2c0c0"
         />
-        <BgLogoLeft className="absolute hidden md:inline size-80 top-96 right-0" />
+        <BgLogoLeft className="absolute hidden opacity-10 md:inline size-80 top-96 right-0" />
       </section>
 
       {/* What You’ll Learn At Codetrain Africa */}
@@ -538,22 +575,23 @@ const UIUXDesign = () => {
           <div className="flex flex-col gap-20 md:flex-row justify-center items-center">
             <div className="text-start bg-white shadow-xl max-w-sm relative grid place-content-center pb-8">
               <h3 className="text-white font-bold text-2xl bg-indigo p-4">
-                year 1
+                9 months
               </h3>
               <p className="mt-4 text-textColor text-lg p-4 pb-10">
-                Learn to code from scratch and start building your portfolio,
-                laying a strong foundation for your software engineering career.
+                Learn UX design from scratch and start building your portfolio,
+                laying a strong foundation for your career in user experience
+                design.
               </p>
             </div>
             <div className="text-start bg-white shadow-xl max-w-sm relative grid place-content-center pb-8">
               <h3 className="text-white font-bold text-2xl bg-indigo p-4">
-                year 2
+                3 months
               </h3>
               <p className="mt-4 text-textColor text-lg p-4 pb-10">
-                The second year focuses on career services. Gain more hands-on
+                This period focuses on career services. Gain more hands-on
                 experience with internships, mock interviews, and a major Demo
                 Day to prepare for graduation and secure your first full-time
-                role.
+                role in UX design.
               </p>
             </div>
           </div>
@@ -584,19 +622,12 @@ const UIUXDesign = () => {
             </CardHeader>
             <CardBody>
               <Typography variant="paragraph" className=" text-textColor">
-                Korkor Mensah’s journey into tech began with an unexpected
-                challenge. When she couldn’t assist her kids with their coding
-                bootcamp assignments despite her IT experience, the
-                embarrassment motivated her to enroll in Codetrain herself.
-              </Typography>
-              <Typography variant="paragraph" className=" text-textColor mt-2">
-                Balancing family obligations and a full-time job in a fast-paced
-                environment was challenging, but Korkor’s dedication never
-                wavered—she never missed a class or assignment. Her hard work
-                paid off with a promotion and significant growth in her
-                professional network and online visibility. Inspired by her
-                progress, Korkor is now a passionate advocate for coding,
-                encouraging her children to pursue it with the same enthusiasm.
+                Meet Lovelace, who made a successful transition into UX/UI
+                design during her time at Codetrain. She excelled as a UX/UI
+                designer, applying the skills and knowledge she gained through
+                Codetrain’s comprehensive curriculum. Lovelace’s journey is a
+                testament to how dedication and the right guidance can lead to a
+                thriving career in tech.
               </Typography>
             </CardBody>
             <hr className="border-violet h-1" />
@@ -611,7 +642,19 @@ const UIUXDesign = () => {
           </Card>
         </div>
         <div className="">
-          <div className="">
+          <div>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/AnthuAW3w9g?si=Ha_YALr_wxDa5A47"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div className=" mt-5">
             <h3 className="text-violet font-bold text-3xl md:text-5xl max-w-xl">
               Success Stories from Codetrain Africa
             </h3>
@@ -631,7 +674,7 @@ const UIUXDesign = () => {
                 className="m-0 rounded-none"
               >
                 <Image
-                  src="/people/Lovelace.jpg"
+                  src="/people/calvin.jpg"
                   alt="img"
                   width={540}
                   height={276}

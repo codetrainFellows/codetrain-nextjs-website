@@ -32,36 +32,53 @@ const AboutUs = () => {
       </div>
 
       {/* Hero Section */}
-      <section className="min-h-[calc(100vh-64px-40px)] grid grid-cols-2 place-items-center relative">
+      <section className="min-h-[calc(100vh-64px-40px)] grid grid-cols-2 place-items-center relative gap-5 pr-5">
         <div className="hidden lg:inline">
           <Image
             src="/people/group.jpg"
             width={720}
             height={384}
             alt=""
-            className="object-cover !h-[calc(100vh-64px-40px)]"
+            className="object-cover !h-[calc(100vh)]"
             quality={100}
           />
         </div>
-        <div className="p-8 text-textColor md:leading-8 col-span-2 lg:col-span-1">
+        <div className="pt-5 pl-5 md:pl-0 md:pt-0 text-textColor md:leading-8 col-span-2 lg:col-span-1">
           <h2 className="text-4xl text-violet font-bold max-w-lg">
             Our Story: The Journey Behind Codetrain Africa
           </h2>
           <p className="my-8">
-            Codetrain was founded on the belief that achieving personal dreams
-            can lead to transformative community impact. Our journey began with
-            a vision to become a leading global software training brand,
-            dedicated to empowering individuals and fostering positive change.
-            We recognized that by nurturing tech talent, we could enable people
-            to contribute meaningfully to their communities and beyond.
+            Codetrain is a Software Engineering and Design School focused on
+            empowering ambitious Africans to take their place in the global tech
+            scene. Richard Brandt’s journey began while advancing his tech
+            career and exploring ecosystems across South America, the United
+            States, and Europe. It was during these experiences that he realized
+            the immense global demand for tech skills. At the same time, he saw
+            Africa teeming with creative talent and untapped potential but
+            lacking the opportunities to thrive.
           </p>
           <p className="my-5">
-            Our mission is to elevate individuals through digital education,
-            equipping them with the skills needed to become proficient software
-            developers and influential global leaders. At Codetrain, we are
-            committed to setting our students on a path to success, helping them
-            create significant impacts in their communities and drive innovation
-            in the tech world.
+            Motivated by the desire to bridge this gap, Richard returned to
+            Ghana and founded Codetrain with a clear vision: to provide
+            world-class tech education to African youth, equipping them with the
+            skills to succeed internationally. Codetrain’s hands-on,
+            project-based learning model is designed to produce not only
+            job-ready graduates but innovators capable of solving real-world
+            challenges. As a result, our graduates are making significant
+            contributions to global companies and innovative African companies
+            working on the next big African ideas.
+          </p>
+          <p className="my-5">
+            We are deeply committed to fostering inclusivity and creating
+            opportunities for underrepresented groups in the tech space,
+            particularly women, those from low-income backgrounds, and people
+            with disabilities. With a proven track record of success and a
+            scalable model, Codetrain stands out as a beacon of potential and
+            innovation in Africa’s tech ecosystem, attracting attention from
+            those who share a vision for a brighter, tech-driven future. By
+            nurturing the continent’s brightest minds, Codetrain is not just
+            shaping careers; it’s catalyzing a movement toward sustainable
+            economic development and transformative change.
           </p>
         </div>
         <Image
@@ -81,13 +98,24 @@ const AboutUs = () => {
               Our Mission: Driving Purpose and Passion
             </h2>
             <p className="my-5">
-              At Codetrain, our mission is to empower ambitious youth to make
-              their mark on the global tech stage. We are dedicated to nurturing
-              their skills and passion for technology, providing the tools and
-              knowledge needed to excel. By fostering a dynamic learning
-              environment, we aim to help our students harness their potential,
-              drive innovation, and contribute significantly to the tech
-              industry on a global scale.
+              Our impact is evident through our extensive alumni network, having
+              successfully trained over 700 individuals. A recent report by 60
+              Decibels revealed that 91% of alumni experienced an improved
+              quality of life due to their time at Codetrain, citing enhanced
+              skills, personal growth, and increased income as significant
+              benefits. Furthermore, 89% of our graduates secured employment
+              within 6 to 9 months after graduation, underscoring Codetrain’s
+              effectiveness in facilitating job opportunities and ensuring that
+              our students are well-equipped to succeed in a competitive job
+              market. By continually adapting our programs to meet industry
+              demands, we remain committed to shaping the future of tech talent
+              in Africa.
+            </p>
+            <p className="my-5">
+              By aligning our mission with the United Nations Sustainable
+              Development Goals (SDGs), particularly Quality Education (SDG 4)
+              and Decent Work and Economic Growth (SDG :sunglasses:, we aim to
+              create lasting change in our communities and beyond.
             </p>
           </div>
           <BgLogoRight className="absolute -top-32 -left-40 size-96 xl:size-[412px] xl:-left-20 xl:-top-44 fill-yellow opacity-[0.3]" />
@@ -118,7 +146,7 @@ const AboutUs = () => {
         </h2>
         <div className="flex flex-wrap justify-center lg:flex-nowrap gap-8 items-center relative z-10">
           <div className="mt-10">
-            <Card className="md:w-[430px] max-h-[667px] rounded-none">
+            <Card className="md:w-[430px] max-h-[767px] rounded-none">
               <CardHeader
                 floated={false}
                 shadow={false}
@@ -131,25 +159,29 @@ const AboutUs = () => {
                   width={540}
                   height={276}
                   quality={100}
-                  className="object-cover w-[540px] h-[276px] "
+                  className="object-cover !h-[400px] !w-full"
                 />
               </CardHeader>
               <CardBody>
                 <Typography className="f text-textColor">
-                  Welcome to Codetrain! We believe in the power of technology to
-                  change lives and build bright futures. Our mission is to
-                  transform ambitious individuals into tech leaders who not only
-                  excel in their careers but also make a positive impact on
-                  their communities. We’re all about learning, growing, and
-                  having a bit of fun along the way. Whether you`re just
-                  starting out or looking to level up your skills, we’re here to
-                  support you every step of the way.
+                  With over 15 years of experience in the tech industry, I
+                  provide invaluable insights to empower aspiring talent. I am
+                  thrilled to witness students, often starting with little or no
+                  tech background, develop their skills and achieve remarkable
+                  accomplishments over time. Mentoring and guiding them through
+                  this journey is incredibly rewarding, especially as I see them
+                  step into roles and excel in the tech industry, both locally
+                  and internationally.
                 </Typography>
               </CardBody>
               <hr className="border-violet h-1" />
               <CardFooter>
-                <p className="font-extrabold text-textColor">Richard Brandt</p>
-                <p className="font-normal text-textColor">CEO</p>
+                <Typography variant="h5" className="text-textColor">
+                  Richard Brandt
+                </Typography>
+                <Typography variant="paragraph" className="text-textColor">
+                  Founder
+                </Typography>
               </CardFooter>
             </Card>
           </div>
@@ -180,10 +212,10 @@ const AboutUs = () => {
                 </CardBody>
                 <hr className="border-violet h-1" />
                 <CardFooter>
-                  <Typography className="font-bold text-textColor">
+                  <Typography variant="h5" className="text-textColor">
                     {story.name}
                   </Typography>
-                  <Typography className="font-normal text-textColor">
+                  <Typography variant="paragraph" className="text-textColor">
                     {story.role}
                   </Typography>
                 </CardFooter>
@@ -218,10 +250,10 @@ const AboutUs = () => {
               </CardBody>
               <hr className="border-violet h-1" />
               <CardFooter>
-                <Typography className="font-bold text-textColor">
+                <Typography variant="h5" className="text-textColor">
                   {story.name}
                 </Typography>
-                <Typography className="font-normal text-textColor">
+                <Typography variant="paragraph" className="text-textColor">
                   {story.role}
                 </Typography>
               </CardFooter>
@@ -279,10 +311,15 @@ const AboutUs = () => {
               className="text-textColor lg:max-w-sm mt-5"
             >
               Partner with Codetrain to shape the future of tech in Africa. We
-              offer opportunities for collaboration in training, mentorship, and
-              innovation, aimed at empowering the next generation of software
-              developers. Join us in our mission to drive digital transformation
-              and create impactful career pathways.
+              invite organizations to collaborate with us in creating employment
+              opportunities, funding, and student financing initiatives.
+              Together, we can empower the next generation of software
+              developers through training, mentorship, and innovation. Join us
+              in our mission to drive digital transformation and forge impactful
+              career pathways for aspiring talent. Your partnership can make a
+              significant difference in unlocking opportunities and fostering a
+              thriving tech ecosystem. Let’s work together to create lasting
+              change!
             </Typography>
             <Link href="/partnerships">
               <Button className="mt-16 bg-yellow rounded-none text-violet font-bold">
@@ -299,11 +336,14 @@ const AboutUs = () => {
               variant="paragraph"
               className="text-textColor lg:max-w-sm mt-5"
             >
-              Support Codetrain to help us empower the next generation of tech
-              leaders. Your contributions enable us to provide top-notch
-              training, resources, and opportunities for aspiring software
-              developers across Africa. Join us in shaping a brighter digital
-              future!
+              Support Codetrain in empowering the next generation of tech
+              leaders! Your contributions, whether from organizations or
+              individuals, can make a profound difference by financing the
+              education of aspiring software developers. Together, we can
+              provide top-notch training, resources, and opportunities that will
+              shape a brighter digital future. Join us in this mission to
+              transform lives and communities—donate today to help us nurture
+              future talent!
             </Typography>
             <Link href="/donate">
               <Button className="mt-24 bg-yellow rounded-none text-violet font-bold">

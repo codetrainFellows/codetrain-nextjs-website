@@ -459,6 +459,19 @@ const SuccessStories = () => {
         </div>
         <BgLogoRight className="absolute fill-yellow opacity-[0.3] size-96 top-0 left-0" />
       </section>
+      <section className="py-10">
+        <iframe
+          // width="560"
+          // height="315"
+          className="w-full h-[215px] md:h-[415px] md:w-[760px] mx-auto"
+          src="https://www.youtube.com/embed/QWKI4aMB07c?si=1VlftXNePqzEnGqa"
+          title="Codetrain is enabling women to start careers in coding to positively impact their communities"
+          // frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          // referrerpolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
+      </section>
 
       {/* Excellence Recognized: Discover Our Award-Winning Achievements */}
       <section className="py-20 px-4 bg-ash">

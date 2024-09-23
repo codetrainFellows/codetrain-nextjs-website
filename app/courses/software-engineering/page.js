@@ -97,12 +97,12 @@ const Software = () => {
             curriculum in just 2 years.
           </p>
         </div>
-        <div className="flex flex-col lg:flex-row justify-center items-center gap-8 py-10 bg-contain bg-center bg-no-repeat relative">
+        <div className="flex flex-col lg:flex-row justify-center gap-8 py-10 bg-contain bg-center bg-no-repeat relative">
           <div className="max-w-[540px] bg-white relative z-10 sh">
             <Image
-              src="/people/group5.svg"
+              src="/people/success.jpg"
               alt="picture"
-              className="rounded-none h-[]"
+              className="rounded-none h-full object-cover"
               width={540}
               height={440}
               quality={100}
@@ -111,100 +111,138 @@ const Software = () => {
           <div className="relative z-10 text-textColor">
             <ul className="list-decimal space-y-2 max-w-lg">
               <li>
-                <p className="font-extrabold text-lg">Front-End Development</p>
+                <Typography variant="h6" className="text-lg">
+                  Front-End Development
+                </Typography>
                 <ul className="list-disc ml-3 space-y-1">
                   <li>
-                    <span className="font-extrabold">HTML & CSS:</span> Master
-                    web development basics.
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">HTML & CSS:</span> Master
+                      web development basics.
+                    </Typography>
                   </li>
                   <li>
-                    <span className="font-extrabold">JavaScript:</span> Create
-                    interactive web applications.
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">JavaScript:</span> Create
+                      interactive web applications.
+                    </Typography>
                   </li>
                   <li>
-                    <span className="font-extrabold">React:</span> Build modern,
-                    responsive user interfaces.
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">React:</span> Build
+                      modern, responsive user interfaces.
+                    </Typography>
                   </li>
                 </ul>
               </li>
               <li>
-                <p className="font-extrabold text-lg">Back-End Development</p>
+                <Typography variant="h6" className="text-lg">
+                  Back-End Development
+                </Typography>
                 <ul className="list-disc ml-3 space-y-1">
                   <li>
-                    <span className="font-extrabold">Node.js & Express: </span>{" "}
-                    Develop robust and scalable server-side applications.
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">
+                        Node.js & Express:{" "}
+                      </span>{" "}
+                      Develop robust and scalable server-side applications.
+                    </Typography>
                   </li>
                   <li>
-                    <span className="font-extrabold">SQL & Databases: </span>
-                    Master data management using relational databases.
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">SQL & Databases: </span>
+                      Master data management using relational databases.
+                    </Typography>
                   </li>
                   <li>
-                    <span className="font-extrabold">APIs:</span> Design and
-                    implement RESTful APIs to connect front-end and back-end
-                    systems.
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">APIs:</span> Design and
+                      implement RESTful APIs to connect front-end and back-end
+                      systems.
+                    </Typography>
                   </li>
                 </ul>
               </li>
               <li>
-                <p className="font-extrabold text-lg">Full-Stack Development</p>
+                <Typography variant="h6" className="text-lg">
+                  Full-Stack Development
+                </Typography>
                 <ul className="list-disc ml-3 space-y-1">
                   <li>
-                    <span className="font-extrabold">Integration:</span> Combine
-                    front-end and back-end skills to create full web
-                    applications.
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">Integration:</span>{" "}
+                      Combine front-end and back-end skills to create full web
+                      applications.
+                    </Typography>
                   </li>
                   <li>
-                    <span className="font-extrabold"> Deployment: </span>
-                    Deploy applications to the cloud and optimize performance.
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold"> Deployment: </span>
+                      Deploy applications to the cloud and optimize performance.
+                    </Typography>
                   </li>
                 </ul>
               </li>
               <li>
-                <p className="font-extrabold text-lg">
+                <Typography variant="h6" className="text-lg">
                   Software Engineering Fundamentals
-                </p>
+                </Typography>
                 <ul className="list-disc ml-3 space-y-1">
                   <li>
-                    <span className="font-extrabold">
-                      Data Structures & Algorithms:
-                    </span>{" "}
-                    Grasp core concepts that will help you solve complex coding
-                    challenges.
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">
+                        Data Structures & Algorithms:
+                      </span>{" "}
+                      Grasp core concepts that will help you solve complex
+                      coding challenges.
+                    </Typography>
                   </li>
                   <li>
-                    <span className="font-extrabold">
-                      Version Control with Git:
-                    </span>
-                    Collaborate with others and manage your code effectively.
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">
+                        Version Control with Git:
+                      </span>
+                      Collaborate with others and manage your code effectively.
+                    </Typography>
                   </li>
                   <li>
-                    <span className="font-extrabold">Testing:</span>
-                    Write and run tests to ensure your code is reliable and
-                    bug-free.
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">Testing:</span>
+                      Write and run tests to ensure your code is reliable and
+                      bug-free.
+                    </Typography>
                   </li>
                 </ul>
               </li>
               <li>
-                <p className="font-extrabold text-lg">Career Readiness</p>
+                <Typography variant="h6" className="text-lg">
+                  Career Readiness
+                </Typography>
                 <ul className="list-disc ml-3 space-y-1">
                   <li>
-                    <span className="font-extrabold">
-                      Technical Interview Preparation:
-                    </span>{" "}
-                    Sharpen your problem-solving skills to ace coding
-                    interviews.
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">
+                        Technical Interview Preparation:
+                      </span>{" "}
+                      Sharpen your problem-solving skills to ace coding
+                      interviews.
+                    </Typography>
                   </li>
                   <li>
-                    <span className="font-extrabold">
-                      Portfolio Development:
-                    </span>
-                    Build a strong portfolio of projects that demonstrate your
-                    abilities to potential employers.
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">
+                        Portfolio Development:
+                      </span>
+                      Build a strong portfolio of projects that demonstrate your
+                      abilities to potential employers.
+                    </Typography>
                   </li>
                   <li>
-                    <span className="font-extrabold">Soft Skills:</span>
-                    Gain essential workplace skills like communication,
-                    teamwork, and time management.
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">Soft Skills:</span>
+                      Gain essential workplace skills like communication,
+                      teamwork, and time management.
+                    </Typography>
                   </li>
                 </ul>
               </li>
@@ -757,6 +795,28 @@ const Software = () => {
             </div>
           </div>
         </div>
+      </section>
+      <section className="py-10 px-4 flex flex-col justify-center">
+        <iframe
+          width="560"
+          height="315"
+          className="mx-auto"
+          src="https://www.youtube.com/embed/ExT_IilhWaw?si=d9GbEhm4wESquUFf"
+          title="ROBERT KEHINDE Demo Day presentation at the Codetrain Africa Tech Career Seminar 2023"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          // referrerpolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
+        <Link
+          href="https://codetrainafrica.heiapply.com/application"
+          target="_blank"
+          className="mx-auto mt-8"
+        >
+          <Button className="bg-yellow text-violet shadow-none font-bold px-5 sm:px-8 md:px-10 rounded-md">
+            Enroll now
+          </Button>
+        </Link>
       </section>
 
       {/* FAQ Section */}

@@ -26,35 +26,40 @@ const SuccessStories = () => {
 
       {/* Hero Section */}
       <section className="min-h-[calc(80vh-64px-40px)] lg:min-h-[calc(100vh-64px-40px)] lg:pl-0 grid grid-cols-2 place-items-center gap-4">
-        <div className="text-textColor py-10 px-4 leading-8 md:max-w-xl col-span-2 lg:col-span-1">
+        <div className="text-textColor py-10 px-4 leading-8 md:max-w-2xl col-span-2 lg:col-span-1">
           <h2 className="text-3xl md:text-5xl text-violet font-bold">
-            From Zero to Hero: Transforming Lives Through Code
+            From Learners to Leaders: Codetrain Success Stories
           </h2>
           <Typography variant="paragraph" className="my-8">
-            At Codetrain, we take pride in turning aspiring individuals into
-            tech industry heroes. Our program is designed to guide you from
-            complete beginner to proficient coder, equipping you with the skills
-            and confidence to thrive in the tech world. Through immersive
-            learning, real-world projects, and unwavering support, students
-            embark on a transformative journey that not only enhances their
-            technical abilities but also opens doors to new career
-            opportunities.
+            At Codetrain Africa, we believe in the transformative power of
+            coding. Our comprehensive training programs empower individuals to
+            turn their passion for tech into thriving careers. Through our “From
+            Learners to Leaders” initiative, we proudly share the success
+            stories of graduates from diverse backgrounds—unemployed university
+            grads, underemployed professionals, high school leavers, working
+            moms, and entrepreneurs. These inspiring journeys highlight how our
+            students, with no prior coding experience, have become senior
+            developers for international companies or successful business
+            owners. With determination, guidance, and the right support, anyone
+            can follow their passion and succeed in tech.
           </Typography>
         </div>
         <div className="hidden lg:inline">
           <Image
-            src="/people/success.jpg"
+            src="/people/alumni.jpg"
             width={720}
             height={384}
             alt="student"
+            quality={100}
             className="object-cover object-top !h-[calc(100vh-64px-40px)]"
           />
         </div>
         <Image
-          src="/people/success.jpg"
+          src="/people/alumni.jpg"
           alt="student"
           width={720}
           height={384}
+          quality={100}
           className="h-[87vh] w-full object-cover object-top absolute opacity-20 right-0 lg:hidden"
         />
       </section>
@@ -63,7 +68,7 @@ const SuccessStories = () => {
       <section className="mt-20 bg-ash">
         <div className="flex flex-col lg:flex-row justify-center items-center gap-8 px-4 py-8 sm:px-10 sm:py-36 bg-contain bg-center bg-no-repeat relative overflow-hidden">
           <CTLogo
-            className="absolute size-[1080px] md:size-[800px] -left-3 md:left-20 lg:left-1/4  object-cover text-[#e0e0e0] opacity-[0.5]"
+            className="absolute size-[1080px] md:size-[800px] -left-3 md:left-20 lg:left-1/4  object-cover text-[#e0e0e0] opacity-30"
             color="#c2c0c0"
           />
           <div className="relative z-10">
@@ -73,7 +78,7 @@ const SuccessStories = () => {
             </h1>
             <Typography
               variant="paragraph"
-              className="max-w-lg mt-4 text-textColor leading-6 font-medium text-base sm:text-lg"
+              className="max-w-lg mt-4 text-textColor leading-6 text-base sm:text-lg"
             >
               After spending four years as a finance executive, Catherine
               realized that her passion extended beyond numbers and
@@ -133,22 +138,21 @@ const SuccessStories = () => {
 
       {/* Overcoming Challenges */}
       <section className="py-2 px-4 min-h-[70vh] bg-[url('/people/challenges.jpg')] bg-cover bg-no-repeat bg-center flex justify-start items-end">
-        <div className="max-w-md bg-white px-4 py-5">
+        <div className="max-w-lg bg-white px-4 py-5">
           <Typography variant="h4" className="text-violet">
-            Overcoming Challenges: A Sickle Cell Warrior&apos;s Journey into
-            Tech
+            Global Opportunities: Securing Roles Worldwide
           </Typography>
           <Typography variant="paragraph" className="text-textColor mt-2">
-            We’re committed to supporting every student’s journey, including
-            those facing the unique challenges of living with sickle cell. Our
-            students who are sickle cell warriors have found a nurturing and
-            flexible environment that adapts to their health needs, offering
-            them the space to thrive. With a supportive community of teaching
-            fellows and peers, personalized learning plans, and the ability to
-            pace their studies, these students have been able to overcome
-            obstacles, build their tech skills, and work on meaningful
-            projects—all while managing their health with the care and attention
-            they deserve.
+            At Codetrain, we prioritize providing our students with
+            international experiences that enhance their global perspectives.
+            Through partnerships with organizations worldwide, our students gain
+            invaluable exposure, participating in projects that prepare them for
+            remote and onsite roles. These opportunities not only build their
+            technical skills but also foster cultural understanding and
+            collaboration. Many of our graduates have successfully secured
+            positions with global organizations, demonstrating the effectiveness
+            of our approach. We’re proud to support their journeys as they step
+            confidently into the global tech landscape, ready to make an impact.
           </Typography>
         </div>
       </section>
@@ -204,53 +208,6 @@ const SuccessStories = () => {
         </div>
       </section>
 
-      {/* Catalysts of Success: Our Journey with Companies */}
-      <section className="py-20 px-4 relative bg-ash">
-        <div className="text-center relative z-10">
-          <h3 className="text-2xl md:text-4xl text-violet font-semibold">
-            Catalysts of Success: Our Journey with Companies
-          </h3>
-          <Typography
-            variant="paragraph"
-            className="max-w-4xl mt-7 mx-auto font-medium text-textColor"
-          >
-            Partnering with top companies, we connect students to real-world
-            projects and internships, giving them practical experience and
-            companies access to skilled, job-ready talent. This collaboration
-            fuels student success and drives industry innovation.
-          </Typography>
-        </div>
-        <div className="flex flex-col gap-14 items-center mt-10 relative z-10">
-          <ExperienceCard
-            img="/people/succ.jpg"
-            title="Fueling Innovation: Success Stories with Our Investors"
-            text="Our investors play a vital role in driving innovation at Codetrain. Through their support, we’ve been able to create a dynamic learning environment that empowers students to build cutting-edge tech solutions. Thanks to their investment, many of our graduates have successfully launched tech careers, while contributing to impactful projects that shape the future of technology in Africa."
-            className="lg:flex-row-reverse"
-          />
-          <ExperienceCard
-            img="/people/exp6.jpg"
-            title="Powering Progress: Success Stories with Partners"
-            text="Our partnerships with industry leaders have empowered students to turn their training into real-world impact. Through collaborations with companies across sectors, many of our graduates have secured internships and full-time roles, gaining hands-on experience while contributing to innovative tech solutions. These success stories showcase how our strong industry connections help students launch fulfilling careers and drive progress in the tech world."
-            className="lg:flex-row"
-          />
-          <ExperienceCard
-            img="/people/grad-pic.jpg"
-            title="Bridging Talent and Opportunity: Success Stories with Hiring Companies"
-            text="Codetrain’s strong partnerships with hiring companies have successfully bridged the gap between talent and opportunity. Our students, equipped with cutting-edge skills and real-world experience, have secured positions at top tech firms and innovative startups. These success stories not only showcase the effectiveness of our training but also highlight the seamless integration of our graduates into roles where they drive meaningful impact and growth."
-            className="lg:flex-row-reverse"
-          />
-          <ExperienceCard
-            img="/people/expe2.jpg"
-            title="Empowering Dreams: Success Stories with Our Financing Partners"
-            text="Through our partnerships with financing organizations, we’ve seen countless students achieve their tech dreams. These collaborations have enabled students to access crucial funding and resources, allowing them to focus on their studies and excel in their careers. Thanks to the support of our financing partners, many have transformed their ambitions into successful tech careers, proving that with the right support, dreams are within reach."
-            className="lg:flex-row"
-          />
-        </div>
-        {/* svg bg logos */}
-        {/* <BgLogoLeft className="absolute size-72 md:size-2/4 fill-pink opacity-15 bottom-0 left-60" /> */}
-        {/* <BgLogoRight className="absolute size-72 md:size-2/4 fill-pink opacity-15 top-4 left-60" /> */}
-      </section>
-
       {/* Success Stories From Codetrain Africa */}
       <section className="py-20 px-4">
         <div className="flex flex-col-reverse lg:flex-row items-center lg:items-start lg:justify-center gap-14">
@@ -298,38 +255,57 @@ const SuccessStories = () => {
           />
 
           <SuccessCard
-            src="/people/oscarlyn.jpg"
-            // role="Software Engineer at Microsoft"
-            name="Oscarlyn Naa Dedei"
-            story="She was last year’s top student. A medical doctor with a passion for tech, she impressed several companies at our demo day. She showcased her app, a comprehensive rabbit farming management system, which captured significant interest from potential employers. She currently mentors other young ladies at Codetrain."
-            className="md:justify-self-start"
-          />
-          <SuccessCard
             src="/people/jeremy.jpg"
             // role="Software Engineer at Microsoft"
             name="Jermain Antwi"
             story="After completing Codetrain at just 12, he embarked on his second tech startup, focused on revolutionizing loyalty programs for small shops. He interned at Cedi Rates and now advises two companies. Additionally, he serves as a mentor at Moonshot Pirates in Austria, guiding young innovators and sharing his expertise."
-            className="md:justify-self-end"
+            className="md:justify-self-start"
           />
+
+          <SuccessCard
+            src="/people/oscarlyn.jpg"
+            // role="Software Engineer at Microsoft"
+            name="Oscarlyn Naa Dedei"
+            story="She was best student in 2023. A medical doctor with a passion for tech, she impressed several companies at our demo day. She showcased her app, a comprehensive rabbit farming management system, which captured significant interest from potential employers. She currently mentors other young ladies at Codetrain."
+            className="md:justify-self-end"
+            imgClass="object-center"
+          />
+
           <SuccessCard
             src="/people/awal.jpg"
             // role="Software Engineer at Microsoft"
-            name="Calvin Tettey"
-            story="Mubarak is Codetrain's fastest learning student. He's now a mobile & web developer who works at Codetrain to train upcoming developers. "
+            name="Awal Mubarak"
+            story="Awal’s journey is a true testament to Codetrain’s ability to nurture fast learners. As part of Codetrain’s first cohort, he quickly stood out for his rapid progress and skill development. Awal initially served as a teaching fellow at Codetrain, sharing his knowledge with other students while gaining experience through various local and international projects. His dedication and growth led to his current role as a senior developer at a Canadian gaming company. Awal’s success reflects his hard work and Codetrain’s focus on building world-class talent."
             className="md:justify-self-start"
           />
-          {/* <SuccessCard
-            src="https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1200"
+          <SuccessCard
+            src="/people/Lovelace.jpg"
             // role="Software Engineer at Microsoft"
-            name="Calvin Tettey"
-            story="After completing Codetrain with a specialization in UX Design, he now works with a leading global company, applying his skills on an international scale. Committed to giving back, he actively trains the next generation of UX designers at Codetrain, sharing his expertise and experience. We also have a great photo of him showcasing his professional journey."
+            name="Lovelace"
+            story="Meet Lovelace, who made a successful transition into UX/UI design during her time at Codetrain. She excelled as a UX/UI designer, applying the skills and knowledge she gained through Codetrain’s comprehensive curriculum. Lovelace’s journey is a testament to how dedication and the right guidance can lead to a thriving career in tech."
             className="md:justify-self-end"
-          /> */}
+          />
+          <SuccessCard
+            src="/people/Gerald.jpg"
+            // role="Software Engineer at Microsoft"
+            name="Gerald"
+            story="After graduating, Gerard was hired on the spot by Meqasa’s CEO during demo day. He now works at Hubtel, focusing on gaining expertise, solving problems, and building his career in software development."
+            className="md:justify-self-start"
+            imgClass="object-center"
+          />
+          <SuccessCard
+            src="/people/zak.jpg"
+            // role="Software Engineer at Microsoft"
+            name="Zak"
+            story="Optimism, and Grit. While pursuing his Computer Engineering degree, he joined Codetrain as part of the first cohort, where he quickly gained valuable experience working on both local and international projects. His passion for tech and helping others led him to become a teaching fellow, where he mentored and trained fellow Codetrain students. Today, Zak works with a Berlin-based company, yet still offers mentorship to aspiring developers, continuing to inspire others with his dedication and leadership."
+            className="md:justify-self-end"
+            imgClass="object-center"
+          />
         </div>
       </section>
 
       {/* New Beginnings: Men's Success Stories in Tech */}
-      <section className="py-20 px-4 bg-ash relative">
+      {/* <section className="py-20 px-4 bg-ash relative">
         <div className="flex flex-col md:flex-row justify-center items-center gap-10">
           <div className="relative z-10">
             <Image
@@ -397,10 +373,10 @@ const SuccessStories = () => {
             className=" object-cover object-top h-[153px]"
           />
         </div>
-        {/* Bg Logos */}
+
         <BgLogoLeft className="absolute size-72 fill-indigo opacity-15 bottom-0 left-0" />
         <BgLogoRight className="absolute size-72 fill-indigo opacity-15 top-0 left-0" />
-      </section>
+      </section> */}
 
       {/* Changing Lives: Empowering Women In The Tech Space. */}
       <section className="py-2 px-4 min-h-[70vh] bg-[url('/people/success2.jpg')] bg-cover bg-no-repeat bg-center flex justify-end items-end">
@@ -420,30 +396,26 @@ const SuccessStories = () => {
       <section className="py-20 px-4 text-textColor flex flex-col md:flex-row justify-center items-center gap-10 relative">
         <div className="relative z-10">
           <Typography variant="paragraph" className="max-w-md text-textColor ">
-            Empowering women in tech has been a cornerstone of our mission at
-            Codetrain. Through our programs, women have broken barriers,
-            transitioned into tech careers, and achieved significant milestones.
+            Empowering women in tech is central to Codetrain’s Diversity and
+            Inclusion program, aligning with{" "}
+            <span className="font-bold">SDG 5: Gender Equality.</span>
           </Typography>
 
           <Typography
             variant="paragraph"
             className="max-w-lg text-textColor mt-3"
           >
-            Their stories of overcoming obstacles and embracing new
-            opportunities highlight the impact of tailored support and education
-            in creating a more inclusive tech industry.
+            Through our initiatives, women have broken barriers and transitioned
+            into tech careers, achieving significant milestones. Their journeys
+            underscore the importance of tailored support in fostering an
+            inclusive tech industry.
           </Typography>
 
           <Typography className="max-w-lg text-textColor mt-3">
-            These success stories not only celebrate individual achievements but
-            also inspire a broader movement towards gender equality in tech.
-          </Typography>
-
-          <Typography className="max-w-lg text-textColor mt-3">
-            By providing the tools, community, and encouragement needed, we’re
-            helping women transform their careers, contribute to innovative
-            projects, and pave the way for future generations of female tech
-            leaders.
+            These stories inspire a movement towards gender equality in tech. By
+            offering tools, community, and encouragement, including partial
+            scholarships, we help women transform their careers and pave the way
+            for future female tech leaders
           </Typography>
         </div>
         <div className="relative">
@@ -618,39 +590,32 @@ const SuccessStories = () => {
             />
           </div>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 place-items-center place-content-center mt-16 z-10 relative">
-          <Image
-            src="/people/abigail.jpg"
-            alt=""
-            width={230}
-            height={167}
-            className="h-52 object-cover object-top"
-          />
-          <Image
-            src="/people/lina.jpg"
-            alt=""
-            width={230}
-            height={167}
-            className="h-52 object-cover object-top"
-          />
-          <Image
-            src="/people/jessica.jpg"
-            alt=""
-            width={230}
-            height={167}
-            className="h-52 object-cover object-top"
-          />
-          <Image
-            src="/people/margret.jpg"
-            alt=""
-            width={230}
-            height={167}
-            className="h-52 object-cover object-top"
-          />
-        </div>
         {/* Bg Logos */}
         <BgLogoLeft className="absolute size-72 fill-indigo opacity-15 bottom-0 left-0" />
         <BgLogoRight className="absolute size-72 fill-indigo opacity-15 top-0 left-0" />
+      </section>
+
+      <section className="py-10 px-4 flex flex-col justify-center">
+        <iframe
+          width="560"
+          height="315"
+          className="mx-auto"
+          src="https://www.youtube.com/embed/ExT_IilhWaw?si=d9GbEhm4wESquUFf"
+          title="ROBERT KEHINDE Demo Day presentation at the Codetrain Africa Tech Career Seminar 2023"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          // referrerpolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
+        <Link
+          href="https://codetrainafrica.heiapply.com/application"
+          target="_blank"
+          className="mx-auto mt-8"
+        >
+          <Button className="bg-yellow text-violet shadow-none font-bold px-5 sm:px-8 md:px-10 rounded-md">
+            Enroll now
+          </Button>
+        </Link>
       </section>
 
       {/* Excited to start your career Section */}
@@ -677,6 +642,7 @@ const SuccessCard = ({ src, name, story, role, className, imgClass }) => {
           className={`overflow-hidden object-cover w-full h-[400px] ${
             imgClass ? imgClass : "object-top"
           }`}
+          quality={100}
         />
       </CardHeader>
       <CardBody>
@@ -686,8 +652,12 @@ const SuccessCard = ({ src, name, story, role, className, imgClass }) => {
       </CardBody>
       <hr className="border-violet h-1" />
       <CardFooter>
-        <Typography className="font-bold text-textColor">{name}</Typography>
-        <Typography className="font-normal text-textColor">{role}</Typography>
+        <Typography variant="h6" className="text-textColor">
+          {name}
+        </Typography>
+        <Typography variant="paragraph" className="text-textColor">
+          {role}
+        </Typography>
       </CardFooter>
     </Card>
   );

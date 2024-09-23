@@ -10,7 +10,6 @@ import {
 } from "@material-tailwind/react";
 import Image from "next/image";
 import { createContext } from "react";
-import ExperienceCard from "@/components/ExperienceCard";
 import BgLogoLeft from "@/public/icons/BgLogoLeft";
 import BgLogoRight from "@/public/icons/BgLogoRight";
 import CTLogo from "@/public/icons/CTLogo";
@@ -595,42 +594,47 @@ const CodeTrainExperience = () => {
         <BgLogoRight className="absolute size-72 fill-indigo opacity-15 top-0 left-0" />
       </section>
 
-      {/* Codetrain Experience */}
+      {/* Experience Section */}
       <section className="py-20 px-4 bg-ash relative">
         <div className="text-center z-10">
           <h3 className="text-2xl md:text-4xl text-violet font-semibold">
-            Codetrain Experience
+            The Codetrain Experience
           </h3>
-          <Typography className="max-w-4xl mt-7 mx-auto text-xl text-textColor">
-            Unlike traditional education models, our curriculum is constantly
-            updated to reflect the latest trends and demands of the tech
-            industry.
+          <Typography
+            variant="paragraph"
+            className="max-w-4xl mt-7 mx-auto font-medium text-textColor"
+          >
+            Codetrain offers an amazing internationally recognized education
+            experience, blending global standards with strong support for
+            underrepresented groups, ensuring an inclusive and empowering
+            learning environments for all students.
           </Typography>
         </div>
         <div className="flex flex-col gap-14 items-center mt-10 z-10">
           <ExperienceCard
-            img="/people/expe1.jpg"
+            // img="/people/expe1.jpg"
+            video="https://www.youtube.com/embed/uK37JIvdr2A?si=IPqMeg5lXCuIBeR8"
             title="Safeguarding"
-            text="Our coding bootcamp offers personalized learning paths designed to cater to the diverse needs and aspirations of each student, ensuring that they receive the support and guidance needed to succeed in their journey towards becoming proficient developers or designers"
+            text="We prioritize safeguarding by maintaining a safe, harassment-free environment. Our strict policies protect students from cyberbullying and misconduct, ensuring inclusivity and equal opportunity for all, with focus on supporting underrepresented groups."
             className="lg:flex-row"
           />
           <ExperienceCard
             img="/people/exp7.jpg"
-            title="Diversity And Neurodivergent"
-            text="Unlike traditional education models, our curriculum is constantly updated to reflect the latest trends and demands of the tech industry. By staying ahead of the curve, we equip our students with the relevant skills and knowledge needed to thrive in today's competitive job market"
+            title="Supporting women & Disabled"
+            text="We champion women neurodivergent individuals, and those with sickle cell, offering both part and full scholarships. Our commitment to diversity and inclusion ensures these underrepresented groups have access to top-notch software engineering education and opportunities to thrive in tech."
             className="lg:flex-row-reverse"
           />
           <ExperienceCard
-            img="/people/succ.jpg"
+            img="/people/expe2.jpg"
             title="Global Experience"
-            text="We prioritize not only technical proficiency but also soft skills development, career readiness, and personal growth. Our comprehensive approach ensures that graduates are not only adept coders but also effective communicators, problem-solvers, and leaders in their field."
+            text="We offer students a global experience by integrating international industry standards into our curriculum, connecting them with global opportunities to work on international projects, ensuring they are well-prepared for a competitive, global job market."
             className="lg:flex-row"
           />
         </div>
         {/* svg bg logos */}
-        <BgLogoLeft className="fill-lightBlue opacity-[0.2] absolute size-96 sm:size-[446px] top-0 right-0 lg:-top-0 lg:right-56 sm:inline" />
-        <BgLogoLeft className="fill-lightBlue opacity-[0.2] absolute size-96 sm:size-[446px] bottom-[669px] left-5 lg:bottom-56 lg:left-56 sm:inline" />
-        <BgLogoRight className="fill-lightBlue opacity-[0.2] absolute size-96 sm:size-[446px] bottom-20 right-0 lg:bottom-[369px] lg:right-40 sm:inline" />
+        <BgLogoLeft className="fill-[#ff006e] opacity-10 absolute size-96 sm:size-[446px] top-0 right-0 lg:-top-0 lg:right-56 sm:inline" />
+        <BgLogoLeft className="fill-[#ff006e] opacity-10 absolute size-96 sm:size-[446px] bottom-[669px] left-5 lg:bottom-56 lg:left-56 sm:inline" />
+        <BgLogoRight className="fill-[#ff006e] opacity-10 absolute size-96 sm:size-[446px] bottom-20 right-0 lg:bottom-[369px] lg:right-40 sm:inline" />
       </section>
 
       {/* Excited to start your career Section */}
@@ -639,3 +643,43 @@ const CodeTrainExperience = () => {
   );
 };
 export default CodeTrainExperience;
+
+const ExperienceCard = ({ className, img, title, text, video }) => {
+  return (
+    <div
+      className={`flex flex-col items-center gap-x-9 relative z-10 ${className}`}
+    >
+      <div className="max-w-md">
+        {img ? (
+          <Image
+            src={img}
+            alt={title}
+            width={400}
+            height={300}
+            className="rounded-none shadow"
+          />
+        ) : (
+          <iframe
+            width="400"
+            height="300"
+            src={video && video}
+            title="YouTube video player"
+            // frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            // referrerpolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        )}
+      </div>
+      <div className="mt-10 lg:mt-0 max-w-md">
+        <h3 className="text-violet font-bold text-2xl max-w-sm">{title}</h3>
+        <Typography
+          variant="paragraph"
+          className="max-w-md text-textColor mt-6 font-medium"
+        >
+          {text}
+        </Typography>
+      </div>
+    </div>
+  );
+};

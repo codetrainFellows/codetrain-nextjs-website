@@ -4,6 +4,7 @@ import {
   Accordion,
   AccordionBody,
   AccordionHeader,
+  Typography,
 } from "@material-tailwind/react";
 import React, { useState } from "react";
 
@@ -17,10 +18,13 @@ const FAQ = () => {
       <h1 className="font-bold text-violet mx-auto text-2xl md:text-3xl lg:text-5xl">
         Frequently Asked Question About Codetrain
       </h1>
-      <p className="my-10 max-w-3xl mx-auto text-textColor">
+      <Typography
+        variant="paragraph"
+        className="my-10 max-w-3xl mx-auto text-textColor"
+      >
         Have questions about our programs, fees, or anything else? Find answers
         here to help you make an informed decision.
-      </p>
+      </Typography>
 
       <div>
         {faq.map((item, index) => (

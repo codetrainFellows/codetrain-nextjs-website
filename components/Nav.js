@@ -42,11 +42,11 @@ const navListMenuItems = [
     icon: GlobeAmericasIcon,
     href: "/courses/codetrain-experience",
   },
-  {
-    title: "Kids Programme",
-    icon: AcademicCapIcon,
-    href: "/",
-  },
+  // {
+  //   title: "Kids Programme",
+  //   icon: AcademicCapIcon,
+  //   href: "/",
+  // },
 ];
 
 function NavListMenu({ handleLinkClick }) {

@@ -65,7 +65,7 @@ const HireAGraduate = () => {
             of tomorrow`s tech leaders today.
           </Typography>
 
-          <Button className="bg-yellow text-violet">Get In Touch</Button>
+          <Button className="bg-yellow text-violet">Hire A Grad</Button>
         </div>
         <div className="hidden lg:inline">
           <Image

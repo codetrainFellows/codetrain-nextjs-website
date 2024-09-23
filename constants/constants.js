@@ -381,6 +381,13 @@ const team1 = [
       "Hi, I'm Harrison, a Teaching Fellow at Codetrain specializing in Software Development with 2 years of experience. I’ve built cool websites and am working on an exciting project. I’m dedicated to helping every student have their lightbulb moment. Outside work, I enjoy gaming.",
     role: "Teaching Fellow",
   },
+  {
+    name: "Calvin Tettey",
+    src: "/people/calvin.jpg",
+    story:
+      "Hi, I'm Calvin, a professional UX/UI designer with experience providing services to both local and international organizations. His passion for helping others extends into his role as a trainer at Codetrain, where he shares his knowledge and expertise to shape the next generation of UX designers.",
+    role: "Teaching Fellow",
+  },
 ];
 
 const advisoryTeam = [

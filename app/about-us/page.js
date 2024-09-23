@@ -47,7 +47,7 @@ const AboutUs = () => {
           <h2 className="text-4xl text-violet font-bold max-w-lg">
             Our Story: The Journey Behind Codetrain Africa
           </h2>
-          <p className="my-8">
+          <Typography variant="paragraph" className="my-8">
             Codetrain is a Software Engineering and Design School focused on
             empowering ambitious Africans to take their place in the global tech
             scene. Richard Brandt’s journey began while advancing his tech
@@ -56,8 +56,8 @@ const AboutUs = () => {
             the immense global demand for tech skills. At the same time, he saw
             Africa teeming with creative talent and untapped potential but
             lacking the opportunities to thrive.
-          </p>
-          <p className="my-5">
+          </Typography>
+          <Typography variant="paragraph" className="my-5">
             Motivated by the desire to bridge this gap, Richard returned to
             Ghana and founded Codetrain with a clear vision: to provide
             world-class tech education to African youth, equipping them with the
@@ -67,8 +67,8 @@ const AboutUs = () => {
             challenges. As a result, our graduates are making significant
             contributions to global companies and innovative African companies
             working on the next big African ideas.
-          </p>
-          <p className="my-5">
+          </Typography>
+          <Typography variant="paragraph" className="my-5">
             We are deeply committed to fostering inclusivity and creating
             opportunities for underrepresented groups in the tech space,
             particularly women, those from low-income backgrounds, and people
@@ -79,7 +79,7 @@ const AboutUs = () => {
             nurturing the continent’s brightest minds, Codetrain is not just
             shaping careers; it’s catalyzing a movement toward sustainable
             economic development and transformative change.
-          </p>
+          </Typography>
         </div>
         <Image
           src="/people/group.jpg"
@@ -95,7 +95,7 @@ const AboutUs = () => {
         <div className="text-textColor leading-8 col-span-2 lg:col-span-1 relative ">
           <div className="z-10 relative">
             <h2 className="text-2xl md:text-4xl text-violet font-bold max-w-lg ">
-              Our Mission: Driving Purpose and Passion
+              Our Impact
             </h2>
             <p className="my-5">
               Our impact is evident through our extensive alumni network, having
@@ -114,8 +114,8 @@ const AboutUs = () => {
             <p className="my-5">
               By aligning our mission with the United Nations Sustainable
               Development Goals (SDGs), particularly Quality Education (SDG 4)
-              and Decent Work and Economic Growth (SDG :sunglasses:, we aim to
-              create lasting change in our communities and beyond.
+              and Decent Work and Economic Growth (SDG 8): we aim to create
+              lasting change in our communities and beyond.
             </p>
           </div>
           <BgLogoRight className="absolute -top-32 -left-40 size-96 xl:size-[412px] xl:-left-20 xl:-top-44 fill-yellow opacity-[0.3]" />
@@ -223,10 +223,10 @@ const AboutUs = () => {
             ))}
           </div>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 place-content-center place-items-center mt-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 lg:gap-20 place-content-center place-items-center mt-10">
           {team1.map((story) => (
             <Card
-              className="md:max-w-96 rounded-none col-span-1"
+              className="md:max-w-96 rounded-none col-span-1 odd:justify-self-end even:justify-self-start"
               key={story.name}
             >
               <CardHeader

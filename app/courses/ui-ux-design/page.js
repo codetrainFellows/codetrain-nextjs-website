@@ -36,12 +36,12 @@ const UIUXDesign = () => {
           <h2 className="text-4xl text-violet font-bold max-w-lg ">
             Develop Your UI/UX Design Skills with Us
           </h2>
-          <p className="my-8">
+          <Typography variant="paragraph" className="my-8">
             Our UI/UX Design course is your path to mastering the art of
             user-centered design. From beginners to advanced learners, our
             program equips you with the skills to create impactful and
             user-friendly designs.
-          </p>
+          </Typography>
           <div className="flex gap-x-4 mt-14 z-10">
             <Link
               href="https://codetrainafrica.heiapply.com/application"
@@ -63,9 +63,9 @@ const UIUXDesign = () => {
               </Button>
             </Link>
           </div>
-          <p className="mt-12">
+          <Typography variant="paragraph" className="mt-12">
             * Admission is in progress, join the October Cohort!
-          </p>
+          </Typography>
         </div>
         <div className="hidden lg:inline">
           <Image
@@ -91,10 +91,13 @@ const UIUXDesign = () => {
           <h3 className="text-3xl md:text-5xl text-violet font-bold">
             What You Will Learn
           </h3>
-          <p className="text-textColor max-w-5xl mx-auto mt-10">
+          <Typography
+            variant="paragraph"
+            className="text-textColor max-w-5xl mx-auto mt-10"
+          >
             Get ready to master UI/UX design in our intensive one-year course,
             focused on creating user-friendly and engaging experiences.
-          </p>
+          </Typography>
         </div>
         <div className="flex flex-col lg:flex-row justify-center gap-8 py-10 bg-contain bg-center bg-no-repeat relative">
           <div className="max-w-[540px] bg-white relative z-10 sh">
@@ -110,110 +113,148 @@ const UIUXDesign = () => {
           <div className="relative z-10 text-textColor">
             <ul className="list-decimal space-y-2 max-w-lg">
               <li>
-                <p className="font-extrabold text-lg">Foundation</p>
+                <Typography variant="h6" className="text-lg">
+                  Foundation
+                </Typography>
                 <ul className="list-disc ml-3 space-y-1">
                   <li>
-                    <span className="font-extrabold">
-                      Introduction to Figma:
-                    </span>{" "}
-                    Master the fundamentals of Figma for effective design
-                    collaboration.
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">
+                        Introduction to Figma:
+                      </span>{" "}
+                      Master the fundamentals of Figma for effective design
+                      collaboration.
+                    </Typography>
                   </li>
                   <li>
-                    <span className="font-extrabold">Project Initiation:</span>{" "}
-                    Create 3-5 personal projects across various domains,
-                    including SaaS, e-commerce, fintech, and landing page
-                    designs.
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">
+                        Project Initiation:
+                      </span>{" "}
+                      Create 3-5 personal projects across various domains,
+                      including SaaS, e-commerce, fintech, and landing page
+                      designs.
+                    </Typography>
                   </li>
                 </ul>
               </li>
               <li>
-                <p className="font-extrabold text-lg">Design Process Mastery</p>
+                <Typography variant="h6" className="text-lg">
+                  Design Process Mastery
+                </Typography>
                 <ul className="list-disc ml-3 space-y-1">
                   <li>
-                    <span className="font-extrabold">
-                      Advanced Design Process:
-                    </span>{" "}
-                    Deepen your understanding through community involvement,
-                    mood board creation, and exploration on platforms like
-                    Dribbble.
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">
+                        Advanced Design Process:
+                      </span>{" "}
+                      Deepen your understanding through community involvement,
+                      mood board creation, and exploration on platforms like
+                      Dribbble.
+                    </Typography>
                   </li>
                   <li>
-                    <span className="font-extrabold">
-                      Color Theory and Typography:{" "}
-                    </span>
-                    Develop expertise in harmonizing colors and utilizing
-                    typography effectively.
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">
+                        Color Theory and Typography:{" "}
+                      </span>
+                      Develop expertise in harmonizing colors and utilizing
+                      typography effectively.
+                    </Typography>
                   </li>
                   <li>
-                    <span className="font-extrabold">Interaction Design:</span>{" "}
-                    Explore the intricacies of designing interactive and
-                    engaging user experiences.
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">
+                        Interaction Design:
+                      </span>{" "}
+                      Explore the intricacies of designing interactive and
+                      engaging user experiences.
+                    </Typography>
                   </li>
                   <li>
-                    <span className="font-extrabold">Project Execution:</span>{" "}
-                    Implement acquired skills in 3 projects, covering SaaS,
-                    e-commerce, fintech, and landing page designs.
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">Project Execution:</span>{" "}
+                      Implement acquired skills in 3 projects, covering SaaS,
+                      e-commerce, fintech, and landing page designs.
+                    </Typography>
                   </li>
                 </ul>
               </li>
               <li>
-                <p className="font-extrabold text-lg">
+                <Typography variant="h6" className="font-extrabold text-lg">
                   Holistic Program Features:
-                </p>
+                </Typography>
                 <ul className="list-disc ml-3 space-y-1">
                   <li>
-                    <span className="font-extrabold">Work Experience:</span>{" "}
-                    Gain practical experience through collaborations with local
-                    and international companies.
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">Work Experience:</span>{" "}
+                      Gain practical experience through collaborations with
+                      local and international companies.
+                    </Typography>
                   </li>
                   <li>
-                    <span className="font-extrabold"> Applied UX: </span>
-                    Emphasize user experience principles in project execution
-                    and real-world scenarios.
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold"> Applied UX: </span>
+                      Emphasize user experience principles in project execution
+                      and real-world scenarios.
+                    </Typography>
                   </li>
                   <li>
-                    <span className="font-extrabold">
-                      Portfolio Development:
-                    </span>
-                    Build and refine a portfolio showcasing your skills and
-                    achievements, focusing on UX.
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">
+                        Portfolio Development:
+                      </span>
+                      Build and refine a portfolio showcasing your skills and
+                      achievements, focusing on UX.
+                    </Typography>
                   </li>
                   <li>
-                    <span className="font-extrabold">Online Presence:</span>
-                    Upload projects to Behance, portfolio sites, and a personal
-                    website to increase visibility.
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">Online Presence:</span>
+                      Upload projects to Behance, portfolio sites, and a
+                      personal website to increase visibility.
+                    </Typography>
                   </li>
                 </ul>
               </li>
               <li>
-                <p className="font-extrabold text-lg">
+                <Typography variant="h6" className="text-lg">
                   Career Services Support:
-                </p>
+                </Typography>
                 <ul className="list-disc ml-3 space-y-1">
                   <li>
-                    <span className="font-extrabold">Job/Interview Prep:</span>{" "}
-                    Receive comprehensive support to prepare for job
-                    opportunities and interviews.
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">
+                        Job/Interview Prep:
+                      </span>{" "}
+                      Receive comprehensive support to prepare for job
+                      opportunities and interviews.
+                    </Typography>
                   </li>
                   <li>
-                    <span className="font-extrabold">
-                      Soft Skills and Leadership Training:
-                    </span>
-                    Enhance your soft skills and leadership abilities to excel
-                    in the workplace.
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">
+                        Soft Skills and Leadership Training:
+                      </span>
+                      Enhance your soft skills and leadership abilities to excel
+                      in the workplace.
+                    </Typography>
                   </li>
                   <li>
-                    <span className="font-extrabold">Mentoring: </span>
-                    Benefit from guidance and insights provided by Codetrain
-                    alumni and industry professionals.
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">Mentoring: </span>
+                      Benefit from guidance and insights provided by Codetrain
+                      alumni and industry professionals.
+                    </Typography>
                   </li>
                   <li>
-                    <span className="font-extrabold">
-                      Workshops and Career Seminars:{" "}
-                    </span>
-                    Participate in workshops and seminars to expand your
-                    knowledge and network.
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">
+                        Workshops and Career Seminars:{" "}
+                      </span>
+                      Participate in workshops and seminars to expand your
+                      knowledge and network.
+                    </Typography>
                   </li>
                 </ul>
               </li>
@@ -230,7 +271,7 @@ const UIUXDesign = () => {
       {/* Codetrain Fellows section */}
       <section className="py-20 px-4 bg-ash text-center">
         <Typography variant="h3" className="text-violet">
-          Meet The Codetrain Teaching Fellows
+          Meet The Teaching Fellow
         </Typography>
 
         <div className="flex justify-center items-center mt-20 text-left">
@@ -632,10 +673,13 @@ const UIUXDesign = () => {
             </CardBody>
             <hr className="border-violet h-1" />
             <CardFooter>
-              <Typography className="font-bold text-textColor">
+              <Typography variant="h6" className="text-textColor">
                 Lovelace
               </Typography>
-              <Typography className="font-normal text-textColor">
+              <Typography
+                variant="paragraph"
+                className="font-normal text-textColor"
+              >
                 UI/UX Designer
               </Typography>
             </CardFooter>
@@ -658,12 +702,15 @@ const UIUXDesign = () => {
             <h3 className="text-violet font-bold text-3xl md:text-5xl max-w-xl">
               Success Stories from Codetrain Africa
             </h3>
-            <p className="text-textColor max-w-sm mt-4">
+            <Typography
+              variant="paragraph"
+              className="text-textColor max-w-sm mt-4"
+            >
               Empowering African talent to take the lead in tech is at the heart
               of Codetrain’s mission. We believe that every African has the
               potential to lead, innovate, and drive change in the digital
               world, and our graduates are living proof of this vision.
-            </p>
+            </Typography>
           </div>
           <div className="flex flex-col items-center mt-2 gap-4 sm:flex-row">
             <Card className="w-96 max-h-[567px] rounded-none">
@@ -682,30 +729,26 @@ const UIUXDesign = () => {
                 />
               </CardHeader>
               <CardBody>
-                <p className="font-normal text-textColor line-clamp-6">
-                  Before joining Codetrain, Razak was determined to break into
-                  tech. Despite studying networking and experiencing initial
-                  success, he faced an unexpected setback and spent two years
-                  searching for a new opportunity. Discovering Codetrain marked
-                  a turning point—within 6 months, his life transformed, leading
-                  him to a role at TXT Ghana as a software developer. Since
-                  graduating in 2018, Razak has expanded his career to
-                  AgroCenta, where he helps improve the lives of low-income
-                  farmers through modern agriculture practices and market
-                  access. Seeing farmers benefit from his work is incredibly
-                  fulfilling, and Razak is driven by the desire to solve
-                  societal problems through technology. His future goal is to
-                  start his own company, but for now, he focuses on contributing
-                  to impactful projects and leveraging his skills to make a
-                  meaningful difference in people’s lives.
-                </p>
+                <Typography
+                  variant="paragraph"
+                  className="text-textColor line-clamp-6"
+                >
+                  Meet Calvin, a professional UX/UI designer with experience
+                  providing services to both local and international
+                  organizations. His passion for helping others extends into his
+                  role as a trainer at Codetrain, where he shares his knowledge
+                  and expertise to shape the next generation of UX designers.
+                </Typography>
               </CardBody>
               <hr className="border-violet h-1" />
               <CardFooter>
-                <Typography className="font-bold text-textColor">
+                <Typography variant="h6" className="font-bold text-textColor">
                   Calvin Tettey
                 </Typography>
-                <Typography className="font-normal text-textColor">
+                <Typography
+                  variant="paragraph"
+                  className="font-normal text-textColor"
+                >
                   UI/UX Designer
                 </Typography>
               </CardFooter>
@@ -718,8 +761,8 @@ const UIUXDesign = () => {
           </Link>
         </div>
         {/* svg bg logos */}
-        <BgLogoRight className="fill-cyan-100 absolute top-10 lg:top-0 lg:right-0 -z-50 h-80 md:h-1/2 sm:inline" />
-        <BgLogoLeft className="fill-cyan-400 absolute bottom-10 lg:bottom-0 lg:left-0 -z-50 h-80 lg:h-1/2 sm:inline" />
+        <BgLogoRight className="fill-cyan-50 absolute top-10 lg:top-0 lg:right-0 -z-50 h-80 md:h-1/2 sm:inline" />
+        <BgLogoLeft className="fill-cyan-300 absolute bottom-10 lg:bottom-0 lg:left-0 -z-50 h-80 lg:h-1/2 sm:inline" />
       </section>
 
       {/* Program Summary Section*/}

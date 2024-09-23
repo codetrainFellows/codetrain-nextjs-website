@@ -21,9 +21,13 @@ const Donate = () => {
   return (
     <section className="overflow-hidden">
       <div className="py-2 bg-violet font-xs text-center text-white flex items-center justify-center">
-        <p className="text-xs sm:text-base">
-          Get to know more about Codetrain. Join our info session.🗣️{" "}
-        </p>
+        <Link
+          href="https://codetrainafrica.heiapply.com/application"
+          target="_blank"
+          className="hover:underline"
+        >
+          <p>Get to know more about Codetrain. Join our info session.🗣️</p>
+        </Link>
       </div>
 
       {/* Hero Section */}
@@ -46,11 +50,13 @@ const Donate = () => {
             Support the Future of Tech Talent
           </h3>
           <p className="my-8 text-pink text-2xl md:text-4xl max-w-md">
-            Over $100,000 Awarded In Scholarship
+            Over $104,000 Awarded In Scholarship
           </p>
           <p className="my-5">
-            Your donation helps empower the next generation of developers,
-            innovators, and tech leaders.
+            Support the training of African youth to become job-ready software
+            developers and UX designers. Your donation equips the next
+            generation with the skills needed to succeed and drive future
+            innovations in the tech industry.
           </p>
 
           <div className="flex gap-x-4 mt-14 z-10">
@@ -157,242 +163,94 @@ const Donate = () => {
         <BgLogoRight className="absolute fill-yellow opacity-[0.3] size-96 top-0 left-0" />
       </section>
 
-      {/* Highlights Of The Students In The Codetrain Foundation */}
-      <section className="py-20 px-4 bg-lightBlue lg:h-[487px] mb-[600px] relative">
-        <div className="relative z-10">
-          <Typography className="text-center text-white text-lg font-extrabold">
-            Highlights Of The Students In The Codetrain Foundation
-          </Typography>
-          <Typography
-            variant="h1"
-            className="text-center text-white text-4xl mx-auto mt-4"
-          >
-            Impact Stories
-          </Typography>
-        </div>
+      {/* Stats Section */}
+      <section className="px-4 py-10 sm:px-14 sm:py-20 text-center">
+        <h1 className="font-bold text-violet text-xl text-nowrap sm:text-3xl lg:text-5xl">
+          Our Impact
+        </h1>
+        <Typography
+          variant="paragraph"
+          className="my-5 text-lg sm:my-10 max-w-5xl mx-auto text-textColor"
+        >
+          Over the last 7 years, Codetrain Africa has trained hundreds of
+          software developers from diverse diverse backgrounds with little or no
+          tech skills.
+        </Typography>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  place-items-center gap-10 mt-20 lg:translate-y-6 relative z-10">
-          <Card className="sm:max-w-sm rounded-none shadow-lg">
-            <CardHeader
-              floated={false}
-              shadow={false}
-              color="transparent"
-              className="m-0 rounded-none"
-            >
-              <Image
-                src="/people/donate2.jpg"
-                alt="img"
-                width={540}
-                height={276}
-                className="overflow-hidden h-80 object-top object-cover"
-              />
-            </CardHeader>
-            <CardBody>
-              <Typography variant="h6" className="font-bold text-textColor">
-                Empowering Women in Tech
-              </Typography>
-              <Typography variant="paragraph" className="text-textColor mt-3">
-                Sarah was one of the first recipients of our Women in Tech
-                scholarship. She transitioned from a non-technical background
-                into data science, where she’s now leading analytics teams and
-                making data-driven decisions for a Fortune 500 company.
-              </Typography>
-              <Typography
-                variant="paragraph"
-                className="text-textColor font-bold mt-3"
-              >
-                &quot;The scholarship opened doors I never thought possible.
-                It’s more than just financial aid—it’s a gateway to new
-                opportunities.&quot; - Sarah Boadi.
-              </Typography>
-            </CardBody>
-          </Card>
-          <Card className="sm:max-w-sm rounded-none shadow-lg">
-            <CardHeader
-              floated={false}
-              shadow={false}
-              color="transparent"
-              className="m-0 rounded-none"
-            >
-              <Image
-                src="/people/exp2.jpg"
-                alt="img"
-                width={540}
-                height={276}
-                className="overflow-hidden h-80 object-top object-cover"
-              />
-            </CardHeader>
-            <CardBody>
-              <Typography variant="h6" className="font-bold text-textColor">
-                Overcoming Neurodivergent
-              </Typography>
-              <Typography variant="paragraph" className="text-textColor mt-3">
-                James, diagnosed with autism, faced significant challenges in
-                traditional education settings. Through our specialized
-                Diversity and Inclusion Program, tailored for neurodivergent
-                individuals, James received the support he needed to thrive.
-                He’s now working as a software engineer, contributing his unique
-                perspectives and skills to the industry.
-              </Typography>
-              <Typography
-                variant="paragraph"
-                className="text-textColor font-bold mt-3"
-              >
-                &quot;The program not only taught me to code but also gave me
-                the confidence to enter the workforce and succeed in tech.&quot;
-                - James
-              </Typography>
-            </CardBody>
-          </Card>
-          <Card className="sm:max-w-sm rounded-none shadow-lg">
-            <CardHeader
-              floated={false}
-              shadow={false}
-              color="transparent"
-              className="m-0 rounded-none"
-            >
-              <Image
-                src="/people/donate3.jpg"
-                alt="img"
-                width={540}
-                height={276}
-                className="overflow-hidden h-80 object-cover"
-              />
-            </CardHeader>
-            <CardBody>
-              <Typography variant="h6" className="font-bold text-textColor">
-                From Passion to Profession
-              </Typography>
-              <Typography variant="paragraph" className="text-textColor mt-3">
-                Emma always had a passion for technology but lacked the
-                resources to pursue formal education. Thanks to a scholarship
-                from Code Train Foundation, she enrolled in our coding bootcamp.
-                Today, Emma is a successful full-stack developer at a leading
-                tech company, where she continues to grow and inspire others.
-              </Typography>
-              <Typography
-                variant="paragraph"
-                className="text-textColor font-bold mt-3"
-              >
-                &quot;Code Train changed my life. The support I received made it
-                possible for me to follow my passion and build a career I’m
-                proud of. &quot; - Emma Ansah
-              </Typography>
-            </CardBody>
-          </Card>
-        </div>
-        <div className="flex justify-center">
-          <CTLogo
-            className="absolute size-[980px] mx-auto -top-14 object-cover opacity-30"
-            color="#ffffff"
-          />
-        </div>
-      </section>
-
-      {/* Why Partner With Codetrain */}
-      <section className="py-14 md:py-32 px-4 md:px-20 relative">
-        <div className="relative z-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-16 mt-10">
-            <div>
-              <Typography
-                variant="h2"
-                className="text-pink text-3xl md:text-5xl font-bold"
-              >
-                Why Partner With Codetrain
-              </Typography>
-              <Typography
-                variant="paragraph"
-                className="text-lg text-textColor mt-3"
-              >
-                We are proud to have awarded over $5000 worth scholarships to
-                deserving individuals, helping them gain the skills and
-                confidence needed to succeed in tech. These scholarships are
-                made possible by the generosity of donors like you.
-              </Typography>
-            </div>
-            <div>
-              <Typography variant="h5" className="text-pink font-bold">
-                Women in Tech Scholarship
-              </Typography>
-              <Typography
-                variant="paragraph"
-                className="text-lg text-textColor mt-3"
-              >
-                The Women in Tech Scholarship is dedicated to supporting and
-                empowering women who aspire to build careers in the tech
-                industry. <br /> As a part of our commitment to promoting
-                diversity and inclusion, this scholarship is designed to help
-                bridge the gender gap in technology by providing financial
-                assistance, mentorship, and resources to women who demonstrate a
-                passion for tech and a desire to make a difference in the field
-              </Typography>
-            </div>
-            <div>
-              <Typography variant="h5" className="text-pink font-bold">
-                Diversity and Inclusion Scholarship
-              </Typography>
-              <Typography
-                variant="paragraph"
-                className="text-lg text-textColor mt-3"
-              >
-                The Inclusion and Diversity Scholarship aims to create a more
-                equitable and diverse technology landscape by supporting
-                individuals from underrepresented communities in their journey
-                into tech. This scholarship is part of our broader commitment to
-                fostering a tech industry that reflects the richness of our
-                society, bringing together varied perspectives, ideas, and
-                innovations.
-              </Typography>
-            </div>
+        <div className="flex flex-col items-center justify-center md:items-start md:flex-row gap-x-40 gap-y-10">
+          <div className="max-w-72">
+            <h4 className="text-lg md:text-xl text-violet font-extrabold mb-3">
+              Job Placement
+            </h4>
+            <h1 className="text-pink text-7xl font-bold md:text-6xl">91%</h1>
+            <p className="text-textColor mt-6">
+              of our students get job within the first 9 months
+            </p>
+          </div>
+          <div className="max-w-72 mt-5 md:mt-0">
+            <h4 className="text-lg md:text-xl text-violet font-extrabold mb-3">
+              Alumni
+            </h4>
+            <h1 className="text-pink text-6xl font-bold md:text-6xl">600</h1>
+            <p className="text-textColor mt-6">alumni and counting</p>
+          </div>
+          <div className="max-w-72 mt-5 md:mt-0">
+            <h4 className="text-lg md:text-xl text-violet font-extrabold mb-3">
+              Ratings
+            </h4>
+            <h1 className="text-pink text-6xl font-bold md:text-6xl">8.3</h1>
+            <p className="text-textColor mt-6">
+              of our students get job within the first 9 months
+            </p>
           </div>
         </div>
-        <BgLogoRight
-          className="absolute fill-yellow opacity-20 size-52 md:size-[550px] top-0 lg:-top-24
-        left-0"
-        />
       </section>
 
-      {/* Program Summary Section*/}
+      {/* How your donation Section*/}
       <section className="py-20 px-4 bg-ash">
         <div className="flex flex-col lg:flex-row justify-center items-center gap-8 py-10 bg-contain bg-center bg-no-repeat relative">
           <div className="relative z-10 text-textColor">
             <div className="text-base">
               <div className="max-w-md">
-                <Typography
-                  variant="h2"
-                  className="font-bold text-violet max-w-sm"
-                >
+                <Typography variant="h2" className="font-bold text-violet">
                   How Your Donation Helps
                 </Typography>
                 <Typography variant="paragraph" className="mt-5 font-medium">
-                  Every dollar you donate makes a direct impact on the lives of
-                  our students. Your contributions help us:
+                  Support the training of African youth to become job-ready
+                  software developers and UX designers. Your contributions help
+                  us:
                 </Typography>
               </div>
             </div>
 
-            <ul className="list-disc mt-10 space-y-4">
+            <ul className="list-disc mt-10 space-y-4 max-w-lg">
               <li>
                 <Typography variant="paragraph" className="font-medium">
-                  Provide scholarships to those who need them most.
+                  Offer scholarships to women, neurodivergent individuals,
+                  people with disabilities like sickle cell, and those from
+                  low-income or rural communities
                 </Typography>
               </li>
               <li>
                 <Typography variant="paragraph" className="font-medium">
-                  Expand our Diversity and Inclusion initiatives.
+                  Expand our Diversity and Inclusion initiatives
                 </Typography>
               </li>
               <li>
                 <Typography variant="paragraph" className="font-medium">
-                  Develop and deliver cutting-edge curricula.
+                  Develop and deliver cutting-edge curricula
                 </Typography>
               </li>
               <li>
                 <Typography variant="paragraph" className="font-medium">
-                  Support students through mentorship and career services.
+                  Support students through mentorship and career services
                 </Typography>
               </li>
             </ul>
+            <Typography variant="paragraph" className="font-medium">
+              Every dollar you donate makes a direct impact on the lives of our
+              students.
+            </Typography>
 
             <div className="flex gap-x-4 mt-7">
               <Button
@@ -429,7 +287,7 @@ const Donate = () => {
         <div className="relative">
           <div className="p-4 relative z-10">
             <Typography variant="h3" className="text-violet">
-              Get Involved
+              Request a Meeting
             </Typography>
             <Typography
               variant="paragraph"

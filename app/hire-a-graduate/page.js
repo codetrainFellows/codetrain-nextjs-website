@@ -2,21 +2,12 @@
 
 import ExcitedCareer from "@/components/ExcitedCareer";
 import ExperienceCard from "@/components/ExperienceCard";
-import { sponsorImages } from "@/constants/constants";
+import { hireOurStudents } from "@/constants/constants";
 import BgLogoLeft from "@/public/icons/BgLogoLeft";
 import BgLogoRight from "@/public/icons/BgLogoRight";
 import CTLogo from "@/public/icons/CTLogo";
-import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
-import {
-  Button,
-  Card,
-  CardBody,
-  CardFooter,
-  CardHeader,
-  Carousel,
-  IconButton,
-  Typography,
-} from "@material-tailwind/react";
+
+import { Button, Typography } from "@material-tailwind/react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -24,24 +15,27 @@ const HireAGraduate = () => {
   const applicationProcess = [
     {
       id: 1,
-      title: "Fill The Form to Enroll",
-      desc: "2-Year Program: Transforming Novices into Mid-Level Developers. Year 1: Intensive Software Development Training.",
+      title: "Fill the form to hire a grad",
     },
     {
       id: 2,
-      title: "Complete Application Process",
-      desc: "2-Year Program: Transforming Novices into Mid-Level Developers. Year 1: Intensive Software Development Training.",
+      title: "Codetrain Career Services will reach out to set up a call",
     },
     {
       id: 3,
-      title: "Pass Assessment Test",
-      desc: "2-Year Program: Transforming Novices into Mid-Level Developers. Year 1: Intensive Software Development Training.",
+      title: "Get resumes of ideal candidate and start interviewing",
     },
   ];
   return (
     <section className="overflow-hidden">
       <div className="py-2 bg-violet text-xs md:text-base text-center text-white flex items-center justify-center">
-        <p>Get to know more about Codetrain. Join our info session.🗣️ </p>
+        <Link
+          href="https://codetrainafrica.heiapply.com/application"
+          target="_blank"
+          className="hover:underline"
+        >
+          <p>Get to know more about Codetrain. Join our info session.🗣️</p>
+        </Link>
       </div>
 
       {/* Hero Section */}
@@ -87,162 +81,68 @@ const HireAGraduate = () => {
 
       {/* What Our Students Offer */}
       <section className="py-20 px-4">
-        <Typography
-          variant="h3"
-          className="text-center text-violet text-2xl md:text-4xl"
-        >
-          What Our Students Offer
+        <Typography variant="h3" className="text-center text-violet">
+          Our Curriculum
         </Typography>
         <Typography
           variant="paragraph"
           className="text-center text-textColor max-w-6xl mx-auto mt-4"
         >
-          Codetrain students bring a unique blend of technical skills,
-          creativity, and determination to the tech industry. Equipped with
-          hands-on coding experience and real-world problem-solving abilities,
-          they are ready to drive innovation and contribute meaningfully to any
-          tech team. Their passion for technology and continuous learning
-          ensures they deliver impactful solutions and excel in diverse tech
-          roles.
+          Full-stack Developer and then UX/UI Designer
         </Typography>
-
         <div className="relative z-10 flex flex-col lg:flex-row items-center justify-center mt-20">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 relative z-10">
-            <div className="max-w-xs">
+            <div className="max-w-lg">
               <Typography variant="h5" className="text-violet">
-                Proficiency in Programming Languages
+                Full-stack Developer
               </Typography>
               <Typography
                 variant="paragraph"
                 className="text-lg text-textColor mt-3"
               >
-                Mastering multiple programming languages is crucial for a
-                successful tech career, and our curriculum is designed to build
-                that expertise. Students gain hands-on experience with a variety
-                of languages, from popular choices like Python and JavaScript to
-                more specialized ones. This diverse skill set equips them to
-                tackle real-world challenges and adapt to the ever-evolving tech
-                landscape.
+                At Codetrain, we train students in{" "}
+                <span className="font-bold">
+                  MERN stack full-stack development
+                </span>
+                , offering a comprehensive learning experience in both front-end
+                and back-end technologies. Students master key skills in
+                <span className="font-bold">
+                  {" "}
+                  MongoDB, Express, React, and Node.js,
+                </span>{" "}
+                enabling them to build dynamic web applications from scratch.
+                This in-depth training equips them with the versatility and
+                expertise needed to handle complex projects and excel in a wide
+                range of tech roles, making them valuable assets to any team.
               </Typography>
             </div>
-            <div className="max-w-xs">
+            <div className="max-w-lg">
               <Typography variant="h5" className="text-violet">
-                Web Development Expertise
+                UX/UI Designer
               </Typography>
               <Typography
                 variant="paragraph"
                 className="text-lg text-textColor mt-3"
               >
-                Our Web Development Expertise equips students with the skills to
-                build dynamic, responsive websites from scratch. Through
-                hands-on training in modern technologies and best practices,
-                learners gain practical experience in front-end and back-end
-                development, preparing them for real-world challenges and
-                opportunities in the tech industry.
-              </Typography>
-            </div>
-            <div className="max-w-xs">
-              <Typography variant="h5" className="text-violet">
-                Full-stack Development
-              </Typography>
-              <Typography
-                variant="paragraph"
-                className="text-lg text-textColor mt-3"
-              >
-                Full-stack development at Codetrain offers a comprehensive
-                learning experience, covering both front-end and back-end
-                technologies. Students gain expertise in creating dynamic web
-                applications from scratch, mastering skills in programming
-                languages, databases, and server management. This holistic
-                approach equips learners with the versatility needed to tackle
-                complex projects and excel in diverse tech roles.
-              </Typography>
-            </div>
-            <div className="max-w-xs">
-              <Typography variant="h5" className="text-violet">
-                Mobile App Development
-              </Typography>
-              <Typography
-                variant="paragraph"
-                className="text-lg text-textColor mt-3"
-              >
-                Our mobile app development program equips students with the
-                skills needed to design and build innovative applications.
-                Through hands-on projects and expert guidance, learners gain
-                practical experience in creating user-friendly mobile solutions.
-                This comprehensive training prepares graduates to excel in the
-                dynamic field of mobile technology, ready to tackle real-world
-                challenges and drive digital transformation.
+                At Codetrain, our{" "}
+                <span className="font-bold">UX/UI design</span> program offers a
+                complete learning experience, focusing on user-centered design
+                principles and modern design tools. Students gain proficiency in
+                <span className="font-bold">
+                  {" "}
+                  design thinking, wireframing, prototyping, and usability
+                  testing,
+                </span>{" "}
+                mastering tools like{" "}
+                <span className="font-bold">Figma, Adobe XD, and Sketch</span>.
+                This hands-on approach equips them to create intuitive, visually
+                appealing digital products. With a strong foundation in both
+                user experience and interface design, our graduates are prepared
+                to deliver seamless user journeys and meet the demands of
+                various tech roles
               </Typography>
             </div>
           </div>
-          <div className="mt-10 md:mt-0 relative z-10">
-            <Image
-              alt="computer"
-              src="/images/computer.png"
-              width={450}
-              height={384}
-              className="!max-w-full"
-            />
-            <BgLogoLeft className="absolute size-56 md:size-96 -bottom-20 md:-bottom-52 right-0 z-10 fill-yellow" />
-          </div>
-          <BgLogoRight className="absolute size-96 md:size-[430px] lg:size-[600px] -top-80 md:-top-56 lg:-top-80 left-0 fill-yellow opacity-10" />
-        </div>
-      </section>
-
-      {/* Highlights Of The Students */}
-      <section className="py-20 px-4 bg-lightBlue lg:h-[487px] mb-[600px] relative">
-        <div className="relative z-10">
-          <Typography className="text-center text-white text-lg font-extrabold">
-            Highlights Of The Students
-          </Typography>
-          <Typography
-            variant="h1"
-            className="text-center text-white text-4xl mx-auto mt-4"
-          >
-            Spotlight Of Some Of Our Notable Students
-          </Typography>
-        </div>
-
-        <div className="grid grid-cols-1  place-items-center gap-10 mt-20 lg:translate-y-6 relative z-10">
-          <Card className="sm:max-w-sm rounded-none shadow-lg">
-            <CardHeader
-              floated={false}
-              shadow={false}
-              color="transparent"
-              className="m-0 rounded-none"
-            >
-              <Image
-                src="/people/tony.jpg"
-                alt="img"
-                width={540}
-                height={276}
-                className="overflow-hidden object-cover"
-              />
-            </CardHeader>
-            <CardBody>
-              <Typography className="text-textColor">
-                After dropping out of university, Anthony decided to join
-                Codetrain, seeking practical experience and leadership skills.
-                After working as a teaching fellow, he secured a role with
-                Infinitas Media in Berlin. He continues to mentor Codetrain
-                students and gives talks whenever he’s in Ghana.
-              </Typography>
-            </CardBody>
-            <hr className="border-violet h-1" />
-            <CardFooter>
-              <Typography className="font-bold text-textColor">Tony</Typography>
-              {/* <Typography className="font-normal text-textColor">
-                Software Engineer
-              </Typography> */}
-            </CardFooter>
-          </Card>
-        </div>
-        <div className="flex justify-center">
-          <CTLogo
-            className="absolute size-[980px] mx-auto -top-14 object-cover opacity-30"
-            color="#ffffff"
-          />
         </div>
       </section>
 
@@ -251,8 +151,8 @@ const HireAGraduate = () => {
         <h1 className="text-xl md:text-2xl text-violet font-semibold">
           Companies That Hired our Graduates
         </h1>
-        <div className="grid place-items-center grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mt-12">
-          {sponsorImages.map((sponsor) =>
+        <div className="grid place-items-center grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-x-4 gap-y-8 mt-12">
+          {hireOurStudents.map((sponsor) =>
             sponsor.link ? (
               <Link
                 href={sponsor.link && sponsor.link}
@@ -497,23 +397,17 @@ const HireAGraduate = () => {
             with the ideal candidates.
           </Typography>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 lg:gap-x-24 gap-y-10 md:gap-y-28 place-items-center mt-10 justify-items-center relative z-10">
+        <div className="grid grid-cols-1 md:justify-items-center gap-10 lg:gap-x-24 md:gap-y-20 mt-10 relative z-10">
           {applicationProcess.map((process) => (
-            <div
-              className="max-w-md flex gap-4 md:odd:place-self-end md:even:place-self-start"
-              key={process.id}
-            >
+            <div className="max-w-lg flex items-center gap-4" key={process.id}>
               <div>
                 <Typography variant="h4" className="text-pink text-8xl">
                   {process.id}
                 </Typography>
               </div>
               <div>
-                <Typography variant="h4" className="text-violet md:text-nowrap">
+                <Typography variant="h5" className="text-violet max-w-sm">
                   {process.title}
-                </Typography>
-                <Typography variant="paragraph" className="mt-1">
-                  {process.desc}
                 </Typography>
               </div>
             </div>

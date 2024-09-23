@@ -14,13 +14,20 @@ import BgLogoLeft from "@/public/icons/BgLogoLeft";
 import BgLogoRight from "@/public/icons/BgLogoRight";
 import CTLogo from "@/public/icons/CTLogo";
 import ExcitedCareer from "@/components/ExcitedCareer";
+import Link from "next/link";
 
 const CodeTrainExperience = () => {
   const Context = createContext();
   return (
     <section className="overflow-hidden">
       <div className="py-2 bg-violet text-xs md:text-base text-center text-white flex items-center justify-center">
-        <p>Get to know more about Codetrain. Join our info session.🗣️ </p>
+        <Link
+          href="https://codetrainafrica.heiapply.com/application"
+          target="_blank"
+          className="hover:underline"
+        >
+          <p>Get to know more about Codetrain. Join our info session.🗣️</p>
+        </Link>
       </div>
 
       {/* Hero Section */}
@@ -327,22 +334,31 @@ const CodeTrainExperience = () => {
           <div className="space-y-10 flex flex-col items-center w-full md:w-1/2">
             <Card className="rounded-none w-full sm:max-w-lg h-56 sm:h-80">
               <CardBody className="p-0 h-full">
-                <Image
-                  src="/people/demo.jpg"
-                  alt="demo-day"
-                  height={340}
-                  width={340}
-                  className="w-full h-full"
-                />
+                <Typography variant="h6" className="text-violet bg-ash">
+                  2022 Demo day video
+                </Typography>
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/li9EbOpVS-8?si=zkgxI02uimoyQ_iD"
+                  title="2022 Demo day video"
+                  // frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  // referrerpolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></iframe>
               </CardBody>
             </Card>
             <Card className="rounded-none w-full sm:max-w-lg h-56 sm:h-80">
               <CardBody className="p-0 h-full">
+                <Typography variant="h6" className="text-violet bg-ash">
+                  2023 Demo day video
+                </Typography>
                 <iframe
                   width="100%"
                   height="100%"
-                  src="https://www.youtube.com/embed/SmAZJcErw7w?si=Rnyh2RAAkl1W1Ech"
-                  title="YouTube video player"
+                  src="https://www.youtube.com/embed/uqozP61jgKQ?si=F9wkPcOIpAlsyG4j"
+                  title="2023 Demo day video - tech career seminar"
                   // frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   // referrerpolicy="strict-origin-when-cross-origin"

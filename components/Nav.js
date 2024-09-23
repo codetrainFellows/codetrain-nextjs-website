@@ -38,9 +38,9 @@ const navListMenuItems = [
     href: "/courses/ui-ux-design",
   },
   {
-    title: "Codetrain Experience",
+    title: "Student Life at Codetrain",
     icon: GlobeAmericasIcon,
-    href: "/courses/codetrain-experience",
+    href: "/courses/student-life-at-codetrain",
   },
   // {
   //   title: "Kids Programme",

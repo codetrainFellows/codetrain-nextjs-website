@@ -129,7 +129,7 @@ export default function Home() {
             <h4 className="text-lg md:text-xl text-violet font-extrabold mb-3">
               Job Placement
             </h4>
-            <h1 className="text-pink text-7xl font-bold md:text-9xl">89%</h1>
+            <h1 className="text-pink text-7xl font-bold md:text-9xl">91%</h1>
             <p className="text-textColor mt-6">
               of our students get job within the first 9 months
             </p>
@@ -696,7 +696,7 @@ export default function Home() {
       {/* Exciting Stories Section */}
       <section className="min-h-[calc(100vh-60px)] bg-ash text-center flex flex-col justify-center py-14 sm:py-24 px-4 relative">
         <h1 className="font-bold text-pink text-2xl max-w-3xl mx-auto lg:text-5xl">
-          Some Exciting Stories About Codetrain
+          Exciting Stories About Codetrain
         </h1>
 
         <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 place-items-center place-content-center gap-10 mt-10 sm:mt-20 text-left">

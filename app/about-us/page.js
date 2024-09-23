@@ -18,17 +18,18 @@ import {
 } from "@material-tailwind/react";
 import Image from "next/image";
 import Link from "next/link";
-import { createContext } from "react";
 
 const AboutUs = () => {
-  const Context = createContext();
-
   return (
     <section className="overflow-hidden">
       <div className="py-2 bg-violet font-xs text-center text-white flex items-center justify-center">
-        <p className="text-xs sm:text-base">
-          Get to know more about Codetrain. Join our info session.🗣️{" "}
-        </p>
+        <Link
+          href="https://codetrainafrica.heiapply.com/application"
+          target="_blank"
+          className="hover:underline"
+        >
+          <p>Get to know more about Codetrain. Join our info session.🗣️</p>
+        </Link>
       </div>
 
       {/* Hero Section */}

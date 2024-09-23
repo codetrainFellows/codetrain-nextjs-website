@@ -1,3 +1,4 @@
+const { typography } = require("@material-tailwind/react");
 const withMT = require("@material-tailwind/react/utils/withMT");
 /** @type {import('tailwindcss').Config} */
 

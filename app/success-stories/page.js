@@ -1,6 +1,5 @@
 "use client";
 
-import { createContext } from "react";
 import {
   Button,
   Card,
@@ -21,7 +20,13 @@ const SuccessStories = () => {
   return (
     <section className="overflow-hidden">
       <div className="py-2 bg-violet text-xs md:text-base text-center text-white flex items-center justify-center">
-        <p>Get to know more about Codetrain. Join our info session.🗣️</p>
+        <Link
+          href="https://codetrainafrica.heiapply.com/application"
+          target="_blank"
+          className="hover:underline"
+        >
+          <p>Get to know more about Codetrain. Join our info session.🗣️</p>
+        </Link>
       </div>
 
       {/* Hero Section */}
@@ -217,7 +222,8 @@ const SuccessStories = () => {
               // role="Software Engineer at Microsoft"
               name="Ofoe"
               story="Two years after Codetrain, Ofoe’s career is thriving. Starting with an internship at thinkSopht Labs, he now excels at Turntabl. Codetrain’s focus on continuous learning has been crucial, enhancing his work-life balance and decision-making skills."
-              className="md:justify-self-end"
+              className="md:justify-self-end max-h-full"
+              imgClass="h-[600px]"
             />
           </div>
           <div>
@@ -255,26 +261,26 @@ const SuccessStories = () => {
           />
 
           <SuccessCard
-            src="/people/jeremy.jpg"
+            src="/people/oscarlyn.jpg"
             // role="Software Engineer at Microsoft"
-            name="Jermain Antwi"
-            story="After completing Codetrain at just 12, he embarked on his second tech startup, focused on revolutionizing loyalty programs for small shops. He interned at Cedi Rates and now advises two companies. Additionally, he serves as a mentor at Moonshot Pirates in Austria, guiding young innovators and sharing his expertise."
+            name="Oscarlyn"
+            story="She was best student in 2023. A medical doctor with a passion for tech, she impressed several companies at our demo day. She showcased her app, a comprehensive rabbit farming management system, which captured significant interest from potential employers. She currently mentors other young ladies at Codetrain."
             className="md:justify-self-start"
+            imgClass="object-center"
           />
 
           <SuccessCard
-            src="/people/oscarlyn.jpg"
+            src="/people/jeremy.jpg"
             // role="Software Engineer at Microsoft"
-            name="Oscarlyn Naa Dedei"
-            story="She was best student in 2023. A medical doctor with a passion for tech, she impressed several companies at our demo day. She showcased her app, a comprehensive rabbit farming management system, which captured significant interest from potential employers. She currently mentors other young ladies at Codetrain."
+            name="Jermaine"
+            story="After completing Codetrain at just 12, he embarked on his second tech startup, focused on revolutionizing loyalty programs for small shops. He interned at Cedi Rates and now advises two companies. Additionally, he serves as a mentor at Moonshot Pirates in Austria, guiding young innovators and sharing his expertise."
             className="md:justify-self-end"
-            imgClass="object-center"
           />
 
           <SuccessCard
             src="/people/awal.jpg"
             // role="Software Engineer at Microsoft"
-            name="Awal Mubarak"
+            name="Awal"
             story="Awal’s journey is a true testament to Codetrain’s ability to nurture fast learners. As part of Codetrain’s first cohort, he quickly stood out for his rapid progress and skill development. Awal initially served as a teaching fellow at Codetrain, sharing his knowledge with other students while gaining experience through various local and international projects. His dedication and growth led to his current role as a senior developer at a Canadian gaming company. Awal’s success reflects his hard work and Codetrain’s focus on building world-class talent."
             className="md:justify-self-start"
           />
@@ -399,6 +405,13 @@ const SuccessStories = () => {
             Empowering women in tech is central to Codetrain’s Diversity and
             Inclusion program, aligning with{" "}
             <span className="font-bold">SDG 5: Gender Equality.</span>
+            <Image
+              src="/images/sdg5.png"
+              width={40}
+              height={40}
+              alt="SDGs 5"
+              className="inline-flex"
+            />
           </Typography>
 
           <Typography
@@ -593,29 +606,6 @@ const SuccessStories = () => {
         {/* Bg Logos */}
         <BgLogoLeft className="absolute size-72 fill-indigo opacity-15 bottom-0 left-0" />
         <BgLogoRight className="absolute size-72 fill-indigo opacity-15 top-0 left-0" />
-      </section>
-
-      <section className="py-10 px-4 flex flex-col justify-center">
-        <iframe
-          width="560"
-          height="315"
-          className="mx-auto"
-          src="https://www.youtube.com/embed/ExT_IilhWaw?si=d9GbEhm4wESquUFf"
-          title="ROBERT KEHINDE Demo Day presentation at the Codetrain Africa Tech Career Seminar 2023"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          // referrerpolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        ></iframe>
-        <Link
-          href="https://codetrainafrica.heiapply.com/application"
-          target="_blank"
-          className="mx-auto mt-8"
-        >
-          <Button className="bg-yellow text-violet shadow-none font-bold px-5 sm:px-8 md:px-10 rounded-md">
-            Enroll now
-          </Button>
-        </Link>
       </section>
 
       {/* Excited to start your career Section */}

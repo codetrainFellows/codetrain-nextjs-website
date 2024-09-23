@@ -14,15 +14,19 @@ import {
   Typography,
 } from "@material-tailwind/react";
 import Image from "next/image";
-import React, { createContext } from "react";
+import Link from "next/link";
 
 const Partnerships = () => {
-  const Context = createContext();
-
   return (
     <section className="overflow-hidden">
       <div className="py-2 bg-violet text-xs md:text-base text-center text-white flex items-center justify-center">
-        <p>Get to know more about Codetrain. Join our info session.🗣️ </p>
+        <Link
+          href="https://codetrainafrica.heiapply.com/application"
+          target="_blank"
+          className="hover:underline"
+        >
+          <p>Get to know more about Codetrain. Join our info session.🗣️</p>
+        </Link>
       </div>
 
       {/* Hero Section */}
@@ -63,67 +67,8 @@ const Partnerships = () => {
         />
       </section>
 
-      {/* Why Partner With Codetrain */}
-      <section className="py-14 md:py-32 px-4 md:px-20 relative">
-        <div className="relative z-10">
-          <Typography
-            variant="h2"
-            className="text-pink text-3xl md:text-5xl font-bold"
-          >
-            Why Partner With Codetrain
-          </Typography>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-16 mt-10">
-            <div>
-              <Typography variant="h5" className="text-violet">
-                Collaborative Innovation
-              </Typography>
-              <Typography
-                variant="paragraph"
-                className="text-lg text-textColor mt-3 "
-              >
-                Work with us to develop cutting-edge solutions and products. By
-                collaborating with our team, you can leverage fresh perspectives
-                and innovative ideas that drive your business forward
-              </Typography>
-            </div>
-            <div>
-              <Typography variant="h5" className="text-violet">
-                Access to Top Talent
-              </Typography>
-              <Typography
-                variant="paragraph"
-                className="text-lg text-textColor mt-3"
-              >
-                Partnering with Codetrain gives you direct access to a pool of
-                highly trained and motivated software developers. Our graduates
-                are skilled in the latest technologies and are ready to bring
-                value to your organization from day one
-              </Typography>
-            </div>
-            <div>
-              <Typography variant="h5" className="text-violet">
-                Social Impact
-              </Typography>
-              <Typography
-                variant="paragraph"
-                className="text-lg text-textColor mt-3"
-              >
-                Join us in making a meaningful impact on the lives of young
-                people in Africa. By partnering with Codetrain, you support
-                initiatives that create opportunities and bridge the skills gap
-                in the tech industry
-              </Typography>
-            </div>
-          </div>
-        </div>
-        <BgLogoRight
-          className="absolute fill-yellow opacity-20 size-52 md:size-[550px] top-0 lg:-top-24
-        left-0"
-        />
-      </section>
-
       {/* Partnership Opportunities */}
-      <section className="bg-ash py-14 md:py-32 px-4 md:px-10 relative">
+      <section className="py-14 md:py-32 px-4 md:px-10 relative">
         <div className="relative z-10 grid grid-cols-12 gap-8 lg:gap-16">
           <div className="col-span-12 md:col-span-5">
             <Typography variant="h3" className="text-violet">
@@ -145,58 +90,64 @@ const Partnerships = () => {
           <div className="col-span-12 md:col-span-7 grid grid-cols-1 lg:grid-cols-2 gap-10">
             <div>
               <Typography variant="h5" className="text-violet">
-                Hiring Opportunities
+                Finance Students/Offer Scholarships
               </Typography>
               <Typography
                 variant="paragraph"
                 className="text-lg text-textColor mt-3 md:max-w-lg"
               >
-                Looking for talented developers to join your team? As a hiring
-                partner, you will have the first pick of our top graduates. We
-                can also tailor training programs to meet your specific hiring
-                needs.
+                Support the next generation of tech talent by offering
+                scholarships to Codetrain students. Your contribution will
+                provide access to high-quality education for individuals from
+                underrepresented backgrounds, empowering them to build
+                successful careers in tech. By financing their education, you
+                invest in the future of innovation while making a lasting social
+                impact.
               </Typography>
             </div>
             <div>
               <Typography variant="h5" className="text-violet">
-                Corporate Training
+                Create a Talent Pipeline
               </Typography>
               <Typography
                 variant="paragraph"
                 className="text-lg text-textColor mt-3 md:max-w-lg"
               >
-                Invest in your existing team by providing them with advanced
-                training from Codetrain. Our custom corporate training programs
-                are designed to upskill your workforce and keep them ahead of
-                industry trends
+                Partner with Codetrain to create a direct pipeline of skilled
+                developers and designers ready to join your team. Our graduates
+                are trained in cutting-edge technologies and prepared to meet
+                the demands of today’s fast-paced tech industry. Build a
+                sustainable talent pool tailored to your organization’s needs.
               </Typography>
             </div>
             <div>
               <Typography variant="h5" className="text-violet">
-                Sponsorships And Scholoraships
+                Throw an Innovation Challenge
               </Typography>
               <Typography
                 variant="paragraph"
                 className="text-lg text-textColor mt-3 md:max-w-lg"
               >
-                Our coding bootcamp offers personalized learning paths designed
-                to cater to the diverse needs and aspirations of each student,
-                ensuring that they receive the support and guidance needed to
-                succeed in their journey towards becoming proficient developers
-                or designers
+                Engage our students by launching an innovation challenge. This
+                collaboration allows you to tackle business problems with fresh,
+                creative solutions while giving students real-world experience.
+                It’s a dynamic way to foster innovation and test new ideas that
+                could drive your business forward.
               </Typography>
             </div>
             <div>
               <Typography variant="h5" className="text-violet">
-                Collaborative Projects
+                Collaborate for Social Impact
               </Typography>
               <Typography
                 variant="paragraph"
                 className="text-lg text-textColor mt-3 md:max-w-lg"
               >
-                Engage with our students on real-world projects. This provides
-                them with valuable hands-on experience while you benefit from
-                innovative solutions tailored to your business challenges
+                Work with Codetrain to create meaningful social change by
+                bridging the tech skills gap in Africa. Your partnership helps
+                empower young people with the education and opportunities needed
+                to thrive in the global tech industry. Together, we can make a
+                lasting impact on both communities and the tech ecosystem.
               </Typography>
             </div>
           </div>
@@ -274,75 +225,6 @@ const Partnerships = () => {
           <Typography variant="paragraph">Human Resources Manager,</Typography>
         </div>
       </Carousel> */}
-
-      {/* Kind Of Partnerships */}
-      <section className="py-20 px-4 relative">
-        <div className="relative z-10">
-          <Typography variant="h2" className="text-violet text-center">
-            Kind Of Partnerships
-          </Typography>
-          <Typography
-            variant="paragraph"
-            className="text-lg max-w-4xl text-center mx-auto mt-3 text-textColor"
-          >
-            At Codetrain, we are seeking partnerships that align with our core
-            values and mission. We are interested in collaborating with
-            organizations that:
-          </Typography>
-
-          <div className="grid place-items-center gap-8 md:grid-cols-2 mt-10">
-            <div className="max-w-96 md:ml-auto border border-textColor py-14 px-9">
-              <Typography variant="h5" className="text-2xl">
-                Financing
-              </Typography>
-              <Typography className="text-lg text-textColor">
-                Partners who can help us secure funding for expanding our reach
-                and impact are crucial. This includes sponsorship for new
-                training centers, scholarship programs, and community outreach
-                initiatives aimed at underserved populations
-              </Typography>
-            </div>
-            <div className="max-w-96 md:mr-auto border border-textColor py-14 px-9">
-              <Typography variant="h5" className="text-2xl">
-                Collaboration
-              </Typography>
-              <Typography className="text-lg text-textColor">
-                We are looking for partners who can collaborate with us on
-                curriculum development, research projects, and innovative
-                educational methodologies. By working together, we can create a
-                more effective and relevant learning experience for our students
-              </Typography>
-            </div>
-            <div className="max-w-96 h-full md:ml-auto border border-textColor py-14 px-9">
-              <Typography variant="h5" className="text-2xl">
-                Talent Pipeline
-              </Typography>
-              <Typography className="text-lg text-textColor">
-                Organizations interested in building a steady pipeline of tech
-                talent are ideal partners. By partnering with Codetrain, you can
-                gain early access to our top graduates, participate in
-                internship programs, and help shape the skills and knowledge
-                base of future tech professionals.
-              </Typography>
-            </div>
-            <div className="max-w-96 md:h-[370px] md:mr-auto border border-textColor py-14 px-9">
-              <Typography variant="h5" className="text-2xl">
-                Funds For Expansion
-              </Typography>
-              <Typography className="text-lg text-textColor">
-                We seek partners who can provide financial support to help us
-                expand our programs, enhance our infrastructure, and reach more
-                students. Your investment will directly impact the quality and
-                reach of our education initiatives.
-              </Typography>
-            </div>
-          </div>
-        </div>
-        <BgLogoRight className="absolute size-80 fill-ash -top-12 left-0 opacity-80" />
-        <BgLogoLeft className="absolute size-56 fill-ash top-56 left-0 opacity-80" />
-        <BgLogoRight className="absolute size-80 fill-ash bottom-32 right-0 opacity-80" />
-        <BgLogoLeft className="absolute size-56 fill-ash -bottom-6 right-0 opacity-80" />
-      </section>
 
       {/* Get Involved */}
       <section className="mt-20 flex flex-col gap-6 md:flex-row">

@@ -605,11 +605,11 @@ const UIUXDesign = () => {
           <h1 className="font-bold text-indigo text-3xl lg:text-5xl">
             What You’ll Learn At Codetrain Africa
           </h1>
-          <p className="my-10 max-w-3xl mx-auto">
+          <Typography variant="paragraph" className="my-10 max-w-3xl mx-auto">
             Get hands-on with UI/UX design principles and real-world projects to
             build a strong portfolio, while receiving career coaching to guide
             you toward a successful future.
-          </p>
+          </Typography>
         </div>
 
         <div className="max-w-6xl mx-auto flex flex-col gap-10 justify-center relative z-10">
@@ -618,22 +618,28 @@ const UIUXDesign = () => {
               <h3 className="text-white font-bold text-2xl bg-indigo p-4">
                 9 months
               </h3>
-              <p className="mt-4 text-textColor text-lg p-4 pb-10">
-                Learn UX design from scratch and start building your portfolio,
-                laying a strong foundation for your career in user experience
-                design.
-              </p>
+              <Typography
+                variant="paragraph"
+                className="mt-4 text-textColor text-lg p-4 pb-10"
+              >
+                In 1 year you will get hands-on with UX design from scratch and
+                start building your portfolio, laying a strong foundation for
+                your career in user experience design.
+              </Typography>
             </div>
             <div className="text-start bg-white shadow-xl max-w-sm relative grid place-content-center pb-8">
               <h3 className="text-white font-bold text-2xl bg-indigo p-4">
                 3 months
               </h3>
-              <p className="mt-4 text-textColor text-lg p-4 pb-10">
+              <Typography
+                variant="paragraph"
+                className="mt-4 text-textColor text-lg p-4 pb-10"
+              >
                 This period focuses on career services. Gain more hands-on
                 experience with internships, mock interviews, and a major Demo
                 Day to prepare for graduation and secure your first full-time
                 role in UX design.
-              </p>
+              </Typography>
             </div>
           </div>
         </div>

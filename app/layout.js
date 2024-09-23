@@ -1,3 +1,5 @@
+"use client";
+
 import "./globals.css";
 
 // Components
@@ -5,24 +7,29 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
 import localFont from "next/font/local";
+import { ThemeProvider } from "@material-tailwind/react";
+import { theme } from "@/theme/theme";
 
-export const metadata = {
+const metadata = {
   title: "Codetrain Africa",
   description: "Codetrain",
 };
 
-const helvitica = localFont({
+// Load the local font
+const helvetica = localFont({
   src: "../fonts/Helvetica.ttf",
 });
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={helvitica.className}>
-        <Nav />
-        {children}
-        <Footer />
-      </body>
-    </html>
+    <ThemeProvider value={theme}>
+      <html lang="en">
+        <body className={helvetica.className}>
+          <Nav />
+          <main>{children}</main>
+          <Footer />
+        </body>
+      </html>
+    </ThemeProvider>
   );
 }

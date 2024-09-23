@@ -15,6 +15,22 @@ const nextConfig = {
         protocol: "https",
         hostname: "media.istockphoto.com",
       },
+      {
+        protocol: "https",
+        hostname: "img-prod-cms-rt-microsoft-com.akamaized.net",
+      },
+      {
+        protocol: "https",
+        hostname: "www.completefarmer.com",
+      },
+      {
+        protocol: "https",
+        hostname: "meltwater.org",
+      },
+      {
+        protocol: "https",
+        hostname: "turntabl.io",
+      },
     ],
   },
   async rewrites() {

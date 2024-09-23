@@ -60,11 +60,6 @@ const sponsorImages = [
     link: "",
   },
   {
-    name: "Jobberman",
-    src: "/images/jobberman.png",
-    link: "",
-  },
-  {
     name: "SkilledUp Life",
     src: "/images/skilledup-life-logo.png",
     link: "",
@@ -122,6 +117,89 @@ const sponsorImages = [
   {
     name: "mPharma",
     src: "/images/mpharma.png",
+    link: "",
+  },
+];
+
+const hireOurStudents = [
+  {
+    name: "Microsoft",
+    src: "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31",
+    link: "",
+  },
+  {
+    name: "Meqasa",
+    src: "/images/meqasa.png",
+    link: "",
+  },
+  {
+    name: "OZE",
+    src: "/images/oze.svg",
+    link: "",
+  },
+  {
+    name: "mPharma",
+    src: "/images/mpharma.png",
+    link: "",
+  },
+  {
+    name: "Hubtel",
+    src: "/images/hubtel.png",
+    link: "",
+  },
+  {
+    name: "CompleteFarmer",
+    src: "https://www.completefarmer.com/assets/main.BRVVrLDM.webp",
+    link: "",
+  },
+  {
+    name: "Andela",
+    src: "/images/andela.png",
+    link: "",
+  },
+  {
+    name: "MestAfrica",
+    src: "https://meltwater.org/wp-content/uploads/2021/03/logo-mest-color-2.png",
+    link: "",
+  },
+  {
+    name: "turntabl",
+    src: "https://turntabl.io/assets/TT%20Logo.png",
+    link: "",
+  },
+  {
+    name: "Infinitas",
+    src: "/images/infinitas.png",
+    link: "",
+  },
+  {
+    name: "Big Viking",
+    src: "/images/bigviking.png",
+    link: "",
+  },
+  {
+    name: "Sage",
+    src: "/images/sage.png",
+    link: "",
+  },
+  {
+    name: "Ecobank",
+    src: "/images/ecobank.png",
+    link: "",
+  },
+  {
+    name: "cedirates",
+    src: "https://cedirates.com/_next/static/media/Cedirates_Logo-Black.6d69d06b.svg",
+    link: "",
+  },
+  {
+    name: "eganow",
+    src: "/images/eganow.svg",
+    link: "",
+  },
+  {
+    name: "afrifanom",
+    src: "/images/afrifanom.jpg",
     link: "",
   },
 ];
@@ -432,4 +510,5 @@ module.exports = {
   team,
   team1,
   advisoryTeam,
+  hireOurStudents,
 };

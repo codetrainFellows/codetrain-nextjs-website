@@ -6,8 +6,6 @@ import { createContext } from "react";
 import Image from "next/image";
 
 const Footer = () => {
-  const Context = createContext();
-
   const links = [
     {
       title: "Company",
@@ -17,7 +15,7 @@ const Footer = () => {
           href: "https://codetrain.medium.com/",
         },
         {
-          name: "contact",
+          name: "contact - 0545792397",
           href: "",
         },
       ],
@@ -39,7 +37,7 @@ const Footer = () => {
         },
         {
           name: "instagram",
-          href: "https://www.instagram.com/codetraingh",
+          href: "https://www.instagram.com/codetrainafrica/",
         },
       ],
     },
@@ -63,13 +61,19 @@ const Footer = () => {
               <ul className="list-disc">
                 {items.map((item) => (
                   <li key={item.name} className="ml-6">
-                    <Link
-                      href={item.href}
-                      className="py-1.5 font-semibold text-sm md:text-lg underline transition-colors text-textColor"
-                      target="_blank"
-                    >
-                      {item.name}
-                    </Link>
+                    {item.href ? (
+                      <Link
+                        href={item.href}
+                        className="py-1.5 font-semibold text-sm md:text-lg underline transition-colors text-textColor"
+                        target="_blank"
+                      >
+                        {item.name}
+                      </Link>
+                    ) : (
+                      <span className="text-sm font-semibold md:text-lg text-textColor">
+                        {item.name}
+                      </span>
+                    )}
                   </li>
                 ))}
               </ul>
@@ -78,7 +82,7 @@ const Footer = () => {
         </div>
       </div>
       <hr className="my-8 border-textColor" />
-      <Typography color="blue-gray" className="text-center font-normal">
+      <Typography variant="" className="text-center text-violet">
         &copy; {new Date().getFullYear()} Codetrain - All Right Reserved
       </Typography>
     </footer>

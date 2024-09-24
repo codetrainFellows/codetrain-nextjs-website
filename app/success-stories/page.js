@@ -165,9 +165,9 @@ const SuccessStories = () => {
         <div className="flex flex-col lg:flex-row justify-center items-center gap-8 py-10 bg-contain bg-center bg-no-repeat relative">
           <div className="max-w-[540px] relative z-10">
             <Image
-              src="/people/group6.svg"
+              src="/people/zak.jpg"
               alt="picture"
-              className="!h-full rounded-none shadow-md"
+              className="!h-96 rounded-none object-cover"
               width={540}
               height={540}
             />
@@ -178,35 +178,18 @@ const SuccessStories = () => {
                 variant="paragraph"
                 className="text-textColor font-medium"
               >
-                Project-based learning is our way. At code train, you learn by
-                doing. From your first day to your last, you’re graded on actual
-                work that is similar to what you’ll be doing on the job. If it
-                has no application in the industry, we don’t bother with it.
+                Optimism, and Grit. While pursuing his Computer Engineering
+                degree, he joined Codetrain as part of the first cohort, where
+                he quickly gained valuable experience working on both local and
+                international projects. His passion for tech and helping others
+                led him to become a teaching fellow, where he mentored and
+                trained fellow Codetrain students. Today, Zak works with a
+                Berlin-based company, yet still offers mentorship to aspiring
+                developers, continuing to inspire others with his dedication and
+                leadership.
               </Typography>
-              <Typography
-                variant="paragraph"
-                className="text-textColor font-medium mt-5"
-              >
-                Project-based learning is our way. At code train, you learn by
-                doing. From your first day to your last,
-              </Typography>
-              <Typography variant="paragraph" className="font-medium mt-5">
-                you’re graded on actual work that is similar to what you’ll be
-                doing on the job. If it has no application in the industry, we
-                don’t bother with it.
-              </Typography>
-              <Typography variant="paragraph" className="font-medium mt-5">
-                Project-based learning is our way. At code train, you learn by
-                doing. From your first day to your last,
-              </Typography>
-              <Typography variant="paragraph" className="font-medium mt-5">
-                you’re graded on actual work that is similar to what you’ll be
-                doing on the job. If it has no application in the industry, we
-                don’t bother with it.
-              </Typography>
-              <Typography variant="paragraph" className="font-medium mt-5">
-                Project-based learning is our way. At code train, you learn by
-                doing. From your first day to your last, you’re
+              <Typography variant="paragraph" className="font-bold mt-5">
+                - Zak
               </Typography>
             </div>
           </div>
@@ -297,14 +280,6 @@ const SuccessStories = () => {
             name="Gerald"
             story="After graduating, Gerard was hired on the spot by Meqasa’s CEO during demo day. He now works at Hubtel, focusing on gaining expertise, solving problems, and building his career in software development."
             className="md:justify-self-start"
-            imgClass="object-center"
-          />
-          <SuccessCard
-            src="/people/zak.jpg"
-            // role="Software Engineer at Microsoft"
-            name="Zak"
-            story="Optimism, and Grit. While pursuing his Computer Engineering degree, he joined Codetrain as part of the first cohort, where he quickly gained valuable experience working on both local and international projects. His passion for tech and helping others led him to become a teaching fellow, where he mentored and trained fellow Codetrain students. Today, Zak works with a Berlin-based company, yet still offers mentorship to aspiring developers, continuing to inspire others with his dedication and leadership."
-            className="md:justify-self-end"
             imgClass="object-center"
           />
         </div>
@@ -405,13 +380,6 @@ const SuccessStories = () => {
             Empowering women in tech is central to Codetrain’s Diversity and
             Inclusion program, aligning with{" "}
             <span className="font-bold">SDG 5: Gender Equality.</span>
-            <Image
-              src="/images/sdg5.png"
-              width={40}
-              height={40}
-              alt="SDGs 5"
-              className="inline-flex"
-            />
           </Typography>
 
           <Typography
@@ -430,6 +398,13 @@ const SuccessStories = () => {
             scholarships, we help women transform their careers and pave the way
             for future female tech leaders
           </Typography>
+          <Image
+            src="/images/sdg5.png"
+            width={100}
+            height={100}
+            alt="SDGs 5"
+            className="inline-flex"
+          />
         </div>
         <div className="relative">
           <div>

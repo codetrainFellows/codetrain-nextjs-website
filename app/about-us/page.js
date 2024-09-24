@@ -1,13 +1,8 @@
 "use client";
-import {
-  advisoryTeam,
-  successStories,
-  team,
-  team1,
-} from "@/constants/constants";
+import { advisoryTeam, team, team1 } from "@/constants/constants";
 import BgLogoLeft from "@/public/icons/BgLogoLeft";
 import BgLogoRight from "@/public/icons/BgLogoRight";
-import CTLogo from "@/public/icons/CTLogo";
+
 import {
   Button,
   Card,
@@ -39,8 +34,8 @@ const AboutUs = () => {
             src="/people/group.jpg"
             width={720}
             height={384}
-            alt=""
-            className="object-cover !h-[calc(100vh)]"
+            alt="group picture"
+            className="object-cover !h-[calc(100vh+15px)]"
             quality={100}
           />
         </div>
@@ -122,14 +117,20 @@ const AboutUs = () => {
               <Image
                 alt="SDGs4"
                 src="/images/sdg4.png"
-                width={60}
-                height={60}
+                width={100}
+                height={100}
+              />
+              <Image
+                alt="SDGs8"
+                src="/images/sdg5.png"
+                width={100}
+                height={100}
               />
               <Image
                 alt="SDGs8"
                 src="/images/sdg8.png"
-                width={60}
-                height={60}
+                width={100}
+                height={100}
               />
             </div>
           </div>
@@ -338,7 +339,7 @@ const AboutUs = () => {
             </Typography>
             <Link href="/partnerships">
               <Button className="mt-16 bg-yellow rounded-none text-violet font-bold">
-                Partner With Us
+                Let&rsquo;s set up call
               </Button>
             </Link>
             <BgLogoRight className="absolute -z-10 fill-yellow opacity-[0.4] -top-10 left-3 size-48 md:size-60" />

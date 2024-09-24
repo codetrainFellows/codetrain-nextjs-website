@@ -331,6 +331,59 @@ const faq = [
   },
 ];
 
+const faqUIUX = [
+  {
+    question: "What is the duration of the course?",
+    answer:
+      "The duration of the UI/UX course at Codetrain is 12 months. This comprehensive program is designed to equip you with the essential skills needed for a successful career in user experience and user interface design. Throughout the course, you'll engage in hands-on projects and receive mentorship to help you build a strong portfolio.",
+  },
+  {
+    question: "What is the schedule for the class?",
+    answer: "Schedule: Classes are held in person once a week on Saturdays.",
+  },
+  {
+    question: "How many hours do I need to study per week?",
+    answer:
+      "You should be able to commit about 24 hours a week. (about a full day).",
+  },
+  {
+    question: "Does Codetrain provide laptops?",
+    answer: "No, we currently don’t provide laptops.",
+  },
+  {
+    question: "What are the requirements to begin the course?",
+    answer: "",
+    options: [
+      {
+        option:
+          "No Prior Experience Required: You do not need any previous design or technical experience, as the course is structured to guide beginners through the fundamentals of UI/UX design.",
+      },
+      {
+        option:
+          "Passion for Design: A strong interest in technology and a desire to learn about user experience and interface design is essential.",
+      },
+      {
+        option:
+          "Commitment: You should be prepared to dedicate approximately 10-20 hours per week to the course, which includes attending classes and completing assignments.",
+      },
+    ],
+  },
+  {
+    question: "Do you offer any scholarships?",
+    answer:
+      "Yes, we offer part scholarships to candidates who need them and apply for them",
+  },
+  {
+    question: "When do classes start?",
+    answer: "January, May, and October.",
+  },
+  {
+    question: "What certificate do I get after completing the program?",
+    answer:
+      "Upon completing the UI/UX program at Codetrain, you will receive a certificate as a recognition of your skills and training in user interface and user experience design. This certificate signifies your readiness to enter the job market as a qualified UI/UX designer, equipped with the knowledge and practical experience gained throughout the course.",
+  },
+];
+
 const accept = [
   {
     title: "What you’ll need:",
@@ -357,6 +410,40 @@ const accept = [
       },
       {
         text: "Previous tech experience",
+      },
+      {
+        text: "Any degree",
+      },
+    ],
+  },
+];
+
+const acceptUiUx = [
+  {
+    title: "What you’ll need:",
+    items: [
+      {
+        text: "Be computer literacy",
+      },
+      {
+        text: "Pass our intake assessment",
+      },
+      {
+        text: "Openness to learning and growth",
+      },
+      {
+        text: "Willingness to put in the work",
+      },
+    ],
+  },
+  {
+    title: "What you don’t need:",
+    items: [
+      {
+        text: "Computer science experience",
+      },
+      {
+        text: "Graphic Design experience",
       },
       {
         text: "Any degree",
@@ -511,4 +598,6 @@ module.exports = {
   team1,
   advisoryTeam,
   hireOurStudents,
+  acceptUiUx,
+  faqUIUX,
 };

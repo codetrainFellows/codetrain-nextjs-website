@@ -131,23 +131,23 @@ export default function Home() {
             </h4>
             <h1 className="text-pink text-7xl font-bold md:text-9xl">89%</h1>
             <p className="text-textColor mt-6">
-              of our students get job within the first 9 months
+              Our students secure jobs within 6 to 9 months
             </p>
           </div>
           <div className="max-w-72 mt-5 md:mt-0">
             <h4 className="text-lg md:text-xl text-violet font-extrabold mb-3">
               Alumni
             </h4>
-            <h1 className="text-pink text-6xl font-bold md:text-9xl">600</h1>
-            <p className="text-textColor mt-6">alumni and counting</p>
+            <h1 className="text-pink text-6xl font-bold md:text-9xl">700</h1>
+            <p className="text-textColor mt-6">Alumni and counting</p>
           </div>
           <div className="max-w-72 mt-5 md:mt-0">
             <h4 className="text-lg md:text-xl text-violet font-extrabold mb-3">
               Ratings
             </h4>
-            <h1 className="text-pink text-6xl font-bold md:text-9xl">8.3</h1>
+            <h1 className="text-pink text-6xl font-bold md:text-9xl">91%</h1>
             <p className="text-textColor mt-6">
-              of our students get job within the first 9 months
+              Alumni experience enhanced career and life quality.
             </p>
           </div>
         </div>
@@ -628,6 +628,101 @@ export default function Home() {
         {/* Bg icons */}
         <BgLogoLeft className="absolute fill-yellow opacity-[0.3] size-96 sm:size-[540px] md:size-[669px] -top-16 md:-top-10 p-0 right-0" />
         <BgLogoRight className="absolute fill-yellow size-96 sm:size-[540px] md:size-[669px] -bottom-16 md:-bottom-32 p-0 left-0" />
+      </section>
+
+      {/* ISA */}
+      <section className="py-10 md:py-20 px-4 max-w-6xl mx-auto">
+        <Typography variant="h3" className="text-center text-pink">
+          Codetrain Africa <span className="uppercase">study now pay</span>{" "}
+          later program
+        </Typography>
+        <Typography
+          variant="paragraph"
+          className="text-textColor max-w-4xl mx-auto text-center mt-5"
+        >
+          Codetrain is excited to announce its partnership with Chancen
+          International, introducing an innovative financial model for students.
+          This model empowers individuals without immediate financial resources
+          to pursue their studies now and pay later.
+        </Typography>
+
+        <div>
+          <ul className="mt-10 list-disc grid grid-cols-2 gap-x-10 gap-y-5">
+            <li>
+              <Typography variant="h5" className="text-violet">
+                About Chancen International
+              </Typography>
+              <Typography variant="paragraph" className="text-textColor mt-2">
+                CHANCEN International is a not-for-profit organization that
+                provides an ethical, fair, and responsible financing model for
+                young people in Ghana and in Africa to access quality tertiary
+                education. This model of financing is called an Income Share
+                Agreement (ISA).
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h5" className="text-violet">
+                Benefits of Income share Agreement (ISA)
+              </Typography>
+              <ul className="list-[circle] mt-2 ml-5 md:ml-10">
+                <li>
+                  <Typography variant="paragraph" className="text-textColor">
+                    You study now and pay later.
+                  </Typography>
+                </li>
+                <li>
+                  <Typography variant="paragraph" className="text-textColor">
+                    You start paying when you start making an income.
+                  </Typography>
+                </li>
+                <li>
+                  <Typography variant="paragraph" className="text-textColor">
+                    You only pay a certain percentage of your net income during
+                    repayment.
+                  </Typography>
+                </li>
+                <li>
+                  <Typography variant="paragraph" className="text-textColor">
+                    Your repayment is capped so that you are not saddled with
+                    debt.
+                  </Typography>
+                </li>
+                <li>
+                  <Typography variant="paragraph" className="text-textColor">
+                    Your repayments go towards the fund for the next generation.
+                  </Typography>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <Typography variant="h5" className="text-violet">
+                About Chancen International
+              </Typography>
+              <Typography variant="paragraph" className="text-textColor mt-2">
+                CHANCEN International is a not-for-profit organization that
+                provides an ethical, fair, and responsible financing model for
+                young people in Ghana and in Africa to access quality tertiary
+                education. This model of financing is called an Income Share
+                Agreement (ISA).
+              </Typography>
+            </li>
+          </ul>
+        </div>
+        <div className="flex justify-evenly">
+          <Link href="/isa">
+            <Button className="rounded-md font-bold bg-pink text-white shadow-none mt-6 px-8 capitalize text-base">
+              Learn more about ISA
+            </Button>
+          </Link>
+          <Link
+            href="https://codetrainafrica.heiapply.com/application"
+            target="_blank"
+          >
+            <Button className="rounded-md font-bold bg-pink text-white shadow-none mt-6 px-8 capitalize text-base">
+              Apply to study now, pay later
+            </Button>
+          </Link>
+        </div>
       </section>
 
       {/* Discover Our Campus Section */}

@@ -102,11 +102,11 @@ const CodeTrainExperience = () => {
           </div>
           <div className="max-w-80 mt-4 md:mt-0 col-span-3 md:col-span-1">
             <Image
-              src="https://images.pexels.com/photos/1214212/pexels-photo-1214212.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="/people/merch.jpg"
               width={300}
               height={200}
               alt="Merchandise"
-              className="!h-60 !w-80"
+              className="!h-60 !w-80 object-cover"
             />
             <Typography variant="h6" className="font-bold text-violet">
               Codetrain’s Merch
@@ -122,18 +122,13 @@ const CodeTrainExperience = () => {
         <hr className="my-8 border-ash" />
         <div className="mt-20 z-10">
           <div className="flex flex-col lg:flex-row justify-center items-center gap-8 bg-contain bg-center bg-no-repeat relative">
-            <Card className="rounded-none w-full sm:max-w-lg h-56 sm:h-80">
+            <Card className="rounded-none  sm:max-w-lg ">
               <CardBody className="p-0 h-full">
-                <iframe
-                  width="100%"
-                  height="100%"
-                  src="https://www.youtube.com/embed/SmAZJcErw7w?si=Rnyh2RAAkl1W1Ech"
-                  title="YouTube video player"
-                  // frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  // referrerpolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                ></iframe>
+                <video
+                  className="h-[600px] w-full object-cover"
+                  controls
+                  src="/video/kickoff.mp4"
+                ></video>
               </CardBody>
             </Card>
             <div className="relative z-10">

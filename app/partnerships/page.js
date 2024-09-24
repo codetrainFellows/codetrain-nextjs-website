@@ -47,7 +47,11 @@ const Partnerships = () => {
             a more inclusive and innovative tech industry.
           </Typography>
 
-          <Button className="bg-yellow text-violet">Get In Touch</Button>
+          <Link href="https://tally.so/r/3jWVPa" target="_blank">
+            <Button className="bg-yellow text-violet">
+              Let&rsquo;s set up a call
+            </Button>
+          </Link>
         </div>
         <div className="hidden lg:inline">
           <Image
@@ -226,67 +230,6 @@ const Partnerships = () => {
         </div>
       </Carousel> */}
 
-      {/* Get Involved */}
-      <section className="mt-20 flex flex-col gap-6 md:flex-row">
-        <div>
-          <Image
-            src="/people/part2.jpg"
-            width={720}
-            height={384}
-            alt=""
-            className="object-cover !h-[calc(100vh-64px-40px)] rounded-r-[33%]"
-          />
-        </div>
-        <div className="relative">
-          <div className="p-4 relative z-10">
-            <Typography variant="h3" className="text-violet">
-              Get Involved
-            </Typography>
-            <Typography
-              variant="paragraph"
-              className="text-textColor text-lg max-w-xl mt-4"
-            >
-              Interested in partnering with Codetrain? We’d love to hear from
-              you! Fill out the form below, and our partnership team will get in
-              touch with you to discuss how we can work together.
-            </Typography>
-            <form className="mt-8">
-              <div className="w-full">
-                <label className="text-violet text-lg">Full Name</label>
-                <Input variant="outlined" />
-              </div>
-              <div className="w-full mt-6">
-                <label className="text-violet text-lg">Organization Name</label>
-                <Input variant="outlined" />
-              </div>
-              <div className="w-full mt-6">
-                <label className="text-violet text-lg">Email Address</label>
-                <Input variant="outlined" />
-              </div>
-              <div className="w-full mt-6">
-                <label className="text-violet text-lg">Message</label>
-                <Textarea
-                  variant="outlined"
-                  placeholder="Type your message here..."
-                  className="placeholder-textColor"
-                />
-              </div>
-
-              <Button
-                fullWidth
-                className="bg-yellow text-violet mt-6"
-                type="submit"
-              >
-                Submit
-              </Button>
-            </form>
-          </div>
-          <CTLogo
-            className="absolute h-full md:h-auto top-0 left-0 object-cover text-[#e0e0e0] opacity-15"
-            color="#c2c0c0"
-          />
-        </div>
-      </section>
       <hr className="my-20 border-textColor max-w-7xl mx-auto" />
     </section>
   );

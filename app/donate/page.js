@@ -60,7 +60,7 @@ const Donate = () => {
           </p>
 
           <div className="flex gap-x-4 mt-14 z-10">
-            <Link href="#">
+            <Link href="https://paystack.shop/pay/vt_4t777qss" target="_blank">
               <Button
                 className="bg-yellow text-violet shadow-none font-bold px-5 sm:px-8 md:px-10 rounded-md hover:shadow-none"
                 variant="filled"
@@ -174,7 +174,7 @@ const Donate = () => {
         >
           Over the last 7 years, Codetrain Africa has trained hundreds of
           software developers from diverse diverse backgrounds with little or no
-          tech skills.
+          tech skills
         </Typography>
 
         <div className="flex flex-col items-center justify-center md:items-start md:flex-row gap-x-40 gap-y-10">
@@ -182,25 +182,25 @@ const Donate = () => {
             <h4 className="text-lg md:text-xl text-violet font-extrabold mb-3">
               Job Placement
             </h4>
-            <h1 className="text-pink text-7xl font-bold md:text-6xl">91%</h1>
+            <h1 className="text-pink text-7xl font-bold md:text-9xl">89%</h1>
             <p className="text-textColor mt-6">
-              of our students get job within the first 9 months
+              Our students secure jobs within 6 to 9 months
             </p>
           </div>
           <div className="max-w-72 mt-5 md:mt-0">
             <h4 className="text-lg md:text-xl text-violet font-extrabold mb-3">
               Alumni
             </h4>
-            <h1 className="text-pink text-6xl font-bold md:text-6xl">600</h1>
-            <p className="text-textColor mt-6">alumni and counting</p>
+            <h1 className="text-pink text-6xl font-bold md:text-9xl">700</h1>
+            <p className="text-textColor mt-6">Alumni and counting</p>
           </div>
           <div className="max-w-72 mt-5 md:mt-0">
             <h4 className="text-lg md:text-xl text-violet font-extrabold mb-3">
               Ratings
             </h4>
-            <h1 className="text-pink text-6xl font-bold md:text-6xl">8.3</h1>
+            <h1 className="text-pink text-6xl font-bold md:text-9xl">91%</h1>
             <p className="text-textColor mt-6">
-              of our students get job within the first 9 months
+              Alumni experience enhanced career and life quality.
             </p>
           </div>
         </div>
@@ -253,12 +253,17 @@ const Donate = () => {
             </Typography>
 
             <div className="flex gap-x-4 mt-7">
-              <Button
-                className="bg-yellow text-violet shadow-none font-bold px-5 sm:px-8 md:px-10 rounded-md"
-                variant="filled"
+              <Link
+                href="https://paystack.shop/pay/vt_4t777qss"
+                target="_blank"
               >
-                Donate Now
-              </Button>
+                <Button
+                  className="bg-yellow text-violet shadow-none font-bold px-5 sm:px-8 md:px-10 rounded-md hover:shadow-none"
+                  variant="filled"
+                >
+                  Donate Now
+                </Button>
+              </Link>
             </div>
           </div>
           <div className="max-w-[540px] relative z-10">
@@ -270,68 +275,6 @@ const Donate = () => {
               height={540}
             />
           </div>
-        </div>
-      </section>
-
-      {/* Get Involved */}
-      <section className="mt-20 flex flex-col gap-6 md:flex-row">
-        <div>
-          <Image
-            src="/people/part2.jpg"
-            width={720}
-            height={384}
-            alt=""
-            className="object-cover !h-[calc(100vh-64px-40px)] rounded-r-[33%]"
-          />
-        </div>
-        <div className="relative">
-          <div className="p-4 relative z-10">
-            <Typography variant="h3" className="text-violet">
-              Request a Meeting
-            </Typography>
-            <Typography
-              variant="paragraph"
-              className="text-textColor text-lg max-w-xl mt-4"
-            >
-              Interested in partnering with Codetrain? We’d love to hear from
-              you! Fill out the form below, and our partnership team will get in
-              touch with you to discuss how we can work together.
-            </Typography>
-            <form className="mt-8">
-              <div className="w-full">
-                <label className="text-violet text-lg">Full Name</label>
-                <Input variant="outlined" />
-              </div>
-              <div className="w-full mt-6">
-                <label className="text-violet text-lg">Organization Name</label>
-                <Input variant="outlined" />
-              </div>
-              <div className="w-full mt-6">
-                <label className="text-violet text-lg">Email Address</label>
-                <Input variant="outlined" />
-              </div>
-              <div className="w-full mt-6">
-                <label className="text-violet text-lg">Message</label>
-                <Textarea
-                  variant="outlined"
-                  placeholder="Type your message here..."
-                  className="placeholder-textColor"
-                />
-              </div>
-
-              <Button
-                fullWidth
-                className="bg-yellow text-violet mt-6"
-                type="submit"
-              >
-                Request A Meeting
-              </Button>
-            </form>
-          </div>
-          <CTLogo
-            className="absolute h-full md:h-auto top-0 left-0 object-cover text-[#e0e0e0] opacity-15"
-            color="#c2c0c0"
-          />
         </div>
       </section>
     </section>

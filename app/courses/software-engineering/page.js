@@ -823,7 +823,7 @@ const Software = () => {
         <iframe
           // width="560"
           // height="315"
-          className="mx-auto w-full h-[215px] md:w-[560px] md:h-[315px]"
+          className="mx-auto w-full h-[215px] md:w-[760px] md:h-[415px]"
           src="https://www.youtube.com/embed/ExT_IilhWaw?si=d9GbEhm4wESquUFf"
           title="ROBERT KEHINDE Demo Day presentation at the Codetrain Africa Tech Career Seminar 2023"
           frameborder="0"

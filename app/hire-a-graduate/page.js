@@ -82,13 +82,13 @@ const HireAGraduate = () => {
       {/* What Our Students Offer */}
       <section className="py-20 px-4">
         <Typography variant="h3" className="text-center text-violet">
-          Our Curriculum
+          Hire a Grad
         </Typography>
         <Typography
           variant="paragraph"
           className="text-center text-textColor max-w-6xl mx-auto mt-4"
         >
-          Full-stack Developer and then UX/UI Designer
+          Full-stack Developers | UX/UI Designers
         </Typography>
         <div className="relative z-10 flex flex-col lg:flex-row items-center justify-center mt-20">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 relative z-10">

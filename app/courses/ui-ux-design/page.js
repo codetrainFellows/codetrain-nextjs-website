@@ -813,7 +813,7 @@ const UIUXDesign = () => {
                   installments.
                 </Typography>
               </div>
-              <div className="max-w-md mt-20">
+              <div className="max-w-md mt-3">
                 <Typography>
                   <span className="font-bold">ISA:</span> Start with zero
                   deposit and pay your tuition only after landing a job.

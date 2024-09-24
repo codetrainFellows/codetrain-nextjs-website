@@ -129,7 +129,7 @@ export default function Home() {
             <h4 className="text-lg md:text-xl text-violet font-extrabold mb-3">
               Job Placement
             </h4>
-            <h1 className="text-pink text-7xl font-bold md:text-9xl">91%</h1>
+            <h1 className="text-pink text-7xl font-bold md:text-9xl">89%</h1>
             <p className="text-textColor mt-6">
               of our students get job within the first 9 months
             </p>

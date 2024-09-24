@@ -4,6 +4,7 @@ export const theme = {
       variants: {
         paragraph: {
           fontWeight: "font-medium",
+          fontSize: "text-lg",
         },
       },
     },

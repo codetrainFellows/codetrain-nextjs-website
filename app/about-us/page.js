@@ -118,6 +118,20 @@ const AboutUs = () => {
               and Decent Work and Economic Growth (SDG 8): we aim to create
               lasting change in our communities and beyond.
             </p>
+            <div className="flex gap-4">
+              <Image
+                alt="SDGs4"
+                src="/images/sdg4.png"
+                width={60}
+                height={60}
+              />
+              <Image
+                alt="SDGs8"
+                src="/images/sdg8.png"
+                width={60}
+                height={60}
+              />
+            </div>
           </div>
           <BgLogoRight className="absolute -top-32 -left-40 size-96 xl:size-[412px] xl:-left-20 xl:-top-44 fill-yellow opacity-[0.3]" />
         </div>

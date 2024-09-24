@@ -734,32 +734,70 @@ const Software = () => {
       <section className="py-20 px-4 bg-ash">
         <div className="text-center relative z-10 max-w-4xl mx-auto">
           <h3 className="text-3xl mx-auto md:text-5xl text-violet font-bold">
-            Zak&#39;s story
+            Program Summary
           </h3>
         </div>
-        <div className="flex flex-col lg:flex-row justify-center items-center gap-8 py-10 bg-contain bg-center bg-no-repeat relative">
+        <div className="flex flex-col lg:flex-row justify-center gap-8 py-10 bg-contain bg-center bg-no-repeat relative">
           <div className="max-w-[540px] relative z-10">
             <Image
-              src="/people/zak2.jpg"
+              src="/people/group6.svg"
               alt="picture"
-              className="w-[540px] h-[540px] object-cover rounded-none"
+              className="w-[540px] rounded-none"
               width={540}
               height={540}
             />
           </div>
           <div className="relative z-10 text-textColor">
-            <div className="max-w-md">
-              <Typography variant="paragraph" className="font-medium">
-                Optimism, and Grit. While pursuing his Computer Engineering
-                degree, he joined Codetrain as part of the first cohort, where
-                he quickly gained valuable experience working on both local and
-                international projects. His passion for tech and helping others
-                led him to become a teaching fellow, where he mentored and
-                trained fellow Codetrain students. Today, Zak works with a
-                Berlin-based company, yet still offers mentorship to aspiring
-                developers, continuing to inspire others with his dedication and
-                leadership.
-              </Typography>
+            <div className="text-base">
+              <div className="max-w-md">
+                <Typography variant="paragraph" className="font-bold">
+                  Course Length
+                </Typography>
+                <Typography variant="paragraph">2 years</Typography>
+                <Typography className="font-bold mt-4">Schedule:</Typography>
+                <Typography variant="paragraph">Twice a week</Typography>
+              </div>
+              <div className="max-w-md mt-3">
+                <Typography className="font-bold mt-6">Tuition:</Typography>
+                <Typography>
+                  <span className="font-bold">UpFront Tuition:</span> Pay the
+                  full tuition amount prior to starting the program. Total cost
+                  under the Upfront Plan is GHS 38,500.
+                </Typography>
+              </div>
+              <div className="max-w-md mt-3">
+                <Typography>
+                  <span className="font-bold">Payment Plan:</span> Start with an
+                  initial payment of GHS10,000, and pay the rest in monthly
+                  installments.
+                </Typography>
+              </div>
+              <div className="max-w-md mt-3">
+                <Typography>
+                  <span className="font-bold">ISA:</span> Start with zero
+                  deposit and pay your tuition only after landing a job.
+                </Typography>
+              </div>
+              <div className="max-w-md mt-3">
+                <Typography variant="paragraph" className="font-bold">
+                  What you don’t need:
+                </Typography>
+                <ul className="list-disc">
+                  <li>
+                    <Typography variant="paragraph">
+                      Computer science certificate
+                    </Typography>
+                  </li>
+                  <li>
+                    <Typography variant="paragraph">
+                      Previous tech experience
+                    </Typography>
+                  </li>
+                  <li>
+                    <Typography variant="paragraph">Any degree</Typography>
+                  </li>
+                </ul>
+              </div>
             </div>
 
             <div className="flex gap-x-4 mt-7">

@@ -438,11 +438,7 @@ const HireAGraduate = () => {
             </Typography>
           </div>
           <div>
-<<<<<<< HEAD
-            <Link href="" target="_blank">
-=======
             <Link href="https://tally.so/r/wodPRN" target="_blank">
->>>>>>> e7b5cc4 (fix)
               <Button variant="filled" className="bg-pink">
                 Hire a Grad
               </Button>

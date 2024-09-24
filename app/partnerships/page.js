@@ -1,18 +1,8 @@
 "use client";
 
-import { sponsorImages } from "@/constants/constants";
 import BgLogoLeft from "@/public/icons/BgLogoLeft";
-import BgLogoRight from "@/public/icons/BgLogoRight";
-import CTLogo from "@/public/icons/CTLogo";
-import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
-import {
-  Button,
-  Carousel,
-  IconButton,
-  Input,
-  Textarea,
-  Typography,
-} from "@material-tailwind/react";
+
+import { Button, Typography } from "@material-tailwind/react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -63,7 +53,7 @@ const Partnerships = () => {
           />
         </div>
         <Image
-          src="https://images.pexels.com/photos/2102416/pexels-photo-2102416.jpeg?auto=compress&cs=tinysrgb&w=1200"
+          src="/people/part.jpg"
           alt=""
           width={720}
           height={384}
@@ -229,6 +219,13 @@ const Partnerships = () => {
           <Typography variant="paragraph">Human Resources Manager,</Typography>
         </div>
       </Carousel> */}
+      <div className="flex justify-center">
+        <Link href="https://tally.so/r/3jWVPa" target="_blank">
+          <Button className="bg-yellow text-violet">
+            Let&rsquo;s set up a call
+          </Button>
+        </Link>
+      </div>
 
       <hr className="my-20 border-textColor max-w-7xl mx-auto" />
     </section>

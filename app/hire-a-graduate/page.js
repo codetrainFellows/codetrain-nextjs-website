@@ -69,7 +69,7 @@ const HireAGraduate = () => {
             width={720}
             height={384}
             alt=""
-            className="object-cover !h-[calc(100vh-64px-40px)]"
+            className="object-cover !h-[calc(100vh+64px+60px)]"
           />
         </div>
         <Image
@@ -428,13 +428,6 @@ const HireAGraduate = () => {
           <div>
             <Typography variant="h2" className="text-pink max-w-md">
               Hire Our Outstanding Grad!
-            </Typography>
-            <Typography
-              variant="paragraph"
-              className="text-white max-w-xl mt-5"
-            >
-              Your journey to a fulfilling tech career starts here. Let&lsquo;s
-              get you started.
             </Typography>
           </div>
           <div>

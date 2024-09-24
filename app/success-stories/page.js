@@ -178,15 +178,16 @@ const SuccessStories = () => {
                 variant="paragraph"
                 className="text-textColor font-medium"
               >
-                Optimism, and Grit. While pursuing his Computer Engineering
-                degree, he joined Codetrain as part of the first cohort, where
-                he quickly gained valuable experience working on both local and
-                international projects. His passion for tech and helping others
-                led him to become a teaching fellow, where he mentored and
-                trained fellow Codetrain students. Today, Zak works with a
-                Berlin-based company, yet still offers mentorship to aspiring
-                developers, continuing to inspire others with his dedication and
-                leadership.
+                Zak is a great embodiment of Codetrain`s values Generosity,
+                Optimism, Teachability and Grit. While pursuing his Computer
+                Engineering degree, he joined Codetrain as part of the first
+                cohort, where he quickly gained valuable experience working on
+                both local and international projects. His passion for tech and
+                helping others led him to become a teaching fellow, where he
+                mentored and trained fellow Codetrain students. Today, Zak works
+                with a Berlin-based company, yet still offers mentorship to
+                aspiring developers, continuing to inspire others with his
+                dedication and leadership.
               </Typography>
               <Typography variant="paragraph" className="font-bold mt-5">
                 - Zak

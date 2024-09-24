@@ -631,10 +631,12 @@ export default function Home() {
       </section>
 
       {/* ISA */}
-      <section className="py-10 md:py-20 px-4 max-w-6xl mx-auto">
-        <Typography variant="h3" className="text-center text-pink">
-          Codetrain Africa <span className="uppercase">study now pay</span>{" "}
-          later program
+      <section className="py-10 md:py-20 px-5 max-w-6xl mx-auto">
+        <Typography
+          variant="h3"
+          className="text-center text-pink font-bold uppercase "
+        >
+          study now pay later
         </Typography>
         <Typography
           variant="paragraph"
@@ -647,7 +649,7 @@ export default function Home() {
         </Typography>
 
         <div>
-          <ul className="mt-10 list-disc grid grid-cols-2 gap-x-10 gap-y-5">
+          <ul className="mt-10 list-disc grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-5">
             <li>
               <Typography variant="h5" className="text-violet">
                 About Chancen International
@@ -708,7 +710,7 @@ export default function Home() {
             </li>
           </ul>
         </div>
-        <div className="flex justify-evenly">
+        <div className="flex justify-evenly space-x-4">
           <Link href="/isa">
             <Button className="rounded-md font-bold bg-pink text-white shadow-none mt-6 px-8 capitalize text-base">
               Learn more about ISA

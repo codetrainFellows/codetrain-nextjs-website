@@ -74,7 +74,7 @@ const Software = () => {
             width={720}
             height={384}
             alt=""
-            className="object-cover !h-[calc(100vh-64px)]"
+            className="object-cover !h-[calc(100vh+64px)]"
           />
         </div>
         <Image

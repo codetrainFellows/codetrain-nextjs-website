@@ -38,7 +38,7 @@ const CodeTrainExperience = () => {
             width={720}
             height={384}
             alt=""
-            className="object-cover !h-[calc(100vh-64px-40px)]"
+            className="object-cover !h-[calc(100vh+64px-40px)]"
           />
         </div>
         <div className="text-textColor leading-8 md:max-w-xl col-span-2 lg:col-span-1">

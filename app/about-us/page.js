@@ -35,7 +35,7 @@ const AboutUs = () => {
             width={720}
             height={384}
             alt="group picture"
-            className="object-cover !h-[calc(100vh+15px)]"
+            className="object-cover !h-[calc(100vh+60px)]"
             quality={100}
           />
         </div>

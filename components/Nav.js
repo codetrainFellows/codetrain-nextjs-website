@@ -83,9 +83,9 @@ function NavListMenu({ handleLinkClick }) {
       // allowHover={true}
     >
       <MenuHandler>
-        <Typography as="div" variant="small" className="font-semibold">
+        <Typography as="div" variant="paragraph" className="">
           <ListItem
-            className="flex items-center gap-2 py-2 pr-4 text-violet cursor-pointer hover:bg-transparent focus:font-extrabold focus:bg-transparent active:bg-transparent"
+            className="flex items-center gap-2 py-2 pr-4 text-violet cursor-pointer hover:bg-transparent focus:bg-transparent active:bg-transparent"
             ripple={false}
           >
             Course

@@ -76,21 +76,21 @@ export default function Home() {
         </div>
         <div className="relative hidden lg:inline h-[700px]">
           <Image
-            src="/people/home.png"
+            src="/people/new_hero.png"
             alt="hero"
             height={400}
             width={300}
-            className="h-[900px] w-fit relative object-contain -top-52"
+            className="h-[700px] w-fit relative object-contain"
             quality={100}
           />
         </div>
         <Image
-          src="/people/home.png"
+          src="/people/new_hero.png"
           alt="ladies"
           height={400}
           width={300}
           quality={100}
-          className="h-[1067px] w-auto -top-64 sm:-top-20 md:-top-40 sm:h-[567px] object-contain absolute opacity-20 right-0 md:h-[700px] lg:hidden"
+          className="h-[1067px] w-auto -top-48 sm:-top-20 md:-top-40 sm:h-[567px] object-contain absolute opacity-20 right-0 md:h-[700px] lg:hidden"
         />
         {/* bg logos */}
         <BgLogoRight className="fill-[#8c87a1] opacity-[0.2] size-60 sm:size-80 lg:size-6/12 absolute left-0 -top-11 lg:left-2/4 lg:-top-1 lg:-z-10" />
@@ -696,23 +696,11 @@ export default function Home() {
                 </li>
               </ul>
             </li>
-            <li>
-              <Typography variant="h5" className="text-violet">
-                About Chancen International
-              </Typography>
-              <Typography variant="paragraph" className="text-textColor mt-2">
-                CHANCEN International is a not-for-profit organization that
-                provides an ethical, fair, and responsible financing model for
-                young people in Ghana and in Africa to access quality tertiary
-                education. This model of financing is called an Income Share
-                Agreement (ISA).
-              </Typography>
-            </li>
           </ul>
         </div>
-        <div className="flex justify-evenly space-x-4">
+        <div className="flex flex-col md:flex-row justify-evenly space-x-4">
           <Link href="/isa">
-            <Button className="rounded-md font-bold bg-pink text-white shadow-none mt-6 px-8 capitalize text-base">
+            <Button className="rounded-md font-bold bg-pink text-white shadow-none mt-6 px-8 capitalize text-base w-full md:w-auto">
               Learn more about ISA
             </Button>
           </Link>
@@ -720,7 +708,7 @@ export default function Home() {
             href="https://codetrainafrica.heiapply.com/application"
             target="_blank"
           >
-            <Button className="rounded-md font-bold bg-pink text-white shadow-none mt-6 px-8 capitalize text-base">
+            <Button className="rounded-md font-bold bg-pink text-white shadow-none mt-6 px-8 capitalize text-base w-full">
               Apply to study now, pay later
             </Button>
           </Link>

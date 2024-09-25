@@ -427,7 +427,7 @@ const HireAGraduate = () => {
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center relative z-30">
           <div>
             <Typography variant="h2" className="text-pink max-w-md">
-              Hire Our Outstanding Grad!
+              Hire Our Outstanding Grads!
             </Typography>
           </div>
           <div>

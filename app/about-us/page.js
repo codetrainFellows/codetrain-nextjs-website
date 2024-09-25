@@ -19,7 +19,7 @@ const AboutUs = () => {
     <section className="overflow-hidden">
       <div className="py-2 bg-violet font-xs text-center text-white flex items-center justify-center">
         <Link
-          href="https://codetrainafrica.heiapply.com/application"
+          href="https://tally.so/r/wodqVO"
           target="_blank"
           className="hover:underline"
         >

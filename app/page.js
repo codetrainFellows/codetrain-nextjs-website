@@ -23,7 +23,7 @@ export default function Home() {
     <main className="overflow-hidden scroll-smooth">
       <div className="py-2 bg-violet text-center text-white sm:hidden">
         <Link
-          href="https://codetrainafrica.heiapply.com/application"
+          href="https://tally.so/r/wodqVO"
           target="_blank"
           className="hover:underline"
         >
@@ -99,7 +99,7 @@ export default function Home() {
 
       <div className="py-2 bg-violet text-center text-white hidden sm:block">
         <Link
-          href="https://codetrainafrica.heiapply.com/application"
+          href="https://tally.so/r/wodqVO"
           target="_blank"
           className="hover:underline"
         >
@@ -605,7 +605,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="flex gap-x-4 z-10">
+          <div className="flex justify-evenly gap-x-4 z-10">
             <Link href="/payment-plan">
               <Button
                 className="bg-violet shadow-lg text-white font-bold px-2 sm:px-8 md:px-10 rounded-md"
@@ -615,10 +615,7 @@ export default function Home() {
               </Button>
             </Link>
             <Link href="/scholarship">
-              <Button
-                className="text-white bg-transparent shadow-none font-bold px-2 rounded-md bg-violet sm:px-8 md:px-10"
-                variant="outlined"
-              >
+              <Button className="text-white bg-transparent shadow-none font-bold px-2 rounded-md bg-pink sm:px-8 md:px-10">
                 Get A Part-Scholarship
               </Button>
             </Link>
@@ -698,9 +695,9 @@ export default function Home() {
             </li>
           </ul>
         </div>
-        <div className="flex flex-col md:flex-row justify-evenly space-x-4">
+        <div className="flex flex-col md:flex-row justify-evenly md:space-x-4">
           <Link href="/isa">
-            <Button className="rounded-md font-bold bg-pink text-white shadow-none mt-6 px-8 capitalize text-base w-full md:w-auto">
+            <Button className="rounded-md font-bold bg-violet text-white shadow-none mt-6 px-8 capitalize text-base w-full md:w-auto">
               Learn more about ISA
             </Button>
           </Link>

@@ -800,22 +800,22 @@ const UIUXDesign = () => {
                 <Typography>
                   <span className="font-bold">UpFront Tuition:</span> Pay the
                   full tuition amount prior to starting the program. Total cost
-                  under the Upfront Plan is GHS 19,000.
+                  under this program is GHS 19,000.
                 </Typography>
               </div>
               <div className="max-w-md mt-3">
                 <Typography>
                   <span className="font-bold">Payment Plan:</span> Start with an
-                  initial payment of GHS10,000, and pay the rest in monthly
+                  initial payment of GHS7,000, and pay the rest in monthly
                   installments.
                 </Typography>
               </div>
-              <div className="max-w-md mt-3">
+              {/* <div className="max-w-md mt-3">
                 <Typography>
                   <span className="font-bold">ISA:</span> Start with zero
                   deposit and pay your tuition only after landing a job.
                 </Typography>
-              </div>
+              </div> */}
             </div>
 
             <div className="flex gap-x-4 mt-7">

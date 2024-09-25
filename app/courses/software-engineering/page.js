@@ -637,7 +637,7 @@ const Software = () => {
               </div>
               <div className="mt-10">
                 <Typography variant="h5" className="font-bold mt-6 text-violet">
-                  Non-Coding Opportunities in Software Engineering
+                  Non-Coding Opportunities in <br /> Software Engineering
                 </Typography>
                 <ul className="list-disc leading-10 text-lg ml-8">
                   <li>Product Manager</li>

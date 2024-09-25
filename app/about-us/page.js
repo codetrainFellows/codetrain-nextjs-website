@@ -93,7 +93,7 @@ const AboutUs = () => {
             <h2 className="text-2xl md:text-4xl text-violet font-bold max-w-lg ">
               Our Impact
             </h2>
-            <p className="my-5">
+            <Typography variant="paragraph" className="my-5">
               Our impact is evident through our extensive alumni network, having
               successfully trained over 700 individuals. A recent report by 60
               Decibels revealed that 91% of alumni experienced an improved
@@ -106,13 +106,13 @@ const AboutUs = () => {
               market. By continually adapting our programs to meet industry
               demands, we remain committed to shaping the future of tech talent
               in Africa.
-            </p>
-            <p className="my-5">
+            </Typography>
+            <Typography variant="paragraph" className="my-5">
               By aligning our mission with the United Nations Sustainable
               Development Goals (SDGs), particularly Quality Education (SDG 4)
               and Decent Work and Economic Growth (SDG 8): we aim to create
               lasting change in our communities and beyond.
-            </p>
+            </Typography>
             <div className="flex gap-4">
               <Image
                 alt="SDGs4"
@@ -362,7 +362,7 @@ const AboutUs = () => {
               future talent!
             </Typography>
             <Link href="/donate">
-              <Button className="mt-24 bg-yellow rounded-none text-violet font-bold">
+              <Button className="mt-[150px] bg-yellow rounded-none text-violet font-bold">
                 Donate Here
               </Button>
             </Link>

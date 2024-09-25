@@ -716,7 +716,7 @@ const UIUXDesign = () => {
             </Typography>
           </div>
           <div className="flex flex-col items-center mt-2 gap-4 sm:flex-row">
-            <Card className="w-96 max-h-[567px] rounded-none">
+            <Card className="w-96 max-h-[667px] rounded-none">
               <CardHeader
                 floated={false}
                 shadow={false}

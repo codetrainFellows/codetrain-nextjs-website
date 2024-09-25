@@ -130,10 +130,7 @@ const ISA = () => {
         Call 0545792397
       </Typography>
       <div>
-        <Link
-          href="https://codetrainafrica.heiapply.com/application"
-          target="_blank"
-        >
+        <Link href="https://tally.so/r/mDDjXZ" target="_blank">
           <Button className="rounded-md font-bold bg-pink text-white shadow-none mt-6 px-8 capitalize text-base">
             Apply to study now, pay later
           </Button>

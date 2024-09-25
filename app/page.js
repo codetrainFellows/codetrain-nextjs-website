@@ -76,7 +76,7 @@ export default function Home() {
         </div>
         <div className="relative hidden lg:inline h-[700px]">
           <Image
-            src="/people/new_hero.png"
+            src="/people/alifinal.png"
             alt="hero"
             height={400}
             width={300}
@@ -85,7 +85,7 @@ export default function Home() {
           />
         </div>
         <Image
-          src="/people/new_hero.png"
+          src="/people/alifinal.png"
           alt="ladies"
           height={400}
           width={300}
@@ -120,8 +120,8 @@ export default function Home() {
           className="my-5 text-lg sm:my-10 max-w-5xl mx-auto text-textColor"
         >
           Over the last 7 years, Codetrain Africa has trained hundreds of
-          software developers from diverse diverse backgrounds with little or no
-          tech skills
+          software developers from diverse backgrounds with little or no tech
+          skills
         </Typography>
 
         <div className="flex flex-col items-center justify-center md:items-start md:flex-row gap-x-40 gap-y-10">
@@ -230,14 +230,14 @@ export default function Home() {
               you&lsquo;ll collaborate with software teams and gain hands-on
               experience through internship opportunities.
             </Typography>
-            <div className="space-x-4 flex">
+            <div className="space-x-4 flex ">
               <Link href="https://codetrainafrica.heiapply.com/application">
-                <Button className="rounded-md font-bold bg-yellow text-violet shadow-none mt-6 px-8">
+                <Button className="rounded-md font-bold bg-yellow text-violet shadow-none mt-12 px-8">
                   Enroll now
                 </Button>
               </Link>
               <Link href="/courses/ui-ux-design">
-                <Button className="rounded-md font-bold bg-violet text-white shadow-none mt-6 px-8">
+                <Button className="rounded-md font-bold bg-violet text-white shadow-none mt-12 px-8">
                   Course Details
                 </Button>
               </Link>
@@ -316,7 +316,7 @@ export default function Home() {
             variant="paragraph"
             className="max-w-4xl mt-7 mx-auto font-medium text-textColor"
           >
-            Codetrain offers an amazing internationally recognized education
+            Codetrain offers an amazing internationally recognized educational
             experience, blending global standards with strong support for
             underrepresented groups, ensuring an inclusive and empowering
             learning environments for all students.
@@ -333,7 +333,7 @@ export default function Home() {
           <ExperienceCard
             img="/people/exp7.jpg"
             title="Supporting women & Disabled"
-            text="We champion women neurodivergent individuals, and those with sickle cell, offering both part and full scholarships. Our commitment to diversity and inclusion ensures these underrepresented groups have access to top-notch software engineering education and opportunities to thrive in tech."
+            text="We champion women, neurodivergent individuals, and those with sickle cell, offering both part and full scholarships. Our commitment to diversity and inclusion ensures these underrepresented groups have access to top-notch software engineering education and opportunities to thrive in tech."
             className="lg:flex-row-reverse"
           />
           <ExperienceCard
@@ -548,7 +548,7 @@ export default function Home() {
               is the most important requirement. Our dedicated team is here to
               support you every step of the way, providing hands-on training,
               mentorship, and real-world projects that will equip you with the
-              skills you need to succeed. In this video, Robert, Confidence, and
+              skills you need to succeed. In this video, Robert, Catharine, and
               other alumni share their transformative Codetrain experiences.
             </p>
             <Link
@@ -585,7 +585,7 @@ export default function Home() {
                 Software Engineer
               </h3>
               <p className="mt-4 text-textColor text-lg p-4">
-                Our two-year education-to-employment package is priced at{" "}
+                Our two-year education-to-employment program is priced at{" "}
                 <span className="font-[900]"> GHC 38,500</span> for Africans
                 living in Africa and <span className="font-[900]">$3,000</span>{" "}
                 for other applicants. <br /> We offer flexible payment options
@@ -597,7 +597,7 @@ export default function Home() {
                 UX/UI Design
               </h3>
               <p className="mt-4 text-textColor text-lg p-4">
-                The cost for our one-year education-to-employment package is{" "}
+                The cost for our one-year education-to-employment program is{" "}
                 <span className="font-[900]">GHC 19,000</span> for Africans
                 living in Africa and <span className="font-[900]">$1,900</span>{" "}
                 for other applicants. <br /> We offer flexible payment options
@@ -701,10 +701,7 @@ export default function Home() {
               Learn more about ISA
             </Button>
           </Link>
-          <Link
-            href="https://codetrainafrica.heiapply.com/application"
-            target="_blank"
-          >
+          <Link href="https://tally.so/r/mDDjXZ" target="_blank">
             <Button className="rounded-md font-bold bg-pink text-white shadow-none mt-6 px-8 capitalize text-base w-full">
               Apply to study now, pay later
             </Button>

@@ -76,7 +76,7 @@ export default function Home() {
         </div>
         <div className="relative hidden lg:inline h-[700px]">
           <Image
-            src="/people/alifinal.png"
+            src="/people/alifinal.svg"
             alt="hero"
             height={400}
             width={300}
@@ -85,7 +85,7 @@ export default function Home() {
           />
         </div>
         <Image
-          src="/people/alifinal.png"
+          src="/people/alifinal.svg"
           alt="ladies"
           height={400}
           width={300}

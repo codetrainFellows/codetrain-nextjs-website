@@ -5,6 +5,7 @@ import "./globals.css";
 // Components
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 import localFont from "next/font/local";
 import { ThemeProvider } from "@material-tailwind/react";
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
     <ThemeProvider value={theme}>
       <html lang="en">
         <body className={helvetica.className}>
+          <GoogleTagManager gtmId="GTM-MMQZ7FQS" />
           <Nav />
           <main>{children}</main>
           <Footer />

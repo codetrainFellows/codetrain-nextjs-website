@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useState } from "react";
+import { useState } from "react";
 import {
   Button,
   Card,
@@ -25,65 +25,59 @@ import ExcitedCareer from "@/components/ExcitedCareer";
 import FAQ from "@/components/FAQ";
 
 const Software = () => {
-  const Context = createContext();
   const [open, setOpen] = useState(1);
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
 
   return (
     <>
       {/* Hero Section */}
-      <section className="min-h-[calc(100vh-64px)] bg-ash grid grid-cols-2 place-items-center">
-        <div className="p-8 text-textColor leading-8 col-span-2 lg:col-span-1">
-          <h2 className="text-4xl text-violet font-bold max-w-lg ">
-            Grow your Software Engineering Skills with Us
-          </h2>
-          <p className="my-8">
-            Our Software Engineering course is your gateway to excelling in the
-            fast-paced tech world. Whether you&#39;re a beginner or looking to
-            advance your skills, our program is tailored to make you a top-notch
-            software engineer.
-          </p>
-          <div className="flex gap-x-4 mt-14 z-10">
-            <Link
-              href="https://codetrainafrica.heiapply.com/application"
-              target="_blank"
-            >
-              <Button className="bg-yellow text-violet shadow-none font-bold px-5 sm:px-8 md:px-10 rounded-md">
-                Enroll now
-              </Button>
-            </Link>
-            <Link
-              href="https://calendly.com/fosterfrimpong63/one-one-with-codetrain-admissions"
-              target="_blank"
-            >
-              <Button
-                className="text-violet bg-transparent shadow-none font-bold px-5 rounded-md border-violet sm:px-8 md:px-10"
-                variant="outlined"
+      <section className="min-h-[calc(100vh-64px)] bg-[url('/people/software.jpg')] bg-opacity-30 lg:bg-none bg-cover bg-center bg-no-repeat">
+        <div className="bg-ash bg-opacity-80 grid grid-cols-2 place-items-center min-h-[calc(100vh-64px)]">
+          <div className="p-8 text-textColor leading-8 col-span-2 lg:col-span-1">
+            <h2 className="text-4xl text-violet font-bold max-w-lg ">
+              Grow your Software Engineering Skills with Us
+            </h2>
+            <p className="my-8">
+              Our Software Engineering course is your gateway to excelling in
+              the fast-paced tech world. Whether you&#39;re a beginner or
+              looking to advance your skills, our program is tailored to make
+              you a top-notch software engineer.
+            </p>
+            <div className="flex gap-x-4 mt-14 z-10">
+              <Link
+                href="https://codetrainafrica.heiapply.com/application"
+                target="_blank"
               >
-                Let&#39;s Talk
-              </Button>
-            </Link>
+                <Button className="bg-yellow text-violet shadow-none font-bold px-5 sm:px-8 md:px-10 rounded-md">
+                  Enroll now
+                </Button>
+              </Link>
+              <Link
+                href="https://calendly.com/fosterfrimpong63/one-one-with-codetrain-admissions"
+                target="_blank"
+              >
+                <Button
+                  className="text-violet bg-transparent shadow-none font-bold px-5 rounded-md border-violet sm:px-8 md:px-10"
+                  variant="outlined"
+                >
+                  Let&#39;s Talk
+                </Button>
+              </Link>
+            </div>
+            <p className="mt-12">
+              * Admission is in progress, join the October Cohort!
+            </p>
           </div>
-          <p className="mt-12">
-            * Admission is in progress, join the October Cohort!
-          </p>
+          <div className="hidden lg:inline">
+            <Image
+              src="/people/software.jpg"
+              width={720}
+              height={384}
+              alt=""
+              className="object-cover !h-[calc(100vh+64px)]"
+            />
+          </div>
         </div>
-        <div className="hidden lg:inline">
-          <Image
-            src="/people/software.jpg"
-            width={720}
-            height={384}
-            alt=""
-            className="object-cover !h-[calc(100vh+64px)]"
-          />
-        </div>
-        <Image
-          src="/people/software.jpg"
-          alt=""
-          width={720}
-          height={384}
-          className="h-full w-full object-cover absolute opacity-20 right-0  lg:hidden"
-        />
       </section>
 
       {/* Comprehensive Software Development Curriculum */}

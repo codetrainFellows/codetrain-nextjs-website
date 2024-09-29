@@ -20,45 +20,47 @@ const Partnerships = () => {
       </div>
 
       {/* Hero Section */}
-      <section className="min-h-[calc(80vh-64px-40px)] lg:min-h-[calc(100vh-64px-40px)] bg-ash lg:pl-0 grid grid-cols-2 place-items-center gap-4">
-        <div className="text-textColo py-10 px-4 leading-8 md:max-w-xl col-span-2 lg:col-span-1">
-          <h2 className="text-2xl md:text-5xl text-violet font-bold">
-            Join Us In Shaping The Future Of Tech
-          </h2>
-          <Typography
-            variant="paragraph"
-            className="my-8 text-lg text-textColor"
-          >
-            At Codetrain, we believe in the transformative power of technology
-            education. Our mission is to equip the next generation of software
-            developers with the skills they need to excel in the rapidly
-            evolving tech landscape. To achieve this, we are looking to build
-            strategic partnerships with organizations that share our vision for
-            a more inclusive and innovative tech industry.
-          </Typography>
+      <section className="min-h-[calc(80vh-64px-40px)] lg:min-h-[calc(100vh-64px-40px)] bg-ash  bg-[url('/people/part.jpg')] lg:bg-none bg-cover bg-center bg-no-repeat">
+        <div className="bg-ash bg-opacity-80 min-h-[calc(80vh-64px-40px)] lg:pl-0 grid grid-cols-2 place-items-center gap-4">
+          <div className="text-textColor py-10 px-4 leading-8 md:max-w-xl col-span-2 lg:col-span-1">
+            <h2 className="text-2xl md:text-5xl text-violet font-bold">
+              Join Us In Shaping The Future Of Tech
+            </h2>
+            <Typography
+              variant="paragraph"
+              className="my-8 text-lg text-textColor"
+            >
+              At Codetrain, we believe in the transformative power of technology
+              education. Our mission is to equip the next generation of software
+              developers with the skills they need to excel in the rapidly
+              evolving tech landscape. To achieve this, we are looking to build
+              strategic partnerships with organizations that share our vision
+              for a more inclusive and innovative tech industry.
+            </Typography>
 
-          <Link href="https://tally.so/r/3jWVPa" target="_blank">
-            <Button className="bg-yellow text-violet">
-              Let&rsquo;s set up a call
-            </Button>
-          </Link>
+            <Link href="https://tally.so/r/3jWVPa" target="_blank">
+              <Button className="bg-yellow text-violet">
+                Let&rsquo;s set up a call
+              </Button>
+            </Link>
+          </div>
+          <div className="hidden lg:inline">
+            <Image
+              src="/people/part.jpg"
+              width={720}
+              height={384}
+              alt=""
+              className="object-cover !h-[calc(100vh-64px-40px)]"
+            />
+          </div>
         </div>
-        <div className="hidden lg:inline">
-          <Image
-            src="/people/part.jpg"
-            width={720}
-            height={384}
-            alt=""
-            className="object-cover !h-[calc(100vh-64px-40px)]"
-          />
-        </div>
-        <Image
+        {/* <Image
           src="/people/part.jpg"
           alt=""
           width={720}
           height={384}
           className="h-[70vh] w-full object-cover max-h-80vh absolute opacity-20 right-0 lg:hidden"
-        />
+        /> */}
       </section>
 
       {/* Partnership Opportunities */}

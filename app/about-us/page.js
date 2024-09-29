@@ -17,77 +17,74 @@ import Link from "next/link";
 const AboutUs = () => {
   return (
     <>
-      <div className="py-2 bg-violet font-xs text-center text-white flex items-center justify-center">
+      <div className="py-2 bg-violet text-center text-white flex items-center justify-center">
         <Link
           href="https://tally.so/r/wodqVO"
           target="_blank"
           className="hover:underline"
         >
-          <p>Get to know more about Codetrain. Join our info session.🗣️</p>
+          <p className="text-xs md:text-lg">
+            Get to know more about Codetrain. Join our info session.🗣️
+          </p>
         </Link>
       </div>
 
       {/* Hero Section */}
-      <section className="min-h-[calc(100vh-64px-40px)] grid grid-cols-2 place-items-center relative gap-5 pr-5">
-        <div className="hidden lg:inline">
-          <Image
-            src="/people/group.jpg"
-            width={720}
-            height={384}
-            alt="group picture"
-            className="object-cover !h-[calc(100vh+60px)]"
-            quality={100}
-          />
+      <section className="min-h-[calc(100vh-64px-40px)] bg-[url('/people/group.jpg')] bg-opacity-30 lg:bg-none bg-cover bg-center bg-no-repeat">
+        <div className="bg-ash bg-opacity-80 grid grid-cols-2 place-items-center relative gap-5 pr-5">
+          <div className="hidden lg:inline">
+            <Image
+              src="/people/group.jpg"
+              width={720}
+              height={384}
+              alt="group picture"
+              className="object-cover !min-h-[calc(100vh+64px)] !w-full"
+              quality={100}
+            />
+          </div>
+          <div className="pt-5 pl-5 text-textColor md:leading-8 col-span-2 lg:col-span-1">
+            <h2 className="text-4xl text-violet font-bold max-w-lg">
+              Our Story: The Journey Behind Codetrain Africa
+            </h2>
+            <Typography variant="paragraph" className="my-8">
+              Codetrain is a Software Engineering and Design School focused on
+              empowering ambitious Africans to take their place in the global
+              tech scene. Richard Brandt’s journey began while advancing his
+              tech career and exploring ecosystems across South America, the
+              United States, and Europe. It was during these experiences that he
+              realized the immense global demand for tech skills. At the same
+              time, he saw Africa teeming with creative talent and untapped
+              potential but lacking the opportunities to thrive.
+            </Typography>
+            <Typography variant="paragraph" className="my-5">
+              Motivated by the desire to bridge this gap, Richard returned to
+              Ghana and founded Codetrain with a clear vision: to provide
+              world-class tech education to African youth, equipping them with
+              the skills to succeed internationally. Codetrain’s hands-on,
+              project-based learning model is designed to produce not only
+              job-ready graduates but innovators capable of solving real-world
+              challenges. As a result, our graduates are making significant
+              contributions to global companies and innovative African companies
+              working on the next big African ideas.
+            </Typography>
+            <Typography variant="paragraph" className="my-5">
+              We are deeply committed to fostering inclusivity and creating
+              opportunities for underrepresented groups in the tech space,
+              particularly women, those from low-income backgrounds, and people
+              with disabilities. With a proven track record of success and a
+              scalable model, Codetrain stands out as a beacon of potential and
+              innovation in Africa’s tech ecosystem, attracting attention from
+              those who share a vision for a brighter, tech-driven future. By
+              nurturing the continent’s brightest minds, Codetrain is not just
+              shaping careers; it’s catalyzing a movement toward sustainable
+              economic development and transformative change.
+            </Typography>
+          </div>
         </div>
-        <div className="pt-5 pl-5 md:pl-0 md:pt-0 text-textColor md:leading-8 col-span-2 lg:col-span-1">
-          <h2 className="text-4xl text-violet font-bold max-w-lg">
-            Our Story: The Journey Behind Codetrain Africa
-          </h2>
-          <Typography variant="paragraph" className="my-8">
-            Codetrain is a Software Engineering and Design School focused on
-            empowering ambitious Africans to take their place in the global tech
-            scene. Richard Brandt’s journey began while advancing his tech
-            career and exploring ecosystems across South America, the United
-            States, and Europe. It was during these experiences that he realized
-            the immense global demand for tech skills. At the same time, he saw
-            Africa teeming with creative talent and untapped potential but
-            lacking the opportunities to thrive.
-          </Typography>
-          <Typography variant="paragraph" className="my-5">
-            Motivated by the desire to bridge this gap, Richard returned to
-            Ghana and founded Codetrain with a clear vision: to provide
-            world-class tech education to African youth, equipping them with the
-            skills to succeed internationally. Codetrain’s hands-on,
-            project-based learning model is designed to produce not only
-            job-ready graduates but innovators capable of solving real-world
-            challenges. As a result, our graduates are making significant
-            contributions to global companies and innovative African companies
-            working on the next big African ideas.
-          </Typography>
-          <Typography variant="paragraph" className="my-5">
-            We are deeply committed to fostering inclusivity and creating
-            opportunities for underrepresented groups in the tech space,
-            particularly women, those from low-income backgrounds, and people
-            with disabilities. With a proven track record of success and a
-            scalable model, Codetrain stands out as a beacon of potential and
-            innovation in Africa’s tech ecosystem, attracting attention from
-            those who share a vision for a brighter, tech-driven future. By
-            nurturing the continent’s brightest minds, Codetrain is not just
-            shaping careers; it’s catalyzing a movement toward sustainable
-            economic development and transformative change.
-          </Typography>
-        </div>
-        <Image
-          src="/people/group.jpg"
-          alt=""
-          width={720}
-          height={384}
-          className="h-full w-full object-cover absolute opacity-20 right-0  lg:hidden"
-        />
       </section>
 
       {/* Our Mission: ( Driving purpose and passion ) section */}
-      <section className="grid grid-cols-2 place-items-center px-2 py-10 md:p-20 bg-ash overflow-hidden">
+      <section className="grid grid-cols-2 place-items-center px-2 py-10 md:p-20 bg-ash overflow-hidden mt-10 md:mt-0">
         <div className="text-textColor leading-8 col-span-2 lg:col-span-1 relative ">
           <div className="z-10 relative">
             <h2 className="text-2xl md:text-4xl text-violet font-bold max-w-lg ">
@@ -136,7 +133,7 @@ const AboutUs = () => {
           </div>
           <BgLogoRight className="absolute -top-32 -left-40 size-96 xl:size-[412px] xl:-left-20 xl:-top-44 fill-yellow opacity-[0.3]" />
         </div>
-        <div className="flex gap-4 col-span-2 lg:col-span-1 relative">
+        <div className="flex gap-4 mt-10 lg:mt-0 col-span-2 lg:col-span-1 relative">
           <Image
             src="/people/succes5.jpg"
             width={1000}

@@ -39,46 +39,48 @@ const HireAGraduate = () => {
       </div>
 
       {/* Hero Section */}
-      <section className="min-h-[calc(80vh-64px-40px)] lg:min-h-[calc(100vh-64px-40px)] bg-ash lg:pl-0 grid grid-cols-2 place-items-center gap-4">
-        <div className="text-textColo py-10 px-4 leading-8 md:max-w-xl col-span-2 lg:col-span-1">
-          <h2 className="text-2xl md:text-5xl text-violet font-bold">
-            Hire a Grad: Unlock the Potential of Tomorrow&rsquo;s Tech Leaders
-            Today!
-          </h2>
-          <Typography
-            variant="paragraph"
-            className="my-8 text-lg text-textColor"
-          >
-            By hiring a Codetrain graduate, you`re investing in a highly
-            skilled, tech-savvy professional who has been rigorously trained in
-            the latest technologies and development practices. Our graduates are
-            equipped with hands-on experience and a strong problem-solving
-            mindset, ready to tackle real-world challenges and drive innovation
-            in your organization. Embrace the opportunity to bring fresh
-            perspectives and top-tier talent to your team—unlock the potential
-            of tomorrow`s tech leaders today.
-          </Typography>
+      <section className="min-h-[calc(80vh-64px-40px)] lg:min-h-[calc(100vh-64px-40px)] bg-ash bg-[url('/people/hero-grad.jpg')] bg-opacity-30 lg:bg-none bg-cover bg-center bg-no-repeat">
+        <div className=" bg-ash bg-opacity-80 min-h-[calc(80vh-64px-40px)] lg:pl-0 grid grid-cols-2 place-items-center gap-4">
+          <div className="text-textColo py-10 px-4 leading-8 md:max-w-xl col-span-2 lg:col-span-1">
+            <h2 className="text-2xl md:text-5xl text-violet font-bold">
+              Hire a Grad: Unlock the Potential of Tomorrow&rsquo;s Tech Leaders
+              Today!
+            </h2>
+            <Typography
+              variant="paragraph"
+              className="my-8 text-lg text-textColor"
+            >
+              By hiring a Codetrain graduate, you`re investing in a highly
+              skilled, tech-savvy professional who has been rigorously trained
+              in the latest technologies and development practices. Our
+              graduates are equipped with hands-on experience and a strong
+              problem-solving mindset, ready to tackle real-world challenges and
+              drive innovation in your organization. Embrace the opportunity to
+              bring fresh perspectives and top-tier talent to your team—unlock
+              the potential of tomorrow`s tech leaders today.
+            </Typography>
 
-          <Link href="https://tally.so/r/wodPRN" target="_blank">
-            <Button className="bg-yellow text-violet">Hire A Grad</Button>
-          </Link>
+            <Link href="https://tally.so/r/wodPRN" target="_blank">
+              <Button className="bg-yellow text-violet">Hire A Grad</Button>
+            </Link>
+          </div>
+          <div className="hidden lg:inline">
+            <Image
+              src="/people/hero-grad.jpg"
+              width={720}
+              height={384}
+              alt=""
+              className="object-cover !h-[calc(100vh+64px+60px)]"
+            />
+          </div>
         </div>
-        <div className="hidden lg:inline">
-          <Image
-            src="/people/hero-grad.jpg"
-            width={720}
-            height={384}
-            alt=""
-            className="object-cover !h-[calc(100vh+64px+60px)]"
-          />
-        </div>
-        <Image
+        {/* <Image
           src="/people/hero-grad.jpg"
           alt=""
           width={720}
           height={384}
           className="h-[84vh] w-full object-cover absolute opacity-20 right-0 lg:hidden"
-        />
+        /> */}
       </section>
 
       {/* What Our Students Offer */}

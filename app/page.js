@@ -21,7 +21,7 @@ import FAQ from "@/components/FAQ";
 export default function Home() {
   return (
     <>
-      <div className="py-2 bg-violet text-center text-white sm:hidden">
+      <div className="py-2 relative z-10 bg-violet text-center text-white sm:hidden">
         <Link
           href="https://tally.so/r/wodqVO"
           target="_blank"
@@ -34,64 +34,62 @@ export default function Home() {
         </Link>
       </div>
       {/* Hero Section */}
-      <section className="bg-ash lg:bg-inherit flex justify-start items-center md:justify-around relative px-4 pt-20 pb-6 md:pb-0 lg:pr-0 lg:pt-0 md:pl-10">
-        <div className="text-violet z-10  lg:pb-2 ">
-          <h1 className="font-bold text-3xl md:text-3xl xl:text-5xl max-w-80 md:max-w-xl xl:max-w-3xl">
-            Start your career in <br /> Software Engineering <br />
-            <span className="font-light"> or UX/UI Design.</span>
-          </h1>
-          <div className="md:ml-10 text-textColor">
-            <ul className="list-disc pl-4 md:pl-0 mt-10 leading-normal font-extrabold text-sm md:text-xl md:max-w-xl">
-              <li>Learn in-demand tech skills that companies are hiring for</li>
-              <li className="mt-2">
-                Get practical experience by working on projects and building a
-                portfolio
-              </li>
-              <li className="mt-2">Get connected to jobs and start earning</li>
-            </ul>
+      <section className="bg-ash lg:bg-inherit bg-[url('/people/alifinal.svg')] bg-opacity-30 lg:bg-none bg-cover bg-center bg-no-repeat">
+        <div className="bg-ash bg-opacity-80 flex justify-start items-center md:justify-around relative px-4 pt-20 pb-6 md:pb-0 lg:pr-0 lg:pt-0 md:pl-10">
+          <div className="text-violet z-10  lg:pb-2 ">
+            <h1 className="font-bold text-3xl md:text-3xl xl:text-5xl max-w-80 md:max-w-xl xl:max-w-3xl">
+              Start your career in <br /> Software Engineering <br />
+              <span className="font-light"> or UX/UI Design.</span>
+            </h1>
+            <div className="md:ml-10 text-textColor">
+              <ul className="list-disc pl-4 md:pl-0 mt-10 leading-normal font-extrabold text-sm md:text-xl md:max-w-xl">
+                <li>
+                  Learn in-demand tech skills that companies are hiring for
+                </li>
+                <li className="mt-2">
+                  Get practical experience by working on projects and building a
+                  portfolio
+                </li>
+                <li className="mt-2">
+                  Get connected to jobs and start earning
+                </li>
+              </ul>
 
-            <div className="flex gap-x-4 mt-14 z-10">
-              <Button
-                className="bg-yellow text-violet shadow-none font-bold px-5 sm:px-8 md:px-10 rounded-md hover:shadow-none"
-                variant="filled"
-              >
-                <Link href="#courses">Enroll now</Link>
-              </Button>
-              <Link
-                href="https://calendly.com/fosterfrimpong63/one-one-with-codetrain-admissions"
-                target="_blank"
-              >
+              <div className="flex gap-x-4 mt-14 z-10">
                 <Button
-                  className="text-violet bg-transparent shadow-none font-bold px-5 rounded-md border-violet sm:px-8 md:px-10"
-                  variant="outlined"
+                  className="bg-yellow text-violet shadow-none font-bold px-5 sm:px-8 md:px-10 rounded-md hover:shadow-none"
+                  variant="filled"
                 >
-                  Let’s talk
+                  <Link href="#courses">Enroll now</Link>
                 </Button>
-              </Link>
+                <Link
+                  href="https://calendly.com/fosterfrimpong63/one-one-with-codetrain-admissions"
+                  target="_blank"
+                >
+                  <Button
+                    className="text-violet bg-transparent shadow-none font-bold px-5 rounded-md border-violet sm:px-8 md:px-10"
+                    variant="outlined"
+                  >
+                    Let’s talk
+                  </Button>
+                </Link>
+              </div>
+              <p className="mt-8 text-xs font-extrabold  md:text-base text-textColor">
+                * Admission is in progress, join the October Cohort!
+              </p>
             </div>
-            <p className="mt-8 text-xs font-extrabold  md:text-base text-textColor">
-              * Admission is in progress, join the October Cohort!
-            </p>
+          </div>
+          <div className="relative hidden lg:inline h-[700px]">
+            <Image
+              src="/people/alifinal.svg"
+              alt="hero"
+              height={400}
+              width={300}
+              className="h-[700px] w-fit relative object-contain"
+              quality={100}
+            />
           </div>
         </div>
-        <div className="relative hidden lg:inline h-[700px]">
-          <Image
-            src="/people/alifinal.svg"
-            alt="hero"
-            height={400}
-            width={300}
-            className="h-[700px] w-fit relative object-contain"
-            quality={100}
-          />
-        </div>
-        <Image
-          src="/people/alifinal.svg"
-          alt="ladies"
-          height={400}
-          width={300}
-          quality={100}
-          className="h-[1067px] w-auto -top-48 sm:-top-20 md:-top-40 sm:h-[567px] object-contain absolute opacity-20 right-0 md:h-[700px] lg:hidden"
-        />
         {/* bg logos */}
         <BgLogoRight className="fill-[#8c87a1] opacity-[0.2] size-60 sm:size-80 lg:size-6/12 absolute left-0 -top-11 lg:left-2/4 lg:-top-1 lg:-z-10" />
         <BgLogoLeft className="fill-[#8c87a1] opacity-[0.2] size-40 sm:size-80 absolute left-0 top-36 sm:top-56 lg:top-1/2 lg:left-3/4 lg:-z-10" />
@@ -630,7 +628,7 @@ export default function Home() {
       {/* ISA */}
       <section className="py-10 md:py-20 px-5 max-w-6xl mx-auto">
         <Typography
-          variant="h3"
+          variant="h4"
           className="text-center text-pink font-bold uppercase "
         >
           study now pay later
@@ -722,10 +720,10 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div className="bg-pink h-[422px] p-3 sm:p-10 flex flex-col justify-evenly items-start text-white">
-            <Typography variant="h4">Talk To Us</Typography>
-            <Typography variant="h4">+233 545 792 397</Typography>
-            <Typography variant="h4">Email Us</Typography>
-            <Typography variant="h4">admissions@codetrainafrica.com</Typography>
+            <Typography variant="h5">Talk To Us</Typography>
+            <Typography variant="h5">+233 545 792 397</Typography>
+            <Typography variant="h5">Email Us</Typography>
+            <Typography variant="h5">admissions@codetrainafrica.com</Typography>
           </div>
           <div className="h-[422px]">
             <Image
@@ -736,7 +734,7 @@ export default function Home() {
               className="object-cover !h-[422px] w-full"
             />
           </div>
-          <div className="h-[422px text-center flex flex-col justify-evenly items-center">
+          <div className="h-[422px] text-center flex flex-col justify-evenly items-center">
             <Typography variant="h4" className="text-violet">
               East Legon 16a Parsnip street
             </Typography>
@@ -944,8 +942,9 @@ const ExperienceCard = ({ className, img, title, text, video }) => {
           />
         ) : (
           <iframe
-            width="400"
-            height="300"
+            // width="400"
+            // height="300"
+            className="w-full h-60 sm:h-72 md:w-[400px] md:h-[300px]"
             src={video && video}
             title="YouTube video player"
             // frameborder="0"

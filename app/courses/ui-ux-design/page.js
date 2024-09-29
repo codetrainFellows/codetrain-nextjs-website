@@ -28,58 +28,60 @@ const UIUXDesign = () => {
   return (
     <section className="text-textColor">
       {/* Hero Section */}
-      <section className="min-h-[calc(100vh-64px)] bg-ash grid grid-cols-2 place-items-center">
-        <div className="p-8 text-textColor leading-8 col-span-2 lg:col-span-1">
-          <h2 className="text-4xl text-violet font-bold max-w-lg ">
-            Develop Your UI/UX Design Skills with Us
-          </h2>
-          <Typography variant="paragraph" className="my-8">
-            Our UI/UX Design course is your path to mastering the art of
-            user-centered design. From beginners to advanced learners, our
-            program equips you with the skills to create impactful and
-            user-friendly designs.
-          </Typography>
-          <div className="flex gap-x-4 mt-14 z-10">
-            <Link
-              href="https://codetrainafrica.heiapply.com/application"
-              target="_blank"
-            >
-              <Button className="bg-yellow text-violet shadow-none font-bold px-5 sm:px-8 md:px-10 rounded-md">
-                Enroll now
-              </Button>
-            </Link>
-            <Link
-              href="https://calendly.com/fosterfrimpong63/one-one-with-codetrain-admissions"
-              target="_blank"
-            >
-              <Button
-                className="text-violet bg-transparent shadow-none font-bold px-5 rounded-md border-violet sm:px-8 md:px-10"
-                variant="outlined"
+      <section className="min-h-[calc(100vh-64px)] bg-ash bg-[url('/people/group.jpg')] bg-opacity-30 lg:bg-none bg-cover bg-center bg-no-repeat">
+        <div className=" bg-ash bg-opacity-80 grid grid-cols-2 place-items-center min-h-[calc(100vh-64px)]">
+          <div className="p-8 text-textColor leading-8 col-span-2 lg:col-span-1">
+            <h2 className="text-4xl text-violet font-bold max-w-lg ">
+              Develop Your UI/UX Design Skills with Us
+            </h2>
+            <Typography variant="paragraph" className="my-8">
+              Our UI/UX Design course is your path to mastering the art of
+              user-centered design. From beginners to advanced learners, our
+              program equips you with the skills to create impactful and
+              user-friendly designs.
+            </Typography>
+            <div className="flex gap-x-4 mt-14 z-10">
+              <Link
+                href="https://codetrainafrica.heiapply.com/application"
+                target="_blank"
               >
-                Let&#39;s Talk
-              </Button>
-            </Link>
+                <Button className="bg-yellow text-violet shadow-none font-bold px-5 sm:px-8 md:px-10 rounded-md">
+                  Enroll now
+                </Button>
+              </Link>
+              <Link
+                href="https://calendly.com/fosterfrimpong63/one-one-with-codetrain-admissions"
+                target="_blank"
+              >
+                <Button
+                  className="text-violet bg-transparent shadow-none font-bold px-5 rounded-md border-violet sm:px-8 md:px-10"
+                  variant="outlined"
+                >
+                  Let&#39;s Talk
+                </Button>
+              </Link>
+            </div>
+            <Typography variant="paragraph" className="mt-12">
+              * Admission is in progress, join the October Cohort!
+            </Typography>
           </div>
-          <Typography variant="paragraph" className="mt-12">
-            * Admission is in progress, join the October Cohort!
-          </Typography>
+          <div className="hidden lg:inline">
+            <Image
+              src="/people/Ofoe.jpg"
+              width={720}
+              height={384}
+              alt=""
+              className="object-cover !h-[calc(100vh+64px)]"
+            />
+          </div>
         </div>
-        <div className="hidden lg:inline">
-          <Image
-            src="/people/Ofoe.jpg"
-            width={720}
-            height={384}
-            alt=""
-            className="object-cover !h-[calc(100vh+64px)]"
-          />
-        </div>
-        <Image
+        {/* <Image
           src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1200"
           alt=""
           width={720}
           height={384}
           className="h-full w-full object-cover absolute opacity-20 right-0  lg:hidden"
-        />
+        /> */}
       </section>
 
       {/* Comprehensive Software Development Curriculum */}
@@ -691,10 +693,11 @@ const UIUXDesign = () => {
         <div className="">
           <div>
             <iframe
-              width="560"
-              height="315"
+              // width="560"
+              // height="315"
+              className="w-full h-72 md:h-96"
               src="https://www.youtube.com/embed/AnthuAW3w9g?si=Ha_YALr_wxDa5A47"
-              title="YouTube video player"
+              title="Lovelace’s journey"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"

@@ -1,15 +1,7 @@
 "use client";
 
-import {
-  Button,
-  Card,
-  CardBody,
-  CardFooter,
-  CardHeader,
-  Typography,
-} from "@material-tailwind/react";
+import { Card, CardBody, Typography } from "@material-tailwind/react";
 import Image from "next/image";
-import { createContext } from "react";
 import BgLogoLeft from "@/public/icons/BgLogoLeft";
 import BgLogoRight from "@/public/icons/BgLogoRight";
 import CTLogo from "@/public/icons/CTLogo";
@@ -30,38 +22,33 @@ const CodeTrainExperience = () => {
       </div>
 
       {/* Hero Section */}
-      <section className="min-h-[calc(80vh-64px-40px)] lg:min-h-[calc(100vh-64px-40px)] px-4 lg:pl-0 bg-ash grid grid-cols-2 place-items-center gap-4">
-        <div className="hidden lg:inline">
-          <Image
-            src="/people/exp.jpg"
-            width={720}
-            height={384}
-            alt=""
-            className="object-cover !h-[calc(100vh+64px-40px)]"
-          />
+      <section className="bg-ash min-h-[calc(80vh-64px-40px)] lg:min-h-[calc(100vh-64px-40px)] bg-[url('/people/exp.jpg')] bg-opacity-30 lg:bg-none bg-cover bg-center bg-no-repeat">
+        <div className="px-4 lg:pl-0 bg-ash bg-opacity-80 grid grid-cols-2 place-items-center gap-4">
+          <div className="hidden lg:inline">
+            <Image
+              src="/people/exp.jpg"
+              width={720}
+              height={384}
+              alt=""
+              className="object-cover !h-[calc(100vh+64px-40px)]"
+            />
+          </div>
+          <div className="text-textColor leading-8 md:max-w-xl col-span-2 lg:col-span-1">
+            <h2 className="text-5xl text-violet font-bold">
+              Live the Codetrain Experience
+            </h2>
+            <Typography variant="paragraph" className="my-8 font-medium">
+              Every day at Codetrain is an opportunity to learn, grow, and
+              connect with like-minded individuals passionate about shaping the
+              future of tech. Our students not only gain the technical skills
+              needed to excel but also become a part of a vibrant community that
+              supports innovation, collaboration, and continuous learning. Here,
+              you`ll find the perfect environment to challenge yourself, build
+              meaningful relationships, and take your first steps toward a
+              successful tech career.
+            </Typography>
+          </div>
         </div>
-        <div className="text-textColor leading-8 md:max-w-xl col-span-2 lg:col-span-1">
-          <h2 className="text-5xl text-violet font-bold">
-            Live the Codetrain Experience
-          </h2>
-          <Typography variant="paragraph" className="my-8 font-medium">
-            Every day at Codetrain is an opportunity to learn, grow, and connect
-            with like-minded individuals passionate about shaping the future of
-            tech. Our students not only gain the technical skills needed to
-            excel but also become a part of a vibrant community that supports
-            innovation, collaboration, and continuous learning. Here, you`ll
-            find the perfect environment to challenge yourself, build meaningful
-            relationships, and take your first steps toward a successful tech
-            career.
-          </Typography>
-        </div>
-        <Image
-          src="/people/exp.jpg"
-          alt=""
-          width={720}
-          height={384}
-          className="h-[70vh] w-full object-cover absolute opacity-20 right-0 lg:hidden"
-        />
       </section>
 
       {/* Kick off Events */}

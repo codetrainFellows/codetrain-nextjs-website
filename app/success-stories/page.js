@@ -30,43 +30,37 @@ const SuccessStories = () => {
       </div>
 
       {/* Hero Section */}
-      <section className="min-h-[calc(80vh-64px-40px)] lg:min-h-[calc(100vh-64px-40px)] lg:pl-0 grid grid-cols-2 place-items-center gap-4">
-        <div className="text-textColor py-10 px-4 leading-8 md:max-w-2xl col-span-2 lg:col-span-1">
-          <h2 className="text-3xl md:text-5xl text-violet font-bold">
-            From Learners to Leaders: Codetrain Success Stories
-          </h2>
-          <Typography variant="paragraph" className="my-8">
-            At Codetrain Africa, we believe in the transformative power of
-            coding. Our comprehensive training programs empower individuals to
-            turn their passion for tech into thriving careers. Through our “From
-            Learners to Leaders” initiative, we proudly share the success
-            stories of graduates from diverse backgrounds—unemployed university
-            grads, underemployed professionals, high school leavers, working
-            moms, and entrepreneurs. These inspiring journeys highlight how our
-            students, with no prior coding experience, have become senior
-            developers for international companies or successful business
-            owners. With determination, guidance, and the right support, anyone
-            can follow their passion and succeed in tech.
-          </Typography>
+      <section className="min-h-[calc(80vh-64px-40px)] lg:min-h-[calc(100vh-64px-40px)] lg:pl-0 bg-[url('/people/alumni.jpg')] bg-opacity-30 lg:bg-none bg-cover bg-center bg-no-repeat">
+        <div className="grid grid-cols-2 place-items-center gap-4 bg-ash bg-opacity-80">
+          <div className="text-textColor py-10 px-4 leading-8 md:max-w-2xl col-span-2 lg:col-span-1">
+            <h2 className="text-3xl md:text-5xl text-violet font-bold">
+              From Learners to Leaders: Codetrain Success Stories
+            </h2>
+            <Typography variant="paragraph" className="my-8">
+              At Codetrain Africa, we believe in the transformative power of
+              coding. Our comprehensive training programs empower individuals to
+              turn their passion for tech into thriving careers. Through our
+              “From Learners to Leaders” initiative, we proudly share the
+              success stories of graduates from diverse backgrounds—unemployed
+              university grads, underemployed professionals, high school
+              leavers, working moms, and entrepreneurs. These inspiring journeys
+              highlight how our students, with no prior coding experience, have
+              become senior developers for international companies or successful
+              business owners. With determination, guidance, and the right
+              support, anyone can follow their passion and succeed in tech.
+            </Typography>
+          </div>
+          <div className="hidden lg:inline">
+            <Image
+              src="/people/alumni.jpg"
+              width={720}
+              height={384}
+              alt="student"
+              quality={100}
+              className="object-cover object-top !h-[calc(100vh-64px-40px)]"
+            />
+          </div>
         </div>
-        <div className="hidden lg:inline">
-          <Image
-            src="/people/alumni.jpg"
-            width={720}
-            height={384}
-            alt="student"
-            quality={100}
-            className="object-cover object-top !h-[calc(100vh-64px-40px)]"
-          />
-        </div>
-        <Image
-          src="/people/alumni.jpg"
-          alt="student"
-          width={720}
-          height={1080}
-          quality={100}
-          className="min-h-[calc(110vh-64px-40px)] sm:min-h-[calc(90vh-64px-40px)] w-full object-cover object-top absolute opacity-20 right-0 top-20 lg:hidden"
-        />
       </section>
 
       {/* Journey to Success */}
@@ -207,7 +201,7 @@ const SuccessStories = () => {
               name="Ofoe"
               story="Two years after Codetrain, Ofoe’s career is thriving. Starting with an internship at thinkSopht Labs, he now excels at Turntabl. Codetrain’s focus on continuous learning has been crucial, enhancing his work-life balance and decision-making skills."
               className="md:justify-self-end max-h-full"
-              imgClass="h-[600px]"
+              imgClass="md:h-[600px]"
             />
           </div>
           <div>

@@ -27,7 +27,7 @@ const HireAGraduate = () => {
     },
   ];
   return (
-    <section className="overflow-hidden">
+    <>
       <div className="py-2 bg-violet text-xs md:text-base text-center text-white flex items-center justify-center">
         <Link
           href="https://tally.so/r/wodqVO"
@@ -441,7 +441,7 @@ const HireAGraduate = () => {
         <BgLogoLeft className="absolute fill-yellow opacity-15 size-80 md:size-[443px] -top-14 md:-top-7 p-0 left-0" />
         <BgLogoRight className="absolute fill-yellow size-52 md:size-80 -bottom-10 md:bottom-0 right-0" />
       </section>
-    </section>
+    </>
   );
 };
 

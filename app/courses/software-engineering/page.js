@@ -30,7 +30,7 @@ const Software = () => {
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
 
   return (
-    <section className="text-textColor overflow-hidden">
+    <>
       {/* Hero Section */}
       <section className="min-h-[calc(100vh-64px)] bg-ash grid grid-cols-2 place-items-center">
         <div className="p-8 text-textColor leading-8 col-span-2 lg:col-span-1">
@@ -847,7 +847,7 @@ const Software = () => {
 
       {/* Excited to start your career Section */}
       <ExcitedCareer />
-    </section>
+    </>
   );
 };
 export default Software;

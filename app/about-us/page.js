@@ -16,7 +16,7 @@ import Link from "next/link";
 
 const AboutUs = () => {
   return (
-    <section className="overflow-hidden">
+    <>
       <div className="py-2 bg-violet font-xs text-center text-white flex items-center justify-center">
         <Link
           href="https://tally.so/r/wodqVO"
@@ -370,7 +370,7 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
-    </section>
+    </>
   );
 };
 export default AboutUs;

@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Partnerships = () => {
   return (
-    <section className="overflow-hidden">
+    <>
       <div className="py-2 bg-violet text-xs md:text-base text-center text-white flex items-center justify-center">
         <Link
           href="https://tally.so/r/wodqVO"
@@ -228,7 +228,7 @@ const Partnerships = () => {
       </div>
 
       <hr className="my-20 border-textColor max-w-7xl mx-auto" />
-    </section>
+    </>
   );
 };
 

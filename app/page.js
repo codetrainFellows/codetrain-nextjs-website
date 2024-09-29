@@ -20,7 +20,7 @@ import FAQ from "@/components/FAQ";
 
 export default function Home() {
   return (
-    <main className="overflow-hidden scroll-smooth">
+    <>
       <div className="py-2 bg-violet text-center text-white sm:hidden">
         <Link
           href="https://tally.so/r/wodqVO"
@@ -34,8 +34,8 @@ export default function Home() {
         </Link>
       </div>
       {/* Hero Section */}
-      <section className="bg-ash lg:bg-inherit flex justify-start items-center md:justify-around relative px-4 pt-20 pb-6 lg:pb-2 lg:pt-0 md:px-10">
-        <div className="text-violet z-10">
+      <section className="bg-ash lg:bg-inherit flex justify-start items-center md:justify-around relative px-4 pt-20 pb-6 md:pb-0 lg:pr-0 lg:pt-0 md:pl-10">
+        <div className="text-violet z-10  lg:pb-2 ">
           <h1 className="font-bold text-3xl md:text-3xl xl:text-5xl max-w-80 md:max-w-xl xl:max-w-3xl">
             Start your career in <br /> Software Engineering <br />
             <span className="font-light"> or UX/UI Design.</span>
@@ -124,7 +124,7 @@ export default function Home() {
           skills
         </Typography>
 
-        <div className="flex flex-col items-center justify-center md:items-start md:flex-row gap-x-40 gap-y-10">
+        <div className="flex flex-col items-center justify-center md:items-center lg:flex-row gap-x-40 gap-y-10">
           <div className="max-w-72">
             <h4 className="text-lg md:text-xl text-violet font-extrabold mb-3">
               Job Placement
@@ -924,7 +924,7 @@ export default function Home() {
         </div>
       </section>
       <hr className="my-8 border-textColor max-w-7xl mx-auto" />
-    </main>
+    </>
   );
 }
 

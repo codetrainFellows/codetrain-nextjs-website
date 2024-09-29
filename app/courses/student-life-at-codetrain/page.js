@@ -17,9 +17,8 @@ import ExcitedCareer from "@/components/ExcitedCareer";
 import Link from "next/link";
 
 const CodeTrainExperience = () => {
-  const Context = createContext();
   return (
-    <section className="overflow-hidden">
+    <>
       <div className="py-2 bg-violet text-xs md:text-base text-center text-white flex items-center justify-center">
         <Link
           href="https://tally.so/r/wodqVO"
@@ -499,7 +498,7 @@ const CodeTrainExperience = () => {
       </section> */}
 
       {/* Case Studies Section*/}
-      {/* <section className="py-10 sm:py-20 px-4 relative">
+      {/* < className="py-10 sm:py-20 px-4 relative">
         <div className="text-center relative z-10">
           <h3 className="text-2xl md:text-5xl text-violet font-bold">
             Some Codetrain Case Studies
@@ -650,7 +649,7 @@ const CodeTrainExperience = () => {
 
       {/* Excited to start your career Section */}
       <ExcitedCareer />
-    </section>
+    </>
   );
 };
 export default CodeTrainExperience;

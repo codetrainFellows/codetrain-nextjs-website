@@ -12,8 +12,9 @@ import { ThemeProvider } from "@material-tailwind/react";
 import { theme } from "@/theme/theme";
 
 const metadata = {
-  title: "Codetrain Africa",
-  description: "Codetrain",
+  title: "Codetrain Africa | Apps coding bootcamp",
+  description:
+    "Learn fullstack web and mobile apps development from the most holistic coding bootcamp. We have live interactive virtual and in-person options available.",
 };
 
 // Load the local font
@@ -25,10 +26,14 @@ export default function RootLayout({ children }) {
   return (
     <ThemeProvider value={theme}>
       <html lang="en">
+        <head>
+          <title>{metadata.title}</title>
+          <meta name="description" content={metadata.description} />
+        </head>
         <body className={helvetica.className}>
           <GoogleTagManager gtmId="GTM-MMQZ7FQS" />
           <Nav />
-          <main>{children}</main>
+          <main className="overflow-hidden">{children}</main>
           <Footer />
         </body>
       </html>

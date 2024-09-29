@@ -18,7 +18,7 @@ import Link from "next/link";
 
 const SuccessStories = () => {
   return (
-    <section className="overflow-hidden">
+    <>
       <div className="py-2 bg-violet text-xs md:text-base text-center text-white flex items-center justify-center">
         <Link
           href="https://tally.so/r/wodqVO"
@@ -63,9 +63,9 @@ const SuccessStories = () => {
           src="/people/alumni.jpg"
           alt="student"
           width={720}
-          height={384}
+          height={1080}
           quality={100}
-          className="h-[87vh] w-full object-cover object-top absolute opacity-20 right-0 lg:hidden"
+          className="min-h-[calc(110vh-64px-40px)] sm:min-h-[calc(90vh-64px-40px)] w-full object-cover object-top absolute opacity-20 right-0 top-20 lg:hidden"
         />
       </section>
 
@@ -599,7 +599,7 @@ const SuccessStories = () => {
 
       {/* Excited to start your career Section */}
       <ExcitedCareer />
-    </section>
+    </>
   );
 };
 export default SuccessStories;

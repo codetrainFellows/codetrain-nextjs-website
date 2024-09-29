@@ -19,7 +19,7 @@ import Link from "next/link";
 
 const Donate = () => {
   return (
-    <section className="overflow-hidden">
+    <>
       <div className="py-2 bg-violet font-xs text-center text-white flex items-center justify-center">
         <Link
           href="https://tally.so/r/wodqVO"
@@ -277,7 +277,7 @@ const Donate = () => {
           </div>
         </div>
       </section>
-    </section>
+    </>
   );
 };
 

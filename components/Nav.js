@@ -73,7 +73,7 @@ function NavListMenu({ handleLinkClick }) {
           </ListItem>
         </Typography>
       </MenuHandler>
-      <MenuList className="hidden max-w-screen-xl rounded-xl lg:block">
+      <MenuList className="hidden max-w-md left-[750px] rounded-xl lg:block">
         <ul className="grid grid-cols-1 gap-y-2 outline-none outline-0">
           {navListMenuItems.map(({ icon, title, href }, key) => (
             <li key={key}>
@@ -96,7 +96,7 @@ function NavListMenu({ handleLinkClick }) {
       </MenuList>
       <div className="block lg:hidden">
         <Collapse open={isMenuOpen}>
-          <MenuList>
+          <MenuList className="max-w-md rounded-xl lg:hidden">
             {navListMenuItems.map(({ icon, title, href }, key) => (
               <Link href={href} passHref key={key} onClick={handleLinkClick}>
                 <MenuItem className="flex items-center gap-3 rounded-lg">

@@ -23,7 +23,7 @@ const CodeTrainExperience = () => {
 
       {/* Hero Section */}
       <section className="bg-ash min-h-[calc(80vh-64px-40px)] lg:min-h-[calc(100vh-64px-40px)] bg-[url('/people/exp.jpg')] bg-opacity-30 lg:bg-none bg-cover bg-center bg-no-repeat">
-        <div className="p-4 lg:pl-0 bg-ash bg-opacity-80 grid grid-cols-2 place-items-center gap-4">
+        <div className="px-4 lg:pl-0 bg-ash bg-opacity-80 grid grid-cols-2 place-items-center gap-4">
           <div className="hidden lg:inline">
             <Image
               src="/people/exp.jpg"
@@ -33,7 +33,7 @@ const CodeTrainExperience = () => {
               className="object-cover !h-[calc(100vh+64px-40px)]"
             />
           </div>
-          <div className="text-textColor leading-8 md:max-w-xl col-span-2 lg:col-span-1">
+          <div className="text-textColor py-6 leading-8 md:max-w-xl col-span-2 lg:col-span-1">
             <h2 className="text-5xl text-violet font-bold">
               Live the Codetrain Experience
             </h2>

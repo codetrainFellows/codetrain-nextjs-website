@@ -50,19 +50,6 @@ function NavListMenu({ handleLinkClick }) {
     setIsMenuOpen((prev) => !prev);
   };
 
-  const renderItems = navListMenuItems.map(({ icon, title, href }, key) => (
-    <Link href={href} key={key} onClick={handleLinkClick}>
-      <MenuItem className="flex items-center gap-3 rounded-lg">
-        <div className="flex items-center justify-center rounded-lg p-2">
-          {React.createElement(icon, { strokeWidth: 2, className: "h-6 w-6" })}
-        </div>
-        <Typography variant="h6" className="text-sm">
-          {title}
-        </Typography>
-      </MenuItem>
-    </Link>
-  ));
-
   return (
     <Menu
       open={isMenuOpen}
@@ -79,13 +66,7 @@ function NavListMenu({ handleLinkClick }) {
             Course
             <ChevronDownIcon
               strokeWidth={2.5}
-              className={`hidden h-3 w-3 transition-transform lg:block ${
-                isMenuOpen ? "rotate-180" : ""
-              }`}
-            />
-            <ChevronDownIcon
-              strokeWidth={2.5}
-              className={`block h-3 w-3 transition-transform lg:hidden ${
+              className={`h-3 w-3 transition-transform lg:block ${
                 isMenuOpen ? "rotate-180" : ""
               }`}
             />
@@ -94,11 +75,43 @@ function NavListMenu({ handleLinkClick }) {
       </MenuHandler>
       <MenuList className="hidden max-w-screen-xl rounded-xl lg:block">
         <ul className="grid grid-cols-1 gap-y-2 outline-none outline-0">
-          {renderItems}
+          {navListMenuItems.map(({ icon, title, href }, key) => (
+            <li key={key}>
+              <Link href={href} passHref onClick={handleLinkClick}>
+                <MenuItem className="flex items-center gap-3 rounded-lg">
+                  <div className="flex items-center justify-center rounded-lg p-2">
+                    {React.createElement(icon, {
+                      strokeWidth: 2,
+                      className: "h-6 w-6",
+                    })}
+                  </div>
+                  <Typography variant="h6" className="text-sm">
+                    {title}
+                  </Typography>
+                </MenuItem>
+              </Link>
+            </li>
+          ))}
         </ul>
       </MenuList>
       <div className="block lg:hidden">
-        <Collapse open={isMenuOpen}>{renderItems}</Collapse>
+        <Collapse open={isMenuOpen}>
+          {navListMenuItems.map(({ icon, title, href }, key) => (
+            <Link href={href} passHref key={key} onClick={handleLinkClick}>
+              <MenuItem className="flex items-center gap-3 rounded-lg">
+                <div className="flex items-center justify-center rounded-lg p-2">
+                  {React.createElement(icon, {
+                    strokeWidth: 2,
+                    className: "h-6 w-6",
+                  })}
+                </div>
+                <Typography variant="h6" className="text-sm">
+                  {title}
+                </Typography>
+              </MenuItem>
+            </Link>
+          ))}
+        </Collapse>
       </div>
     </Menu>
   );
@@ -107,7 +120,7 @@ function NavListMenu({ handleLinkClick }) {
 function NavList({ handleLinkClick }) {
   return (
     <List className="mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row lg:p-1 text-violet">
-      <Link href="/" onClick={handleLinkClick}>
+      <Link href="/" passHref onClick={handleLinkClick}>
         <ListItem
           className="flex items-center gap-2 py-2 pr-4 hover:bg-transparent focus:font-extrabold focus:bg-transparent active:bg-transparent"
           ripple={false}
@@ -115,7 +128,7 @@ function NavList({ handleLinkClick }) {
           Home
         </ListItem>
       </Link>
-      <Link href="/about-us" onClick={handleLinkClick}>
+      <Link href="/about-us" passHref onClick={handleLinkClick}>
         <ListItem
           className="flex items-center gap-2 py-2 pr-4 hover:bg-transparent focus:font-extrabold focus:bg-transparent active:bg-transparent"
           ripple={false}
@@ -123,9 +136,8 @@ function NavList({ handleLinkClick }) {
           About Us
         </ListItem>
       </Link>
-      <NavListMenu handleLinkClick={handleLinkClick} />{" "}
-      {/* Keep Courses menu here */}
-      <Link href="/success-stories" onClick={handleLinkClick}>
+      <NavListMenu handleLinkClick={handleLinkClick} />
+      <Link href="/success-stories" passHref onClick={handleLinkClick}>
         <ListItem
           className="flex items-center gap-2 py-2 pr-4 hover:bg-transparent focus:font-extrabold focus:bg-transparent active:bg-transparent"
           ripple={false}
@@ -133,15 +145,15 @@ function NavList({ handleLinkClick }) {
           Success Stories
         </ListItem>
       </Link>
-      <Link href="/hire-a-graduate" onClick={handleLinkClick}>
+      <Link href="/hire-a-graduate" passHref onClick={handleLinkClick}>
         <ListItem
           className="flex items-center gap-2 py-2 pr-4 hover:bg-transparent focus:font-extrabold focus:bg-transparent active:bg-transparent"
           ripple={false}
         >
-          Hire a Grad
+          Hire a grad
         </ListItem>
       </Link>
-      <Link href="/partnerships" onClick={handleLinkClick}>
+      <Link href="/partnerships" passHref onClick={handleLinkClick}>
         <ListItem
           className="flex items-center gap-2 py-2 pr-4 hover:bg-transparent focus:font-extrabold focus:bg-transparent active:bg-transparent"
           ripple={false}
@@ -149,7 +161,7 @@ function NavList({ handleLinkClick }) {
           Partnerships
         </ListItem>
       </Link>
-      <Link href="/donate" onClick={handleLinkClick}>
+      <Link href="/donate" passHref onClick={handleLinkClick}>
         <ListItem
           className="flex items-center gap-2 py-2 pr-4 hover:bg-transparent focus:font-extrabold focus:bg-transparent active:bg-transparent"
           ripple={false}
@@ -176,12 +188,15 @@ const Nav = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const handleLinkClick = () => setOpenNav(false); // Close the menu on link click
+  const handleLinkClick = (event) => {
+    event.stopPropagation(); // Stop event bubbling
+    setOpenNav(false); // Close the menu on link click
+  };
 
   return (
     <Navbar className="sticky top-0 z-50 mx-auto max-w-full px-4 py-2 rounded-none shadow-none">
       <div className="flex items-center justify-between">
-        <Link href="/" className="mr-4 cursor-pointer py-1.5 lg:ml-2">
+        <Link href="/" passHref className="mr-4 cursor-pointer py-1.5 lg:ml-2">
           <Image
             src="/codetrain-logo.png"
             alt="logo"

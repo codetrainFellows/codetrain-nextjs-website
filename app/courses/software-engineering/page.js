@@ -34,7 +34,7 @@ const Software = () => {
       <section className="min-h-[calc(100vh-64px)] bg-[url('/people/software.jpg')] bg-opacity-30 lg:bg-none bg-cover bg-center bg-no-repeat">
         <div className="bg-ash bg-opacity-80 grid grid-cols-2 place-items-center min-h-[calc(100vh-64px)]">
           <div className="p-8 text-textColor leading-8 col-span-2 lg:col-span-1">
-            <h2 className="text-4xl text-violet font-bold max-w-lg ">
+            <h2 className="text-4xl tracking-tight text-violet font-bold break-normal max-w-lg">
               Grow your Software Engineering Skills with Us
             </h2>
             <p className="my-8">

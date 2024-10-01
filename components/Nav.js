@@ -21,7 +21,6 @@ import {
   ComputerDesktopIcon,
   PencilIcon,
   GlobeAmericasIcon,
-  AcademicCapIcon,
 } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import Link from "next/link";
@@ -42,11 +41,6 @@ const navListMenuItems = [
     icon: GlobeAmericasIcon,
     href: "/courses/student-life-at-codetrain",
   },
-  // {
-  //   title: "Kids Programme",
-  //   icon: AcademicCapIcon,
-  //   href: "/",
-  // },
 ];
 
 function NavListMenu({ handleLinkClick }) {
@@ -60,16 +54,11 @@ function NavListMenu({ handleLinkClick }) {
     <Link href={href} key={key} onClick={handleLinkClick}>
       <MenuItem className="flex items-center gap-3 rounded-lg">
         <div className="flex items-center justify-center rounded-lg p-2">
-          {React.createElement(icon, {
-            strokeWidth: 2,
-            className: "h-6 w-6",
-          })}
+          {React.createElement(icon, { strokeWidth: 2, className: "h-6 w-6" })}
         </div>
-        <div>
-          <Typography variant="h6" className="flex items-center text-sm">
-            {title}
-          </Typography>
-        </div>
+        <Typography variant="h6" className="text-sm">
+          {title}
+        </Typography>
       </MenuItem>
     </Link>
   ));
@@ -80,10 +69,9 @@ function NavListMenu({ handleLinkClick }) {
       handler={handleMenuToggle}
       offset={{ mainAxis: 20 }}
       placement="bottom"
-      // allowHover={true}
     >
       <MenuHandler>
-        <Typography as="div" variant="paragraph" className="">
+        <Typography as="div" variant="paragraph">
           <ListItem
             className="flex items-center gap-2 py-2 pr-4 text-violet cursor-pointer hover:bg-transparent focus:bg-transparent active:bg-transparent"
             ripple={false}
@@ -119,12 +107,7 @@ function NavListMenu({ handleLinkClick }) {
 function NavList({ handleLinkClick }) {
   return (
     <List className="mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row lg:p-1 text-violet">
-      <Link
-        href="/"
-        variant="small"
-        className="font-medium "
-        onClick={handleLinkClick}
-      >
+      <Link href="/" onClick={handleLinkClick}>
         <ListItem
           className="flex items-center gap-2 py-2 pr-4 hover:bg-transparent focus:font-extrabold focus:bg-transparent active:bg-transparent"
           ripple={false}
@@ -132,62 +115,43 @@ function NavList({ handleLinkClick }) {
           Home
         </ListItem>
       </Link>
-      <Link
-        href="/about-us"
-        variant="small"
-        className="font-medium"
-        onClick={handleLinkClick}
-      >
+      <Link href="/about-us" onClick={handleLinkClick}>
         <ListItem
-          className="flex items-center gap-2 py-2 pr- text-nowrap hover:bg-transparent focus:font-extrabold  focus:bg-transparent active:bg-transparent"
+          className="flex items-center gap-2 py-2 pr-4 hover:bg-transparent focus:font-extrabold focus:bg-transparent active:bg-transparent"
           ripple={false}
         >
           About Us
         </ListItem>
       </Link>
-      <NavListMenu handleLinkClick={handleLinkClick} />
-      <Link
-        href="/success-stories"
-        variant="small"
-        className="font-medium"
-        onClick={handleLinkClick}
-      >
+      <NavListMenu handleLinkClick={handleLinkClick} />{" "}
+      {/* Keep Courses menu here */}
+      <Link href="/success-stories" onClick={handleLinkClick}>
         <ListItem
-          className="flex items-center gap-2 py-2 pr- text-nowrap hover:bg-transparent focus:font-extrabold  focus:bg-transparent active:bg-transparent"
+          className="flex items-center gap-2 py-2 pr-4 hover:bg-transparent focus:font-extrabold focus:bg-transparent active:bg-transparent"
           ripple={false}
         >
           Success Stories
         </ListItem>
       </Link>
-      <Link
-        href="/hire-a-graduate"
-        variant="small"
-        className="font-medium"
-        onClick={handleLinkClick}
-      >
+      <Link href="/hire-a-graduate" onClick={handleLinkClick}>
         <ListItem
-          className="flex items-center gap-2 py-2 pr- text-nowrap hover:bg-transparent focus:font-extrabold  focus:bg-transparent active:bg-transparent"
+          className="flex items-center gap-2 py-2 pr-4 hover:bg-transparent focus:font-extrabold focus:bg-transparent active:bg-transparent"
           ripple={false}
         >
-          Hire a grad
+          Hire a Grad
         </ListItem>
       </Link>
-      <Link
-        href="/partnerships"
-        variant="small"
-        className="font-medium"
-        onClick={handleLinkClick}
-      >
+      <Link href="/partnerships" onClick={handleLinkClick}>
         <ListItem
-          className="flex items-center gap-2 py-2 pr-4 hover:bg-transparent focus:font-extrabold  focus:bg-transparent active:bg-transparent"
+          className="flex items-center gap-2 py-2 pr-4 hover:bg-transparent focus:font-extrabold focus:bg-transparent active:bg-transparent"
           ripple={false}
         >
           Partnerships
         </ListItem>
       </Link>
-      <Link href="/donate" className="font-medium" onClick={handleLinkClick}>
+      <Link href="/donate" onClick={handleLinkClick}>
         <ListItem
-          className="flex items-center gap-2 py-2 pr-4 hover:bg-transparent focus:font-extrabold  focus:bg-transparent active:bg-transparent"
+          className="flex items-center gap-2 py-2 pr-4 hover:bg-transparent focus:font-extrabold focus:bg-transparent active:bg-transparent"
           ripple={false}
         >
           Donate
@@ -209,7 +173,6 @@ const Nav = () => {
 
     window.addEventListener("resize", handleResize);
 
-    // Cleanup listener on unmount
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
@@ -218,11 +181,7 @@ const Nav = () => {
   return (
     <Navbar className="sticky top-0 z-50 mx-auto max-w-full px-4 py-2 rounded-none shadow-none">
       <div className="flex items-center justify-between">
-        <Link
-          href="/"
-          variant="h6"
-          className="mr-4 cursor-pointer py-1.5 lg:ml-2"
-        >
+        <Link href="/" className="mr-4 cursor-pointer py-1.5 lg:ml-2">
           <Image
             src="/codetrain-logo.png"
             alt="logo"
@@ -232,7 +191,7 @@ const Nav = () => {
         </Link>
 
         <div className="hidden gap-2 ml-auto lg:flex">
-          <NavList />
+          <NavList handleLinkClick={handleLinkClick} />
         </div>
 
         <div className="hidden lg:block">

@@ -23,7 +23,7 @@ const CodeTrainExperience = () => {
 
       {/* Hero Section */}
       <section className="bg-ash min-h-[calc(80vh-64px-40px)] lg:min-h-[calc(100vh-64px-40px)] bg-[url('/people/exp.jpg')] bg-opacity-30 lg:bg-none bg-cover bg-center bg-no-repeat">
-        <div className="px-4 lg:pl-0 bg-ash bg-opacity-80 grid grid-cols-2 place-items-center gap-4">
+        <div className="p-4 lg:pl-0 bg-ash bg-opacity-80 grid grid-cols-2 place-items-center gap-4">
           <div className="hidden lg:inline">
             <Image
               src="/people/exp.jpg"
@@ -657,10 +657,11 @@ const ExperienceCard = ({ className, img, title, text, video }) => {
           />
         ) : (
           <iframe
-            width="400"
-            height="300"
+            // width="400%"
+            // height="300%"
+            className="w-80 h-72"
             src={video && video}
-            title="YouTube video player"
+            title="Empowering Futures: Codetrain Africa's Safeguarding Event for Safer, Inclusive Learning Environment"
             // frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             // referrerpolicy="strict-origin-when-cross-origin"

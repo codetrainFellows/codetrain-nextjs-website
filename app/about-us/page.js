@@ -159,7 +159,7 @@ const AboutUs = () => {
         </h2>
         <div className="flex flex-wrap justify-center lg:flex-nowrap gap-8 items-center relative z-10">
           <div className="mt-10">
-            <Card className="md:w-[430px] max-h-[767px] rounded-none">
+            <Card className="md:max-w-96 rounded-none">
               <CardHeader
                 floated={false}
                 shadow={false}
@@ -172,7 +172,7 @@ const AboutUs = () => {
                   width={540}
                   height={276}
                   quality={100}
-                  className="object-cover !h-[400px] !w-full"
+                  className="object-cover h-80 !w-full"
                 />
               </CardHeader>
               <CardBody>

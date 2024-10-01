@@ -96,21 +96,23 @@ function NavListMenu({ handleLinkClick }) {
       </MenuList>
       <div className="block lg:hidden">
         <Collapse open={isMenuOpen}>
-          {navListMenuItems.map(({ icon, title, href }, key) => (
-            <Link href={href} passHref key={key} onClick={handleLinkClick}>
-              <MenuItem className="flex items-center gap-3 rounded-lg">
-                <div className="flex items-center justify-center rounded-lg p-2">
-                  {React.createElement(icon, {
-                    strokeWidth: 2,
-                    className: "h-6 w-6",
-                  })}
-                </div>
-                <Typography variant="h6" className="text-sm">
-                  {title}
-                </Typography>
-              </MenuItem>
-            </Link>
-          ))}
+          <MenuList>
+            {navListMenuItems.map(({ icon, title, href }, key) => (
+              <Link href={href} passHref key={key} onClick={handleLinkClick}>
+                <MenuItem className="flex items-center gap-3 rounded-lg">
+                  <div className="flex items-center justify-center rounded-lg p-2">
+                    {React.createElement(icon, {
+                      strokeWidth: 2,
+                      className: "h-6 w-6",
+                    })}
+                  </div>
+                  <Typography variant="h6" className="text-sm">
+                    {title}
+                  </Typography>
+                </MenuItem>
+              </Link>
+            ))}
+          </MenuList>
         </Collapse>
       </div>
     </Menu>
@@ -189,7 +191,7 @@ const Nav = () => {
   }, []);
 
   const handleLinkClick = (event) => {
-    event.stopPropagation(); // Stop event bubbling
+    // event.stopPropagation(); // Stop event bubbling
     setOpenNav(false); // Close the menu on link click
   };
 

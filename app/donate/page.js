@@ -20,7 +20,7 @@ import Link from "next/link";
 const Donate = () => {
   return (
     <>
-      <div className="py-2 bg-violet font-xs text-center text-white flex items-center justify-center">
+      <div className="py-2 bg-violet text-xs text-center text-white flex items-center justify-center">
         <Link
           href="https://tally.so/r/wodqVO"
           target="_blank"

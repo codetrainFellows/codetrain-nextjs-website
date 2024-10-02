@@ -322,7 +322,7 @@ const faq = [
   },
   {
     question: "When do classes start?",
-    answer: "January, May, and October.",
+    answer: "March and October.",
   },
   {
     question: "What certificate do I get after completing the program?",
@@ -335,11 +335,12 @@ const faqUIUX = [
   {
     question: "What is the duration of the course?",
     answer:
-      "The duration of the UI/UX course at Codetrain is 12 months. This comprehensive program is designed to equip you with the essential skills needed for a successful career in user experience and user interface design. Throughout the course, you'll engage in hands-on projects and receive mentorship to help you build a strong portfolio.",
+      "The duration of the UI/UX course at Codetrain is 24 months. This comprehensive program is designed to equip you with the essential skills needed for a successful career in user experience and user interface design. Throughout the course, you'll engage in hands-on projects and receive mentorship to help you build a strong portfolio.",
   },
   {
     question: "What is the schedule for the class?",
-    answer: "Schedule: Classes are held in person once a week on Saturdays.",
+    answer:
+      "Schedule: Classes are held in person on Saturdays. The rest of the days will be used for practicals.",
   },
   {
     question: "How many hours do I need to study per week?",
@@ -375,7 +376,7 @@ const faqUIUX = [
   },
   {
     question: "When do classes start?",
-    answer: "January, May, and October.",
+    answer: "March and October.",
   },
   {
     question: "What certificate do I get after completing the program?",

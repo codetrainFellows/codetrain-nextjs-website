@@ -615,7 +615,7 @@ const UIUXDesign = () => {
           <div className="flex flex-col gap-20 md:flex-row justify-center items-center">
             <div className="text-start bg-white shadow-xl max-w-sm relative grid place-content-center pb-8">
               <h3 className="text-white font-bold text-2xl bg-indigo p-4">
-                9 months
+                12 months
               </h3>
               <Typography
                 variant="paragraph"
@@ -628,7 +628,7 @@ const UIUXDesign = () => {
             </div>
             <div className="text-start bg-white shadow-xl max-w-sm relative grid place-content-center pb-8">
               <h3 className="text-white font-bold text-2xl bg-indigo p-4">
-                3 months
+                12 months
               </h3>
               <Typography
                 variant="paragraph"
@@ -794,7 +794,7 @@ const UIUXDesign = () => {
                 <Typography variant="paragraph" className="font-bold">
                   Course Length
                 </Typography>
-                <Typography variant="paragraph">1 year</Typography>
+                <Typography variant="paragraph">2 year</Typography>
                 <Typography className="font-bold mt-4">Schedule:</Typography>
                 <Typography variant="paragraph">Twice a week</Typography>
               </div>
@@ -803,13 +803,13 @@ const UIUXDesign = () => {
                 <Typography>
                   <span className="font-bold">UpFront Tuition:</span> Pay the
                   full tuition amount prior to starting the program. Total cost
-                  under this program is GHS 19,000.
+                  under this program is GHS 38,500.
                 </Typography>
               </div>
               <div className="max-w-md mt-3">
                 <Typography>
                   <span className="font-bold">Payment Plan:</span> Start with an
-                  initial payment of GHS7,000, and pay the rest in monthly
+                  initial payment of GHS10,000, and pay the rest in monthly
                   installments.
                 </Typography>
               </div>

@@ -75,7 +75,7 @@ export default function Home() {
                 </Link>
               </div>
               <p className="mt-8 text-xs font-extrabold  md:text-base text-textColor">
-                * Admission is in progress, join the October Cohort!
+                * Admission is in progress, join the March 2025 Cohort!
               </p>
             </div>
           </div>
@@ -221,7 +221,7 @@ export default function Home() {
               variant="paragraph"
               className="mt-4 text-textColor text-base md:text-lg"
             >
-              This is a 1-year program designed to transform you into a skilled
+              This is a 2-year program designed to transform you into a skilled
               professional ready to tackle product requirements, craft
               innovative design concepts, and bring them to life through
               stunning websites and mobile apps. Throughout the course,
@@ -596,8 +596,8 @@ export default function Home() {
               </h3>
               <p className="mt-4 text-textColor text-lg p-4">
                 The cost for our one-year education-to-employment program is{" "}
-                <span className="font-[900]">GHC 19,000</span> for Africans
-                living in Africa and <span className="font-[900]">$1,900</span>{" "}
+                <span className="font-[900]">GHC 38,500</span> for Africans
+                living in Africa and <span className="font-[900]">$3,000</span>{" "}
                 for other applicants. <br /> We offer flexible payment options
                 and partial scholarships to support diversity and inclusion.
               </p>

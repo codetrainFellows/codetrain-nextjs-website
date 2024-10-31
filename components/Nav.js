@@ -21,6 +21,7 @@ import {
   ComputerDesktopIcon,
   PencilIcon,
   GlobeAmericasIcon,
+  AcademicCapIcon,
 } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import Link from "next/link";
@@ -40,6 +41,11 @@ const navListMenuItems = [
     title: "Student Life at Codetrain",
     icon: GlobeAmericasIcon,
     href: "/courses/student-life-at-codetrain",
+  },
+  {
+    title: "Codetrain Solara",
+    icon: AcademicCapIcon,
+    href: "/courses/codetrain-solara",
   },
 ];
 

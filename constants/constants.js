@@ -385,6 +385,52 @@ const faqUIUX = [
   },
 ];
 
+const faqSolara = [
+  {
+    question: "What is the duration of the course?",
+    answer:
+      "The duration of the UI/UX course at Codetrain is 24 months. This comprehensive program is designed to equip you with the essential skills needed for a successful career in user experience and user interface design. Throughout the course, you'll engage in hands-on projects and receive mentorship to help you build a strong portfolio.",
+  },
+  {
+    question: "What is the schedule for the class?",
+    answer:
+      "Schedule: Classes are held in person on Saturdays. The rest of the days will be used for practicals.",
+  },
+  {
+    question: "How many hours do I need to study per week?",
+    answer:
+      "You should be able to commit about 24 hours a week. (about a full day).",
+  },
+  {
+    question: "Does Codetrain provide laptops?",
+    answer: "No, we currently don’t provide laptops.",
+  },
+  {
+    question: "What are the requirements to begin the course?",
+    answer: "",
+    options: [
+      {
+        option:
+          "No Prior Experience Required: You do not need any previous design or technical experience, as the course is structured to guide beginners through the fundamentals of UI/UX design.",
+      },
+      {
+        option:
+          "Passion for Design: A strong interest in technology and a desire to learn about user experience and interface design is essential.",
+      },
+      {
+        option:
+          "Commitment: You should be prepared to dedicate approximately 10-20 hours per week to the course, which includes attending classes and completing assignments.",
+      },
+    ],
+  },
+  {
+    question:
+      "Do you require an IT or computer science background for Codetrain?",
+    answer:
+      "No, people from diverse backgrounds of study can enroll and be successful.",
+  },
+];
+
 const accept = [
   {
     title: "What you’ll need:",
@@ -468,6 +514,29 @@ const applicationProcess = [
     id: 3,
     title: "Start your Codetrain journey",
     desc: "You’re set to start your journey toward an exciting career in tech.",
+  },
+];
+
+const applicationProcessSolara = [
+  {
+    id: 1,
+    title: "Create account",
+    desc: "Set up your account to start the admission process.",
+  },
+  {
+    id: 2,
+    title: "Complete application form",
+    desc: "Fill out your application and ace the assessment test.",
+  },
+  {
+    id: 3,
+    title: "Pass our Intake Puzzle",
+    desc: "You’re set to star your journey toward an exciting career in tech.",
+  },
+  {
+    id: 4,
+    title: "Submit a big dream video",
+    desc: "The kids are chosen based on their curiosity, and problem solving mindset. Submit a Video of a big dream you have.",
   },
 ];
 
@@ -587,6 +656,24 @@ const advisoryTeam = [
   },
 ];
 
+const solaraFellows = [
+  {
+    name: "William Brandt",
+    src: "/people/William.jpg",
+    text: "I've spent the last two years in software development and instruction, certified by Codetrain Africa. Transitioning from a non-tech background has been exhilarating! I focus on hands-on learning and creative problem-solving. Outside of coding, I enjoy reading and playing sports.",
+  },
+  {
+    name: "Harrison Boateng",
+    src: "/people/harrison.jpg",
+    text: "Hi, I`m Harrison, a Teaching Fellow at Codetrain with a focus on Software Development. With 2 years of experience to my name and a Codetrain certificate to back it up, I`ve created some pretty cool websites and am currently executing an exciting new project that’ll blow your minds. My teaching philosophy? Simple: Don`t stop till they get it. I’m all about making sure every student has that lightbulb moment. When I`m not coding or teaching, you’ll probably find me seriously playing video games.",
+  },
+  {
+    name: "Ngozi Umekwe",
+    src: "/people/ngozi.jpg",
+    text: "I’m Ngozi, with 3+ years of experience in administration and leadership. I'm passionate about empowering students with essential non-technical skills and organizing career-boosting events. Outside of work, I enjoy watching movies or exploring new trails on adventures.",
+  },
+];
+
 module.exports = {
   sponsorImages,
   inMedia,
@@ -601,4 +688,7 @@ module.exports = {
   hireOurStudents,
   acceptUiUx,
   faqUIUX,
+  solaraFellows,
+  applicationProcessSolara,
+  faqSolara,
 };

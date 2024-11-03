@@ -727,7 +727,7 @@ const CodetrainSolara = () => {
                   variant="paragraph"
                   className="text-textColor line-clamp-6"
                 >
-                  At just 8 years old, Jermaine's parents recognized his passion
+                  At just 8 years old, Jermaine`s parents recognized his passion
                   for technology and enrolled him at Codetrain Solara. By age
                   11, he graduated, showcasing remarkable dedication and talent.
                   During the pandemic, he developed a COVID-19 app that provided

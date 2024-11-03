@@ -25,6 +25,7 @@ import {
 } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const navListMenuItems = [
   {
@@ -201,6 +202,8 @@ const Nav = () => {
     setOpenNav(false); // Close the menu on link click
   };
 
+  const path = usePathname();
+
   return (
     <Navbar className="sticky top-0 z-50 mx-auto max-w-full px-4 py-2 rounded-none shadow-none">
       <div className="flex items-center justify-between">
@@ -213,11 +216,21 @@ const Nav = () => {
           />
         </Link>
 
-        <div className="hidden gap-2 ml-auto lg:flex">
-          <NavList handleLinkClick={handleLinkClick} />
-        </div>
+        {path === "/courses/codetrain-solara" ? (
+          <div></div>
+        ) : (
+          <>
+            <div className="hidden gap-2 ml-auto lg:flex">
+              <NavList handleLinkClick={handleLinkClick} />
+            </div>
+          </>
+        )}
 
-        <div className="hidden lg:block">
+        <div
+          className={`ml-auto ${
+            path === "/courses/codetrain-solara" ? "block" : "hidden lg:block"
+          }`}
+        >
           <Link
             href="https://codetrainafrica.heiapply.com/application"
             target="_blank"
@@ -232,35 +245,44 @@ const Nav = () => {
           </Link>
         </div>
 
-        <IconButton
-          variant="text"
-          className="lg:hidden"
-          onClick={() => setOpenNav(!openNav)}
-        >
-          {openNav ? (
-            <XMarkIcon className="h-6 w-6" strokeWidth={2} />
-          ) : (
-            <Bars3Icon className="h-6 w-6" strokeWidth={2} />
-          )}
-        </IconButton>
-      </div>
-      <Collapse open={openNav}>
-        <NavList handleLinkClick={handleLinkClick} />
-        <div className="flex w-full flex-nowrap items-center gap-2 lg:hidden">
-          <Link
-            href="https://codetrainafrica.heiapply.com/application"
-            target="_blank"
+        {path === "/courses/codetrain-solara" ? (
+          <div></div>
+        ) : (
+          <IconButton
+            variant="text"
+            className="lg:hidden"
+            onClick={() => setOpenNav(!openNav)}
           >
-            <Button
-              variant="outlined"
-              size="sm"
-              className="rounded-none bg-violet text-white capitalize"
+            {openNav ? (
+              <XMarkIcon className="h-6 w-6" strokeWidth={2} />
+            ) : (
+              <Bars3Icon className="h-6 w-6" strokeWidth={2} />
+            )}
+          </IconButton>
+        )}
+      </div>
+
+      {path === "/courses/codetrain-solara" ? (
+        <div></div>
+      ) : (
+        <Collapse open={openNav}>
+          <NavList handleLinkClick={handleLinkClick} />
+          <div className="flex w-full flex-nowrap items-center gap-2 lg:hidden">
+            <Link
+              href="https://codetrainafrica.heiapply.com/application"
+              target="_blank"
             >
-              Apply Now
-            </Button>
-          </Link>
-        </div>
-      </Collapse>
+              <Button
+                variant="outlined"
+                size="sm"
+                className="rounded-none bg-violet text-white capitalize"
+              >
+                Apply Now
+              </Button>
+            </Link>
+          </div>
+        </Collapse>
+      )}
     </Navbar>
   );
 };

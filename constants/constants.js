@@ -387,47 +387,34 @@ const faqUIUX = [
 
 const faqSolara = [
   {
-    question: "What is the duration of the course?",
+    question: "Why should I choose Codetrain Solara for my child?",
     answer:
-      "The duration of the UI/UX course at Codetrain is 24 months. This comprehensive program is designed to equip you with the essential skills needed for a successful career in user experience and user interface design. Throughout the course, you'll engage in hands-on projects and receive mentorship to help you build a strong portfolio.",
+      "  Codetrain Solara equips children with essential skills in STEM and entrepreneurship through hands-on projects and mentorship, building confidence, creativity, and critical thinking.",
   },
   {
-    question: "What is the schedule for the class?",
+    question: "How will my child benefit from the program?",
     answer:
-      "Schedule: Classes are held in person on Saturdays. The rest of the days will be used for practicals.",
+      " Children learn teamwork, problem-solving, and real-world tech applications, setting them on a path toward a bright future.",
   },
   {
-    question: "How many hours do I need to study per week?",
+    question: "What’s the learning approach?",
     answer:
-      "You should be able to commit about 24 hours a week. (about a full day).",
+      " Through project-based learning, students tackle real-world challenges and grow through interactive, mentor-supported sessions each week.",
   },
   {
-    question: "Does Codetrain provide laptops?",
-    answer: "No, we currently don’t provide laptops.",
-  },
-  {
-    question: "What are the requirements to begin the course?",
-    answer: "",
-    options: [
-      {
-        option:
-          "No Prior Experience Required: You do not need any previous design or technical experience, as the course is structured to guide beginners through the fundamentals of UI/UX design.",
-      },
-      {
-        option:
-          "Passion for Design: A strong interest in technology and a desire to learn about user experience and interface design is essential.",
-      },
-      {
-        option:
-          "Commitment: You should be prepared to dedicate approximately 10-20 hours per week to the course, which includes attending classes and completing assignments.",
-      },
-    ],
-  },
-  {
-    question:
-      "Do you require an IT or computer science background for Codetrain?",
+    question: "How does Codetrain Solara ensure a safe learning environment?",
     answer:
-      "No, people from diverse backgrounds of study can enroll and be successful.",
+      " We prioritize safety with strict safeguarding policies, background checks, and online protection measures.",
+  },
+  {
+    question: "What opportunities will my child have beyond classes?",
+    answer:
+      " Our Summer Boot Camp, Innovation Challenge, and Solara Conference allow students to showcase their projects, network, and learn from experts.",
+  },
+  {
+    question: "How are students selected?",
+    answer:
+      " We seek passionate, curious children who want to learn. Scholarships are available to support underprivileged students, ensuring access for all.",
   },
 ];
 
@@ -659,7 +646,7 @@ const advisoryTeam = [
 const solaraFellows = [
   {
     name: "William Brandt",
-    src: "/people/William.jpg",
+    src: "/people/william.jpg",
     text: "I've spent the last two years in software development and instruction, certified by Codetrain Africa. Transitioning from a non-tech background has been exhilarating! I focus on hands-on learning and creative problem-solving. Outside of coding, I enjoy reading and playing sports.",
   },
   {

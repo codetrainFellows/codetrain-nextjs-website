@@ -63,7 +63,7 @@ const CodetrainSolara = () => {
                 </Button>
               </Link>
             </div>
-            <Typography variant="paragraph" className="mt-12">
+            <Typography variant="paragraph" className="mt-12 font-bold">
               * Admission is in progress
             </Typography>
           </div>
@@ -110,6 +110,58 @@ const CodetrainSolara = () => {
           investing in their education; you’re empowering them to make a real
           impact in the world. Join us in nurturing the next generation of tech
           leaders!
+        </Typography>
+      </section>
+
+      {/* Jamain's success stories */}
+      <section className="px-4 py-10 ">
+        <div className="flex flex-col md:flex-row justify-center gap-10">
+          <div>
+            <Typography variant="h3" className="text-violet max-w-md">
+              Jermaine’s G Success Story as a 12 Year Old
+            </Typography>
+            <Typography
+              variant="paragraph"
+              className="text-textColor mt-4 max-w-md"
+            >
+              At just 8 years old, Jermaine`s parents recognized his passion for
+              technology and enrolled him at Codetrain Solara. By age 11, he
+              graduated, showcasing remarkable dedication and talent. During the
+              pandemic, he developed a COVID-19 app that provided vital
+              statistics about the virus. Through Codetrain Solara, Jermaine
+              gained essential skills in web development, front-end design,
+              databases, SQL, AI tools, React, JavaScript, and Node.js.
+            </Typography>
+          </div>
+          <div className="w-full md:w-2/5">
+            <iframe
+              // width="560"
+              // height="315"
+              className="w-full h-52 sm:h-72 md:!max-w-[540px] md:h-[376px]"
+              src="https://www.youtube.com/embed/OZ95UDVpc2s?si=4_9A7nQEiSq5ncMu"
+              title="Jermaine's success story"
+              // frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+        <Typography
+          variant="paragraph"
+          className="text-textColor mt-10 px-4 md:px-10"
+        >
+          At just 12, Jermaine delivered an inspiring keynote speech at the
+          Moonshot Pirates. Bootcamp at SOS Hermann Gmeiner College in Ghana and
+          mentored young entrepreneurs from the same program in Austria. He is
+          currently working on a project to empower small businesses in Africa
+          through loyalty rewards and has developed an app to connect startups
+          with angel investors. Jermaine`s journey illustrates the immense
+          potential your child could unlock through programs like Codetrain
+          Solara. By enrolling your child in a tech-focused education, you can
+          set them on a path to success and equip them with the skills to make a
+          meaningful impact. Give your child the opportunity to become a future
+          innovator! give me a summarized title, for this statement.
         </Typography>
       </section>
 
@@ -260,49 +312,6 @@ const CodetrainSolara = () => {
         </div>
       </section>
 
-      {/* Codetrain Fellows section */}
-      <section className="py-20 px-4 bg-ash text-center">
-        <Typography variant="h3" className="text-violet">
-          Meet The Teaching Fellow
-        </Typography>
-
-        <div className="grid grid-cols-1 place-items-center gap-10 mt-20 text-left">
-          {solaraFellows.map((fellow) => (
-            <Card
-              className="w-full max-w-[48rem] rounded-none flex-col md:flex-row"
-              key={fellow.name}
-            >
-              <CardHeader
-                shadow={false}
-                floated={false}
-                className="m-0 h-96 md:h-auto md:w-2/5 shrink-0 rounded-none md:rounded-r-none"
-              >
-                <Image
-                  src={fellow.src}
-                  alt="card-image"
-                  className="h-full w-full object-top object-cover rounded-none"
-                  height={100}
-                  width={100}
-                  quality={100}
-                />
-              </CardHeader>
-              <CardBody className="flex flex-col justify-center items-start">
-                <Typography className="mb-8 text-textColor">
-                  {fellow.text}
-                </Typography>
-                <hr className="border-violet h-1" />
-                <Typography variant="h5" className="text-textColor">
-                  {fellow.name}
-                </Typography>
-                <Typography variant="paragraph" className="text-textColor">
-                  Teaching Fellow
-                </Typography>
-              </CardBody>
-            </Card>
-          ))}
-        </div>
-      </section>
-
       {/* What You Need To Get Accepted */}
       <section className="py-20 px-4 pl-9 flex flex-col gap-20 lg:flex-row justify-center">
         <div className="inline-flex flex-col justify-center gap-5">
@@ -407,6 +416,49 @@ const CodetrainSolara = () => {
         {/* Bg Logos */}
         <BgLogoLeft className="absolute fill-pink opacity-10 top-0 right-0 size-96 lg:size-[532px]" />
         <BgLogoRight className="absolute fill-pink size-28 opacity-15 bottom-80 lg:top-28 sm:left-40 md:left-10 lg:left-10 xl:left-16" />
+      </section>
+
+      {/* Codetrain Solara Fellows section */}
+      <section className="py-20 px-4 bg-ash text-center">
+        <Typography variant="h3" className="text-violet">
+          Meet The Teaching Fellow
+        </Typography>
+
+        <div className="grid grid-cols-1 place-items-center gap-10 mt-20 text-left">
+          {solaraFellows.map((fellow) => (
+            <Card
+              className="w-full max-w-[48rem] rounded-none flex-col md:flex-row"
+              key={fellow.name}
+            >
+              <CardHeader
+                shadow={false}
+                floated={false}
+                className="m-0 h-96 md:h-auto md:w-2/5 shrink-0 rounded-none md:rounded-r-none"
+              >
+                <Image
+                  src={fellow.src}
+                  alt="card-image"
+                  className="h-full w-full object-top object-cover rounded-none"
+                  height={100}
+                  width={100}
+                  quality={100}
+                />
+              </CardHeader>
+              <CardBody className="flex flex-col justify-center items-start">
+                <Typography className="mb-8 text-textColor">
+                  {fellow.text}
+                </Typography>
+                <hr className="border-violet h-1" />
+                <Typography variant="h5" className="text-textColor">
+                  {fellow.name}
+                </Typography>
+                <Typography variant="paragraph" className="text-textColor">
+                  Teaching Fellow
+                </Typography>
+              </CardBody>
+            </Card>
+          ))}
+        </div>
       </section>
 
       {/* Steps In The Application Process */}
@@ -548,9 +600,10 @@ const CodetrainSolara = () => {
             Programme Structure
           </h1>
           <Typography variant="paragraph" className="my-10 max-w-3xl mx-auto">
-            Get hands-on with UI/UX design principles and real-world projects to
-            build a strong portfolio, while receiving career coaching to guide
-            you toward a successful future.
+            Solara immerses young learners in software development and soft
+            skills, through real-world projects, building a strong portfolio and
+            fostering essential skills. They will also benefit from mentorship
+            and career guidance, setting them on a path to success in tech.
           </Typography>
         </div>
 
@@ -558,7 +611,7 @@ const CodetrainSolara = () => {
           <div className="flex flex-col gap-20 md:flex-row justify-center items-center">
             <div className="text-start bg-white shadow-xl max-w-sm relative grid place-content-center pb-8">
               <h3 className="text-white font-bold text-2xl bg-indigo p-4">
-                12 months
+                Year 1
               </h3>
               <Typography
                 variant="paragraph"
@@ -571,7 +624,7 @@ const CodetrainSolara = () => {
             </div>
             <div className="text-start bg-white shadow-xl max-w-sm relative grid place-content-center pb-8">
               <h3 className="text-white font-bold text-2xl bg-indigo p-4">
-                12 months
+                Year 2
               </h3>
               <Typography
                 variant="paragraph"
@@ -592,7 +645,7 @@ const CodetrainSolara = () => {
 
       {/* Success Stories */}
       <section className="py-10 px-4 sm:py-20 sm:px-7 flex flex-col-reverse lg:gap-10 lg:flex-row justify-center gap-4 relative">
-        <div className="md:max-h-[587px] hidden xl:inline">
+        <div className="md:max-h-[587px] hidden lg:inline">
           <Card className="max-w-lg rounded-none">
             <CardHeader
               floated={false}
@@ -601,7 +654,7 @@ const CodetrainSolara = () => {
               className="m-0 rounded-none"
             >
               <Image
-                src="/people/Lovelace.jpg"
+                src="/people/gerald.webp"
                 alt="korkor"
                 width={540}
                 height={276}
@@ -653,8 +706,8 @@ const CodetrainSolara = () => {
               meaningful change within their communities and beyond.
             </Typography>
           </div>
-          <div className="flex flex-col items-center mt-2 gap-4 sm:flex-row">
-            <Card className="w-96 max-h-[767px] rounded-none">
+          <div className="flex flex-col items-center mt-2 gap-4">
+            <Card className="w-96 md:w-[530px] max-h-[767px] rounded-none">
               <CardHeader
                 floated={false}
                 shadow={false}
@@ -674,19 +727,60 @@ const CodetrainSolara = () => {
                   variant="paragraph"
                   className="text-textColor line-clamp-6"
                 >
-                  Jermaine enrolled with Codetrain at age 10. He is the youngest
-                  person to complete Codetrain’s 12-month training programme and
-                  has skills in web development, database and SQL, data
-                  structures and algorithms, among others. Although he faced
-                  challenges along the way, he never rested on his oars.
-                  Interestingly, Jermaine has started a successful career with a
-                  software consulting company in Ghana.
+                  At just 8 years old, Jermaine's parents recognized his passion
+                  for technology and enrolled him at Codetrain Solara. By age
+                  11, he graduated, showcasing remarkable dedication and talent.
+                  During the pandemic, he developed a COVID-19 app that provided
+                  vital statistics about the virus. Through Codetrain Solara,
+                  Jermaine gained essential skills in web development, front-end
+                  design, databases, SQL, AI tools, React, JavaScript, and
+                  Node.js.
                 </Typography>
               </CardBody>
               <hr className="border-violet h-1" />
               <CardFooter>
                 <Typography variant="h6" className="font-bold text-textColor">
                   Jermaine
+                </Typography>
+                <Typography
+                  variant="paragraph"
+                  className="font-normal text-textColor"
+                >
+                  Software Engineer
+                </Typography>
+              </CardFooter>
+            </Card>
+            <Card className="w-96 md:w-[530px] max-h-[767px] rounded-none lg:hidden">
+              <CardHeader
+                floated={false}
+                shadow={false}
+                color="transparent"
+                className="m-0 rounded-none"
+              >
+                <Image
+                  src="/people/gerald.webp"
+                  alt="korkor"
+                  width={540}
+                  height={276}
+                  className="overflow-hidden object-cover h-96"
+                />
+              </CardHeader>
+              <CardBody>
+                <Typography variant="paragraph" className=" text-textColor">
+                  Most 12 year old love to play computer games, but one day,
+                  Gerard, a high school student in Ghana decided to delete all
+                  the games on his computer to build his own games. After his
+                  parents enrolled him at Codetrain solara, a special school in
+                  Ghana that trains app developers, who are innovators, big
+                  dreamers and entrepreneurial minded children, he discovered
+                  that with coding skills, he could realise his dream of
+                  building his own mobile games.
+                </Typography>
+              </CardBody>
+              <hr className="border-violet h-1" />
+              <CardFooter>
+                <Typography variant="h6" className="text-textColor">
+                  Gerald
                 </Typography>
                 <Typography
                   variant="paragraph"

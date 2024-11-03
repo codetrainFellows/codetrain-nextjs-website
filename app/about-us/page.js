@@ -254,6 +254,7 @@ const AboutUs = () => {
                   alt="img"
                   width={540}
                   height={276}
+                  quality={100}
                   className="overflow-hidden object-top object-cover h-80"
                 />
               </CardHeader>

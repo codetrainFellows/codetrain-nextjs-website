@@ -63,7 +63,7 @@ const CodetrainSolara = () => {
                 </Button>
               </Link>
             </div>
-            <Typography variant="paragraph" className="mt-12 font-bold">
+            <Typography variant="paragraph" className="mt-12">
               * Admission is in progress
             </Typography>
           </div>
@@ -118,7 +118,7 @@ const CodetrainSolara = () => {
         <div className="flex flex-col md:flex-row justify-center gap-10">
           <div>
             <Typography variant="h3" className="text-violet max-w-md">
-              Jermaine’s G Success Story as a 12 Year Old
+              Jermaine’s Success Story as a 12 Year Old
             </Typography>
             <Typography
               variant="paragraph"
@@ -329,9 +329,8 @@ const CodetrainSolara = () => {
             variant="paragraph"
             className="text-textColor max-w-xs flex items-end"
           >
-            Hello, Thank you for your Interest in Codetrain Solara. We believe
-            making opportunities accessible, so we welcome applications twice
-            annually.
+            At Codetrain Solara, we Accept Inclusion, we encourage children from
+            all backgrounds, and we’re happy to support them into the Program.
           </Typography>
           <ul className="w-full flex flex-col justify-end">
             <li className="mb-3">
@@ -501,7 +500,7 @@ const CodetrainSolara = () => {
         />
       </section>
 
-      {/* Job Opportunity Section*/}
+      {/* Future At Solara Section*/}
       <section className="py-20 px-4 relative overflow-hidden">
         <div className="text-center relative z-10 max-w-4xl mx-auto">
           <h3 className="text-3xl mx-auto md:text-5xl text-violet font-bold">
@@ -529,32 +528,34 @@ const CodetrainSolara = () => {
               <div>
                 <ul className="list-disc leading-10 ml-8  max-w-4xl">
                   <li>
-                    Robotics Engineer – With foundational STEM knowledge and
-                    hands-on robotics projects.
+                    <span className="font-bold">Robotics Engineer</span> – With
+                    foundational STEM knowledge and hands-on robotics projects.
                   </li>
                   <li>
-                    Software Developer – Through coding, app development, and
-                    AI-focused courses.
+                    <span className="font-bold">Software Developer</span> –
+                    Through coding, app development, and AI-focused courses.
                   </li>
                   <li>
-                    Environmental Scientist – Working on tech-driven
-                    environmental solutions and sustainability.
+                    <span className="font-bold">Environmental Scientist</span> –
+                    Working on tech-driven environmental solutions and
+                    sustainability.
                   </li>
                   <li>
-                    Entrepreneur – By building business plans for startups aimed
-                    at societal impact.
+                    <span className="font-bold">Entrepreneur</span> – By
+                    building business plans for startups aimed at societal
+                    impact.
                   </li>
                   <li>
-                    Data Analyst – With an emphasis on analytical thinking and
-                    technology application.
+                    <span className="font-bold">Data Analyst </span>– With an
+                    emphasis on analytical thinking and technology application.
                   </li>
                   <li>
-                    Healthcare Innovator – Creating healthcare solutions for
-                    underserved areas.
+                    <span className="font-bold">Healthcare Innovator</span> –
+                    Creating healthcare solutions for underserved areas.
                   </li>
                   <li>
-                    Social Entrepreneur – Leveraging technology to address
-                    community issues
+                    <span className="font-bold">Social Entrepreneur </span>–
+                    Leveraging technology to address community issues.
                   </li>
                 </ul>
               </div>
@@ -587,14 +588,14 @@ const CodetrainSolara = () => {
         </div>
         {/* Bg logo */}
         <CTLogo
-          className="absolute opacity-[0.5] h-full md:max-w-7xl top-0 md:-right-[450px]"
+          className="absolute opacity-20 h-full md:max-w-7xl top-0 md:-right-[450px]"
           color="#c2c0c0"
         />
-        <BgLogoLeft className="absolute hidden opacity-10 md:inline size-80 top-96 right-0" />
+        <BgLogoLeft className="absolute hidden opacity-5 md:inline size-80 top-96 right-0" />
       </section>
 
       {/* Programme Structure */}
-      <section className="min-h-[calc(100vh-60px)] bg-ash text-center flex flex-col justify-center py-24 px-4 relative overflow-hidden">
+      {/* <section className="min-h-[calc(100vh-60px)] bg-ash text-center flex flex-col justify-center py-24 px-4 relative overflow-hidden">
         <div className="relative z-10">
           <h1 className="font-bold text-indigo text-3xl lg:text-5xl">
             Programme Structure
@@ -638,10 +639,9 @@ const CodetrainSolara = () => {
           </div>
         </div>
 
-        {/* Bg icons */}
         <BgLogoLeft className="absolute size-[570px] fill-indigo opacity-[0.2] -top-24 sm:top-0 right-0 md:right-32" />
         <BgLogoLeft className="absolute size-80 fill-indigo -bottom-24 sm:bottom-0 left-0 md:left-32" />
-      </section>
+      </section> */}
 
       {/* Success Stories */}
       <section className="py-10 px-4 sm:py-20 sm:px-7 flex flex-col-reverse lg:gap-10 lg:flex-row justify-center gap-4 relative">
@@ -830,11 +830,10 @@ const CodetrainSolara = () => {
                 <Typography variant="paragraph">Once a week</Typography>
               </div>
               <div className="max-w-md mt-3">
-                <Typography className="font-bold mt-6">Tuition:</Typography>
                 <Typography>
-                  <span className="font-bold">UpFront Tuition:</span> Pay the
-                  full tuition amount prior to starting the program. Total cost
-                  under the Upfront Plan is $650.
+                  <span className="font-bold">Tuition:</span> Pay the full
+                  tuition amount prior to starting the program. Total cost under
+                  the Upfront Plan is $650.
                 </Typography>
               </div>
               <div className="max-w-md mt-3">

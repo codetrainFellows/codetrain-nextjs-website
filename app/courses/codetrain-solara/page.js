@@ -922,15 +922,18 @@ const CodetrainSolara = () => {
       <section className="bg-violet py-24 px-4 relative overflow-hidden">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center relative z-30">
           <div>
-            <Typography variant="h2" className="text-lightBlue max-w-md">
-              Are you excited to start your career?
+            <Typography
+              variant="h2"
+              className="text-lightBlue font-bold max-w-md"
+            >
+              Empowering Tomorrow’s Innovators
             </Typography>
             <Typography
               variant="paragraph"
               className="text-white max-w-xl mt-5"
             >
-              Your journey to a fulfilling tech career starts here. Let`s get
-              you started.
+              Unleash your potential and build the skills to lead in tomorrow`s
+              tech world!
             </Typography>
           </div>
           <div className="mt-10 md:mt-0">

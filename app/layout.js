@@ -5,7 +5,7 @@ import "./globals.css";
 // Components
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
-import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 import localFont from "next/font/local";
 import { ThemeProvider } from "@material-tailwind/react";
@@ -31,10 +31,10 @@ export default function RootLayout({ children }) {
           <meta name="description" content={metadata.description} />
         </head>
         <body className={helvetica.className}>
-          <GoogleTagManager gtmId="GTM-MMQZ7FQS" />
           <Nav />
           <main className="overflow-hidden">{children}</main>
           <Footer />
+          <GoogleAnalytics gaId="G-CKDJJBC8DC" />
         </body>
       </html>
     </ThemeProvider>

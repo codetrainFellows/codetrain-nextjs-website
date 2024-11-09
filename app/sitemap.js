@@ -1,22 +1,28 @@
 export default function sitemap() {
   return [
     {
-      url: "https://www.codetraingh.com/about-us",
+      url: "https://www.codetrainafrica.com/about-us",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1,
     },
     {
-      url: "https://www.codetraingh.com/courses/software-engineering",
+      url: "https://www.codetrainafrica.com/courses/software-engineering",
       lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.8,
+      priority: 1,
     },
     {
-      url: "https://www.codetraingh.com/hire-a-graduate",
+      url: "https://www.codetrainafrica.com/hire-a-graduate",
       lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.8,
+      priority: 1,
+    },
+    {
+      url: "https://codetrainafrica.com/courses/codetrain-solara",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 1,
     },
   ];
 }

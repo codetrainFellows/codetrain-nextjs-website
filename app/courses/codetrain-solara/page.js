@@ -832,8 +832,8 @@ const CodetrainSolara = () => {
               <div className="max-w-md mt-3">
                 <Typography>
                   <span className="font-bold">Tuition:</span> Pay the full
-                  tuition amount prior to starting the program. Total cost under
-                  the Upfront Plan is $650.
+                  tuition amount prior to starting the program. Total cost is
+                  $650.
                 </Typography>
               </div>
               <div className="max-w-md mt-3">

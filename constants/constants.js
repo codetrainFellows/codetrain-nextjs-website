@@ -566,12 +566,22 @@ const team = [
     role: "Digital Marketing Manager",
   },
   {
+    name: "Flora Dadie",
+    src: "/people/flora.jpg",
+    story:
+      "Hello, I am Talent Acquisition professional committed to revolutionizing how businesses attract and retain top talent through tech-driven talent solutions. Outside work, I travel the world through literature.",
+    role: " Lead Career Services Coordinator",
+  },
+  {
     name: " Ngozi Umekwe",
     src: "/people/ngozi.jpg",
     story:
       "I’m Ngozi, with 3+ years of experience in administration and leadership. I'm passionate about empowering students with essential non-technical skills and organizing career-boosting events. Outside of work, I enjoy watching movies or exploring new trails on adventures.",
-    role: "Assistant Career Services Fellow",
+    role: "Assistant Career Services",
   },
+];
+
+const team1 = [
   {
     name: "Abdul Basit Ali",
     src: "/people/ali.jpg",
@@ -579,9 +589,6 @@ const team = [
       "Hey! I’m Ali, a Full Stack Developer and Teaching Fellow with 2 years of experience in React, ExpressJs, and MongoDB. I’m passionate about making learning fun and interactive. When not coding, I’m gaming to sharpen my tech skills!",
     role: "Teaching Fellow",
   },
-];
-
-const team1 = [
   {
     name: "Joshua Doe",
     src: "/people/joshua.jpg",

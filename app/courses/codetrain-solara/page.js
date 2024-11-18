@@ -72,7 +72,7 @@ const CodetrainSolara = () => {
               src="/people/monjola.jpg"
               width={720}
               height={384}
-              alt=""
+              alt="kid"
               className="object-cover !h-[calc(100vh+64px)]"
             />
           </div>

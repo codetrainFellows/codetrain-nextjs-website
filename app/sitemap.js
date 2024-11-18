@@ -13,7 +13,7 @@ export default function sitemap() {
       priority: 1,
     },
     {
-      url: "https://www.codetrainafrica.com/hire-a-graduate",
+      url: "https://www.codetrainafrica.com/courses/ui-ux-design",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1,

@@ -49,7 +49,7 @@ const Partnerships = () => {
               src="/people/part.jpg"
               width={720}
               height={384}
-              alt=""
+              alt="partnership"
               className="object-cover !h-[calc(100vh-64px-40px)]"
             />
           </div>

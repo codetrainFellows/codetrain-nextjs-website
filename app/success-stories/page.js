@@ -405,21 +405,21 @@ const SuccessStories = () => {
           <div>
             <Image
               src="/people/succes5.jpg"
-              alt=""
+              alt="person"
               height={285}
               width={320}
               className="h-52 object-cover object-top"
             />
             <Image
               src="/people/succes4.jpg"
-              alt=""
+              alt="person"
               height={285}
               width={320}
               className="relative -top-14 -right-36 border-4 border-white"
             />
             <Image
               src="/people/Lovelace.jpg"
-              alt=""
+              alt="person"
               height={285}
               width={320}
               className="relative bottom-28 border-4 object-cover border-white"

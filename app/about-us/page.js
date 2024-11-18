@@ -138,14 +138,14 @@ const AboutUs = () => {
             src="/people/succes5.jpg"
             width={1000}
             height={200}
-            alt=""
+            alt="people"
             className="object-cover !h-[400px] !w-40 mt-7"
           />
           <Image
             src="/people/Gerald.jpg"
             width={1000}
             height={200}
-            alt=""
+            alt="Gerald"
             className="object-cover !h-[400px] !w-40"
           />
           <BgLogoLeft className="absolute -bottom-32 -right-40 size-96 fill-yellow" />
@@ -168,7 +168,7 @@ const AboutUs = () => {
               >
                 <Image
                   src="/people/richard.jpg"
-                  alt=""
+                  alt="richard"
                   width={540}
                   height={276}
                   quality={100}
@@ -212,7 +212,7 @@ const AboutUs = () => {
                 >
                   <Image
                     src={story.src}
-                    alt="img"
+                    alt={story.name}
                     width={540}
                     height={276}
                     quality={100}
@@ -251,7 +251,7 @@ const AboutUs = () => {
               >
                 <Image
                   src={story.src}
-                  alt="img"
+                  alt={story.name}
                   width={540}
                   height={276}
                   quality={100}
@@ -298,7 +298,7 @@ const AboutUs = () => {
               >
                 <Image
                   src={story.src}
-                  alt="img"
+                  alt={story.name}
                   width={540}
                   height={276}
                   className="overflow-hidden object-cover object-top h-48"

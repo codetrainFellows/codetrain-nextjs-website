@@ -37,7 +37,7 @@ const Donate = () => {
             src="/people/jessica.jpg"
             width={720}
             height={384}
-            alt=""
+            alt="Jessica"
             className="object-cover !h-[calc(100vh-64px-40px)]"
             quality={100}
           />
@@ -83,7 +83,7 @@ const Donate = () => {
         </div>
         <Image
           src="/people/jessica.jpg"
-          alt=""
+          alt="jessica"
           width={720}
           height={384}
           className="h-full w-full object-cover absolute opacity-20 right-0  lg:hidden"
@@ -138,21 +138,21 @@ const Donate = () => {
           <div>
             <Image
               src="/people/grad-pic2.jpg"
-              alt=""
+              alt="people"
               height={285}
               width={320}
               className="h-52 object-cover object-top"
             />
             <Image
               src="/people/donate.jpg"
-              alt=""
+              alt="donate"
               height={285}
               width={320}
               className="relative -top-14 -right-36 h-[216px] object-cover border-4 border-white"
             />
             <Image
               src="/people/donate1.jpg"
-              alt=""
+              alt="donate"
               height={285}
               width={320}
               className="relative bottom-28 border-4 h-[216px] object-cover border-white"

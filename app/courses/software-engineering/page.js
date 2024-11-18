@@ -73,7 +73,7 @@ const Software = () => {
               src="/people/software.jpg"
               width={720}
               height={384}
-              alt=""
+              alt="software"
               className="object-cover !h-[calc(100vh+64px)]"
             />
           </div>
@@ -467,7 +467,7 @@ const Software = () => {
               src="/people/class.jpg"
               width={180}
               height={180}
-              alt=""
+              alt="classroom"
               className="object-cover mx-auto mb-5"
             />
             <Typography variant="h4" className="text-violet">
@@ -484,7 +484,7 @@ const Software = () => {
               src="/people/class3.jpg"
               width={180}
               height={180}
-              alt=""
+              alt="classroom"
               className="object-cover mx-auto mb-5"
             />
             <Typography variant="h4" className="text-violet">
@@ -501,7 +501,7 @@ const Software = () => {
               src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1200"
               width={180}
               height={180}
-              alt=""
+              alt="image"
               className="object-cover mx-auto mb-5"
             />
             <Typography variant="h4" className="text-violet">

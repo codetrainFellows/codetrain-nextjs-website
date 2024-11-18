@@ -69,7 +69,7 @@ const HireAGraduate = () => {
               src="/people/hero-grad.jpg"
               width={720}
               height={384}
-              alt=""
+              alt="hero-grad"
               className="object-cover !h-[calc(100vh+64px+60px)]"
             />
           </div>
@@ -238,28 +238,28 @@ const HireAGraduate = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 place-items-center mt-16 z-10 relative">
           <Image
             src="/people/Lovelace.jpg"
-            alt=""
+            alt="lovelace"
             width={230}
             height={167}
             className="object-cover h-[230px] w-auto"
           />
           <Image
             src="/people/group1.jpg"
-            alt=""
+            alt="people"
             width={230}
             height={167}
             className="object-cover h-[230px] w-auto"
           />
           <Image
             src="/people/group2.jpg"
-            alt=""
+            alt="people"
             width={230}
             height={167}
             className=" object-cover h-[230px] w-auto"
           />
           <Image
             src="/people/group4.jpg"
-            alt=""
+            alt="people"
             width={230}
             height={167}
             className=" object-cover h-[230px] w-auto"

@@ -388,14 +388,14 @@ export default function Home() {
           <Image src="/people/group1.jpg" alt="" height={285} width={320} />
           <Image
             src="/people/group2.jpg"
-            alt=""
+            alt="people"
             height={285}
             width={320}
             className="relative -top-14 -right-36 border-4 border-white"
           />
           <Image
             src="/people/group3.jpg"
-            alt=""
+            alt="people"
             height={285}
             width={320}
             className="relative bottom-28 border-4 border-white"
@@ -728,7 +728,7 @@ export default function Home() {
           <div className="h-[422px]">
             <Image
               src="/people/campus2.jpg"
-              alt=""
+              alt="codetrain-campus"
               width={720}
               height={384}
               className="object-cover !h-[422px] w-full"
@@ -757,7 +757,7 @@ export default function Home() {
               src="/people/gate.jpg"
               width={720}
               height={384}
-              alt=""
+              alt="gate"
               className="object-cover !h-[422px] w-full"
             />
           </div>

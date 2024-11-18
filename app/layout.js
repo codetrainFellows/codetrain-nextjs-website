@@ -12,9 +12,21 @@ import { ThemeProvider } from "@material-tailwind/react";
 import { theme } from "@/theme/theme";
 
 const metadata = {
-  title: "Codetrain Africa | Apps coding bootcamp",
+  title: "Codetrain Africa | Apps coding bootcamp and UI/UX design",
   description:
     "Learn fullstack web and mobile apps development from the most holistic coding bootcamp. We have live interactive virtual and in-person options available.",
+  keywords: [
+    "web development",
+    "software development",
+    "software engineer",
+    "ui/ux",
+    "ui/ux designing",
+    "designing",
+    "coding bootcamp",
+    "codetrain",
+    "codetrainafrica",
+    "codetrain africa",
+  ],
 };
 
 // Load the local font
@@ -29,6 +41,7 @@ export default function RootLayout({ children }) {
         <head>
           <title>{metadata.title}</title>
           <meta name="description" content={metadata.description} />
+          <link rel="canonical" href="https://www.codetrainafrica.com/" />
         </head>
         <body className={helvetica.className}>
           <Nav />

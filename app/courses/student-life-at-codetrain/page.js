@@ -29,7 +29,7 @@ const CodeTrainExperience = () => {
               src="/people/exp.jpg"
               width={720}
               height={384}
-              alt=""
+              alt="people"
               className="object-cover !h-[calc(100vh+64px-40px)]"
             />
           </div>
@@ -73,7 +73,7 @@ const CodeTrainExperience = () => {
               src="/people/exp2.jpg"
               width={300}
               height={200}
-              alt=""
+              alt="people"
               className="object-cover object-top !h-60 !w-80"
             />
             <Typography variant="h6" className="font-bold text-violet">
@@ -180,14 +180,14 @@ const CodeTrainExperience = () => {
           <Image src="/people/exp5.jpg" alt="" height={285} width={320} />
           <Image
             src="/people/expe2.jpg"
-            alt=""
+            alt="people"
             height={285}
             width={320}
             className="relative -top-14 -right-36 border-4 border-white"
           />
           <Image
             src="/people/exp4.jpg"
-            alt=""
+            alt="people"
             height={285}
             width={320}
             className="relative bottom-28 border-4 border-white"

@@ -198,7 +198,7 @@ const Nav = () => {
   }, []);
 
   const handleLinkClick = (event) => {
-    // event.stopPropagation(); // Stop event bubbling
+    event.stopPropagation(); // Stop event bubbling
     setOpenNav(false); // Close the menu on link click
   };
 
@@ -216,21 +216,11 @@ const Nav = () => {
           />
         </Link>
 
-        {path === "/courses/codetrain-solara" ? (
-          <div></div>
-        ) : (
-          <>
-            <div className="hidden gap-2 ml-auto lg:flex">
-              <NavList handleLinkClick={handleLinkClick} />
-            </div>
-          </>
-        )}
+        <div className="hidden gap-2 ml-auto lg:flex">
+          <NavList handleLinkClick={handleLinkClick} />
+        </div>
 
-        <div
-          className={`ml-auto ${
-            path === "/courses/codetrain-solara" ? "block" : "hidden lg:block"
-          }`}
-        >
+        <div className="ml-auto hidden lg:flex">
           <Link
             href="https://codetrainafrica.heiapply.com/application"
             target="_blank"
@@ -245,44 +235,36 @@ const Nav = () => {
           </Link>
         </div>
 
-        {path === "/courses/codetrain-solara" ? (
-          <div></div>
-        ) : (
-          <IconButton
-            variant="text"
-            className="lg:hidden"
-            onClick={() => setOpenNav(!openNav)}
-          >
-            {openNav ? (
-              <XMarkIcon className="h-6 w-6" strokeWidth={2} />
-            ) : (
-              <Bars3Icon className="h-6 w-6" strokeWidth={2} />
-            )}
-          </IconButton>
-        )}
+        <IconButton
+          variant="text"
+          className="lg:hidden"
+          onClick={() => setOpenNav(!openNav)}
+        >
+          {openNav ? (
+            <XMarkIcon className="h-6 w-6" strokeWidth={2} />
+          ) : (
+            <Bars3Icon className="h-6 w-6" strokeWidth={2} />
+          )}
+        </IconButton>
       </div>
 
-      {path === "/courses/codetrain-solara" ? (
-        <div></div>
-      ) : (
-        <Collapse open={openNav}>
-          <NavList handleLinkClick={handleLinkClick} />
-          <div className="flex w-full flex-nowrap items-center gap-2 lg:hidden">
-            <Link
-              href="https://codetrainafrica.heiapply.com/application"
-              target="_blank"
+      <Collapse open={openNav}>
+        <NavList handleLinkClick={handleLinkClick} />
+        <div className="flex w-full flex-nowrap items-center gap-2 lg:hidden">
+          <Link
+            href="https://codetrainafrica.heiapply.com/application"
+            target="_blank"
+          >
+            <Button
+              variant="outlined"
+              size="sm"
+              className="rounded-none bg-violet text-white capitalize"
             >
-              <Button
-                variant="outlined"
-                size="sm"
-                className="rounded-none bg-violet text-white capitalize"
-              >
-                Apply Now
-              </Button>
-            </Link>
-          </div>
-        </Collapse>
-      )}
+              Apply Now
+            </Button>
+          </Link>
+        </div>
+      </Collapse>
     </Navbar>
   );
 };

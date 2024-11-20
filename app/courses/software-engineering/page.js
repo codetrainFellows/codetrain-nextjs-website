@@ -820,7 +820,6 @@ const Software = () => {
           className="mx-auto w-full h-[215px] md:w-[760px] md:h-[415px]"
           src="https://www.youtube.com/embed/ExT_IilhWaw?si=d9GbEhm4wESquUFf"
           title="ROBERT KEHINDE Demo Day presentation at the Codetrain Africa Tech Career Seminar 2023"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           // referrerpolicy="strict-origin-when-cross-origin"
           allowFullScreen

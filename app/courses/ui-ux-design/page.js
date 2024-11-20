@@ -698,10 +698,9 @@ const UIUXDesign = () => {
               className="w-full h-72 md:h-96"
               src="https://www.youtube.com/embed/AnthuAW3w9g?si=Ha_YALr_wxDa5A47"
               title="Lovelace’s journey"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
             ></iframe>
           </div>
           <div className=" mt-5">

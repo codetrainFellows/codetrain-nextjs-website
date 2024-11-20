@@ -35,12 +35,14 @@ const CodetrainSolara = () => {
       <section className="min-h-[calc(100vh-64px)] bg-ash bg-[url('/people/monjola.jpg')] bg-opacity-30 lg:bg-none bg-cover bg-center bg-no-repeat">
         <div className=" bg-ash bg-opacity-80 grid grid-cols-2 place-items-center min-h-[calc(100vh-64px)]">
           <div className="p-8 text-textColor leading-8 col-span-2 lg:col-span-1">
-            <h2 className="text-4xl md:text-5xl text-violet font-bold max-w-md">
+            <h2 className="text-4xl md:text-5xl text-pink font-bold max-w-md">
               Empowering Young Innovators
             </h2>
             <Typography variant="paragraph" className="my-8">
-              An experience designed to transform 8 to 14 year old African kids
-              into World class Innovators, Leaders and Entrepreneurs.
+              Unlock Your Child’s Potential with Solara: Africa’s Premier Online
+              School for Future Innovators (Ages 8–14). An experience designed
+              to transform 8 to 14 year old African kids into World class
+              Innovators, Leaders and Entrepreneurs.
             </Typography>
             <div className="flex gap-x-4 mt-14 z-10">
               <Link
@@ -80,57 +82,106 @@ const CodetrainSolara = () => {
       </section>
 
       {/* What is Codetrain Solara */}
-      <section className="py-10 px-4 md:px-12 md:max-w-6xl mx-auto">
-        <h3 className="text-3xl md:text-4xl text-violet font-bold">
+      <section className="py-10 px-4 md:px-12 md:max-w-7xl mx-auto">
+        <h3 className="text-3xl md:text-4xl text-pink font-bold">
           What is Codetrain Solara
         </h3>
         <Typography variant="paragraph" className="text-textColor mt-4">
-          At Codetrain Africa, we believe that African children possess
-          incredible potential to become global leaders, innovators, and
-          dreamers. That&rsquo;s why we launched Solara—to provide them with the
-          experiences and skills they need to thrive.
+          At <span className="font-bold">Codetrain Africa</span>, we believe
+          African children hold the key to shaping the future as global leaders,
+          innovators, and dreamers. For over seven years, Codetrain has
+          successfully trained over 700 software developers, with 89% of our
+          graduates thriving in companies building Africa’s next big ideas or
+          contributing to the global tech scene. Our journey with younger
+          learners has been equally inspiring. When we introduced coding to
+          kids, the results were phenomenal! Imagine children aged 10 to 14
+          creating solutions like:
         </Typography>
+        <ul>
+          <li className="list-disc ml-4 mt-2">An NFC-powered mobile wallet,</li>
+          <li className="list-disc ml-4 mt-2">
+            Advising businesses on tech strategies,
+          </li>
+          <li className="list-disc ml-4 mt-2">A COVID-19 data tracker,</li>
+          <li className="list-disc ml-4 mt-2">
+            A communicable diseases tracker app,
+          </li>
+          <li className="list-disc ml-4 mt-2">Designing games,</li>
+          <li className="list-disc ml-4 mt-2">
+            And even serving as a mentor and keynote speaker for an Austrian
+            Innovation Challenge organization!
+          </li>
+        </ul>
         <Typography variant="paragraph" className="text-textColor mt-4">
-          Over the past seven years, Codetrain Africa has successfully trained
-          over 700 software developers, with an impressive 89% of our graduates
-          securing jobs within just 6-9 months at companies in Ghana, Nigeria,
-          Mali, Liberia, Gambia, the USA, the UK, Germany, and the Netherlands.
+          Now, we’re expanding this opportunity with Solara, an online school
+          dedicated to equipping children with the skills to become future tech
+          innovators. Through hands-on learning and real-world projects, we
+          nurture creativity, problem-solving, and leadership. By enrolling your
+          child in Solara, you’re not just investing in their education—you’re
+          empowering them to shape the world. Together, let’s cultivate the next
+          generation of African and global tech leaders.
         </Typography>
-        <Typography variant="paragraph" className="text-textColor mt-4">
-          But we didn’t stop there. We recognized the immense talent in younger
-          minds and began teaching kids how to code, build websites, create
-          games, and develop web and mobile applications. The results have been
-          phenomenal—our students have created remarkable solutions, including
-          an app to combat COVID-19 and another to fight malaria in Ghana.
-        </Typography>
-        <Typography variant="paragraph" className="text-textColor mt-4">
-          Solara aims to extend these opportunities to even more talented
-          children, equipping them with the skills to become future tech
-          innovators. By enrolling your child in our program, you’re not just
-          investing in their education; you’re empowering them to make a real
-          impact in the world. Join us in nurturing the next generation of tech
-          leaders!
-        </Typography>
+
+        <div className="mt-4">
+          <Typography variant="paragraph" className="text-pink font-bold">
+            Program Structure -
+          </Typography>
+          <ul className="list-decimal ml-4 mt-2">
+            <li>Online Saturday classes (12noon-2pm GMT)</li>
+            <li>In-person Summar Bootcamp</li>
+            <li>Annual Innovation Conference</li>
+          </ul>
+        </div>
+        <div className="mt-4">
+          <Typography variant="paragraph" className="text-pink font-bold">
+            Program Duration
+          </Typography>
+          <ul className="list-decimal ml-4 mt-2">
+            <li>3 - 5 years Annual Subscription</li>
+          </ul>
+        </div>
+        <div className="mt-4">
+          <Typography variant="paragraph" className="text-pink font-bold">
+            Program Pricing
+          </Typography>
+          <ul className="list-decimal ml-4 mt-2">
+            <li>$650 or GHS 10,000 per year</li>
+          </ul>
+        </div>
+        <div className="mt-4">
+          <Typography variant="paragraph" className="text-pink font-bold">
+            Part-Scholarships
+          </Typography>
+          <ul className="list-decimal ml-4 mt-2">
+            <li className="max-w-[600px]">
+              Scholarships will be awarded to children who submit compelling
+              applications and demonstrate eligibility based on financial need,
+              gender inclusion, neurodivergence, or living with a disability.
+            </li>
+          </ul>
+        </div>
       </section>
 
       {/* Jamain's success stories */}
       <section className="px-4 py-10 ">
         <div className="flex flex-col md:flex-row justify-center gap-10">
           <div>
-            <Typography variant="h3" className="text-violet max-w-md">
+            <Typography variant="h3" className="text-pink max-w-md">
               Jermaine’s Success Story as a 12 Year Old
             </Typography>
             <Typography
               variant="paragraph"
-              className="text-textColor mt-4 max-w-md"
+              className="text-textColor mt-4 max-w-xl"
             >
-              At just 8 years old, Jermaine`s parents recognized his passion for
-              technology and enrolled him at Codetrain Solara. By age 11, he
-              graduated, showcasing remarkable dedication and talent. During the
-              pandemic, he developed a COVID-19 app that provided vital
-              statistics about the virus. Through Codetrain Solara, Jermaine
-              gained essential skills in web development, front-end design,
-              databases, SQL, AI tools, React, JavaScript, and Node.js.
+              At just 8 years old, Jermaine’s parents recognized his passion for
+              technology and enrolled him at Codetrain. By the age of 11, during
+              the height of the pandemic, Jermaine developed a COVID-19 app that
+              provided vital statistics about the virus. Through Codetrain, he
+              mastered essential skills in full-stack web development, including
+              modern technologies such as JavaScript, React, Node.js, MongoDB,
+              and Express. He also honed critical concepts like version control
+              with Git, teamwork, collaboration, technical communication, public
+              speaking, and innovation.
             </Typography>
           </div>
           <div className="w-full md:w-2/5">
@@ -149,34 +200,36 @@ const CodetrainSolara = () => {
         </div>
         <Typography
           variant="paragraph"
-          className="text-textColor mt-10 px-4 md:px-10 md:max-w-6xl mx-auto"
+          className="text-textColor mt-10 md:px-10 md:max-w-7xl mx-auto"
         >
-          At just 12, Jermaine delivered an inspiring keynote speech at the
-          Moonshot Pirates. Bootcamp at SOS Hermann Gmeiner College in Ghana and
-          mentored young entrepreneurs from the same program in Austria. He is
-          currently working on a project to empower small businesses in Africa
-          through loyalty rewards and has developed an app to connect startups
-          with angel investors. Jermaine`s journey illustrates the immense
-          potential your child could unlock through programs like Codetrain
-          Solara. By enrolling your child in a tech-focused education, you can
-          set them on a path to success and equip them with the skills to make a
-          meaningful impact. Give your child the opportunity to become a future
-          innovator! Codetrain solara, birthed from Codetrain Africa.
+          By 12, Jermaine was invited to deliver an inspiring keynote speech at
+          the Moonshot Pirates Bootcamp held at SOS Hermann Gmeiner College in
+          Ghana. He went on to mentor Austrian teen entrepreneurs from the same
+          program, sharing insights and guiding their innovative projects. At a
+          young age, he has reached the proficiency level of a mid-level
+          professional software developer. He is currently working on a project
+          to empower small businesses in Africa through loyalty rewards and has
+          also developed an app to connect startups with angel investors.
+          Jermaine’s remarkable journey demonstrates the transformative impact
+          of tech-focused education. By enrolling your child in Codetrain
+          Solara, you’re providing them with the tools and opportunities to
+          become future innovators and global leaders. Give your child the
+          chance to unlock their potential and make a meaningful impact in the
+          world.
         </Typography>
       </section>
 
       {/* Comprehensive Software Development Curriculum */}
       <section className="py-20 px-8">
         <div className="text-center relative z-10">
-          <h3 className="text-3xl md:text-5xl text-violet font-bold">
-            What You Will Learn
+          <h3 className="text-3xl md:text-4xl text-pink font-bold">
+            What Your Child Will Gain Through Codetrain Solara
           </h3>
           <Typography
             variant="paragraph"
             className="text-textColor max-w-5xl mx-auto mt-10"
           >
-            Codetrain solara, birthed from Codetrain africa, is an online school
-            for kids who are dreamers, who are kind, daring and creative
+            To provide them with experience they need to thrive
           </Typography>
         </div>
         <div className="flex flex-col lg:flex-row justify-center gap-8 py-10 bg-contain bg-center bg-no-repeat relative">
@@ -199,27 +252,25 @@ const CodetrainSolara = () => {
                 <ul className="ml-3 space-y-1">
                   <li>
                     <Typography variant="paragraph">
-                      <span className="font-extrabold">
-                        Learn the essentials
-                      </span>{" "}
-                      of programming and app development and explore AI concepts
-                      to prepare for the future digital Economy
+                      Master the essentials of programming and app development
+                      while diving into foundational AI concepts, equipping your
+                      child to thrive in the future digital economy.
                     </Typography>
                   </li>
                 </ul>
               </li>
               <li>
                 <Typography variant="h6" className="text-lg">
-                  STEM (Science, Technology, Engineering and Math
+                  STEM (Science, Technology, Engineering and Math)
                 </Typography>
                 <ul className="ml-3 space-y-1">
                   <li>
                     <Typography variant="paragraph">
-                      <span className="font-extrabold">
-                        Develop foundational skills
-                      </span>{" "}
-                      across these key areas, working Hands-on with projects
-                      that span AI, coding
+                      Build strong skills across these critical disciplines
+                      through hands-on projects in coding, AI, and technology
+                      innovation. Entrepreneurship and Innovation. Foster a
+                      problem-solving mindset and learn how to design impactful
+                      solutions to address real-world challenges.
                     </Typography>
                   </li>
                 </ul>
@@ -231,11 +282,8 @@ const CodetrainSolara = () => {
                 <ul className="ml-3 space-y-1">
                   <li>
                     <Typography variant="paragraph">
-                      <span className="font-extrabold">
-                        Cultivate a problem solving mindset
-                      </span>{" "}
-                      and gain insights into creating impactful solutions for
-                      real-world challenges
+                      Foster a problem-solving mindset and learn how to design
+                      impactful solutions to address real-world challenges.
                     </Typography>
                   </li>
                 </ul>
@@ -247,9 +295,8 @@ const CodetrainSolara = () => {
                 <ul className="ml-3 space-y-1">
                   <li>
                     <Typography variant="paragraph">
-                      <span className="font-extrabold">Engage in teamwork</span>{" "}
-                      to solve complex challenges, developing leadership,
-                      communication and interpersonal skills along the way.
+                      Develop leadership, communication, and interpersonal
+                      skills by working in teams to solve complex challenges.
                     </Typography>
                   </li>
                 </ul>
@@ -261,12 +308,8 @@ const CodetrainSolara = () => {
                 <ul className="ml-3 space-y-1">
                   <li>
                     <Typography variant="paragraph">
-                      <span className="font-extrabold">
-                        {" "}
-                        Gain an understanding of global issues
-                      </span>{" "}
-                      and explore how your skills and projects can make a
-                      positive impact.
+                      Understand global issues and learn how to leverage their
+                      projects and skills to create positive, meaningful change.
                     </Typography>
                   </li>
                 </ul>
@@ -278,12 +321,9 @@ const CodetrainSolara = () => {
                 <ul className="ml-3 space-y-1">
                   <li>
                     <Typography variant="paragraph">
-                      <span className="font-extrabold">
-                        {" "}
-                        Create a digital portfolio
-                      </span>{" "}
-                      showcasing their projects and skills, setting the
-                      foundation for future academic or career opportunities.
+                      Create a standout digital portfolio showcasing skills and
+                      projects, opening doors to future academic or career
+                      opportunities.
                     </Typography>
                   </li>
                 </ul>
@@ -295,9 +335,12 @@ const CodetrainSolara = () => {
                 <ul className="ml-3 space-y-1">
                   <li>
                     <Typography variant="paragraph">
-                      <span className="font-extrabold"> Receive guidance</span>{" "}
-                      from teaching fellows, gain feedback on their work, and
-                      connect with global experts for specialized experts.
+                      Learn under the guidance of experienced teaching fellows,
+                      receive valuable feedback, and connect with global experts
+                      to deepen specialized skills. Your child will gain a
+                      well-rounded education rooted in innovation and
+                      leadership, setting them on the path to becoming a future
+                      tech pioneer.
                     </Typography>
                   </li>
                 </ul>
@@ -313,50 +356,74 @@ const CodetrainSolara = () => {
       </section>
 
       {/* What You Need To Get Accepted */}
-      <section className="py-20 px-4 pl-9 flex flex-col gap-20 lg:flex-row justify-center">
-        <div className="inline-flex flex-col justify-center gap-5">
-          <Typography variant="h2" className="max-w-80 text-pink">
-            What You Need To Get Accepted
+      <section className="py-20 px-4 pl-9 flex flex-col gap-10 lg:flex-row justify-center">
+        <div className="inline-flex flex-col gap-5 max-w-lg">
+          <Typography variant="h4" className=" text-pink">
+            What You Need to Get Accepted to Codetrain Solara
           </Typography>
-          <Typography variant="paragraph" className="text-textColor max-w-xs">
-            Hello, Thank you for your Interest in Codetrain Solara. We believe
-            making opportunities accessible, so we welcome applications twice
-            annually.
+          <Typography variant="paragraph" className="text-textColor">
+            At Codetrain Solara, we believe in creating opportunities for every
+            child to reach their full potential. Our application process is open
+            year-round, ensuring flexibility for families and aspiring young
+            innovators.
           </Typography>
-        </div>
-        <div className="flex flex-col md:flex-row justify-evenly gap-4 lg:w-3/5 text-textColor">
-          <Typography
-            variant="paragraph"
-            className="text-textColor max-w-xs flex items-end"
-          >
+          <Typography variant="paragraph" className="text-textColor">
             At Codetrain Solara, we Accept Inclusion, we encourage children from
             all backgrounds, and we’re happy to support them into the Program.
           </Typography>
-          <ul className="w-full flex flex-col justify-end">
+        </div>
+        <div className="flex flex-col w-3/5 text-textColor max-w-lg">
+          <ul className="flex flex-col">
             <li className="mb-3">
-              <Typography variant="h4" className="font-bold text-violet">
-                Requirements
+              <Typography variant="h4" className="font-bold text-pink">
+                Requirements for Admission:
               </Typography>
             </li>
             <ul className="list-disc">
               <li>
                 <Typography variant="paragraph" className="text-textColor">
-                  Basic Computer Literacy
+                  Basic Computer Literacy Skills
                 </Typography>
               </li>
               <li>
                 <Typography variant="paragraph" className="text-textColor">
-                  Pass our intake puzzle
+                  Your child should have a foundational understanding of how to
+                  use a computer.
                 </Typography>
               </li>
               <li>
                 <Typography variant="paragraph" className="text-textColor">
-                  Recommendation Letter from a parent/ Guardian.
+                  Pass Our Intake Puzzle
                 </Typography>
               </li>
               <li>
                 <Typography variant="paragraph" className="text-textColor">
-                  Submit a Video(Mp4), on a big dream you have.
+                  This engaging activity is designed to spark creativity and
+                  test problem-solving abilities in a fun way.
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="paragraph" className="text-textColor">
+                  Recommendation Letter
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="paragraph" className="text-textColor">
+                  A letter of support from a parent or guardian will help us
+                  understand your child’s character and potential.
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="paragraph" className="text-textColor">
+                  Video Submission
+                </Typography>
+              </li>
+              <li>
+                <Typography variant="paragraph" className="text-textColor">
+                  Submit a short video (MP4 format) where your child shares a
+                  big dream they have and why it inspires them. We’re excited to
+                  help your child take their first step toward becoming a future
+                  innovator. Start their journey with Codetrain Solara today!
                 </Typography>
               </li>
             </ul>
@@ -364,106 +431,10 @@ const CodetrainSolara = () => {
         </div>
       </section>
 
-      {/* How it works section */}
-      <section className="py-20 px-4 bg-ash text-center relative">
-        <div className="relative z-10">
-          <h3 className="text-3xl md:text-4xl text-violet font-bold">
-            How It Works
-          </h3>
-          <p className="text-textColor max-w-4xl mx-auto mt-5">
-            Our flexible class schedules adapt to your lifestyle, ensuring you
-            can balance learning with your personal commitments. Here are the
-            available options:
-          </p>
-        </div>
-        <div className="mt-10 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 z-10 relative">
-          <div className="max-w-xs mx-auto">
-            <Typography variant="h4" className="text-violet">
-              Saturday Online Class
-            </Typography>
-            <Typography variant="paragraph" className="mt-6">
-              Classes are held online once a week on Saturdays for 2-3 hours,
-              focusing on discussions, collaborative work, and project
-              presentations on specific themes or challenges. Using tools like
-              Zoom, Google Classroom for delivering and accessing resources and
-              managing projects.
-            </Typography>
-          </div>
-          <div className="max-w-xs mx-auto">
-            <Typography variant="h4" className="text-violet">
-              Personal Teacher Guidance
-            </Typography>
-            <Typography variant="paragraph" className="mt-6">
-              Teachers serve as guides, helping the students navigate
-              challenges, and enable them collaborate with their peers and find
-              innovative solutions.
-            </Typography>
-          </div>
-          <div className="max-w-xs mx-auto">
-            <Typography variant="h4" className="text-violet">
-              Summer Boot camp/Conference
-            </Typography>
-            <Typography variant="paragraph" className="mt-6">
-              Every summer, students participate in a boot camp and innovation
-              challenge to further develop their skills through intensive,
-              hands-on projects. The Solara Conference provides a platform for
-              students to present their projects to a broader audience, network
-              with peers, and learn from industry experts.
-            </Typography>
-          </div>
-        </div>
-        {/* Bg Logos */}
-        <BgLogoLeft className="absolute fill-pink opacity-10 top-0 right-0 size-96 lg:size-[532px]" />
-        <BgLogoRight className="absolute fill-pink size-28 opacity-15 bottom-80 lg:top-28 sm:left-40 md:left-10 lg:left-10 xl:left-16" />
-      </section>
-
-      {/* Codetrain Solara Fellows section */}
-      <section className="py-20 px-4 bg-ash text-center">
-        <Typography variant="h3" className="text-violet">
-          Meet The Teaching Fellows
-        </Typography>
-
-        <div className="grid grid-cols-1 place-items-center gap-10 mt-20 text-left">
-          {solaraFellows.map((fellow) => (
-            <Card
-              className="w-full max-w-[48rem] rounded-none flex-col md:flex-row"
-              key={fellow.name}
-            >
-              <CardHeader
-                shadow={false}
-                floated={false}
-                className="m-0 h-96 md:h-auto md:w-2/5 shrink-0 rounded-none md:rounded-r-none"
-              >
-                <Image
-                  src={fellow.src}
-                  alt="card-image"
-                  className="h-full w-full object-top object-cover rounded-none"
-                  height={100}
-                  width={100}
-                  quality={100}
-                />
-              </CardHeader>
-              <CardBody className="flex flex-col justify-center items-start">
-                <Typography className="mb-8 text-textColor">
-                  {fellow.text}
-                </Typography>
-                <hr className="border-violet h-1" />
-                <Typography variant="h5" className="text-textColor">
-                  {fellow.name}
-                </Typography>
-                <Typography variant="paragraph" className="text-textColor">
-                  Teaching Fellow
-                </Typography>
-              </CardBody>
-            </Card>
-          ))}
-        </div>
-      </section>
-
       {/* Steps In The Application Process */}
       <section className="py-20 px-4 relative">
         <div className="relative z-10 text-center">
-          <h3 className="text-3xl md:text-5xl text-violet font-bold">
+          <h3 className="text-3xl md:text-5xl text-pink font-bold">
             Steps In The Application Process
           </h3>
           <p className="text-textColor max-w-4xl mx-auto mt-10">
@@ -503,7 +474,7 @@ const CodetrainSolara = () => {
       {/* Future At Solara Section*/}
       <section className="py-20 px-4 relative overflow-hidden">
         <div className="text-center relative z-10 max-w-4xl mx-auto">
-          <h3 className="text-3xl mx-auto md:text-5xl text-violet font-bold">
+          <h3 className="text-3xl mx-auto md:text-5xl text-pink font-bold">
             Future Career at Solara
           </h3>
           <p className="mx-auto text-textColor mt-4">
@@ -526,7 +497,7 @@ const CodetrainSolara = () => {
           <div className="relative z-10 text-textColor">
             <div className="text-base">
               <div>
-                <ul className="list-disc leading-10 ml-8  max-w-4xl">
+                <ul className="list-disc leading-10 ml-8 max-w-4xl">
                   <li>
                     <span className="font-bold">Robotics Engineer</span> – With
                     foundational STEM knowledge and hands-on robotics projects.
@@ -594,55 +565,6 @@ const CodetrainSolara = () => {
         <BgLogoLeft className="absolute hidden opacity-5 md:inline size-80 top-96 right-0" />
       </section>
 
-      {/* Programme Structure */}
-      {/* <section className="min-h-[calc(100vh-60px)] bg-ash text-center flex flex-col justify-center py-24 px-4 relative overflow-hidden">
-        <div className="relative z-10">
-          <h1 className="font-bold text-indigo text-3xl lg:text-5xl">
-            Programme Structure
-          </h1>
-          <Typography variant="paragraph" className="my-10 max-w-3xl mx-auto">
-            Solara immerses young learners in software development and soft
-            skills, through real-world projects, building a strong portfolio and
-            fostering essential skills. They will also benefit from mentorship
-            and career guidance, setting them on a path to success in tech.
-          </Typography>
-        </div>
-
-        <div className="max-w-6xl mx-auto flex flex-col gap-10 justify-center relative z-10">
-          <div className="flex flex-col gap-20 md:flex-row justify-center items-center">
-            <div className="text-start bg-white shadow-xl max-w-sm relative grid place-content-center pb-8">
-              <h3 className="text-white font-bold text-2xl bg-indigo p-4">
-                Year 1
-              </h3>
-              <Typography
-                variant="paragraph"
-                className="mt-4 text-textColor text-lg p-4 pb-10"
-              >
-                Learn to code from scratch and start building your portfolio,
-                laying a strong foundation for your software engineering career,
-                summer bootcamp / Conference.
-              </Typography>
-            </div>
-            <div className="text-start bg-white shadow-xl max-w-sm relative grid place-content-center pb-8">
-              <h3 className="text-white font-bold text-2xl bg-indigo p-4">
-                Year 2
-              </h3>
-              <Typography
-                variant="paragraph"
-                className="mt-4 text-textColor text-lg p-4 pb-10"
-              >
-                The second year focuses on career services. Gain more hands-on
-                experience with internships, mock interviews, to prepare for
-                graduation and secure your first full-time role.
-              </Typography>
-            </div>
-          </div>
-        </div>
-
-        <BgLogoLeft className="absolute size-[570px] fill-indigo opacity-[0.2] -top-24 sm:top-0 right-0 md:right-32" />
-        <BgLogoLeft className="absolute size-80 fill-indigo -bottom-24 sm:bottom-0 left-0 md:left-32" />
-      </section> */}
-
       {/* Success Stories */}
       <section className="py-10 px-4 sm:py-20 sm:px-7 flex flex-col-reverse lg:gap-10 lg:flex-row justify-center gap-4 relative">
         <div className="md:max-h-[587px] hidden lg:inline">
@@ -689,7 +611,7 @@ const CodetrainSolara = () => {
         </div>
         <div className="">
           <div className=" mt-5">
-            <h3 className="text-violet font-bold text-3xl md:text-5xl max-w-xl">
+            <h3 className="text-pink font-bold text-3xl md:text-5xl max-w-xl">
               Success Stories From Codetrain Solara
             </h3>
             <Typography
@@ -791,73 +713,52 @@ const CodetrainSolara = () => {
               </CardFooter>
             </Card>
           </div>
-          <Link href="/success-stories">
-            <Button className="rounded-none text-white bg-violet mt-10">
-              Discover More Success Stories
-            </Button>
-          </Link>
         </div>
         {/* svg bg logos */}
         <BgLogoRight className="fill-cyan-50 absolute top-10 lg:top-0 lg:right-0 -z-50 h-80 md:h-1/2 sm:inline" />
         <BgLogoLeft className="fill-cyan-300 absolute bottom-10 lg:bottom-0 lg:left-0 -z-50 h-80 lg:h-1/2 sm:inline" />
       </section>
 
-      {/* Program Summary Section*/}
-      <section className="py-20 px-4">
-        <div className="text-center relative z-10 max-w-4xl mx-auto">
-          <h3 className="text-3xl mx-auto md:text-5xl text-violet font-bold">
-            Program Summary
-          </h3>
-        </div>
-        <div className="flex flex-col lg:flex-row justify-center gap-8 py-10 bg-contain bg-center bg-no-repeat relative">
-          <div className="max-w-[540px] relative z-10">
-            <Image
-              src="/people/group6.svg"
-              alt="picture"
-              className="h-[440px] rounded-none object-cover"
-              width={540}
-              height={540}
-            />
-          </div>
-          <div className="relative z-10 text-textColor">
-            <div className="text-base">
-              <div className="max-w-md">
-                <Typography variant="paragraph" className="font-bold">
-                  Course Length
-                </Typography>
-                <Typography variant="paragraph">1 year</Typography>
-                <Typography className="font-bold mt-4">Schedule:</Typography>
-                <Typography variant="paragraph">Once a week</Typography>
-              </div>
-              <div className="max-w-md mt-3">
-                <Typography>
-                  <span className="font-bold">Tuition:</span> Pay the full
-                  tuition amount prior to starting the program. Total cost is
-                  $650.
-                </Typography>
-              </div>
-              <div className="max-w-md mt-3">
-                <Typography>
-                  <span className="font-bold">Subscription Plan:</span> The
-                  tuition can be renewed yearly
-                </Typography>
-              </div>
-            </div>
+      {/* Codetrain Solara Fellows section */}
+      <section className="py-20 px-4 bg-ash text-center">
+        <Typography variant="h3" className="text-pink">
+          Meet The Teaching Fellows
+        </Typography>
 
-            <div className="flex gap-x-4 mt-7">
-              <Link
-                href="https://codetrainafrica.heiapply.com/application"
-                target="_blank"
+        <div className="grid grid-cols-1 place-items-center gap-10 mt-20 text-left">
+          {solaraFellows.map((fellow) => (
+            <Card
+              className="w-full max-w-[48rem] rounded-none flex-col md:flex-row"
+              key={fellow.name}
+            >
+              <CardHeader
+                shadow={false}
+                floated={false}
+                className="m-0 h-96 md:h-auto md:w-2/5 shrink-0 rounded-none md:rounded-r-none"
               >
-                <Button
-                  className="bg-violet shadow-none font-bold px-5 sm:px-8 md:px-10 rounded-md"
-                  variant="filled"
-                >
-                  Get Started
-                </Button>
-              </Link>
-            </div>
-          </div>
+                <Image
+                  src={fellow.src}
+                  alt="card-image"
+                  className="h-full w-full object-top object-cover rounded-none"
+                  height={100}
+                  width={100}
+                  quality={100}
+                />
+              </CardHeader>
+              <CardBody className="flex flex-col justify-center items-start">
+                <Typography className="mb-8 text-textColor">
+                  {fellow.text}
+                </Typography>
+                <hr className="border-violet h-1" />
+                <Typography variant="h5" className="text-textColor">
+                  {fellow.name}
+                </Typography>
+                <Typography variant="paragraph" className="text-textColor">
+                  Teaching Fellow
+                </Typography>
+              </CardBody>
+            </Card>
+          ))}
         </div>
       </section>
 

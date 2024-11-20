@@ -35,12 +35,12 @@ const CodetrainSolara = () => {
       <section className="min-h-[calc(100vh-64px)] bg-ash bg-[url('/people/monjola.jpg')] bg-opacity-30 lg:bg-none bg-cover bg-center bg-no-repeat">
         <div className=" bg-ash bg-opacity-80 grid grid-cols-2 place-items-center min-h-[calc(100vh-64px)]">
           <div className="p-8 text-textColor leading-8 col-span-2 lg:col-span-1">
-            <h2 className="text-4xl md:text-5xl text-violet font-bold max-w-md ">
+            <h2 className="text-4xl md:text-5xl text-violet font-bold max-w-md">
               Empowering Young Innovators
             </h2>
             <Typography variant="paragraph" className="my-8">
-              Our Program is designed to cultivate World class innovators,
-              Leaders and entrepreneurs among African Children aged 7-14 Years.
+              An experience designed to transform 8 to 14 year old African kids
+              into World class Innovators, Leaders and Entrepreneurs.
             </Typography>
             <div className="flex gap-x-4 mt-14 z-10">
               <Link
@@ -80,7 +80,7 @@ const CodetrainSolara = () => {
       </section>
 
       {/* What is Codetrain Solara */}
-      <section className="py-10 px-4 md:px-12">
+      <section className="py-10 px-4 md:px-12 md:max-w-6xl mx-auto">
         <h3 className="text-3xl md:text-4xl text-violet font-bold">
           What is Codetrain Solara
         </h3>
@@ -149,7 +149,7 @@ const CodetrainSolara = () => {
         </div>
         <Typography
           variant="paragraph"
-          className="text-textColor mt-10 px-4 md:px-10"
+          className="text-textColor mt-10 px-4 md:px-10 md:max-w-6xl mx-auto"
         >
           At just 12, Jermaine delivered an inspiring keynote speech at the
           Moonshot Pirates. Bootcamp at SOS Hermann Gmeiner College in Ghana and
@@ -420,7 +420,7 @@ const CodetrainSolara = () => {
       {/* Codetrain Solara Fellows section */}
       <section className="py-20 px-4 bg-ash text-center">
         <Typography variant="h3" className="text-violet">
-          Meet The Teaching Fellow
+          Meet The Teaching Fellows
         </Typography>
 
         <div className="grid grid-cols-1 place-items-center gap-10 mt-20 text-left">

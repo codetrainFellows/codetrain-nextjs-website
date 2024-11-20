@@ -161,7 +161,7 @@ const CodetrainSolara = () => {
           Solara. By enrolling your child in a tech-focused education, you can
           set them on a path to success and equip them with the skills to make a
           meaningful impact. Give your child the opportunity to become a future
-          innovator! give me a summarized title, for this statement.
+          innovator! Codetrain solara, birthed from Codetrain Africa.
         </Typography>
       </section>
 

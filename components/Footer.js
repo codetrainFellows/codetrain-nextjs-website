@@ -15,7 +15,7 @@ const Footer = () => {
           href: "https://codetrain.medium.com/",
         },
         {
-          name: "contact - 0545792397",
+          name: "contact admissions - 0545792397",
           href: "",
         },
       ],

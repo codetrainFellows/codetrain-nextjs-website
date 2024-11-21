@@ -44,7 +44,7 @@ const navListMenuItems = [
     href: "/courses/student-life-at-codetrain",
   },
   {
-    title: "Codetrain Solara",
+    title: "Coding for Kids",
     icon: AcademicCapIcon,
     href: "/courses/codetrain-solara",
   },

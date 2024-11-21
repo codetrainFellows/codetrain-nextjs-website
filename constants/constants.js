@@ -513,7 +513,7 @@ const applicationProcessSolara = [
   {
     id: 2,
     title: "Complete application form",
-    desc: "Fill out your application and ace the assessment test.",
+    desc: "Fill out your application form.",
   },
   {
     id: 3,

@@ -48,10 +48,7 @@ const CodetrainSolara = () => {
               Leaders and Entrepreneurs.
             </Typography>
             <div className="flex gap-x-4 mt-14 z-10">
-              <Link
-                href="https://codetrainafrica.heiapply.com/application"
-                target="_blank"
-              >
+              <Link href="https://tally.so/r/mRZvBP" target="_blank">
                 <Button className="bg-yellow text-violet shadow-none font-bold px-5 sm:px-8 md:px-10 rounded-md">
                   Enroll now
                 </Button>
@@ -260,10 +257,7 @@ const CodetrainSolara = () => {
               </div>
             </div>
             <div className="flex gap-x-4 mt-14 z-10">
-              <Link
-                href="https://codetrainafrica.heiapply.com/application"
-                target="_blank"
-              >
+              <Link href="https://tally.so/r/mRZvBP" target="_blank">
                 <Button className="bg-yellow text-violet shadow-none font-bold px-5 sm:px-8 md:px-10 rounded-md">
                   Enroll now
                 </Button>
@@ -467,7 +461,7 @@ const CodetrainSolara = () => {
                 </ul>
               </li>
             </ul>
-            <Link href="https://codetrainafrica.heiapply.com/application">
+            <Link href="https://tally.so/r/mRZvBP">
               <Button className="mt-8 bg-yellow text-violet">
                 Get Started
               </Button>
@@ -780,13 +774,9 @@ const CodetrainSolara = () => {
       {/* Discover Our Campus Section */}
       <section>
         <div className="px-4 py-10 text-center">
-          <h1 className="font-bold text-violet text-xl text-nowrap sm:text-3xl lg:text-5xl">
-            Discover Our Campus
+          <h1 className="font-bold text-violet text-xl text-nowrap sm:text-3xl lg:text-4xl">
+            Contact or Visit us!
           </h1>
-          <p className="my-5 sm:my-10 max-w-5xl mx-auto text-textColor">
-            We offer in-person training at our East Legon campus and also
-            provide options for virtual training to students wherever they are.
-          </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div className="bg-pink h-[422px] p-3 sm:p-10 flex flex-col justify-evenly items-start text-white">
@@ -806,7 +796,7 @@ const CodetrainSolara = () => {
           </div>
           <div className="h-[422px] text-center flex flex-col justify-evenly items-center">
             <Typography variant="h4" className="text-violet">
-              East Legon 16a Parsnip street
+              East Legon - 16a Parsnip street
             </Typography>
             <Typography variant="paragraph" className="text-textColor">
               Near the A&C Mall
@@ -909,10 +899,7 @@ const CodetrainSolara = () => {
             </Typography>
           </div>
           <div className="mt-10 md:mt-0">
-            <Link
-              href="https://codetrainafrica.heiapply.com/application"
-              target="_blank"
-            >
+            <Link href="https://tally.so/r/mRZvBP" target="_blank">
               <Button variant="filled" className="bg-lightBlue">
                 Enroll Now
               </Button>

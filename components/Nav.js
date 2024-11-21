@@ -70,7 +70,7 @@ function NavListMenu({ handleLinkClick }) {
             className="flex items-center gap-2 py-2 pr-4 text-violet cursor-pointer hover:bg-transparent focus:bg-transparent active:bg-transparent"
             ripple={false}
           >
-            Course
+            Courses
             <ChevronDownIcon
               strokeWidth={2.5}
               className={`h-3 w-3 transition-transform lg:block ${
@@ -198,7 +198,7 @@ const Nav = () => {
   }, []);
 
   const handleLinkClick = (event) => {
-    event.stopPropagation(); // Stop event bubbling
+    // event.stopPropagation(); // Stop event bubbling
     setOpenNav(false); // Close the menu on link click
   };
 

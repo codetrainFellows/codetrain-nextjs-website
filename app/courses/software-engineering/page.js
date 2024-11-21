@@ -425,7 +425,7 @@ const Software = () => {
           </Typography>
         </div>
         <div className="flex flex-col md:flex-row justify-between gap-4 lg:w-2/5 text-textColor">
-          {accept.map(({ title, items }) => (
+          {accept.map(({ title, items, index }) => (
             <ul key={title} className="w-full">
               <li className="mb-3">
                 <Typography variant="h4" className="font-bold text-violet">

@@ -2,7 +2,6 @@
 import Link from "next/link";
 import { Typography } from "@material-tailwind/react";
 
-import { createContext } from "react";
 import Image from "next/image";
 
 const Footer = () => {

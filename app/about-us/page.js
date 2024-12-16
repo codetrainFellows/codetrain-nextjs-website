@@ -240,7 +240,7 @@ const AboutUs = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 lg:gap-20 place-content-center place-items-center mt-10">
           {team1.map((story) => (
             <Card
-              className="md:max-w-96 rounded-none col-span-1 odd:justify-self-end even:justify-self-start"
+              className="md:max-w-96 rounded-none col-span-1 odd:justify-self-end even:justify-self-start z-20"
               key={story.name}
             >
               <CardHeader

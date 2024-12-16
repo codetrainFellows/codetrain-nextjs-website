@@ -558,26 +558,13 @@ const team = [
       "Hello! I’m Foster, your Admissions Manager at Codetrain. With 3 years in administration, I'm here to ensure your start with us is as smooth as possible. Outside of work, I'm all about video games and cheering for my favorite football team.",
     role: "Admissions Manager",
   },
-  {
-    name: "Ajekwe Sarah Kadoon",
-    src: "/people/kadoon.jpg",
-    story:
-      "Hi! I’m Kadoon, Codetrain’s Digital Marketing Manager with 4+ years of experience launching startups and creating impactful digital solutions. I’m passionate about supporting students in tech and enjoy hiking, speaking at events, watching movies, and exploring the world.",
-    role: "Digital Marketing Manager",
-  },
+
   {
     name: "Flora Dadie",
     src: "/people/flora.jpg",
     story:
       "Hello, I am Talent Acquisition professional committed to revolutionizing how businesses attract and retain top talent through tech-driven talent solutions. Outside work, I travel the world through literature.",
     role: " Lead Career Services Coordinator",
-  },
-  {
-    name: " Ngozi Umekwe",
-    src: "/people/ngozi.jpg",
-    story:
-      "I’m Ngozi, with 3+ years of experience in administration and leadership. I'm passionate about empowering students with essential non-technical skills and organizing career-boosting events. Outside of work, I enjoy watching movies or exploring new trails on adventures.",
-    role: "Assistant Career Services",
   },
 ];
 

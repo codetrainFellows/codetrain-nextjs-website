@@ -572,7 +572,7 @@ const team = [
   //   story:
   //     "Hello, I am Talent Acquisition professional committed to revolutionizing how businesses attract and retain top talent through tech-driven talent solutions. Outside work, I travel the world through literature.",
   //   role: " Lead Career Services Coordinator",
-  // },
+  // },jb
 ];
 
 const team1 = [

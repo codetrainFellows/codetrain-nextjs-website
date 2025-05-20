@@ -257,7 +257,7 @@ const Software = () => {
         </Typography>
 
         <div className="grid grid-cols-1 md:grid-cols-2 place-items-center gap-10 mt-20 text-left">
-          <Card className=" max-w-md rounded-none md:justify-self-end">
+          {/* <Card className=" max-w-md rounded-none md:justify-self-end">
             <CardHeader
               floated={false}
               shadow={false}
@@ -295,8 +295,8 @@ const Software = () => {
                 Teaching Fellow
               </Typography>
             </CardFooter>
-          </Card>
-          <Card className="max-w-md rounded-none md:justify-self-start">
+          </Card> */}
+          <Card className="max-w-md rounded-none md:justify-self-end">
             <CardHeader
               floated={false}
               shadow={false}
@@ -334,7 +334,7 @@ const Software = () => {
               </Typography>
             </CardFooter>
           </Card>
-          <Card className="max-w-md rounded-none md:justify-self-end">
+          <Card className="max-w-md rounded-none md:justify-self-start">
             <CardHeader
               floated={false}
               shadow={false}
@@ -372,7 +372,7 @@ const Software = () => {
               </Typography>
             </CardFooter>
           </Card>
-          <Card className="max-w-md rounded-none md:justify-self-start">
+          <Card className="max-w-md rounded-none md:justify-self-end">
             <CardHeader
               floated={false}
               shadow={false}

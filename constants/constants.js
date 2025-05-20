@@ -566,6 +566,13 @@ const team = [
       "Hello, I am Talent Acquisition professional committed to revolutionizing how businesses attract and retain top talent through tech-driven talent solutions. Outside work, I travel the world through literature.",
     role: " Lead Career Services Coordinator",
   },
+  // {
+  //   name: "Kingsley Ashong",
+  //   src: "/people/kingsley.jpg",
+  //   story:
+  //     "Hello, I am Talent Acquisition professional committed to revolutionizing how businesses attract and retain top talent through tech-driven talent solutions. Outside work, I travel the world through literature.",
+  //   role: " Lead Career Services Coordinator",
+  // },
 ];
 
 const team1 = [

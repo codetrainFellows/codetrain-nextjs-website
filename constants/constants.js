@@ -566,28 +566,35 @@ const team = [
       "Hello, I am Talent Acquisition professional committed to revolutionizing how businesses attract and retain top talent through tech-driven talent solutions. Outside work, I travel the world through literature.",
     role: " Lead Career Services Coordinator",
   },
-  // {
-  //   name: "Kingsley Ashong",
-  //   src: "/people/kingsley.jpg",
-  //   story:
-  //     "Hello, I am Talent Acquisition professional committed to revolutionizing how businesses attract and retain top talent through tech-driven talent solutions. Outside work, I travel the world through literature.",
-  //   role: " Lead Career Services Coordinator",
-  // },jb
+  {
+    name: "Kingsley Ashong",
+    src: "/people/kingsley.jpg",
+    story:
+      "Meet Sam, the people-powered engine fuelling our vibrant culture. Armed with a PHRi™ certification and a passion for creating employee-first environments, he blends data-driven insights with genuine human connection. Sam’s on a mission to make HR feel like your favourite team sport: crafting clear career paths, celebrating every milestone, and making sure every voice is heard (yes, even in our Slack channel). Outside the office, you’ll find him capturing life through his camera lens.",
+    role: "HR Lead",
+  },
 ];
 
 const team1 = [
-  {
-    name: "Abdul Basit Ali",
-    src: "/people/ali.jpg",
-    story:
-      "Hey! I’m Ali, a Full Stack Developer and Teaching Fellow with 2 years of experience in React, ExpressJs, and MongoDB. I’m passionate about making learning fun and interactive. When not coding, I’m gaming to sharpen my tech skills!",
-    role: "Teaching Fellow",
-  },
+  // {
+  //   name: "Abdul Basit Ali",
+  //   src: "/people/ali.jpg",
+  //   story:
+  //     "Hey! I’m Ali, a Full Stack Developer and Teaching Fellow with 2 years of experience in React, ExpressJs, and MongoDB. I’m passionate about making learning fun and interactive. When not coding, I’m gaming to sharpen my tech skills!",
+  //   role: "Teaching Fellow",
+  // },
   {
     name: "Joshua Doe",
     src: "/people/joshua.jpg",
     story:
       "With 2 years of experience and a certificate in software development, I create interactive, student-centered learning. I'm the creator of the Ezy Money app and bring real-world scenarios to the classroom. Outside teaching, I love photography and coding.",
+    role: "Teaching Fellow",
+  },
+   {
+    name: "Harrison Boateng",
+    src: "/people/harrison.jpg",
+    story:
+      "Hi, I'm Harrison, a Teaching Fellow at Codetrain specializing in Software Development with 2 years of experience. I’ve built cool websites and am working on an exciting project. I’m dedicated to helping every student have their lightbulb moment. Outside work, I enjoy gaming.",
     role: "Teaching Fellow",
   },
   {
@@ -597,13 +604,14 @@ const team1 = [
       "I've spent the last two years in software development and instruction, certified by Codetrain Africa. Transitioning from a non-tech background has been exhilarating! I focus on hands-on learning and creative problem-solving. Outside of coding, I enjoy reading and playing sports.",
     role: "Teaching Fellow",
   },
-  {
-    name: "Harrison Boateng",
-    src: "/people/harrison.jpg",
+    {
+    name: "Samuel Adjetey",
+    src: "/people/sam.jpg",
     story:
-      "Hi, I'm Harrison, a Teaching Fellow at Codetrain specializing in Software Development with 2 years of experience. I’ve built cool websites and am working on an exciting project. I’m dedicated to helping every student have their lightbulb moment. Outside work, I enjoy gaming.",
+      "Hey! I’m Samuel, a Full Stack Developer and Teaching Fellow with 2 years of experience in React, ExpressJs, and MongoDB. I’m passionate about making learning fun and interactive. When not coding, I’m gaming to sharpen my tech skills!",
     role: "Teaching Fellow",
   },
+ 
   {
     name: "Calvin Tettey",
     src: "/people/calvin.jpg",

@@ -808,7 +808,7 @@ const UIUXDesign = () => {
               <div className="max-w-md mt-3">
                 <Typography>
                   <span className="font-bold">Payment Plan:</span> Start with an
-                  initial payment of GHS15,000, and pay the rest in monthly
+                  initial payment of GHS10,000, and pay the rest in monthly
                   installments.
                 </Typography>
               </div>

@@ -198,7 +198,7 @@ const AboutUs = () => {
               </CardFooter>
             </Card>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 place-content-center place-items-center mt-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2  gap-3 place-content-center place-items-center mt-10">
             {team.map((story) => (
               <Card
                 className="md:max-w-96 rounded-none col-span-1"

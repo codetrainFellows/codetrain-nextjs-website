@@ -573,13 +573,6 @@ const team = [
       "Meet Sam, the people-powered engine fuelling our vibrant culture. Armed with a PHRi™ certification and a passion for creating employee-first environments, he blends data-driven insights with genuine human connection. Sam’s on a mission to make HR feel like your favourite team sport: crafting clear career paths, celebrating every milestone, and making sure every voice is heard (yes, even in our Slack channel). Outside the office, you’ll find him capturing life through his camera lens.",
     role: "HR Lead",
   },
-   {
-    name: "Gifty Aboagyewaa Okai",
-    src: "/people/gifty.jpg",
-    story:
-      "I am a self motivated person who believes in personal growth and development. If I am not working, I would be watching movies or reading a good book.",
-    role: "MARKETING MANAGER",
-  },
 ];
 
 const team1 = [

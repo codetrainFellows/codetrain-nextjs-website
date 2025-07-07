@@ -75,7 +75,7 @@ export default function Home() {
                 </Link>
               </div>
               <p className="mt-8 text-xs font-extrabold  md:text-base text-textColor">
-                * Admission is in progress, join the October 2025 Cohort!
+                * Admission is in progress, join the September 2025 Cohort!
               </p>
             </div>
           </div>

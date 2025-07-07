@@ -573,6 +573,13 @@ const team = [
       "Meet Sam, the people-powered engine fuelling our vibrant culture. Armed with a PHRi™ certification and a passion for creating employee-first environments, he blends data-driven insights with genuine human connection. Sam’s on a mission to make HR feel like your favourite team sport: crafting clear career paths, celebrating every milestone, and making sure every voice is heard (yes, even in our Slack channel). Outside the office, you’ll find him capturing life through his camera lens.",
     role: "HR Lead",
   },
+   {
+    name: "Gifty Aboagyewaa Okai",
+    src: "/people/gifty.jpg",
+    story:
+      "I am a self motivated person who believes in personal growth and development. If I am not working, I would be watching movies or reading a good book.",
+    role: "MARKETING MANAGER",
+  },
 ];
 
 const team1 = [
@@ -587,14 +594,14 @@ const team1 = [
     name: "Joshua Doe",
     src: "/people/joshua.jpg",
     story:
-      "With 2 years of experience and a certificate in software development, I create interactive, student-centered learning. I'm the creator of the Ezy Money app and bring real-world scenarios to the classroom. Outside teaching, I love photography and coding.",
+      "With 3 years of experience and a certificate in software development, I create interactive, student-centered learning. I'm the creator of the Ezy Money app and bring real-world scenarios to the classroom. Outside teaching, I love photography and coding.",
     role: "Teaching Fellow",
   },
    {
     name: "Harrison Boateng",
     src: "/people/harrison.jpg",
     story:
-      "Hi, I'm Harrison, a Teaching Fellow at Codetrain specializing in Software Development with 2 years of experience. I’ve built cool websites and am working on an exciting project. I’m dedicated to helping every student have their lightbulb moment. Outside work, I enjoy gaming.",
+      "Hi, I'm Harrison, a Teaching Fellow at Codetrain specializing in Software Development with 3 years of experience. I’ve built cool websites and am working on an exciting project. I’m dedicated to helping every student have their lightbulb moment. Outside work, I enjoy gaming.",
     role: "Teaching Fellow",
   },
   {
@@ -605,10 +612,10 @@ const team1 = [
     role: "Teaching Fellow",
   },
     {
-    name: "Samuel Adjetey",
+    name: "Samuel Mensah",
     src: "/people/sam.jpg",
     story:
-      "Hey! I’m Samuel, a Full Stack Developer and Teaching Fellow with 2 years of experience in React, ExpressJs, and MongoDB. I’m passionate about making learning fun and interactive. When not coding, I’m gaming to sharpen my tech skills!",
+      "Hey! I’m Samuel, a Full Stack Developer and Teaching Fellow with 3 years of experience in React, ExpressJs, and MongoDB. I’m passionate about making learning fun and interactive. When not coding, I’m gaming to sharpen my tech skills!",
     role: "Teaching Fellow",
   },
  

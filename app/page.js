@@ -38,8 +38,8 @@ export default function Home() {
         <div className="bg-ash bg-opacity-80 flex justify-start items-center md:justify-around relative px-4 pt-20 pb-6 md:pb-0 lg:pr-0 lg:pt-0 md:pl-10">
           <div className="text-violet z-10  lg:pb-2 ">
             <h1 className="font-bold text-3xl md:text-3xl xl:text-5xl max-w-80 md:max-w-xl xl:max-w-3xl">
-              Start your career in <br /> Software Engineering <br />
-              <span className="font-light"> or UX/UI Design.</span>
+              Start your career in <br /> Software Engineering & AI <br />
+              <span className="font-light"> or UX/UI Design & AI.</span>
             </h1>
             <div className="md:ml-10 text-textColor">
               <ul className="list-disc pl-4 md:pl-0 mt-10 leading-normal font-extrabold text-sm md:text-xl md:max-w-xl">
@@ -47,11 +47,14 @@ export default function Home() {
                   Learn in-demand tech skills that companies are hiring for
                 </li>
                 <li className="mt-2">
-                  Get practical experience by working on projects and building a
-                  portfolio
+                  Gain future-ready tech skills in coding, design, and
+                  artificial intelligence.
                 </li>
                 <li className="mt-2">
-                  Get connected to jobs and start earning
+                  Build real projects, create a professional portfolio, and
+                  receive
+                  <br />
+                  1-on-1 career support to land top jobs.
                 </li>
               </ul>
 
@@ -178,19 +181,19 @@ export default function Home() {
               })}
             </div>
             <h3 className="text-violet font-bold text-2xl">
-              Software Engineer
+              Software Engineer & AI
             </h3>
             <Typography
               variant="paragraph"
               className="mt-4 text-textColor text-base md:text-lg"
             >
-              This is a 2-year program designed to take you from beginner to
-              mid-level software developer. In the first year, you&lsquo;ll
-              receive comprehensive training in software development. The second
-              year focuses on launching your career with tailored career
-              services, including interview preparation, technical workshops, an
-              innovation challenge, and internships. Get ready to build your
-              skills and kick-start your career with us!
+              This 2-year program takes you from beginner to mid-level developer
+              with AI skills. In year one, you will master full-stack
+              development and applied AI. Year two focuses on career launch with
+              job readiness support, interview prep, technical workshops,
+              internships, and our AI Job Readiness Accelerator. Build skills,
+              gain hands-on experience, and start your global
+              tech career with us!
             </Typography>
             <div className="space-x-4 flex">
               <Link
@@ -216,17 +219,19 @@ export default function Home() {
                 className: "h-12 w-12",
               })}
             </div>
-            <h3 className="text-violet font-bold text-2xl">UI/UX Designer</h3>
+            <h3 className="text-violet font-bold text-2xl">
+              UI/UX Design & AI
+            </h3>
             <Typography
               variant="paragraph"
               className="mt-4 text-textColor text-base md:text-lg"
             >
-              This is a 2-year program designed to transform you into a skilled
-              professional ready to tackle product requirements, craft
-              innovative design concepts, and bring them to life through
-              stunning websites and mobile apps. Throughout the course,
-              you&lsquo;ll collaborate with software teams and gain hands-on
-              experience through internship opportunities.
+              This 2-year program equips you to become a skilled designer who
+              can analyze product needs, craft innovative concepts, and deliver
+              engaging web and mobile experiences. You will explore AI-powered
+              design tools, collaborate with software teams, and gain
+              career-ready skills through our job readiness support, technical
+              workshops, and hands-on internships.
             </Typography>
             <div className="space-x-4 flex ">
               <Link href="https://codetrainafrica.heiapply.com/application">
@@ -314,10 +319,7 @@ export default function Home() {
             variant="paragraph"
             className="max-w-4xl mt-7 mx-auto font-medium text-textColor"
           >
-            Codetrain offers an amazing internationally recognized educational
-            experience, blending global standards with strong support for
-            underrepresented groups, ensuring an inclusive and empowering
-            learning environments for all students.
+            Codetrain delivers an internationally recognized educational journey, blending global standards with strong support for underrepresented groups. Through hands-on learning, mentorship, and career guidance, we provide an inclusive and empowering environment where every student can thrive. With the addition of our AI Job Readiness Accelerator, students gain cutting-edge AI skills and practical job preparation that position them to compete for the most in-demand roles in today’s tech industry.
           </Typography>
         </div>
         <div className="flex flex-col gap-14 items-center mt-10 z-10">

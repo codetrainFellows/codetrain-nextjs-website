@@ -35,13 +35,14 @@ const Software = () => {
         <div className="bg-ash bg-opacity-80 grid grid-cols-2 place-items-center min-h-[calc(100vh-64px)]">
           <div className="p-8 text-textColor leading-8 col-span-2 lg:col-span-1">
             <h2 className="text-4xl tracking-tight text-violet font-bold break-normal max-w-lg">
-              Grow your Software Engineering Skills with Us
+              Launch Your Global Tech Career in Software Engineering & AI
             </h2>
             <p className="my-8">
-              Our Software Engineering course is your gateway to excelling in
-              the fast-paced tech world. Whether you&#39;re a beginner or
-              looking to advance your skills, our program is tailored to make
-              you a top-notch software engineer.
+              Step into the future of tech with a 2-year program designed to
+              take you from beginner to job-ready. Learn full-stack development,
+              master applied AI, and gain the career support you need to land
+              top opportunities. Whether you are starting fresh or leveling up,
+              this is your path to becoming a world-class developer.
             </p>
             <div className="flex gap-x-4 mt-14 z-10">
               <Link

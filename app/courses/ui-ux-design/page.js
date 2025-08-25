@@ -35,10 +35,10 @@ const UIUXDesign = () => {
               Develop Your UI/UX Design Skills with Us
             </h2>
             <Typography variant="paragraph" className="my-8">
-              Our UI/UX Design course is your path to mastering the art of
-              user-centered design. From beginners to advanced learners, our
-              program equips you with the skills to create impactful and
-              user-friendly designs.
+               Step into the future of tech with a 2-year program designed to
+              take you from beginner to job-ready. Craft innovative concepts,
+              develiver engaging and mobile experience.Whether you are starting fresh or leveling up,
+              this is your path to becoming a world-class designer.
             </Typography>
             <div className="flex gap-x-4 mt-14 z-10">
               <Link

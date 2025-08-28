@@ -582,10 +582,10 @@ export default function Home() {
           <div className="flex flex-col gap-20 md:flex-row justify-center items-center">
             <div className="text-start bg-white shadow-xl max-w-sm relative grid place-content-center pb-8">
               <h3 className="text-violet font-bold text-2xl bg-yellow p-4">
-                Software Engineer
+                Software Engineer & AI
               </h3>
               <p className="mt-4 text-textColor text-lg p-4">
-                Our two-year education-to-employment program is priced at{" "}
+                Our two-year Software Engineering + AI program is priced at{" "}
                 <span className="font-[900]"> GHC 38,500</span> for Africans
                 living in Africa and <span className="font-[900]">$3,000</span>{" "}
                 for other applicants. <br /> We offer flexible payment options
@@ -594,14 +594,14 @@ export default function Home() {
             </div>
             <div className="text-start bg-white shadow-xl max-w-sm relative grid place-content-center pb-8">
               <h3 className="text-violet font-bold text-2xl bg-yellow p-4">
-                UX/UI Design
+                UX/UI Design & AI
               </h3>
               <p className="mt-4 text-textColor text-lg p-4">
-                The cost for our one-year education-to-employment program is{" "}
+                Our two-year UX/UI Design + AI program is priced at{" "}
                 <span className="font-[900]">GHC 38,500</span> for Africans
                 living in Africa and <span className="font-[900]">$3,000</span>{" "}
                 for other applicants. <br /> We offer flexible payment options
-                and partial scholarships to support diversity and inclusion.
+                and partial scholarships to promote diversity and inclusion.
               </p>
             </div>
           </div>

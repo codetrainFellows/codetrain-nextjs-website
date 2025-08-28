@@ -236,7 +236,7 @@ const CodetrainSolara = () => {
                   Program Pricing
                 </Typography>
                 <ul className="list-disc ml-5 mt-2">
-                  <li>$650 or GHS 10,000 per year</li>
+                  <li>GHS 10,000 per year</li>
                 </ul>
               </div>
               <div className="mt-4">

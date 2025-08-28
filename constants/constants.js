@@ -668,7 +668,7 @@ const solaraFellows = [
   {
     name: "Harrison Boateng",
     src: "/people/harrison.svg",
-    text: "Hi, I`m Harrison, a Teaching Fellow at Codetrain with a focus on Software Development. With 2 years of experience to my name and a Codetrain certificate to back it up, I`ve created some pretty cool websites and am currently executing an exciting new project that’ll blow your minds. My teaching philosophy? Simple: Don`t stop till they get it. I’m all about making sure every student has that lightbulb moment. When I`m not coding or teaching, you’ll probably find me seriously playing video games.",
+    text: "Hi, I`m Harrison, a Teaching Fellow at Codetrain with a focus on Software Development. With 3 years of experience to my name and a Codetrain certificate to back it up, I`ve created some pretty cool websites and am currently executing an exciting new project that’ll blow your minds. My teaching philosophy? Simple: Don`t stop till they get it. I’m all about making sure every student has that lightbulb moment. When I`m not coding or teaching, you’ll probably find me seriously playing video games.",
   },
   {
     name: "Ngozi Umekwe",

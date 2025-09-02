@@ -145,7 +145,7 @@ const Software = () => {
                   </li>
                   <li>
                     <Typography variant="paragraph">
-                      <span className="font-extrabold">SQL & Databases: </span>
+                      <span className="font-extrabold">Databases: </span>
                       Master data management using relational databases.
                     </Typography>
                   </li>
@@ -205,6 +205,39 @@ const Software = () => {
                       <span className="font-extrabold">Testing:</span>
                       Write and run tests to ensure your code is reliable and
                       bug-free.
+                    </Typography>
+                  </li>
+                </ul>
+              </li>
+               <li>
+                <Typography variant="h6" className="text-lg">
+                 Artificial Intelligence & Machine Learning
+                </Typography>
+                <ul className="list-disc ml-3 space-y-1">
+                  <li>
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">AI fundamentals & Python for AI: </span>{" "} 
+                      Learn the basics of AI and get hands-on with Python, the most widely used programming language in AI.
+
+                    </Typography>
+                  </li>
+                   <li>
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">Machine Learning models for real-world use:</span>{" "} 
+                      Build practical ML models and solve real-world problems in industries like finance, healthcare, and more.
+                    </Typography>
+                  </li>
+                   <li>
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">AI-powered web apps & automation:</span>{" "} 
+                      Create smart web apps and automate tasks by integrating AI into full-stack development.
+
+                    </Typography>
+                  </li>
+                  <li>
+                    <Typography variant="paragraph">
+                      <span className="font-extrabold">Responsible & ethical AI:</span>{" "} 
+                      Understand the importance of fairness, transparency, and ethics in AI development and deployment.
                     </Typography>
                   </li>
                 </ul>

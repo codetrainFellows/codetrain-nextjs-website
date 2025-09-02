@@ -685,7 +685,7 @@ const UIUXDesign = () => {
                 variant="paragraph"
                 className="font-normal text-textColor"
               >
-                UI/UX Designer
+                UI/UX Designer & AI
               </Typography>
             </CardFooter>
           </Card>

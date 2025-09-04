@@ -96,7 +96,7 @@ const UIUXDesign = () => {
             variant="paragraph"
             className="text-textColor max-w-5xl mx-auto mt-10"
           >
-            Get ready to master UI/UX design in our intensive one-year course,
+            Get ready to master UI/UX design in our intensive two-year course,
             focused on creating user-friendly and engaging experiences.
           </Typography>
         </div>

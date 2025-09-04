@@ -32,13 +32,15 @@ const UIUXDesign = () => {
         <div className=" bg-ash bg-opacity-80 grid grid-cols-2 place-items-center min-h-[calc(100vh-64px)]">
           <div className="p-8 text-textColor leading-8 col-span-2 lg:col-span-1">
             <h2 className="text-4xl text-violet font-bold max-w-lg ">
-              Develop Your UI/UX Design Skills with Us
+              Develop Your UI/UX Design & AI Skills with Us
             </h2>
             <Typography variant="paragraph" className="my-8">
-               Step into the future of tech with a 2-year program designed to
-              take you from beginner to job-ready. Craft innovative concepts,
-              develiver engaging and mobile experience.Whether you are starting fresh or leveling up,
-              this is your path to becoming a world-class designer.
+              Step into the future of tech with a 2-year program designed to
+              take you from beginner to job-ready. Our 2-year course blends
+              classic UI/UX fundamentals with the latest advances in AI-driven
+              design practices, ensuring graduates are not only skilled in
+              Figma, research, and visual design but also fluent in designing
+              for and with AI.
             </Typography>
             <div className="flex gap-x-4 mt-14 z-10">
               <Link

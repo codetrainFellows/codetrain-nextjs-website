@@ -628,7 +628,7 @@ export default function Home() {
       </section>
 
       {/* ISA */}
-      <section className="py-10 md:py-20 px-5 max-w-6xl mx-auto">
+      {/* <section className="py-10 md:py-20 px-5 max-w-6xl mx-auto">
         <Typography
           variant="h4"
           className="text-center text-pink font-bold uppercase "
@@ -707,7 +707,7 @@ export default function Home() {
             </Button>
           </Link>
         </div>
-      </section>
+      </section> */}
 
       {/* Discover Our Campus Section */}
       <section>

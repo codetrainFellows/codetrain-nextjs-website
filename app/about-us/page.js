@@ -167,12 +167,12 @@ const AboutUs = () => {
                 className="m-0 rounded-none"
               >
                 <Image
-                  src="/people/richard.jpg"
+                  src="/people/richard.jpeg"
                   alt="richard"
                   width={540}
                   height={276}
                   quality={100}
-                  className="object-cover h-80 !w-full"
+                  className="object-cover object-top h-80 !w-full"
                 />
               </CardHeader>
               <CardBody>

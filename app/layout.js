@@ -10,6 +10,7 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 import localFont from "next/font/local";
 import { ThemeProvider } from "@material-tailwind/react";
 import { theme } from "@/theme/theme";
+import Script from "next/script";
 
 const metadata = {
   title: "Codetrain Africa | Apps coding bootcamp and UI/UX design",
@@ -42,6 +43,21 @@ export default function RootLayout({ children }) {
           <title>{metadata.title}</title>
           <meta name="description" content={metadata.description} />
           <link rel="canonical" href="https://www.codetrainafrica.com/" />
+          <Script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=AW-714696786"
+          />
+
+          <Script id="google-ads-tag">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              
+              // This tracks every page view
+              gtag('config', 'AW-714696786');
+            `}
+          </Script>
         </head>
         <body className={helvetica.className}>
           <Nav />

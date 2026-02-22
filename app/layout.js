@@ -141,7 +141,7 @@ export const metadata = {
     title: "Codetrain Africa | Apps coding bootcamp and UI/UX design",
     description:
       "Learn fullstack web and mobile apps development from the most holistic coding bootcamp.",
-    images: ["https://www.codetrainafrica.com/people/group.jpg"],
+    images: ["https://www.codetrainafrica.com/people/new.jpg"],
   },
 };
 

@@ -128,7 +128,7 @@ export const metadata = {
     siteName: "Codetrain Africa",
     images: [
       {
-        url: "https://www.codetrainafrica.com/people/new.jpg",
+        url: "https://www.codetrainafrica.com/people/new1.jpg",
         width: 1200,
         height: 630,
         alt: "Codetrain Africa",
@@ -141,7 +141,7 @@ export const metadata = {
     title: "Codetrain Africa | Apps coding bootcamp and UI/UX design",
     description:
       "Learn fullstack web and mobile apps development from the most holistic coding bootcamp.",
-    images: ["https://www.codetrainafrica.com/people/new.jpg"],
+    images: ["https://www.codetrainafrica.com/people/new1.jpg"],
   },
 };
 

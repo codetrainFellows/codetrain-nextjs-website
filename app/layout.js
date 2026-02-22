@@ -128,7 +128,7 @@ export const metadata = {
     siteName: "Codetrain Africa",
     images: [
       {
-        url: "https://www.codetrainafrica.com/people/group.jpg",
+        url: "https://www.codetrainafrica.com/people/new.jpg",
         width: 1200,
         height: 630,
         alt: "Codetrain Africa",

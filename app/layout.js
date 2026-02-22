@@ -43,6 +43,25 @@ export default function RootLayout({ children }) {
           <title>{metadata.title}</title>
           <meta name="description" content={metadata.description} />
           <link rel="canonical" href="https://www.codetrainafrica.com/" />
+
+
+           {/* Open Graph tags - used by WhatsApp, Facebook, LinkedIn, Telegram, etc. */}
+           <meta property="og:title" content={metadata.title} />
+          <meta property="og:description" content={metadata.description} />
+          <meta property="og:url" content="https://www.codetrainafrica.com/" />
+          <meta property="og:type" content="website" />
+          <meta property="og:image" content="https://www.codetrainafrica.com/people/group.jpg" />
+          <meta property="og:image:width" content="1200" />
+          <meta property="og:image:height" content="630" />
+          <meta property="og:site_name" content="Codetrain Africa" />
+
+          {/* Twitter Card tags */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={metadata.title} />
+          <meta name="twitter:description" content={metadata.description} />
+          <meta name="twitter:image" content="https://www.codetrainafrica.com/people/group.jpg" />
+
+          
           <Script
             async
             src="https://www.googletagmanager.com/gtag/js?id=AW-714696786"

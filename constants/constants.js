@@ -573,13 +573,13 @@ const team = [
       "Hello, I’m Derrick, Finance Lead at Codetrain Africa, where I oversee financial planning, compliance, and reporting to ensure transparency and sustainability. With a strong background in auditing and financial management, I am passionate about building systems that support Codetrain’s mission of equipping young Africans with in-demand digital skills. Outside of work, I enjoy traveling across Ghana and exploring Africa",
     role: "FINANCE LEAD",
   },
-  {
-    name: "GIFTY ABOAGYEWAA OKAI",
-    src: "/people/gifty.jpg",
-    story:
-      "I am a self motivated person who believes in personal growth and development. If I am not working, I would be watching movies or reading a good book.",
-    role: "MARKETING MANAGER ",
-  },
+  // {
+  //   name: "GIFTY ABOAGYEWAA OKAI",
+  //   src: "/people/gifty.jpg",
+  //   story:
+  //     "I am a self motivated person who believes in personal growth and development. If I am not working, I would be watching movies or reading a good book.",
+  //   role: "MARKETING MANAGER ",
+  // },
 ];
 
 const team1 = [
@@ -619,13 +619,13 @@ const team1 = [
     role: "Teaching Fellow",
   },
 
-  {
-    name: "Calvin Tettey",
-    src: "/people/calvin.jpg",
-    story:
-      "Hi, I'm Calvin, a professional UX/UI designer with experience providing services to both local and international organizations. His passion for helping others extends into his role as a trainer at Codetrain, where he shares his knowledge and expertise to shape the next generation of UX designers.",
-    role: "Teaching Fellow",
-  },
+  // {
+  //   name: "Calvin Tettey",
+  //   src: "/people/calvin.jpg",
+  //   story:
+  //     "Hi, I'm Calvin, a professional UX/UI designer with experience providing services to both local and international organizations. His passion for helping others extends into his role as a trainer at Codetrain, where he shares his knowledge and expertise to shape the next generation of UX designers.",
+  //   role: "Teaching Fellow",
+  // },
 ];
 
 const advisoryTeam = [

@@ -3,306 +3,197 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Button, Typography } from "@material-tailwind/react";
-import { 
-  ChatBubbleLeftRightIcon, 
-  PhoneIcon,
-  ArrowRightIcon
-} from "@heroicons/react/24/solid";
-import BgLogoLeft from "@/public/icons/BgLogoLeft";
-import BgLogoRight from "@/public/icons/BgLogoRight";
-import CTLogo from "@/public/icons/CTLogo";
-import { hireOurStudents } from "@/constants/constants";
+import "./apply.css";
 
-// Reusing layout patterns from app/page.js
 export default function ApplyPage() {
   return (
-    <>
-      {/* Hero Section - Matching homepage style */}
-      <section className="bg-ash lg:bg-inherit relative px-4 py-16 md:py-24 lg:py-32">
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12">
-          <div className="text-violet z-10 max-w-2xl">
-            <h1 className="font-bold text-3xl md:text-5xl xl:text-6xl leading-tight mb-6">
-              Your tech career<br />
-              <span className="font-light"> starts here.</span>
-            </h1>
-            <div className="text-textColor">
-              <p className="text-lg md:text-xl font-medium mb-10 leading-relaxed opacity-80">
-                Learn software engineering or product design from scratch. Get hired at top companies — in Ghana and around the world. No experience needed.
-              </p>
-
-              <div className="flex flex-wrap gap-4 mb-12">
-                <Link href="https://codetrainafrica.heiapply.com/application" target="_blank">
-                  <Button
-                    className="bg-yellow text-violet shadow-none font-bold px-8 md:px-10 py-4 rounded-md hover:shadow-none transition-all"
-                    variant="filled"
-                  >
-                    Apply Now
-                  </Button>
-                </Link>
-                <Link href="https://wa.me/233545792397?text=Hi%2C+I+saw+your+ad+and+I%27m+interested+in+Codetrain" target="_blank">
-                  <Button
-                    className="bg-transparent border-violet text-violet shadow-none font-bold px-8 md:px-10 py-4 rounded-md flex items-center gap-2"
-                    variant="outlined"
-                  >
-                    <ChatBubbleLeftRightIcon className="w-5 h-5" />
-                    WhatsApp Us
-                  </Button>
-                </Link>
-              </div>
-              <p className="text-xs font-extrabold md:text-base text-textColor uppercase tracking-widest opacity-60">
-                * GHANA&apos;S LEADING AI & TECH TRAINING INSTITUTION
-              </p>
-            </div>
-          </div>
-          
-          <div className="relative w-full max-w-xl aspect-video rounded-xl overflow-hidden shadow-2xl border-4 border-white bg-black">
-            <iframe 
-              src="https://www.youtube.com/embed/xr_pJlJi0JE?rel=0&modestbranding=1" 
-              title="Codetrain Africa" 
-              className="absolute inset-0 w-full h-full"
-              allowFullScreen 
-              loading="lazy"
-            />
-          </div>
-        </div>
-        {/* Background logos for hero */}
-        <BgLogoRight className="fill-[#8c87a1] opacity-[0.2] size-60 sm:size-80 lg:size-6/12 absolute left-0 -top-11 lg:left-2/4 lg:-top-1 lg:-z-10" />
-        <BgLogoLeft className="fill-[#8c87a1] opacity-[0.2] size-40 sm:size-80 absolute left-0 top-36 sm:top-56 lg:top-1/2 lg:left-3/4 lg:-z-10" />
-      </section>
-
-      {/* Impact Stats Section - Matching homepage style */}
-      <section className="px-4 py-16 sm:px-14 sm:py-24 text-center bg-white relative">
-        <h1 className="font-bold text-violet text-xl sm:text-3xl lg:text-5xl mb-12">
-          Our Impact
-        </h1>
-        <div className="flex flex-col items-center justify-center lg:flex-row gap-16 lg:gap-32">
-          {[
-            { num: '700+', label: 'Developers trained', sub: 'Alumni and counting' },
-            { num: '89%', label: 'Job Placement', sub: 'Secure jobs within 6-9 months' },
-            { num: '91%', label: 'Life Quality', sub: 'Improved career and life quality' },
-          ].map((stat, i) => (
-            <div key={i} className="max-w-xs">
-              <h4 className="text-lg md:text-xl text-violet font-extrabold mb-3">
-                {stat.label}
-              </h4>
-              <h1 className="text-pink text-6xl md:text-8xl font-bold">{stat.num}</h1>
-              <p className="text-textColor mt-6 font-medium">{stat.sub}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* Programmes Section */}
-      <section className="bg-ash px-4 py-16 sm:px-14 sm:py-24 relative overflow-hidden">
-        <div className="max-w-6xl mx-auto text-center mb-16 relative z-10">
-          <h1 className="font-bold text-violet text-3xl lg:text-5xl mb-6">
-            Two Programmes. <span className="font-light">One Goal.</span>
-          </h1>
-          <p className="text-textColor text-lg max-w-3xl mx-auto">
-            Both are 18 months, open to complete beginners, and cost GHS 38,500. The difference is the career path they open for you.
-          </p>
-        </div>
-
-        <div className="grid md:grid-cols-2 gap-10 relative z-10">
-          {[
-            {
-              title: "Software Engineer & AI",
-              tag: "Full Stack AI Developer",
-              desc: "Build and deploy real AI-powered software. The kind companies in Germany, Canada, and the US actively hire for.",
-              roles: ['AI Engineer', 'Full Stack Developer', 'Product Engineer', 'Software Engineer', 'Frontend / Backend Developer', 'Tech Founder / CTO']
-            },
-            {
-              title: "UI/UX Design & AI",
-              tag: "Product Designer",
-              desc: "Design digital products from research to a live, published application — assessed by real industry reviewers.",
-              roles: ['Product Designer', 'UI/UX Designer', 'Product Designer (AI Tools)', 'UX Researcher', 'Digital Brand Designer', 'No-Code / Framer Developer']
-            }
-          ].map((prog, i) => (
-            <div key={i} className="bg-white p-8 md:p-12 rounded-xl shadow-sm border border-black/5 flex flex-col">
-              <span className="bg-yellow text-violet text-[10px] font-bold tracking-widest uppercase px-3 py-1 rounded-sm mb-6 inline-block w-fit">
-                {prog.title}
-              </span>
-              <h3 className="text-violet font-bold text-2xl md:text-3xl mb-4">{prog.tag}</h3>
-              <p className="text-textColor text-base mb-8 leading-relaxed">
-                {prog.desc}
-              </p>
-              <ul className="space-y-4 mb-10">
-                {prog.roles.map((role) => (
-                  <li key={role} className="flex items-center gap-3 text-violet font-semibold border-b border-violet/5 pb-3 last:border-0">
-                    <div className="w-1.5 h-1.5 bg-yellow rounded-full" />
-                    {role}
-                  </li>
-                ))}
-              </ul>
-              <Link href="https://codetrainafrica.heiapply.com/application" target="_blank" className="mt-auto">
-                <Button className="w-full bg-violet text-white font-bold py-4 rounded-md shadow-none hover:bg-violet/90 transition-all">
-                  Enroll for {prog.title.split(' ')[0]}
-                </Button>
-              </Link>
-            </div>
-          ))}
-        </div>
-
-        {/* Bg icons for programmes */}
-        <BgLogoLeft className="fill-yellow absolute -bottom-12 lg:bottom-0 -right-0 size-72 sm:size-96 md:size-2/4 opacity-40" />
-        <BgLogoRight className="fill-yellow absolute -top-12 lg:top-0 left-0 size-72 sm:size-96 md:size-2/4 opacity-40" />
-      </section>
-
-      {/* Success Stories Strip */}
-      <section className="px-4 py-20 bg-white relative">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
-            <h1 className="font-bold text-violet text-3xl lg:text-5xl mb-6">
-              Real Outcomes
-            </h1>
-            <p className="text-textColor text-lg">People just like you. Already there.</p>
-          </div>
-          
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              { name: 'Awal', meta: 'Zero coding experience', desc: 'Senior Developer at Big Viking Games, Canada. Works from Accra.' },
-              { name: 'Oscarlyn', meta: 'Medical doctor — no tech background', desc: 'Best student of 2023. Hired on the spot at demo day.' },
-              { name: 'Anthony', meta: 'Dropped out of university', desc: 'Now at Infinitas Media, Berlin. Working in Germany.' },
-              { name: 'Catherine', meta: 'Finance executive for 4 years', desc: 'Career pivot. Now a frontend developer building an insurance app.' },
-              { name: 'Gerard', meta: 'Attended a Codetrain demo day', desc: 'Hired on the spot by the CEO of Meqasa. Now at Hubtel.' },
-              { name: 'Zak', meta: 'Computer Engineering student', desc: 'Now at a tech company in Berlin — before his university class graduated.' },
-            ].map((story, i) => (
-              <div key={i} className="p-6 border border-violet/10 rounded-xl hover:bg-ash/20 transition-colors">
-                <div className="text-violet font-bold text-lg mb-1">{story.name}</div>
-                <div className="text-pink text-xs font-bold uppercase mb-4 tracking-wider">{story.meta}</div>
-                <p className="text-textColor text-sm font-medium leading-relaxed">{story.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Employers Section - Matching homepage style */}
-      <section className="text-center py-12 px-10 shadow-md border-t border-t-black/5 bg-white relative overflow-hidden">
-        <h1 className="text-xl md:text-2xl text-violet font-semibold mb-12 relative z-10">
-          Our Graduates work at
-        </h1>
-        <div className="flex flex-wrap justify-center items-center gap-10 md:gap-16 opacity-70 relative z-10">
-          {hireOurStudents.map((company, i) => (
-            <div key={i} className="grayscale hover:grayscale-0 transition-all duration-300">
-              <Image
-                src={company.src}
-                alt={company.name}
-                width={120}
-                height={60}
-                className="max-h-12 w-auto object-contain"
-              />
-            </div>
-          ))}
-        </div>
-        <BgLogoRight className="fill-ash opacity-[0.2] absolute size-96 sm:size-[546px] -bottom-10 sm:-bottom-24 lg:-bottom-1/4 left-0" />
-      </section>
-
-      {/* Who Can Join Section */}
-      <section className="bg-ash px-4 py-16 sm:px-14 sm:py-24 relative overflow-hidden">
-        <div className="max-w-6xl mx-auto text-center mb-16 relative z-10">
-          <h1 className="font-bold text-violet text-3xl lg:text-5xl mb-6">
-            This was built <span className="font-light">for you.</span>
-          </h1>
-          <p className="text-textColor text-lg max-w-3xl mx-auto">
-            No entry test. No prior experience. No degree required. Just commitment.
-          </p>
-        </div>
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 relative z-10">
-          {[
-            { title: 'SHS graduate deciding what\'s next', body: 'You could be employed in 18 months — while classmates on a 4-year degree are still waiting.' },
-            { title: 'University student', body: 'Join on weekends. Graduate from Codetrain before your university class — already employed.' },
-            { title: 'Working and want to switch careers', body: 'Train on weekends. Keep your job Monday to Friday. Quit when you are ready.' },
-            { title: 'Graduate who can\'t find meaningful work', body: '89% of Codetrain graduates are employed after the programme. That number speaks for itself.' },
-            { title: 'Based outside Accra', body: 'Fully online. Same live classes, same instructors, same certification — from anywhere in Ghana.' },
-            { title: 'Aspiring entrepreneur', body: 'You have the idea. Codetrain gives you the ability to build it. "I have an idea" becomes "I shipped a product."' },
-          ].map((item, i) => (
-            <div key={i} className="bg-white p-8 rounded-xl border border-violet/10 shadow-sm">
-              <h4 className="text-violet font-bold text-lg mb-3 leading-tight">{item.title}</h4>
-              <p className="text-textColor text-sm leading-relaxed">{item.body}</p>
-            </div>
-          ))}
-        </div>
-        <BgLogoLeft className="fill-pink opacity-[0.2] absolute size-96 sm:size-[546px] -bottom-10 sm:-bottom-24 lg:bottom-1/3 right-0 sm:inline" />
-      </section>
-
-      {/* Fees Section */}
-      <section className="bg-ash px-4 py-20 text-center border-t border-violet/5 relative overflow-hidden">
-        <div className="max-w-4xl mx-auto relative z-10">
-          <h1 className="font-bold text-violet text-3xl lg:text-5xl mb-6">
-            Transparent. Flexible.
-          </h1>
-          <p className="text-textColor text-lg mb-12 max-w-2xl mx-auto">
-            Investing in your future is an important decision. We offer flexible payment plans to make your learning journey as smooth as possible.
-          </p>
-          
-          <div className="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden">
-            <div className="bg-yellow py-6 px-8 text-violet font-bold text-xl md:text-2xl">
-              Programme Fees
-            </div>
-            <div className="p-8 md:p-12 space-y-8">
-              {[
-                { label: 'Full programme fee', val: 'GHS 38,500' },
-                { label: 'Scholarship (Women, Disability, Low-income)', val: 'Up to 40% off', highlight: true },
-                { label: 'Minimum fee with scholarship', val: 'GHS 23,100', highlight: true },
-                { label: 'Deposit to secure place', val: 'GHS 10,000' },
-              ].map((row, i) => (
-                <div key={i} className="flex flex-col md:flex-row justify-between items-center gap-2 md:gap-8 border-b border-violet/5 pb-6 last:border-0">
-                  <div className="text-violet font-semibold text-lg">{row.label}</div>
-                  <div className={`text-2xl font-bold ${row.highlight ? 'text-pink' : 'text-violet'}`}>{row.val}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-        <BgLogoLeft className="absolute fill-yellow opacity-[0.2] size-96 sm:size-[540px] md:size-[669px] -top-16 md:-top-10 p-0 right-0" />
-        <BgLogoRight className="absolute fill-yellow size-96 sm:size-[540px] md:size-[669px] -bottom-16 md:-bottom-32 p-0 left-0" />
-      </section>
-
-      {/* Final CTA Section */}
-      <section className="px-4 py-24 text-center bg-white relative overflow-hidden">
-        <div className="max-w-4xl mx-auto relative z-10">
-          <h1 className="font-bold text-violet text-4xl md:text-6xl mb-8 leading-tight">
-            Ready to switch to <br />
-            <span className="text-pink italic">the winning side?</span>
-          </h1>
-          <p className="text-textColor text-lg md:text-xl mb-12 max-w-xl mx-auto">
-            The July 2026 cohort is filling now. Spots are limited and scholarships are still available.
-          </p>
-          <div className="flex flex-wrap justify-center gap-6">
-            <Link href="https://codetrainafrica.heiapply.com/application" target="_blank">
-              <Button className="bg-yellow text-violet shadow-none font-bold px-10 py-4 rounded-md hover:scale-105 transition-all">
-                Apply Now
-              </Button>
-            </Link>
-            <Link href="tel:+233545792397">
-              <Button className="bg-violet text-white shadow-none font-bold px-10 py-4 rounded-md hover:scale-105 transition-all">
-                Call Admissions
-              </Button>
-            </Link>
-          </div>
-        </div>
-        <CTLogo
-          className="absolute size-[1080px] md:size-[800px] -left-3 md:left-20 lg:left-1/4 object-cover text-[#e0e0e0] opacity-30"
-          color="#c2c0c0"
+    <div className="apply-page-container">
+      {/* NAV */}
+      <nav className="nav">
+        <Image 
+          src="/codetrain-logo.png" 
+          alt="Codetrain Africa" 
+          width={150}
+          height={40}
+          className="nav-logo invert brightness-200"
         />
+        <Link href="https://codetrainafrica.heiapply.com/application" className="nav-apply" target="_blank">Apply Now</Link>
+      </nav>
+
+      {/* HERO */}
+      <section className="hero">
+        <div className="hero-eyebrow">Ghana&apos;s Leading AI &amp; Tech Training Institution</div>
+        <h1>Your tech career<br /><span>starts here.</span></h1>
+        <p className="hero-sub">Learn software engineering or product design from scratch. Get hired at top companies — in Ghana and around the world. No experience needed.</p>
+
+        <div className="hero-ctas">
+          <Link href="https://codetrainafrica.heiapply.com/application" target="_blank" className="btn-gold">Apply Now</Link>
+          <Link href="https://wa.me/233545792397?text=Hi%2C+I+saw+your+ad+and+I%27m+interested+in+Codetrain" target="_blank" className="btn-green">💬 WhatsApp Us</Link>
+          <Link href="tel:+233545792397" className="btn-outline">📞 +233 545 792 397</Link>
+        </div>
+
+        <div className="video-wrap">
+          <iframe 
+            src="https://www.youtube.com/embed/xr_pJlJi0JE?rel=0&modestbranding=1" 
+            title="Codetrain Africa" 
+            allowFullScreen 
+            loading="lazy"
+          />
+        </div>
       </section>
 
-      {/* Sticky Quick Links */}
-      <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
-        <Link href="https://wa.me/233545792397?text=Hi%2C+I%27m+interested+in+Codetrain" target="_blank">
-          <div className="bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-all cursor-pointer">
-            <ChatBubbleLeftRightIcon className="w-8 h-8" />
-          </div>
-        </Link>
-        <Link href="tel:+233545792397">
-          <div className="bg-violet text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-all cursor-pointer">
-            <PhoneIcon className="w-8 h-8" />
-          </div>
-        </Link>
+      {/* PROOF */}
+      <div className="proof">
+        <div className="proof-item"><span className="proof-num">700+</span><span className="proof-lbl">Developers trained</span></div>
+        <div className="proof-item"><span className="proof-num">89%</span><span className="proof-lbl">Graduate employment rate</span></div>
+        <div className="proof-item"><span className="proof-num">91%</span><span className="proof-lbl">Report improved quality of life</span></div>
+        <div className="proof-item"><span className="proof-num">0</span><span className="proof-lbl">Prior experience required</span></div>
       </div>
-    </>
+
+      {/* PROGRAMMES */}
+      <section className="sec off">
+        <div className="sec-inner">
+          <div className="sec-label">Two Programmes</div>
+          <h2>Choose your <span className="g">path.</span></h2>
+          <p className="sec-lead">Both are 18 months, open to complete beginners, and cost GHS 38,500. The difference is the career they open.</p>
+          <div className="prog-grid">
+            <div className="prog-card">
+              <div className="prog-head">
+                <div className="prog-badge">Software Engineering</div>
+                <div className="prog-title">Full Stack AI Developer</div>
+                <div className="prog-meta">18 months · GHS 38,500 · Zero experience required</div>
+              </div>
+              <div className="prog-body">
+                <p className="prog-desc">Build and deploy real AI-powered software. The kind companies in Germany, Canada, and the US actively hire for.</p>
+                <ul className="role-list">
+                  <li>AI Engineer</li>
+                  <li>Full Stack Developer</li>
+                  <li>Product Engineer</li>
+                  <li>Software Engineer</li>
+                  <li>Frontend / Backend Developer</li>
+                  <li>Tech Founder / CTO</li>
+                </ul>
+                <Link href="https://codetrainafrica.heiapply.com/application" target="_blank" className="prog-btn">Apply for Software Engineering →</Link>
+              </div>
+            </div>
+            <div className="prog-card">
+              <div className="prog-head">
+                <div className="prog-badge">Product Design</div>
+                <div className="prog-title">Product Designer</div>
+                <div className="prog-meta">18 months · GHS 38,500 · Zero experience required</div>
+              </div>
+              <div className="prog-body">
+                <p className="prog-desc">Design digital products from research to a live, published application — assessed by real industry reviewers.</p>
+                <ul className="role-list">
+                  <li>Product Designer</li>
+                  <li>UI/UX Designer</li>
+                  <li>Product Designer (AI Tools)</li>
+                  <li>UX Researcher</li>
+                  <li>Digital Brand Designer</li>
+                  <li>No-Code / Framer Developer</li>
+                </ul>
+                <Link href="https://codetrainafrica.heiapply.com/application" target="_blank" className="prog-btn">Apply for Product Design →</Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* GRADUATES */}
+      <section className="sec">
+        <div className="sec-inner">
+          <div className="sec-label">Real Outcomes</div>
+          <h2>People just like you. <span className="g">Already there.</span></h2>
+          <p className="sec-lead">Real graduates. Real names. Real companies. More stories at codetrainafrica.com/success-stories.</p>
+          <div className="grad-grid">
+            <div className="gc"><div className="ga">Aw</div><div className="gb"><div className="gn">Awal</div><div className="gbe">Zero coding experience</div><div className="gaf">Senior Developer at Big Viking Games, Canada. Works from Accra.</div></div></div>
+            <div className="gc"><div className="ga">Os</div><div className="gb"><div className="gn">Oscarlyn</div><div className="gbe">Medical doctor — no tech background</div><div className="gaf">Best student of 2023. Hired on the spot at demo day.</div></div></div>
+            <div className="gc"><div className="ga">An</div><div className="gb"><div className="gn">Anthony</div><div className="gbe">Dropped out of university</div><div className="gaf">Now at Infinitas Media, Berlin. Working in Germany.</div></div></div>
+            <div className="gc"><div className="ga">Ca</div><div className="gb"><div className="gn">Catherine</div><div className="gbe">Finance executive for 4 years</div><div className="gaf">Career pivot. Now a frontend developer building an insurance app.</div></div></div>
+            <div className="gc"><div className="ga">Ge</div><div className="gb"><div className="gn">Gerard</div><div className="gbe">Attended a Codetrain demo day</div><div className="gaf">Hired on the spot by the CEO of Meqasa. Now at Hubtel.</div></div></div>
+            <div className="gc"><div className="ga">Za</div><div className="gb"><div className="gn">Zak</div><div className="gbe">Computer Engineering student</div><div className="gaf">Now at a tech company in Berlin — before his university class graduated.</div></div></div>
+          </div>
+        </div>
+      </section>
+
+      {/* EMPLOYERS */}
+      <div className="emp-strip">
+        <div className="emp-label">Our graduates work at</div>
+        <div className="emp-names">
+          <strong>Ecobank</strong> &nbsp;·&nbsp; <strong>Stanchart</strong> &nbsp;·&nbsp; <strong>Hubtel</strong> &nbsp;·&nbsp; <strong>mPharma</strong> &nbsp;·&nbsp; <strong>Meqasa</strong> &nbsp;·&nbsp; <strong>Afrifanom</strong> &nbsp;·&nbsp; <strong>Eganaw</strong> &nbsp;·&nbsp; <strong>Remotown</strong> &nbsp;·&nbsp; <strong>Infinitas Media (Germany)</strong> &nbsp;·&nbsp; <strong>SAGE (Germany)</strong> &nbsp;·&nbsp; <strong>Big Viking Games (Canada)</strong> &nbsp;·&nbsp; <strong>Latter Day Saints</strong> &nbsp;·&nbsp; and more
+        </div>
+      </div>
+
+      {/* WHO */}
+      <section className="sec off">
+        <div className="sec-inner">
+          <div className="sec-label">Who Can Join</div>
+          <h2>This was built <span className="g">for you.</span></h2>
+          <p className="sec-lead">No entry test. No prior experience. No degree required. Just commitment.</p>
+          <div className="who-grid">
+            <div className="wc"><div className="wt">SHS graduate deciding what&apos;s next</div><div className="wb">You could be employed in 18 months — while classmates on a 4-year degree are still waiting.</div></div>
+            <div className="wc"><div className="wt">University student</div><div className="wb">Join on weekends. Graduate from Codetrain before your university class — already employed.</div></div>
+            <div className="wc"><div className="wt">Working and want to switch careers</div><div className="wb">Train on weekends. Keep your job Monday to Friday. Quit when you are ready.</div></div>
+            <div className="wc"><div className="wt">Graduate who can&apos;t find meaningful work</div><div className="wb">89% of Codetrain graduates are employed after the programme. That number speaks for itself.</div></div>
+            <div className="wc"><div className="wt">Based outside Accra</div><div className="wb">Fully online. Same live classes, same instructors, same certification — from anywhere in Ghana.</div></div>
+            <div className="wc"><div className="wt">Aspiring entrepreneur</div><div className="wb">You have the idea. Codetrain gives you the ability to build it. &quot;I have an idea&quot; becomes &quot;I shipped a product.&quot;</div></div>
+          </div>
+        </div>
+      </section>
+
+      {/* FEES */}
+      <section className="sec">
+        <div className="sec-inner">
+          <div className="sec-label">Fees &amp; Scholarships</div>
+          <h2>Transparent. <span className="g">Flexible.</span></h2>
+          <p className="sec-lead">One fee for both programmes. Scholarships available. Start with a deposit.</p>
+          <div className="fee-row"><div className="fee-lbl">Full programme fee — both programmes</div><div className="fee-val">GHS 38,500</div></div>
+          <div className="fee-row"><div className="fee-lbl">Scholarship — women, low-income, people with disability</div><div className="fee-val g">Up to 40% off</div></div>
+          <div className="fee-row"><div className="fee-lbl">Minimum fee with full scholarship</div><div className="fee-val g">GHS 23,100</div></div>
+          <div className="fee-row"><div className="fee-lbl">Deposit to secure your place</div><div className="fee-val">GHS 10,000</div></div>
+          <div className="fee-row"><div className="fee-lbl">Balance</div><div className="fee-val sm">Monthly instalments over 4–6 months before Phase 2</div></div>
+          <div className="fee-row"><div className="fee-lbl">Payment methods</div><div className="fee-val sm">Paystack · Bank transfer · Cash at East Legon</div></div>
+
+          <div className="contact-box">
+            <div className="contact-item">
+              <label>Call or WhatsApp</label>
+              <Link href="tel:+233545792397">+233 545 792 397</Link>
+              <span>Mon – Sat, 8am – 6pm</span>
+            </div>
+            <div className="contact-item">
+              <label>Email admissions</label>
+              <Link href="mailto:admissions@codetrainafrica.com">admissions@codetrainafrica.com</Link>
+              <span>We reply within 24 hours</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FINAL CTA */}
+      <section className="cta-sec">
+        <div className="sec-inner">
+          <div className="sec-label">Apply Today</div>
+          <h2>The July 2026 cohort <span className="g">is filling now.</span></h2>
+          <p>Spots are limited. Scholarships available.</p>
+          <div className="cta-buttons">
+            <Link href="https://codetrainafrica.heiapply.com/application" className="btn-gold" target="_blank">Apply on the Website</Link>
+            <Link href="https://wa.me/233545792397?text=Hi%2C+I+want+to+apply+to+Codetrain" className="btn-green" target="_blank">💬 WhatsApp Us</Link>
+            <Link href="tel:+233545792397" className="btn-outline">📞 +233 545 792 397</Link>
+          </div>
+        </div>
+      </section>
+
+      {/* FOOTER */}
+      <footer className="footer">
+        <p>Codetrain Africa &nbsp;·&nbsp; East Legon, 16a Parsnip Street, Accra &nbsp;·&nbsp; +233 545 792 397 &nbsp;·&nbsp; admissions@codetrainafrica.com &nbsp;·&nbsp; codetrainafrica.com</p>
+      </footer>
+
+      {/* STICKY BAR */}
+      <div className="sticky">
+        <Link href="https://codetrainafrica.heiapply.com/application" className="s-apply" target="_blank">🎓 Apply Now</Link>
+        <Link href="https://wa.me/233545792397?text=Hi%2C+I+m+interested+in+Codetrain" className="s-wa" target="_blank">💬 WhatsApp</Link>
+        <Link href="tel:+233545792397" className="s-call">📞 +233 545 792 397</Link>
+      </div>
+    </div>
   );
 }

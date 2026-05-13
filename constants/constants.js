@@ -1,4 +1,4 @@
-const sponsorImages = [
+export const sponsorImages = [
   {
     name: "SAP",
     src: "/images/sap.jpg",
@@ -121,7 +121,7 @@ const sponsorImages = [
   },
 ];
 
-const hireOurStudents = [
+export const hireOurStudents = [
   {
     name: "Microsoft",
     src: "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31",
@@ -204,7 +204,7 @@ const hireOurStudents = [
   },
 ];
 
-const inMedia = [
+export const inMedia = [
   {
     name: "Disrupt Ghana",
     src: "/images/disruptafricas.png",
@@ -234,7 +234,7 @@ const inMedia = [
   },
 ];
 
-const successStories = [
+export const successStories = [
   {
     name: "Lee",
     src: "/people/korkor.png",
@@ -265,7 +265,7 @@ const successStories = [
   },
 ];
 
-const faq = [
+export const faq = [
   {
     question: "What is the duration of the course?",
     answer:
@@ -331,11 +331,11 @@ const faq = [
   },
 ];
 
-const faqUIUX = [
+export const faqUIUX = [
   {
     question: "What is the duration of the course?",
     answer:
-      "The duration of the UI/UX course at Codetrain is 24 months. This comprehensive program is designed to equip you with the essential skills needed for a successful career in user experience and user interface design. Throughout the course, you'll engage in hands-on projects and receive mentorship to help you build a strong portfolio.",
+      "The duration of the UI/UX course at Codetrain is 24 months. This comprehensive program is designed to equip you with the essential skills needed for a career in user experience and user interface design. Throughout the course, you'll engage in hands-on projects and receive mentorship to help you build a strong portfolio.",
   },
   {
     question: "What is the schedule for the class?",
@@ -385,7 +385,7 @@ const faqUIUX = [
   },
 ];
 
-const faqSolara = [
+export const faqSolara = [
   {
     question: "Why should I choose Codetrain Solara for my child?",
     answer:
@@ -418,7 +418,7 @@ const faqSolara = [
   },
 ];
 
-const accept = [
+export const accept = [
   {
     title: "What you’ll need:",
     items: [
@@ -452,7 +452,7 @@ const accept = [
   },
 ];
 
-const acceptUiUx = [
+export const acceptUiUx = [
   {
     title: "What you’ll need:",
     items: [
@@ -486,7 +486,7 @@ const acceptUiUx = [
   },
 ];
 
-const applicationProcess = [
+export const applicationProcess = [
   {
     id: 1,
     title: "Create account",
@@ -504,7 +504,7 @@ const applicationProcess = [
   },
 ];
 
-const applicationProcessSolara = [
+export const applicationProcessSolara = [
   {
     id: 1,
     title: "Create account",
@@ -527,7 +527,7 @@ const applicationProcessSolara = [
   },
 ];
 
-const whyCodetrain = [
+export const whyCodetrain = [
   {
     title: " Industry-Aligned Curriculum",
     desc: "Our course content is constantly updated to reflect the latest trends and demands in the tech industry. We collaborate with leading tech companies to ensure that our training is relevant and practical",
@@ -550,7 +550,7 @@ const whyCodetrain = [
   },
 ];
 
-const team = [
+export const team = [
   {
     name: "Foster Frimpong",
     src: "/people/foster.jpg",
@@ -573,23 +573,9 @@ const team = [
       "Hello, I’m Derrick, Finance Lead at Codetrain Africa, where I oversee financial planning, compliance, and reporting to ensure transparency and sustainability. With a strong background in auditing and financial management, I am passionate about building systems that support Codetrain’s mission of equipping young Africans with in-demand digital skills. Outside of work, I enjoy traveling across Ghana and exploring Africa",
     role: "FINANCE LEAD",
   },
-  // {
-  //   name: "GIFTY ABOAGYEWAA OKAI",
-  //   src: "/people/gifty.jpg",
-  //   story:
-  //     "I am a self motivated person who believes in personal growth and development. If I am not working, I would be watching movies or reading a good book.",
-  //   role: "MARKETING MANAGER ",
-  // },
 ];
 
-const team1 = [
-  // {
-  //   name: "Abdul Basit Ali",
-  //   src: "/people/ali.jpg",
-  //   story:
-  //     "Hey! I’m Ali, a Full Stack Developer and Teaching Fellow with 2 years of experience in React, ExpressJs, and MongoDB. I’m passionate about making learning fun and interactive. When not coding, I’m gaming to sharpen my tech skills!",
-  //   role: "Teaching Fellow",
-  // },
+export const team1 = [
   {
     name: "Joshua Doe",
     src: "/people/joshua.jpg",
@@ -618,17 +604,9 @@ const team1 = [
       "Hey! I’m Samuel, a Full Stack Developer and Teaching Fellow with 3 years of experience in React, ExpressJs, and MongoDB. I’m passionate about making learning fun and interactive. When not coding, I’m gaming to sharpen my tech skills!",
     role: "Teaching Fellow",
   },
-
-  // {
-  //   name: "Calvin Tettey",
-  //   src: "/people/calvin.jpg",
-  //   story:
-  //     "Hi, I'm Calvin, a professional UX/UI designer with experience providing services to both local and international organizations. His passion for helping others extends into his role as a trainer at Codetrain, where he shares his knowledge and expertise to shape the next generation of UX designers.",
-  //   role: "Teaching Fellow",
-  // },
 ];
 
-const advisoryTeam = [
+export const advisoryTeam = [
   {
     name: "Adwoa Boakye",
     src: "/people/adwoa boakye.jpeg",
@@ -659,7 +637,7 @@ const advisoryTeam = [
   },
 ];
 
-const solaraFellows = [
+export const solaraFellows = [
   {
     name: "William Brandt",
     src: "/people/william.svg",
@@ -676,22 +654,3 @@ const solaraFellows = [
     text: "I’m Ngozi, with 3+ years of experience in administration and leadership. I'm passionate about empowering students with essential non-technical skills and organizing career-boosting events. Outside of work, I enjoy watching movies or exploring new trails on adventures.",
   },
 ];
-
-module.exports = {
-  sponsorImages,
-  inMedia,
-  successStories,
-  faq,
-  accept,
-  applicationProcess,
-  whyCodetrain,
-  team,
-  team1,
-  advisoryTeam,
-  hireOurStudents,
-  acceptUiUx,
-  faqUIUX,
-  solaraFellows,
-  applicationProcessSolara,
-  faqSolara,
-};

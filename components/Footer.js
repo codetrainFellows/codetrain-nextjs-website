@@ -6,6 +6,9 @@ import { usePathname } from "next/navigation";
 import Image from "next/image";
 
 const Footer = () => {
+  const path = usePathname();
+  if (path === "/apply") return null;
+
   const links = [
     {
       title: "Company",

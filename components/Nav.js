@@ -198,11 +198,12 @@ const Nav = () => {
   }, []);
 
   const handleLinkClick = (event) => {
-    // event.stopPropagation(); // Stop event bubbling
-    setOpenNav(false); // Close the menu on link click
+    setOpenNav(false);
   };
 
   const path = usePathname();
+
+  if (path === "/apply") return null;
 
   return (
     <Navbar className="sticky top-0 z-50 mx-auto max-w-full px-4 py-2 rounded-none shadow-none">

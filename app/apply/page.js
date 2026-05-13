@@ -51,7 +51,7 @@ export default function ApplyPage() {
                 </Link>
               </div>
               <p className="text-xs font-extrabold md:text-base text-textColor uppercase tracking-widest opacity-60">
-                * GHANA'S LEADING AI & TECH TRAINING INSTITUTION
+                * GHANA&apos;S LEADING AI & TECH TRAINING INSTITUTION
               </p>
             </div>
           </div>

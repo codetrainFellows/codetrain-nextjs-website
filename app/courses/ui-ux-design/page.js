@@ -64,7 +64,7 @@ const UIUXDesign = () => {
               </Link>
             </div>
             <Typography variant="paragraph" className="mt-12">
-              * Admission is in progress, join the October Cohort!
+              * Admission is in progress, join the July Cohort!
             </Typography>
           </div>
           <div className="hidden lg:inline">

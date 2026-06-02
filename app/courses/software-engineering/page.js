@@ -66,7 +66,7 @@ const Software = () => {
               </Link>
             </div>
             <p className="mt-12">
-              * Admission is in progress, join the October Cohort!
+              * Admission is in progress, join the July Cohort!
             </p>
           </div>
           <div className="hidden lg:inline">

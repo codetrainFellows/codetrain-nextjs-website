@@ -105,7 +105,7 @@ const helvetica = localFont({
 });
 
 export const metadata = {
-  title: "Codetrain Africa | AI-Native Software Engineering & Product Design"
+  title: "Codetrain Africa | AI-Native Software Engineering & Product Design",
   description:
     "Learn fullstack web and mobile apps development from the most holistic coding bootcamp. We have live interactive virtual and in-person options available.",
   keywords: [

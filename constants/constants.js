@@ -269,7 +269,7 @@ export const faq = [
   {
     question: "What is the duration of the course?",
     answer:
-      "The duration of the course is 24 months. The first year is when most of the training happens. Candidates learn how to code from scratch and begin to build their portfolios right from month one.The second year focuses on career services. Trainees have internships, mock interviews, and a mega Demo Day to prepare them to officially graduate and land their first full-time roles.",
+      "The duration of the course is 18 months. The first 12 months is when most of the training happens. Candidates learn how to code from scratch and begin to build their portfolios right from month one. The remaining 6 months focus on career services. Trainees have internships, mock interviews, and a mega Demo Day to prepare them to officially graduate and land their first full-time roles.",
   },
   {
     question: "What is the schedule for the class?",
@@ -335,7 +335,7 @@ export const faqUIUX = [
   {
     question: "What is the duration of the course?",
     answer:
-      "The duration of the UI/UX course at Codetrain is 24 months. This comprehensive program is designed to equip you with the essential skills needed for a career in user experience and user interface design. Throughout the course, you'll engage in hands-on projects and receive mentorship to help you build a strong portfolio.",
+      "The duration of the UI/UX course at Codetrain is 18 months. This comprehensive program is designed to equip you with the essential skills needed for a career in user experience and user interface design. Throughout the course, you'll engage in hands-on projects and receive mentorship to help you build a strong portfolio.",
   },
   {
     question: "What is the schedule for the class?",
@@ -580,28 +580,28 @@ export const team1 = [
     name: "Joshua Doe",
     src: "/people/joshua.jpg",
     story:
-      "With 3 years of experience and a certificate in software development, I create interactive, student-centered learning. I'm the creator of the Ezy Money app and bring real-world scenarios to the classroom. Outside teaching, I love photography and coding.",
+      "With 4 years of experience and a certificate in software development, I create interactive, student-centered learning. I'm the creator of the Ezy Money app and bring real-world scenarios to the classroom. Outside teaching, I love photography and coding.",
     role: "Teaching Fellow",
   },
   {
     name: "Harrison Boateng",
     src: "/people/harrison.jpg",
     story:
-      "Hi, I'm Harrison, a Teaching Fellow at Codetrain specializing in Software Development with 3 years of experience. I’ve built cool websites and am working on an exciting project. I’m dedicated to helping every student have their lightbulb moment. Outside work, I enjoy gaming.",
+      "Hi, I'm Harrison, a Teaching Fellow at Codetrain specializing in Software Development with 4 years of experience. I’ve built cool websites and am working on an exciting project. I’m dedicated to helping every student have their lightbulb moment. Outside work, I enjoy gaming.",
     role: "Teaching Fellow",
   },
   {
     name: "William Brandt",
     src: "/people/william.jpg",
     story:
-      "I've spent the last two years in software development and instruction, certified by Codetrain Africa. Transitioning from a non-tech background has been exhilarating! I focus on hands-on learning and creative problem-solving. Outside of coding, I enjoy reading and playing sports.",
+      "I've spent the last 4 years in software development and instruction, certified by Codetrain Africa. Transitioning from a non-tech background has been exhilarating! I focus on hands-on learning and creative problem-solving. Outside of coding, I enjoy reading and playing sports.",
     role: "Teaching Fellow",
   },
   {
     name: "Samuel Mensah",
     src: "/people/sam.jpg",
     story:
-      "Hey! I’m Samuel, a Full Stack Developer and Teaching Fellow with 3 years of experience in React, ExpressJs, and MongoDB. I’m passionate about making learning fun and interactive. When not coding, I’m gaming to sharpen my tech skills!",
+      "Hey! I’m Samuel, a Full Stack Developer and Teaching Fellow with 4 years of experience in React, ExpressJs, and MongoDB. I’m passionate about making learning fun and interactive. When not coding, I’m gaming to sharpen my tech skills!",
     role: "Teaching Fellow",
   },
 ];

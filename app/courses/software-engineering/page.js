@@ -38,7 +38,7 @@ const Software = () => {
               Launch Your Global Tech Career in Software Engineering & AI
             </h2>
             <p className="my-8">
-              Step into the future of tech with a 2-year program designed to
+              Step into the future of tech with a 18-month program designed to
               take you from beginner to job-ready. Learn full-stack development,
               master applied AI, and gain the career support you need to land
               top opportunities. Whether you are starting fresh or leveling up,
@@ -89,7 +89,7 @@ const Software = () => {
           </h3>
           <p className="text-textColor max-w-5xl mx-auto mt-10">
             Master the full scope of software development with our hands-on
-            curriculum in just 2 years.
+            curriculum in just 18 months.
           </p>
         </div>
         <div className="flex flex-col lg:flex-row justify-center gap-8 py-10 bg-contain bg-center bg-no-repeat relative">
@@ -347,7 +347,7 @@ const Software = () => {
             </CardHeader>
             <CardBody>
               <Typography className="text-textColor">
-                With 2 years of experience under my belt and a certificate in
+                With 4 years of experience under my belt and a certificate in
                 software development, I’m all about creating a classroom vibe
                 that’s interactive and student-centered. My mission? To spark
                 curiosity and bring real-world scenarios into the mix, making
@@ -385,7 +385,7 @@ const Software = () => {
             </CardHeader>
             <CardBody>
               <Typography className="text-textColor">
-                I’ve spent the last two years diving deep into software
+                I’ve spent the last 4 years diving deep into software
                 development and instruction, gaining practical expertise that I
                 love to share.  I’m certified by Codetrain Africa, and my
                 journey from a non-tech background to thriving in the tech world
@@ -424,7 +424,7 @@ const Software = () => {
             <CardBody>
               <Typography className="text-textColor">
                 “Hi, I`m Harrison, a Teaching Fellow at Codetrain with a focus
-                on Software Development. With 2 years of experience to my name
+                on Software Development. With 4 years of experience to my name
                 and a Codetrain certificate to back it up, I`ve created some
                 pretty cool websites and am currently executing an exciting new
                 project that’ll blow your minds. My teaching philosophy? Simple:
@@ -438,6 +438,39 @@ const Software = () => {
             <CardFooter>
               <Typography className="font-bold text-textColor">
                 Harrison Boateng
+              </Typography>
+              <Typography className="font-normal text-textColor">
+                Teaching Fellow
+              </Typography>
+            </CardFooter>
+          </Card>
+          <Card className="max-w-md rounded-none md:justify-self-start">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none"
+            >
+              <Image
+                src="/people/sam.jpg"
+                alt="img"
+                width={540}
+                height={276}
+                className="overflow-hidden h-[351px] object-cover object-top w-full"
+              />
+            </CardHeader>
+            <CardBody>
+              <Typography className="text-textColor">
+                “Hey! I’m Samuel, a Full Stack Developer and Teaching Fellow
+                with 4 years of experience in React, ExpressJs, and MongoDB.
+                I’m passionate about making learning fun and interactive. When
+                not coding, I’m gaming to sharpen my tech skills!”
+              </Typography>
+            </CardBody>
+            <hr className="border-violet h-1" />
+            <CardFooter>
+              <Typography className="font-bold text-textColor">
+                Samuel Mensah
               </Typography>
               <Typography className="font-normal text-textColor">
                 Teaching Fellow
@@ -781,7 +814,7 @@ const Software = () => {
                 <Typography variant="paragraph" className="font-bold">
                   Course Length
                 </Typography>
-                <Typography variant="paragraph">2 years</Typography>
+                <Typography variant="paragraph">18 months</Typography>
                 <Typography className="font-bold mt-4">Schedule:</Typography>
                 <Typography variant="paragraph">Twice a week</Typography>
               </div>

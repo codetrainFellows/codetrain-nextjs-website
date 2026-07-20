@@ -187,10 +187,10 @@ export default function Home() {
               variant="paragraph"
               className="mt-4 text-textColor text-base md:text-lg"
             >
-              This 2-year program takes you from beginner to mid-level developer
-              with AI skills. In year one, you will master full-stack
-              development and applied AI. Year two focuses on career launch with
-              job readiness support, interview prep, technical workshops,
+              This 18-month program takes you from beginner to mid-level developer
+              with AI skills. The first 12 months cover full-stack
+              development and applied AI, followed by 6 months focused on career
+              launch with job readiness support, interview prep, technical workshops,
               internships, and our AI Job Readiness Accelerator. Build skills,
               gain hands-on experience, and start your global
               tech career with us!
@@ -226,7 +226,7 @@ export default function Home() {
               variant="paragraph"
               className="mt-4 text-textColor text-base md:text-lg"
             >
-              This 2-year program equips you to become a skilled designer who
+              This 18-month program equips you to become a skilled designer who
               can analyze product needs, craft innovative concepts, and deliver
               engaging web and mobile experiences. You will explore AI-powered
               design tools, collaborate with software teams, and gain
@@ -585,7 +585,7 @@ export default function Home() {
                 Software Engineer & AI
               </h3>
               <p className="mt-4 text-textColor text-lg p-4">
-                Our two-year Software Engineering + AI program is priced at{" "}
+                Our 18-month Software Engineering + AI program is priced at{" "}
                 <span className="font-[900]"> GHC 38,500</span> for Africans
                 living in Africa and <span className="font-[900]">$3,000</span>{" "}
                 for other applicants. <br /> We offer flexible payment options
@@ -597,7 +597,7 @@ export default function Home() {
                 UX/UI Design & AI
               </h3>
               <p className="mt-4 text-textColor text-lg p-4">
-                Our two-year UX/UI Design + AI program is priced at{" "}
+                Our 18-month UX/UI Design + AI program is priced at{" "}
                 <span className="font-[900]">GHC 38,500</span> for Africans
                 living in Africa and <span className="font-[900]">$3,000</span>{" "}
                 for other applicants. <br /> We offer flexible payment options

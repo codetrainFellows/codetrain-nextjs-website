@@ -35,8 +35,8 @@ const UIUXDesign = () => {
               Develop Your UI/UX Design & AI Skills with Us
             </h2>
             <Typography variant="paragraph" className="my-8">
-              Step into the future of tech with a 2-year program designed to
-              take you from beginner to job-ready. Our 2-year course blends
+              Step into the future of tech with a 18-month program designed to
+              take you from beginner to job-ready. Our 18-month course blends
               classic UI/UX fundamentals with the latest advances in AI-driven
               design practices, ensuring graduates are not only skilled in
               Figma, research, and visual design but also fluent in designing
@@ -96,7 +96,7 @@ const UIUXDesign = () => {
             variant="paragraph"
             className="text-textColor max-w-5xl mx-auto mt-10"
           >
-            Get ready to master UI/UX design in our intensive two-year course,
+            Get ready to master UI/UX design in our intensive 18-month course,
             focused on creating user-friendly and engaging experiences.
           </Typography>
         </div>
@@ -623,14 +623,14 @@ const UIUXDesign = () => {
                 variant="paragraph"
                 className="mt-4 text-textColor text-lg p-4 pb-10"
               >
-                In 1 year you will get hands-on with UX design from scratch and
+                In 12 months you will get hands-on with UX design from scratch and
                 start building your portfolio, laying a strong foundation for
                 your career in user experience design.
               </Typography>
             </div>
             <div className="text-start bg-white shadow-xl max-w-sm relative grid place-content-center pb-8">
               <h3 className="text-white font-bold text-2xl bg-indigo p-4">
-                12 months
+                6 months
               </h3>
               <Typography
                 variant="paragraph"
@@ -795,7 +795,7 @@ const UIUXDesign = () => {
                 <Typography variant="paragraph" className="font-bold">
                   Course Length
                 </Typography>
-                <Typography variant="paragraph">2 year</Typography>
+                <Typography variant="paragraph">18 months</Typography>
                 <Typography className="font-bold mt-4">Schedule:</Typography>
                 <Typography variant="paragraph">Twice a week</Typography>
               </div>
